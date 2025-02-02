@@ -10,8 +10,13 @@
     <string>ClassWiz X Display</string>
     <key>styleMapStyleName</key>
     <string>regular</string>
+    <key>versionMajor</key>
+    <integer>3</integer>
+    <key>versionMinor</key>
+    <integer>4</integer>
     <key>copyright</key>
-    <string>Copyright (c) 2020-2024, Windy Deng (windy0deng@gmail.com),
+    <string>Copyright (c) 2025, Hayden Wong (https://github.com/haydenwong7bm/),
+Copyright (c) 2020-2024, Windy Deng (windy0deng@gmail.com),
 Copyright (c) 2014-2024, CASIO Computer Co., Ltd (https://www.casio.com/).</string>
     <key>trademark</key>
     <string>CLASSWIZ is a trademark of CASIO Computer Co., Ltd.</string>
