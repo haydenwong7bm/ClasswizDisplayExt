@@ -8,12 +8,12 @@
 
 字体分为四部分：X Display、CW Display、Math X 与 Math CW。带有「Display」的字体用作普通文本，提供 OTF、TTF 与 WOFF2（自 v3.001 起）格式；带有「Math」的字体由 Opentype MATH 表强力驱动，用作数学公式输入，仅提供 OTF 格式。
 
-所有版本的字体打包可以到 [Release 页面](https://github.com/Wenti-D/ClasswizDisplayFont/releases)获取，其中：
-- X Display 最新版为 v3.004，在[这里](https://github.com/Wenti-D/ClasswizDisplayFont/releases/tag/disp-v3.004-x-cw)下载；
-- CW Display 最新版为 v3.006，在[这里](https://github.com/Wenti-D/ClasswizDisplayFont/releases/tag/disp-v3.006-cw)下载；
-- Math X/CW 最新版为 v1.002，在[这里](https://github.com/Wenti-D/ClasswizDisplayFont/releases/tag/math-v1.002-x-cw)下载。
+所有版本的字体打包可以到 [Release 页面](https://github.com/haydenwong7bm/ClasswizDisplayFont/releases)获取，其中：
+- X Display 最新版为 v3.004，在[这里](https://github.com/haydenwong7bm/ClasswizDisplayFont/releases/tag/disp-v3.004-x-cw)下载；
+- CW Display 最新版为 v3.006，在[这里](https://github.com/haydenwong7bm/ClasswizDisplayFont/releases/tag/disp-v3.006-cw)下载；
+- Math X/CW 最新版为 v1.002，在[这里](https://github.com/haydenwong7bm/ClasswizDisplayFont/releases/tag/math-v1.002-x-cw)下载。
 
-或者也可以去[这个百度网盘链接](https://pan.baidu.com/s/1RTV937bFgziHeb68XEXQYw?pwd=swfw)下载。
+~~或者也可以去[这个百度网盘链接](https://pan.baidu.com/s/1RTV937bFgziHeb68XEXQYw?pwd=swfw)下载。~~
 
 本文只是关于字体的一个粗略说明，而**压缩包内除字体外还有自述文件（`README.pdf` 之类的文档），使用前请一定、务必、绝对要认真、仔细、用心阅读！**
 
@@ -30,7 +30,7 @@ Display 部分的字体源文件以[统一字体对象 3（UFO 3）](https://uni
 0. 安装 Python，以及 `pip`。
 1. 将本项目克隆到一个合适的位置。
     ```shell
-    git clone https://github.com/Wenti-D/ClasswizDisplayFont
+    git clone https://github.com/haydenwong7bm/ClasswizDisplayFont
     ```
 
 2. 建议创建一个 Python 虚拟环境：
