@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1727539104
+ModificationTime: 1738501234
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -139,7 +139,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 2 0 0 823881 411940 274627 674085 1048576 274627 599186 449390 449390 599186 449390 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1905 1905
+BeginChars: 1907 1907
 
 StartChar: .notdef
 Encoding: 920 -1 0
@@ -4634,18 +4634,17 @@ Encoding: 93 124 94
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<0 30> 100 20G<0 30>
-VStem: 0 30<0 120>
+HStem: 0 21G<40 60> 100 20G<40 60>
+VStem: 40 20<0 120>
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 1
- 0 120 l 1
- 30 120 l 1
- 30 0 l 1
- 0 0 l 1
+40 0 m 1
+ 40 120 l 1
+ 60 120 l 1
+ 60 0 l 1
+ 40 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: braceright
@@ -90691,6 +90690,40 @@ SplineSet
  50 50 l 1
  50 40 l 1
  0 40 l 1
+EndSplineSet
+EndChar
+
+StartChar: grave
+Encoding: 1905 96 1905
+Width: 110
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 110 m 1x0108
+ 60 110 l 1
+ 60 100 l 1
+ 40 100 l 1x0104
+ 40 110 l 1x0084
+ 30 110 l 1
+ 30 120 l 1
+ 50 120 l 1x0088
+ 50 110 l 1x0108
+EndSplineSet
+EndChar
+
+StartChar: bar.ss02
+Encoding: 1906 -1 1906
+Width: 110
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 5
+ 0 120 l 5
+ 30 120 l 5
+ 30 0 l 5
+ 0 0 l 5
 EndSplineSet
 EndChar
 EndChars

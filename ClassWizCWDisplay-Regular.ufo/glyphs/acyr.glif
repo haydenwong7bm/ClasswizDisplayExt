@@ -6,9 +6,6 @@
     <component base="a"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>a%</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

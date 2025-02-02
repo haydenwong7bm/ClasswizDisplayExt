@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1730535342
+ModificationTime: 1738501429
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -128,7 +128,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1751 17 10
+WinInfo: 0 17 10
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -139,7 +139,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 1 0 0 823881 411940 274627 674085 1048576 274627 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1921 1921
+BeginChars: 1923 1923
 
 StartChar: .notdef
 Encoding: 931 -1 0
@@ -3741,18 +3741,17 @@ Encoding: 93 124 94
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<-10 20> 100 20G<-10 20>
-VStem: -10 30<0 120>
+HStem: 0 21G<40 60> 100 20G<40 60>
+VStem: 40 20<0 120>
 LayerCount: 2
 Fore
 SplineSet
--10 0 m 1
- -10 120 l 1
- 20 120 l 1
- 20 0 l 1
- -10 0 l 1
+40 0 m 1
+ 40 120 l 1
+ 60 120 l 1
+ 60 0 l 1
+ 40 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: braceright
@@ -4578,15 +4577,15 @@ SplineSet
  70 40 l 1
  30 40 l 1
  30 20 l 1xe6
-70 110 m 1xf6
- 70 100 l 1
- 40 100 l 1xf6
- 40 110 l 1
- 20 110 l 1
- 20 120 l 1
- 50 120 l 1xee
- 50 110 l 1
- 70 110 l 1xf6
+70 110 m 5xf6
+ 70 100 l 5
+ 40 100 l 5xf6
+ 40 110 l 5
+ 20 110 l 5
+ 20 120 l 5
+ 50 120 l 5xee
+ 50 110 l 5
+ 70 110 l 5xf6
 80 90 m 1
  80 80 l 1
  90 80 l 1
@@ -85781,6 +85780,43 @@ SplineSet
  50 50 l 1
  50 40 l 1
  0 40 l 1
+EndSplineSet
+EndChar
+
+StartChar: grave
+Encoding: 1921 96 1921
+Width: 110
+Flags: W
+HStem: 100 10<50 70> 110 10<20 40>
+LayerCount: 2
+Fore
+SplineSet
+70 110 m 1x80
+ 70 100 l 1
+ 40 100 l 1x80
+ 40 110 l 1
+ 20 110 l 1
+ 20 120 l 1
+ 50 120 l 1x40
+ 50 110 l 1
+ 70 110 l 1x80
+EndSplineSet
+EndChar
+
+StartChar: bar.ss02
+Encoding: 1922 -1 1922
+Width: 110
+Flags: W
+HStem: 0 21G<-10 20> 100 20G<-10 20>
+VStem: -10 30<0 120>
+LayerCount: 2
+Fore
+SplineSet
+-10 0 m 5
+ -10 120 l 5
+ 20 120 l 5
+ 20 0 l 5
+ -10 0 l 5
 EndSplineSet
 EndChar
 EndChars

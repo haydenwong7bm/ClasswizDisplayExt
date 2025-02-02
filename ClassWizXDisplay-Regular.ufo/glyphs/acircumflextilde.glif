@@ -75,9 +75,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>acircumflex+tildecomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

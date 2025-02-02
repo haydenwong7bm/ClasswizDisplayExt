@@ -43,9 +43,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>K_K%</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

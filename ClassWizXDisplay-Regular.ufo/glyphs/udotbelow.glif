@@ -39,9 +39,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>u+dotbelowcomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

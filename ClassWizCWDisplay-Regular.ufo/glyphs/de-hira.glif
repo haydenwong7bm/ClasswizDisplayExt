@@ -3,7 +3,6 @@
   <advance width="120"/>
   <unicode hex="3067"/>
   <outline>
-    <component base="te-hira"/>
     <contour>
       <point x="100" y="60" type="line"/>
       <point x="110" y="60" type="line"/>
@@ -16,5 +15,6 @@
       <point x="90" y="80" type="line"/>
       <point x="80" y="80" type="line"/>
     </contour>
+    <component base="te-hira"/>
   </outline>
 </glyph>

@@ -16,9 +16,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>uni4E8C_uniFE00</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

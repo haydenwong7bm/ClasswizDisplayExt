@@ -51,9 +51,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>a_e</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

@@ -3,7 +3,6 @@
   <advance width="110"/>
   <unicode hex="0142"/>
   <outline>
-    <component base="l"/>
     <contour>
       <point x="60" y="70" type="line"/>
       <point x="70" y="70" type="line"/>
@@ -24,11 +23,9 @@
       <point x="20" y="40" type="line"/>
       <point x="30" y="40" type="line"/>
     </contour>
+    <component base="l"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>l+hyphen</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

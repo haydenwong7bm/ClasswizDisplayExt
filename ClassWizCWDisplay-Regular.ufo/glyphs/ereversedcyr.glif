@@ -6,9 +6,6 @@
     <component base="c" xScale="-1" xOffset="100"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>o+hyphen%</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

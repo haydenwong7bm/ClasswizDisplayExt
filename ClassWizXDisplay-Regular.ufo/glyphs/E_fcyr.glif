@@ -3,7 +3,6 @@
   <advance width="110"/>
   <unicode hex="0424"/>
   <outline>
-    <component base="I"/>
     <contour>
       <point x="10" y="80" type="line"/>
       <point x="10" y="90" type="line"/>
@@ -40,11 +39,9 @@
       <point x="30" y="80" type="line"/>
       <point x="20" y="80" type="line"/>
     </contour>
+    <component base="I"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>O+I</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

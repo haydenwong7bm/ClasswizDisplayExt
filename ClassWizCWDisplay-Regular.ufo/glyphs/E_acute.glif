@@ -27,9 +27,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>E+acutecomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

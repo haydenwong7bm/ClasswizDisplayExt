@@ -65,9 +65,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>Ocircumflex+acutecomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

@@ -42,9 +42,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>shift-tag</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

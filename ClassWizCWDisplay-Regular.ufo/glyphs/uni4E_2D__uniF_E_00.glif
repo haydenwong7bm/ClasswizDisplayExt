@@ -30,9 +30,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>uni4E2D_uniFE00</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

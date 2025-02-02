@@ -3,7 +3,6 @@
   <advance width="110"/>
   <unicode hex="0171"/>
   <outline>
-    <component base="u"/>
     <contour>
       <point x="50" y="100" type="line"/>
       <point x="70" y="100" type="line"/>
@@ -22,11 +21,9 @@
       <point x="40" y="110" type="line"/>
       <point x="50" y="110" type="line"/>
     </contour>
+    <component base="u"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>u+uni030B</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

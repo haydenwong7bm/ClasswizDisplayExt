@@ -82,9 +82,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>uni7B49_uniFE00</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

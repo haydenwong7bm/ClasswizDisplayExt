@@ -49,9 +49,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>Ohorn+dotbelowcomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

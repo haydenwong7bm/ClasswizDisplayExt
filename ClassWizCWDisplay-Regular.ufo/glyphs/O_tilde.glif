@@ -59,9 +59,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>O+tildecomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

@@ -33,9 +33,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>L+acutecomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

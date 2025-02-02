@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="bar" format="2">
+<glyph name="bar.ss02" format="2">
   <advance width="110"/>
-  <unicode hex="007C"/>
   <outline>
     <contour>
       <point x="-10" y="120" type="line"/>

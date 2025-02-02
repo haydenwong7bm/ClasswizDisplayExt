@@ -55,9 +55,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>Edotbelow+uni0302</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

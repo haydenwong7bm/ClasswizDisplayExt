@@ -36,10 +36,8 @@
       <point x="10" y="0" type="line"/>
       <point x="10" y="4"/>
       <point x="10" y="10"/>
-      <point x="10" y="10" type="curve" smooth="yes"/>
-      <point x="10" y="10"/>
-      <point x="30" y="10"/>
-      <point x="30" y="10" type="curve"/>
+      <point x="10" y="10" type="curve"/>
+      <point x="30" y="10" type="line"/>
       <point x="30" y="0" type="line"/>
       <point x="40" y="0" type="line"/>
       <point x="40" y="10" type="line"/>

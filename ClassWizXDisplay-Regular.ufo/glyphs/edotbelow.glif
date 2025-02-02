@@ -51,9 +51,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>e+dotbelowcomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

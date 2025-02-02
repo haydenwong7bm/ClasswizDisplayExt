@@ -69,9 +69,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>Adotbelow+uni0306</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

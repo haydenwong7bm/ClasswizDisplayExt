@@ -77,9 +77,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>Abreve+hookabovecomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

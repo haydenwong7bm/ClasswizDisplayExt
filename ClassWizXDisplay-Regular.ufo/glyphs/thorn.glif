@@ -45,9 +45,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>bar+b%</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

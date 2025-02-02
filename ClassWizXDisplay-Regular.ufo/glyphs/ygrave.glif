@@ -3,7 +3,6 @@
   <advance width="110"/>
   <unicode hex="1EF3"/>
   <outline>
-    <component base="y"/>
     <contour>
       <point x="40" y="120" type="line"/>
       <point x="60" y="120" type="line"/>
@@ -14,11 +13,9 @@
       <point x="50" y="110" type="line"/>
       <point x="40" y="110" type="line"/>
     </contour>
+    <component base="y"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>y+gravecomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

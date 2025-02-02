@@ -29,9 +29,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>o+uni031B</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

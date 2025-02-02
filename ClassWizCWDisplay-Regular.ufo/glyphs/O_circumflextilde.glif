@@ -71,9 +71,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>Ocircumflex+tildecomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

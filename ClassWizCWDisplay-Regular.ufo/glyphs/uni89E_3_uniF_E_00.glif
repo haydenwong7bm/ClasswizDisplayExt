@@ -96,9 +96,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>uni89E3_uniFE00</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

@@ -7,9 +7,6 @@
     <component base="voicedcomb-hira" xOffset="-10" yOffset="-20"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>uni3057+uni3099</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

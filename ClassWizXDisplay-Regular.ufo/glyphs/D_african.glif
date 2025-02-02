@@ -6,9 +6,6 @@
     <component base="Eth" yScale="-1" yOffset="120"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>Dcroat</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

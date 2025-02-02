@@ -7,9 +7,6 @@
     <component base="voicedcomb-hira"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>uni30C1+uni3099</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

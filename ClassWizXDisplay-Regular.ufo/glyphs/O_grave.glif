@@ -49,9 +49,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>O+gravecomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

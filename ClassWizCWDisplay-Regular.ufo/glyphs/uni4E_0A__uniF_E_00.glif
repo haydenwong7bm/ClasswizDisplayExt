@@ -5,9 +5,6 @@
     <component base="uni4E0A" yOffset="-10"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>uni4E0A_uniFE00</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

@@ -57,9 +57,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>Y+gravecomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

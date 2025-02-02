@@ -6,9 +6,6 @@
     <component base="Eth"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>Eth%</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

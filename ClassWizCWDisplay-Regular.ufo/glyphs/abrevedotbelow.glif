@@ -47,9 +47,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>adotbelow+uni0306</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

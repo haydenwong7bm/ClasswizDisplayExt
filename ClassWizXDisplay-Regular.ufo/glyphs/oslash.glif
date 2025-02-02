@@ -3,7 +3,6 @@
   <advance width="110"/>
   <unicode hex="00F8"/>
   <outline>
-    <component base="o"/>
     <contour>
       <point x="50" y="50" type="line"/>
       <point x="60" y="50" type="line"/>
@@ -28,11 +27,9 @@
       <point x="90" y="90" type="line"/>
       <point x="80" y="90" type="line"/>
     </contour>
+    <component base="o"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>o+slash</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

@@ -3,18 +3,15 @@
   <advance width="120"/>
   <unicode hex="30DA"/>
   <outline>
-    <component base="he-kata"/>
     <contour>
       <point x="80" y="80" type="line"/>
       <point x="100" y="80" type="line"/>
       <point x="100" y="100" type="line"/>
       <point x="80" y="100" type="line"/>
     </contour>
+    <component base="he-kata"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>he-kata+uni309A</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

@@ -3,18 +3,15 @@
   <advance width="110"/>
   <unicode hex="00D0"/>
   <outline>
-    <component base="D"/>
     <contour>
       <point x="0" y="50" type="line"/>
       <point x="60" y="50" type="line"/>
       <point x="60" y="70" type="line"/>
       <point x="0" y="70" type="line"/>
     </contour>
+    <component base="D"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>D+&lt;50~50hyphen%</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

@@ -3,7 +3,6 @@
   <advance width="110"/>
   <unicode hex="0451"/>
   <outline>
-    <component base="iecyr"/>
     <contour>
       <point x="60" y="120" type="line"/>
       <point x="80" y="120" type="line"/>
@@ -16,11 +15,9 @@
       <point x="40" y="100" type="line"/>
       <point x="20" y="100" type="line"/>
     </contour>
+    <component base="iecyr"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>iecyr+uni0308</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

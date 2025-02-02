@@ -3,12 +3,12 @@
   <advance width="110"/>
   <unicode hex="0428"/>
   <outline>
-    <component base="Pecyr" yScale="-1" yOffset="120"/>
     <contour>
       <point x="40" y="20" type="line"/>
       <point x="60" y="20" type="line"/>
       <point x="60" y="120" type="line"/>
       <point x="40" y="120" type="line"/>
     </contour>
+    <component base="Pecyr" yScale="-1" yOffset="120"/>
   </outline>
 </glyph>

@@ -29,9 +29,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>I+gravecomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

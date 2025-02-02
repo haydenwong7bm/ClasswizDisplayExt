@@ -37,9 +37,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>O_E</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

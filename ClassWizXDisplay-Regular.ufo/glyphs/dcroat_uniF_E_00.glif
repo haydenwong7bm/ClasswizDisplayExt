@@ -52,9 +52,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>dcroat_uniFE00</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

@@ -6,9 +6,6 @@
     <component base="P" yScale="-1" yOffset="120"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>P%</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

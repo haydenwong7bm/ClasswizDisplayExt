@@ -3,7 +3,6 @@
   <advance width="110"/>
   <unicode hex="1EBD"/>
   <outline>
-    <component base="e"/>
     <contour>
       <point x="50" y="100" type="line"/>
       <point x="80" y="100" type="line"/>
@@ -22,11 +21,9 @@
       <point x="40" y="110" type="line"/>
       <point x="50" y="110" type="line"/>
     </contour>
+    <component base="e"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>e+tildecomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

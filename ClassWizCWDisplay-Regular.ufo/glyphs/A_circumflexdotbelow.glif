@@ -3,18 +3,15 @@
   <advance width="110"/>
   <unicode hex="1EAC"/>
   <outline>
-    <component base="Acircumflex"/>
     <contour>
       <point x="40" y="-10" type="line"/>
       <point x="60" y="-10" type="line"/>
       <point x="60" y="0" type="line"/>
       <point x="40" y="0" type="line"/>
     </contour>
+    <component base="Acircumflex"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>Adotbelow+uni0302</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

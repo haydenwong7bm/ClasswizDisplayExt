@@ -6,9 +6,6 @@
     <component base="R" xScale="-1" xOffset="100"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>R%</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

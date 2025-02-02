@@ -3,7 +3,6 @@
   <advance width="120"/>
   <unicode hex="30D6"/>
   <outline>
-    <component base="voicedcomb-hira"/>
     <contour>
       <point x="0" y="90" type="line"/>
       <point x="80" y="90" type="line"/>
@@ -36,11 +35,9 @@
       <point x="20" y="10" type="line"/>
       <point x="40" y="10" type="line"/>
     </contour>
+    <component base="voicedcomb-hira"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>uni30D5+uni3099</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

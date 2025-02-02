@@ -61,9 +61,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>Aring</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

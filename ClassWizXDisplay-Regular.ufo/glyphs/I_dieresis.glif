@@ -31,9 +31,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>I+uni0308</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

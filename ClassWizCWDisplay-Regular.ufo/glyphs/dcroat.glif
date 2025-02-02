@@ -31,9 +31,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>d+>50^150hyphen%</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

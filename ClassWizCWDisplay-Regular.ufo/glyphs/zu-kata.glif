@@ -3,7 +3,6 @@
   <advance width="120"/>
   <unicode hex="30BA"/>
   <outline>
-    <component base="su-kata"/>
     <contour>
       <point x="100" y="100" type="line"/>
       <point x="110" y="100" type="line"/>
@@ -16,11 +15,9 @@
       <point x="90" y="120" type="line"/>
       <point x="80" y="120" type="line"/>
     </contour>
+    <component base="su-kata"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>su-kata+uni3099</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

@@ -67,9 +67,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>A+tildecomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

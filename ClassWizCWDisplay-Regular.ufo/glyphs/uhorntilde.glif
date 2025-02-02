@@ -3,7 +3,6 @@
   <advance width="110"/>
   <unicode hex="1EEF"/>
   <outline>
-    <component base="uhorn"/>
     <contour>
       <point x="40" y="100" type="line"/>
       <point x="70" y="100" type="line"/>
@@ -22,11 +21,9 @@
       <point x="30" y="110" type="line"/>
       <point x="40" y="110" type="line"/>
     </contour>
+    <component base="uhorn"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>uhorn+tildecomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

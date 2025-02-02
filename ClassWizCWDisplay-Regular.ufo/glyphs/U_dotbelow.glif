@@ -25,9 +25,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>U+dotbelowcomb</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>

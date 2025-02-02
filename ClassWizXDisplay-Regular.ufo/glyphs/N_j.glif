@@ -49,9 +49,6 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>N_j</string>
-  </dict>
+    <dict/>
   </lib>
 </glyph>
