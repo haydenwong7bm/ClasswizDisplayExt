@@ -1,4 +1,5 @@
 
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\A \AE \Aacute \Abreve \Abreve_uniFE00 \Abreveacute 
 	\Abrevedotbelow \Abrevegrave \Abrevehoi \Abrevetilde \Acircumflex 
@@ -14,7 +15,7 @@
 	\Iacute \Icircumflex \Icyr \Idieresis \Idotbelow \Iecyr \Igrave \Ihoi \Iocyr 
 	\Ishortcyr \Ismall \Itilde \J \Jecyr \Jou \Jsmall \K \Kacyr \Kai \Kan \Ken \Kgk \Kin 
 	\Koku \Ksmall \L \Lacute \Lcaron \Lj \Ljecyr \Lslash \M \M-memory \Mbold \Monme \Mou 
-	\N \Nacute \Ncaron \Nj \Njecyr \Nsmall \Ntilde \O \OE \Oacute \Ocircumflex 
+	\N \NULL \Nacute \Ncaron \Nj \Njecyr \Nsmall \Ntilde \O \OE \Oacute \Ocircumflex 
 	\Ocircumflexacute \Ocircumflexdotbelow \Ocircumflexgrave \Ocircumflexhoi 
 	\Ocircumflextilde \Ocyr \Odieresis \Odotbelow \Ograve \Ohoi \Ohorn \Ohornacute 
 	\Ohorndotbelow \Ohorngrave \Ohornhoi \Ohorntilde \Ohungarumlaut \Oslash 
