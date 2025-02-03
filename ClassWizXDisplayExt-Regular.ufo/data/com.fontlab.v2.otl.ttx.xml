@@ -235,6 +235,7 @@
         <Substitution in="P" out="nPr"/>
         <Substitution in="underscore" out="cursor.replace"/>
         <Substitution in="bar" out="bar.ss01"/>
+        <Substitution in="bar" out="bar.ss02"/>
         <Substitution in="degree" out="dms"/>
         <Substitution in="uni7B97" out="uni7B97_uniFE00"/>
         <Substitution in="uni6570" out="uni6570_uniFE00"/>

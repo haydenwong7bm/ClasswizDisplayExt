@@ -280,6 +280,7 @@
         <Substitution in="F" out="HexF"/>
         <Substitution in="E" out="HexE"/>
         <Substitution in="bar" out="bar.ss01"/>
+        <Substitution in="bar" out="bar.ss02"/>
         <Substitution in="A" out="HexA"/>
         <Substitution in="underscore" out="cursor.replace"/>
         <Substitution in="slash" out="div"/>
