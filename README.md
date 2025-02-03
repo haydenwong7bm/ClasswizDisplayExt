@@ -1,12 +1,19 @@
-# CASIO Classwiz 屏幕显示字体
+# CASIO Classwiz 屏幕显示字体 Ext
 
 **来自卡西欧计算器屏幕上的像素字体！**
 
 ![ClassWizDisplay](readme_assets/ClassWizDisplay.svg)
 
-## 修改内容
+## 本人修改内容
 - 补回「\」、「`」
 - 增设等宽「|」：「bar」预设是等宽字图，「bar.ss02」是原来「bar」的字图
+
+### X版：
+- 补回CW存在但此版缺失的「α」（U+03B1）
+
+### CW版：
+- 补回X版存在但此版缺失的「𝛼」（U+1D6FC）
+- 补回X版存在但此版缺失的「Ɖ」（U+0189）
 
 ## 食用方法
 
