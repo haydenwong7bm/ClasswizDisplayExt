@@ -56,22 +56,22 @@ Display 部分的字体源文件以[统一字体对象 3（UFO 3）](https://uni
 
     OTF 与 TTF 格式使用 `fontmake` 构建：
     ```shell
-    fontmake -u ClassWizXDisplay-Regular.ufo --output-dir output
-    fontmake -u ClassWizCWDisplay-Regular.ufo --output-dir output
+    fontmake -u ClassWizXDisplayExt-Regular.ufo --output-dir output
+    fontmake -u ClassWizCWDisplayExt-Regular.ufo --output-dir output
     ```
 
     WOFF2 格式使用 `fonttools` 构建，可以使用 Python 脚本（推荐）：
     ```python
     # python script
     from fontTools.ttLib.woff2 import compress
-    compress('output/ClassWizXDisplay-Regular.otf', 'output/ClassWizXDisplay-Regular.woff2')
-    compress('output/ClassWizXDisplay-Regular.otf', 'output/ClassWizXDisplay-Regular.woff2')
+    compress('output/ClassWizXDisplayExt-Regular.otf', 'output/ClassWizXDisplay-Regular.woff2')
+    compress('output/ClassWizXDisplayExt-Regular.otf', 'output/ClassWizXDisplay-Regular.woff2')
     ```
     
     或者 Shell 命令（不推荐）：
     ```shell
-    python -c "from fontTools.ttLib.woff2 import compress; compress('output/ClassWizXDisplay-Regular.otf', 'output/ClassWizXDisplay-Regular.woff2')"
-    python -c "from fontTools.ttLib.woff2 import compress; compress('output/ClassWizCWDisplay-Regular.otf', 'output/ClassWizCWDisplay-Regular.woff2')"
+    python -c "from fontTools.ttLib.woff2 import compress; compress('output/ClassWizXDisplayExt-Regular.otf', 'output/ClassWizXDisplay-Regular.woff2')"
+    python -c "from fontTools.ttLib.woff2 import compress; compress('output/ClassWizCWDisplayExt-Regular.otf', 'output/ClassWizCWDisplay-Regular.woff2')"
     ```
 
     构建好的字体将会位于 `output` 文件夹内。
