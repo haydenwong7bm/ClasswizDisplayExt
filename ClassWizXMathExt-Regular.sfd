@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1738506686
+ModificationTime: 1738572904
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -128,7 +128,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 17 10
+WinInfo: 1751 17 10
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -139,7 +139,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 2 0 0 823881 411940 274627 674085 1048576 274627 599186 449390 449390 599186 449390 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1907 1907
+BeginChars: 1908 1908
 
 StartChar: .notdef
 Encoding: 920 -1 0
@@ -90724,6 +90724,65 @@ SplineSet
  30 120 l 5
  30 0 l 5
  0 0 l 5
+EndSplineSet
+EndChar
+
+StartChar: alpha
+Encoding: 1907 945 1907
+Width: 110
+VWidth: 0
+Flags: W
+HStem: 0 20<20 30 50 60> 0 10<30 50 90 100> 70 20<20 30 50 60> 80 10<30 50 90 100>
+VStem: 0 20<20 70> 10 20<10 20 70 80> 50 20<10 20 70 80> 60 30<20 30 60 70> 80 20<0 10 80 90> 80 10<10 20 70 80>
+LayerCount: 2
+Fore
+SplineSet
+80 20 m 261x8040
+ 70 20 l 261x8240
+ 70 10 l 261x4240
+ 60 10 l 261x41
+ 60 0 l 261
+ 20 0 l 261x89
+ 20 10 l 261x49
+ 10 10 l 261x44
+ 10 20 l 261x84
+ 0 20 l 261
+ 0 70 l 261xa8
+ 10 70 l 261xa4
+ 10 80 l 261x14
+ 20 80 l 261x18
+ 20 90 l 261
+ 60 90 l 261x29
+ 60 80 l 261x19
+ 70 80 l 261x12
+ 70 70 l 261
+ 80 70 l 261x2240
+ 80 90 l 261
+ 100 90 l 261
+ 100 80 l 261x1080
+ 90 80 l 261x1040
+ 90 60 l 261x11
+ 80 60 l 261
+ 80 30 l 261x1040
+ 90 30 l 261x11
+ 90 10 l 261x5040
+ 100 10 l 261
+ 100 0 l 261
+ 80 0 l 261x5080
+ 80 20 l 261x8040
+60 20 m 261x81
+ 60 70 l 261xa1
+ 50 70 l 261xa2
+ 50 80 l 261
+ 30 80 l 261x16
+ 30 70 l 261x26
+ 20 70 l 261
+ 20 20 l 261xa8
+ 30 20 l 261xa4
+ 30 10 l 261
+ 50 10 l 261x46
+ 50 20 l 261x86
+ 60 20 l 261x81
 EndSplineSet
 EndChar
 EndChars
