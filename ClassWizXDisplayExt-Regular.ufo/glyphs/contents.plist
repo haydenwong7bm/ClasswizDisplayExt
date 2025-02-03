@@ -2684,5 +2684,7 @@
     <string>grave.glif</string>
     <key>bar</key>
     <string>bar000000000000001.glif</string>
+    <key>alpha</key>
+    <string>alpha.glif</string>
   </dict>
 </plist>

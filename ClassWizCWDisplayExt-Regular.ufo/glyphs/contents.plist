@@ -2790,5 +2790,9 @@
     <string>grave.glif</string>
     <key>bar</key>
     <string>bar000000000000001.glif</string>
+    <key>alphaitalic</key>
+    <string>alphaitalic.glif</string>
+    <key>Dbar</key>
+    <string>D_bar.glif</string>
   </dict>
 </plist>

@@ -1,5 +1,4 @@
 
-#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\A \AE \Aacute \Abreve \Abreve_uniFE00 \Abreveacute 
 	\Abrevedotbelow \Abrevegrave \Abrevehoi \Abrevetilde \Acircumflex 
@@ -176,7 +175,8 @@
 	\xbolditalic \y \y.bar \y.hat \yacute \yacyr \yasmall-kata \ybolditalic 
 	\ydieresis \ydotbelow \ygrave \yhoi \ylongcyr \yo-hira \yosmall-kata \ytilde 
 	\yucyr \z \zacute \zbolditalic \zcaron \zdotaccent \ze-kata \zecyr \zero 
-	\zero.inferior \zero.superior \zhecyr \zi-kata \zu-kata \backslash \grave \bar ];
+	\zero.inferior \zero.superior \zhecyr \zi-kata \zu-kata \backslash \grave \bar 
+	\alpha ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;
