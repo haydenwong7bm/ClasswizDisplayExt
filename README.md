@@ -5,8 +5,8 @@
 ![ClassWizDisplay](readme_assets/ClassWizDisplay.svg)
 
 ## 本人修改内容
-- 补回「\」、「`」
-- 增设等宽「|」：「bar」预设是等宽字图，「bar.ss02」是原来「bar」的字图
+- 补回「\」、「\`」（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayFont/issues/2)）
+- 增设等宽「\|」：「bar」预设是等宽字图，「bar.ss02」是原来「bar」的字图（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayFont/issues/2)）
 
 ### X版：
 - 补回CW存在但在此版缺失的「α」（U+03B1）
