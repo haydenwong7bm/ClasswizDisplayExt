@@ -57,7 +57,7 @@ if %ERRORLEVEL% neq 0 (
 )
 
 :build_font_x
-set FONT_NAME=ClassWizXDisplay-Regular
+set FONT_NAME=ClassWizXDisplayExt-Regular
 echo Building font X Display into "%OUTPUT_DIR%" folder...
 fontmake -u %FONT_NAME%.ufo --output-dir %OUTPUT_DIR% >>output.log 2>>error.log
 if %ERRORLEVEL% neq 0 goto :show_output_error
@@ -65,7 +65,7 @@ if %ERRORLEVEL% neq 0 goto :show_output_error
 if %ERRORLEVEL% == 0 goto :build_font_cw
 
 :build_font_cw
-set FONT_NAME=ClassWizCWDisplay-Regular
+set FONT_NAME=ClassWizCWDisplayExt-Regular
 echo Building font CW Display into "%OUTPUT_DIR%" folder...
 fontmake -u %FONT_NAME%.ufo --output-dir %OUTPUT_DIR% >>output.log 2>>error.log
 if %ERRORLEVEL% neq 0 goto :show_output_error
