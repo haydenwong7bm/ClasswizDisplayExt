@@ -6,3 +6,7 @@
 
 # Custom build folder
 output
+
+# README pdf files
+README-math.pdf
+README.pdf
