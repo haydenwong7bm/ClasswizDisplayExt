@@ -3,7 +3,7 @@ FontName: ClassWizXDisplayExt-Regular
 FullName: ClassWiz X Display Ext Regular
 FamilyName: ClassWiz X Display Ext
 Weight: Regular
-Copyright: Copyright (c) 2025, Hayden Wong (https://github.com/haydenwong7bm/),\nCopyright c 2020-2024, Windy Deng windy0deng@gmail.com,\nCopyright c 2014-2024, CASIO Computer Co., Ltd https:www.casio.com.
+Copyright: Copyright (c) 2025, Hayden Wong (https://github.com/haydenwong7bm/),\nCopyright (c) 2020-2024, Windy Deng (windy0deng@gmail.com),\nCopyright (c) 2014-2024, CASIO Computer Co., Ltd (https:www.casio.com).
 Version: 3.4
 ItalicAngle: 0
 UnderlinePosition: -20
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1725260647
-ModificationTime: 1738663718
+ModificationTime: 1738666322
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -57,7 +57,6 @@ OS2XHeight: 90
 OS2Vendor: 'NONE'
 OS2CodePages: 40060007.00000000
 OS2UnicodeRanges: 20000207.18070001.00000000.00000000
-Lookup: 1 0 0 "'ss02' Style Set 2 lookup 0" { "'ss02' Style Set 2 lookup 0"  } ['ss02' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' Access All Alternates lookup 0" { "'aalt' Access All Alternates lookup 0 subtable"  } ['aalt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 1" { "Single Substitution lookup 1 subtable"  } []
 Lookup: 4 0 0 "Ligature Substitution lookup 2" { "Ligature Substitution lookup 2 subtable"  } []
@@ -67,6 +66,7 @@ Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 5" { "'ccmp' Glyph 
 Lookup: 1 0 0 "'ss01' Style Set 1 lookup 6" { "'ss01' Style Set 1 lookup 6 subtable"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' Contextual Alternates lookup 7" { "'calt' Contextual Alternates lookup 7 subtable"  } ['calt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8 subtable"  } []
+Lookup: 1 0 0 "'ss02' Style Set 2 lookup 9" { "'ss02' Style Set 2 lookup 9 subtable"  } ['ss02' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: class "'calt' Contextual Alternates lookup 7 subtable" 14 10 8 10
@@ -172,7 +172,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 625 25 8
+WinInfo: 0 25 8
 BeginPrivate: 2
 BlueValues 7 [-20 0]
 BlueScale 9 4.167e-05
@@ -6424,9 +6424,9 @@ SplineSet
  40 0 l 257
  40 120 l 257
 EndSplineSet
-Substitution2: "'ss02' Style Set 2 lookup 0" bar.ss02
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" bar.ss01
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" bar.ss02
 Substitution2: "'ss01' Style Set 1 lookup 6 subtable" bar.ss01
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" bar.ss01
 EndChar
 
 StartChar: braceright
