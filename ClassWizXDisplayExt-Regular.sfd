@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1725260647
-ModificationTime: 1738666322
+ModificationTime: 1738674693
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -172,12 +172,12 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 25 8
+WinInfo: 50 25 8
 BeginPrivate: 2
 BlueValues 7 [-20 0]
 BlueScale 9 4.167e-05
 EndPrivate
-BeginChars: 1114255 1343
+BeginChars: 1114255 1342
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -84533,15 +84533,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni007F
-Encoding: 127 127 1339
-Width: 140
-Flags: HW
-LayerCount: 2
-EndChar
-
 StartChar: grave
-Encoding: 96 96 1340
+Encoding: 96 96 1339
 Width: 110
 VWidth: 0
 Flags: HW
@@ -84561,7 +84554,7 @@ EndSplineSet
 EndChar
 
 StartChar: bar.ss02
-Encoding: 1114254 -1 1341
+Encoding: 1114254 -1 1340
 Width: 110
 Flags: HW
 LayerCount: 2
@@ -84576,7 +84569,7 @@ EndSplineSet
 EndChar
 
 StartChar: alpha
-Encoding: 945 945 1342
+Encoding: 945 945 1341
 Width: 110
 VWidth: 0
 Flags: HW
