@@ -17,7 +17,7 @@
 
 ## 食用方法
 
-字体分为四部分：X Display Ext、CW Display Ext、X Math Ext 与 CW Math Ext。带有「Display」的字体用作普通文本，提供OTF、TTF与WOFF2（自 v3.001 起）格式；带有「Math」的字体由Opentype MATH表强力驱动，用作数学公式输入，仅提供OTF格式。
+字体分为四部分：X Display Ext、CW Display Ext、X Math Ext与CW Math Ext。带有「Display」的字体用作普通文本，提供OTF、TTF与WOFF2（自 v3.001 起）格式；带有「Math」的字体由Opentype MATH表强力驱动，用作数学公式输入，仅提供OTF格式。
 
 所有版本的字体打包可以到[Release页面](https://github.com/haydenwong7bm/ClasswizDisplayFont/releases)获取。
 
