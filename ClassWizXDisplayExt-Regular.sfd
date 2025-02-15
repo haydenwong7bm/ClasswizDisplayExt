@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1725260647
-ModificationTime: 1738680707
+ModificationTime: 1739598568
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -172,12 +172,12 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 25 25 8
+WinInfo: 50 25 8
 BeginPrivate: 2
 BlueValues 7 [-20 0]
 BlueScale 9 4.167e-05
 EndPrivate
-BeginChars: 1114255 1361
+BeginChars: 1114255 1366
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -730,63 +730,63 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-20 70 m 1
- 20 100 l 1
- 30 100 l 1
- 30 110 l 1
- 40 110 l 1
- 40 120 l 1
- 90 120 l 1
- 90 110 l 1
- 100 110 l 1
- 100 120 l 1
- 110 120 l 1
- 110 80 l 1
- 100 80 l 1
- 100 90 l 1
- 90 90 l 1
- 90 100 l 1
- 80 100 l 1
- 80 110 l 1
- 50 110 l 1
- 50 100 l 1
- 40 100 l 1
- 40 80 l 1
- 50 80 l 1
- 50 70 l 1
- 80 70 l 1
- 80 60 l 1
- 100 60 l 1
- 100 50 l 1
- 110 50 l 1
- 110 20 l 1
- 100 20 l 1
- 100 10 l 1
- 90 10 l 1
- 90 0 l 1
- 40 0 l 1
- 40 10 l 1
- 30 10 l 1
- 30 0 l 1
- 20 0 l 1
- 20 40 l 1
- 30 40 l 1
- 30 30 l 1
- 40 30 l 1
- 40 20 l 1
- 50 20 l 1
- 50 10 l 1
- 80 10 l 1
- 80 20 l 1
- 90 20 l 1
- 90 40 l 1
- 80 40 l 1
- 80 50 l 1
- 50 50 l 1
- 50 60 l 1
- 30 60 l 1
- 30 70 l 1
- 20 70 l 1
+20 70 m 5
+ 20 100 l 5
+ 30 100 l 5
+ 30 110 l 5
+ 40 110 l 5
+ 40 120 l 5
+ 90 120 l 5
+ 90 110 l 5
+ 100 110 l 5
+ 100 120 l 5
+ 110 120 l 5
+ 110 80 l 5
+ 100 80 l 5
+ 100 90 l 5
+ 90 90 l 5
+ 90 100 l 5
+ 80 100 l 5
+ 80 110 l 5
+ 50 110 l 5
+ 50 100 l 5
+ 40 100 l 5
+ 40 80 l 5
+ 50 80 l 5
+ 50 70 l 5
+ 80 70 l 5
+ 80 60 l 5
+ 100 60 l 5
+ 100 50 l 5
+ 110 50 l 5
+ 110 20 l 5
+ 100 20 l 5
+ 100 10 l 5
+ 90 10 l 5
+ 90 0 l 5
+ 40 0 l 5
+ 40 10 l 5
+ 30 10 l 5
+ 30 0 l 5
+ 20 0 l 5
+ 20 40 l 5
+ 30 40 l 5
+ 30 30 l 5
+ 40 30 l 5
+ 40 20 l 5
+ 50 20 l 5
+ 50 10 l 5
+ 80 10 l 5
+ 80 20 l 5
+ 90 20 l 5
+ 90 40 l 5
+ 80 40 l 5
+ 80 50 l 5
+ 50 50 l 5
+ 50 60 l 5
+ 30 60 l 5
+ 30 70 l 5
+ 20 70 l 5
 EndSplineSet
 EndChar
 
@@ -3315,13 +3315,13 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-30 10 m 1
- 20 10 l 1
- 20 30 l 1
- 40 30 l 1
- 40 20 l 1
- 50 20 l 1
- 50 10 l 1
+30 10 m 5
+ 20 10 l 5
+ 20 30 l 5
+ 40 30 l 5
+ 40 20 l 5
+ 50 20 l 5
+ 50 10 l 5
  80 10 l 1
  80 20 l 1
  90 20 l 1
@@ -3348,8 +3348,8 @@ SplineSet
  100 10 l 1
  90 10 l 1
  90 0 l 1
- 30 0 l 1
- 30 10 l 1
+ 30 0 l 5
+ 30 10 l 5
 40 60 m 1
  50 60 l 1
  50 50 l 1
@@ -3380,14 +3380,14 @@ SplineSet
  30 110 l 1
  40 110 l 1
  40 120 l 1
- 100 120 l 1
- 100 110 l 1
- 110 110 l 1
- 110 90 l 1
- 90 90 l 1
- 90 100 l 1
- 80 100 l 1
- 80 110 l 1
+ 100 120 l 5
+ 100 110 l 5
+ 110 110 l 5
+ 110 90 l 5
+ 90 90 l 5
+ 90 100 l 5
+ 80 100 l 5
+ 80 110 l 5
  50 110 l 1
  50 100 l 1
  40 100 l 1
@@ -6100,11 +6100,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-40 0 m 1
- 40 30 l 1
- 70 30 l 1
- 70 0 l 1
- 40 0 l 1
+40 0 m 5
+ 40 30 l 5
+ 70 30 l 5
+ 70 0 l 5
+ 40 0 l 5
 EndSplineSet
 EndChar
 
@@ -6359,11 +6359,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 10 m 1
- 100 10 l 1
- 100 0 l 1
- 0 0 l 1
- 0 10 l 1
+0 10 m 5
+ 100 10 l 5
+ 100 0 l 5
+ 0 0 l 5
+ 0 10 l 5
 EndSplineSet
 Substitution2: "'ss01' Style Set 1 lookup 6 subtable" cursor.replace
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" cursor.replace
@@ -6829,32 +6829,32 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-30 120 m 1
- 70 120 l 1
- 70 110 l 1
- 80 110 l 1
- 80 70 l 1
- 70 70 l 1
- 70 60 l 1
- 30 60 l 1
- 30 70 l 1
- 20 70 l 1
- 20 110 l 1
- 30 110 l 1
- 30 120 l 1
-40 110 m 1
- 40 100 l 1
- 30 100 l 1
- 30 80 l 1
- 40 80 l 1
- 40 70 l 1
- 60 70 l 1
- 60 80 l 1
- 70 80 l 1
- 70 100 l 1
- 60 100 l 1
- 60 110 l 1
- 40 110 l 1
+30 120 m 5
+ 70 120 l 5
+ 70 110 l 5
+ 80 110 l 5
+ 80 70 l 5
+ 70 70 l 5
+ 70 60 l 5
+ 30 60 l 5
+ 30 70 l 5
+ 20 70 l 5
+ 20 110 l 5
+ 30 110 l 5
+ 30 120 l 5
+40 110 m 5
+ 40 100 l 5
+ 30 100 l 5
+ 30 80 l 5
+ 40 80 l 5
+ 40 70 l 5
+ 60 70 l 5
+ 60 80 l 5
+ 70 80 l 5
+ 70 100 l 5
+ 60 100 l 5
+ 60 110 l 5
+ 40 110 l 5
 EndSplineSet
 Substitution2: "'ss01' Style Set 1 lookup 6 subtable" dms
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" dms
@@ -32351,20 +32351,20 @@ SplineSet
  80 100 l 1
  70 100 l 1
  70 110 l 1
- 40 110 l 1
- 40 90 l 1
- 30 90 l 1
- 30 10 l 1
- 40 10 l 1
- 40 0 l 1
- 0 0 l 1
- 0 10 l 1
- 10 10 l 1
- 10 90 l 1
- 20 90 l 1
- 20 110 l 1
- 30 110 l 1
- 30 120 l 1
+ 40 110 l 5
+ 40 90 l 5
+ 30 90 l 5
+ 30 10 l 5
+ 40 10 l 5
+ 40 0 l 5
+ 0 0 l 5
+ 0 10 l 5
+ 10 10 l 5
+ 10 90 l 5
+ 20 90 l 5
+ 20 110 l 5
+ 30 110 l 5
+ 30 120 l 5
  80 120 l 1
  80 110 l 1
  90 110 l 1
@@ -84541,15 +84541,15 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-70 100 m 257
- 50 100 l 257
- 50 110 l 257
- 40 110 l 257
- 40 120 l 257
- 60 120 l 257
- 60 110 l 257
- 70 110 l 257
- 70 100 l 257
+70 100 m 261
+ 50 100 l 261
+ 50 110 l 261
+ 40 110 l 261
+ 40 120 l 261
+ 60 120 l 261
+ 60 110 l 261
+ 70 110 l 261
+ 70 100 l 261
 EndSplineSet
 EndChar
 
@@ -84760,11 +84760,11 @@ SplineSet
  90 100 l 1
  70 100 l 1
  70 120 l 1
-30 120 m 1
- 50 120 l 1
- 50 100 l 1
- 30 100 l 1
- 30 120 l 1
+30 120 m 5
+ 50 120 l 5
+ 50 100 l 5
+ 30 100 l 5
+ 30 120 l 5
 EndSplineSet
 EndChar
 
@@ -84859,7 +84859,7 @@ EndChar
 StartChar: logicalnot
 Encoding: 172 172 1348
 Width: 110
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -85304,6 +85304,201 @@ SplineSet
  60 70 l 257
  40 70 l 257
  40 120 l 257
+EndSplineSet
+EndChar
+
+StartChar: currency
+Encoding: 164 164 1361
+Width: 110
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+70 100 m 1
+ 80 100 l 1
+ 80 90 l 1
+ 70 90 l 1
+ 70 70 l 1
+ 80 70 l 1
+ 80 50 l 5
+ 70 50 l 5
+ 70 30 l 5
+ 80 30 l 5
+ 80 20 l 5
+ 70 20 l 5
+ 70 30 l 5
+ 30 30 l 5
+ 30 20 l 5
+ 20 20 l 5
+ 20 30 l 5
+ 30 30 l 5
+ 30 50 l 5
+ 20 50 l 5
+ 20 70 l 1
+ 30 70 l 1
+ 30 50 l 5
+ 40 50 l 5
+ 40 40 l 5
+ 60 40 l 5
+ 60 50 l 5
+ 70 50 l 5
+ 70 70 l 1
+ 60 70 l 1
+ 60 80 l 1
+ 40 80 l 1
+ 40 70 l 1
+ 30 70 l 1
+ 30 90 l 1
+ 70 90 l 1
+ 70 100 l 1
+20 100 m 1
+ 30 100 l 1
+ 30 90 l 1
+ 20 90 l 1
+ 20 100 l 1
+EndSplineSet
+EndChar
+
+StartChar: sterling
+Encoding: 163 163 1362
+Width: 110
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+50 50 m 1
+ 50 30 l 1
+ 40 30 l 1
+ 40 10 l 1
+ 100 10 l 1
+ 100 0 l 1
+ 10 0 l 1
+ 10 10 l 1
+ 20 10 l 1
+ 20 30 l 1
+ 30 30 l 1
+ 30 50 l 1
+ 10 50 l 1
+ 10 60 l 1
+ 30 60 l 1
+ 30 100 l 1
+ 40 100 l 1
+ 40 110 l 1
+ 50 110 l 1
+ 50 120 l 1
+ 90 120 l 1
+ 90 110 l 1
+ 100 110 l 1
+ 100 90 l 1
+ 80 90 l 1
+ 80 100 l 1
+ 70 100 l 1
+ 70 110 l 1
+ 60 110 l 1
+ 60 100 l 1
+ 50 100 l 1
+ 50 60 l 1
+ 80 60 l 1
+ 80 50 l 1
+ 50 50 l 1
+EndSplineSet
+EndChar
+
+StartChar: section
+Encoding: 167 167 1363
+Width: 110
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+100 60 m 1
+ 90 60 l 1
+ 90 80 l 1
+ 50 80 l 1
+ 50 90 l 1
+ 40 90 l 1
+ 40 100 l 1
+ 50 100 l 1
+ 50 110 l 1
+ 80 110 l 1
+ 80 100 l 1
+ 90 100 l 1
+ 90 90 l 1
+ 110 90 l 1
+ 110 110 l 1
+ 100 110 l 1
+ 100 120 l 1
+ 40 120 l 1
+ 40 110 l 1
+ 30 110 l 1
+ 30 100 l 1
+ 20 100 l 1
+ 20 80 l 1
+ 30 80 l 1
+ 30 70 l 1
+ 30 70 l 1
+ 30 60 l 1
+ 40 60 l 1
+ 40 40 l 1
+ 80 40 l 1
+ 80 30 l 1
+ 90 30 l 1
+ 90 20 l 1
+ 80 20 l 1
+ 80 10 l 1
+ 50 10 l 1
+ 50 20 l 1
+ 40 20 l 1
+ 40 30 l 1
+ 20 30 l 1
+ 20 10 l 1
+ 30 10 l 1
+ 30 0 l 1
+ 90 0 l 1
+ 90 10 l 1
+ 100 10 l 1
+ 100 20 l 1
+ 110 20 l 1
+ 110 40 l 1
+ 100 40 l 1
+ 100 50 l 1
+ 100 50 l 1
+ 100 60 l 1
+50 70 m 1
+ 80 70 l 1
+ 80 49 l 1
+ 50 49 l 1
+ 50 70 l 1
+EndSplineSet
+EndChar
+
+StartChar: macron
+Encoding: 175 175 1364
+Width: 110
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+20 110 m 1
+ 90 110 l 1
+ 90 100 l 1
+ 20 100 l 1
+ 20 110 l 1
+EndSplineSet
+EndChar
+
+StartChar: periodcentered
+Encoding: 183 183 1365
+Width: 110
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+40 50 m 5
+ 40 80 l 5
+ 70 80 l 5
+ 70 50 l 5
+ 40 50 l 5
 EndSplineSet
 EndChar
 EndChars
