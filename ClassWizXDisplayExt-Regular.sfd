@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1725260647
-ModificationTime: 1739614957
+ModificationTime: 1739616766
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -172,7 +172,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 50 25 8
+WinInfo: 8125 25 8
 BeginPrivate: 2
 BlueValues 7 [-20 0]
 BlueScale 9 4.167e-05
@@ -85058,11 +85058,11 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-10 70 m 5
- 90 70 l 5
- 90 50 l 5
- 10 50 l 5
- 10 70 l 5
+20 70 m 1
+ 90 70 l 1
+ 90 50 l 1
+ 20 50 l 1
+ 20 70 l 1
 EndSplineSet
 EndChar
 
@@ -85073,11 +85073,11 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-10 70 m 1
+20 70 m 5
  90 70 l 1
  90 50 l 1
- 10 50 l 1
- 10 70 l 1
+ 20 50 l 5
+ 20 70 l 5
 EndSplineSet
 EndChar
 
@@ -85088,41 +85088,41 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 70 m 5
- 100 70 l 5
- 100 50 l 5
- 0 50 l 5
- 0 70 l 5
+20 70 m 1
+ 110 70 l 1
+ 110 50 l 1
+ 20 50 l 1
+ 20 70 l 1
 EndSplineSet
 EndChar
 
 StartChar: endash
 Encoding: 8211 8211 1356
 Width: 110
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
-10 70 m 1
- 90 70 l 1
- 90 50 l 1
- 10 50 l 1
- 10 70 l 1
+0 70 m 5
+ 100 70 l 1
+ 100 50 l 1
+ 0 50 l 5
+ 0 70 l 5
 EndSplineSet
 EndChar
 
 StartChar: emdash
 Encoding: 8212 8212 1357
-Width: 110
+Width: 220
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 70 m 5
- 100 70 l 5
- 100 50 l 5
- 0 50 l 5
- 0 70 l 5
+0 70 m 1
+ 210 70 l 1
+ 210 50 l 1
+ 0 50 l 1
+ 0 70 l 1
 EndSplineSet
 EndChar
 
