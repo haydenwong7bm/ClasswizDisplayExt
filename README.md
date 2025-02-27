@@ -4,8 +4,16 @@
 
 ![ClassWizDisplay](readme_assets/ClassWizDisplay.svg)
 
-## 本人修改内容
-wip
+## 字符／语言支持
+✅ ASCII（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayFont/issues/2)）
+🟨 Latin Extended-1／Windows-1252
+🟨 Latin Extended-A
+🟨 Latin Extended-B 
+❌ 希腊语
+✅ 俄语
+✅ 越南语
+❌ 汉语拼音
+🟨 假名
 
 ## 食用方法
 
