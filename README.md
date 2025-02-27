@@ -6,22 +6,14 @@
 
 ## 字符／语言支持
 
-✅ ASCII（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayFont/issues/2)）
-
-🟨 Latin Extended-1／Windows-1252
-
-🟨 Latin Extended-A
-
-🟨 Latin Extended-B 
-
-❌ 希腊语
-
-✅ 俄语
-
-✅ 越南语
-
-❌ 汉语拼音
-
+✅ ASCII（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayFont/issues/2)）<br>
+🟨 Latin Extended-1／Windows-1252<br>
+🟨 Latin Extended-A<br>
+🟨 Latin Extended-B <br>
+❌ 希腊语<br>
+✅ 俄语<br>
+✅ 越南语<br>
+❌ 汉语拼音<br>
 🟨 假名
 
 ## 食用方法
