@@ -1,24 +1,37 @@
-# CASIO Classwiz 屏幕显示字体 Ext
+# CASIO ClassWiz 屏幕显示字体 Ext
 
 **来自卡西欧计算器屏幕上的像素字体！**
 
 ![ClassWizDisplay](readme_assets/ClassWizDisplay.svg)
 
-## 字符／语言支持
+## 语言支持
+
+✅ 德语、捷克语、匈牙利语、波兰语、斯洛伐克语、法语、西班牙语、加泰罗尼亚语、巴斯克語、葡萄牙语、越南语、俄语<br>
+🟨 假名<br>
+❌ 希腊语、阿拉伯语、汉语拼音<br>
+
+## 字符集支持
 
 ✅ ASCII（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayFont/issues/2)）<br>
-🟨 Latin Extended-1／Windows-1252<br>
-🟨 Latin Extended-A<br>
-🟨 Latin Extended-B <br>
-❌ 希腊语<br>
-✅ 俄语<br>
-✅ 越南语<br>
-❌ 汉语拼音<br>
-🟨 假名
+✅ ISO/IEC 8859-1（🟨 Windows-1252）
+🟨 ISO/IEC 8859-2
+🟨 ISO/IEC 8859-3
+🟨 ISO/IEC 8859-4
+✅ ISO/IEC 8859-5
+❌ ISO/IEC 8859-6
+❌ ISO/IEC 8859-7
+❌ ISO/IEC 8859-8（没计画支持）
+🟨 ISO/IEC 8859-9
+🟨 ISO/IEC 8859-10
+❌ ISO/IEC 8859-11
+🟨 ISO/IEC 8859-13
+🟨 ISO/IEC 8859-14
+🟨 ISO/IEC 8859-15
+🟨 ISO/IEC 8859-16
 
 ## 食用方法
 
-字体分为四部分：X Display、X Math、CW Display 与 CW Math。X版为衬线体，CW版为黑体。Display版用作普通文本，提供 OTF、TTF 与 WOFF2（自 v3.001 起）格式；Math版由 Opentype MATH 表强力驱动，用作数学公式输入，仅提供 OTF 格式。
+字体分为四部分：X Display、X Math、CW Display 与 CW Math。X版为衬线体，CW版为黑体。Display版用作普通文本，提供 OTF、TTF 与 WOFF2（自 v3.001 起）格式；Math版由 OpenType MATH 表强力驱动，用作数学公式输入，仅提供 OTF 格式。
 
 所有版本的字体打包可以到 [Release 页面](https://github.com/haydenwong7bm/ClasswizDisplayFont/releases)获取，其中：
 
