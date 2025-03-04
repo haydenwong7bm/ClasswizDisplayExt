@@ -13,20 +13,20 @@
 ## 字符集支持
 
 ✅ ASCII（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayFont/issues/2)）<br>
-✅ ISO/IEC 8859-1（🟨 Windows-1252）
-🟨 ISO/IEC 8859-2
-🟨 ISO/IEC 8859-3
-🟨 ISO/IEC 8859-4
-✅ ISO/IEC 8859-5
-❌ ISO/IEC 8859-6
-❌ ISO/IEC 8859-7
-❌ ISO/IEC 8859-8（没计画支持）
-🟨 ISO/IEC 8859-9
-🟨 ISO/IEC 8859-10
-❌ ISO/IEC 8859-11
-🟨 ISO/IEC 8859-13
-🟨 ISO/IEC 8859-14
-🟨 ISO/IEC 8859-15
+✅ ISO/IEC 8859-1（🟨 Windows-1252）<br>
+🟨 ISO/IEC 8859-2<br>
+🟨 ISO/IEC 8859-3<br>
+🟨 ISO/IEC 8859-4<br>
+✅ ISO/IEC 8859-5<br>
+❌ ISO/IEC 8859-6<br>
+❌ ISO/IEC 8859-7<br>
+❌ ISO/IEC 8859-8（没计画支持）<br>
+🟨 ISO/IEC 8859-9<br>
+🟨 ISO/IEC 8859-10<br>
+❌ ISO/IEC 8859-11<br>
+🟨 ISO/IEC 8859-13<br>
+🟨 ISO/IEC 8859-14<br>
+🟨 ISO/IEC 8859-15<br>
 🟨 ISO/IEC 8859-16
 
 ## 食用方法
