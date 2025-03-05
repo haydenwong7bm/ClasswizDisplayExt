@@ -17,7 +17,7 @@
 🟨 ISO/IEC 8859-2<br>
 🟨 ISO/IEC 8859-3<br>
 🟨 ISO/IEC 8859-4<br>
-✅ ISO/IEC 8859-5<br>
+🟨 ISO/IEC 8859-5<br>
 ❌ ISO/IEC 8859-6<br>
 ❌ ISO/IEC 8859-7<br>
 ❌ ISO/IEC 8859-8（没计画支持）<br>
@@ -31,7 +31,7 @@
 
 ## 食用方法
 
-字体分为四部分：X Display、X Math、CW Display 与 CW Math。X版为衬线体，CW版为黑体。Display版用作普通文本，提供 OTF、TTF 与 WOFF2（自 v3.001 起）格式；Math版由 OpenType MATH 表强力驱动，用作数学公式输入，仅提供 OTF 格式。
+字体分为四部分：X Display、X Math、CW Display 与 CW Math。X版为衬线体，CW版为黑体。Display版用作普通文本，提供 OTF、TTF 与 WOFF2 格式；Math版由 OpenType MATH 表强力驱动，用作数学公式输入，仅提供 OTF 格式。
 
 所有版本的字体打包可以到 [Release 页面](https://github.com/haydenwong7bm/ClasswizDisplayFont/releases)获取，其中：
 
