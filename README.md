@@ -22,7 +22,7 @@
 🟨 ISO/IEC 8859-5<br>
 ❌ ISO/IEC 8859-6<br>
 ❌ ISO/IEC 8859-7<br>
-❌ ISO/IEC 8859-8 (No plan to suppor)<br>
+❌ ISO/IEC 8859-8 (No plan to support)<br>
 🟨 ISO/IEC 8859-9<br>
 🟨 ISO/IEC 8859-10<br>
 ❌ ISO/IEC 8859-11<br>
