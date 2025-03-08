@@ -22,7 +22,7 @@
 🟨 ISO/IEC 8859-5<br>
 ❌ ISO/IEC 8859-6<br>
 ❌ ISO/IEC 8859-7<br>
-❌ ISO/IEC 8859-8 (No plan to support)<br>
+❌ ISO/IEC 8859-8 (No plans to support)<br>
 🟨 ISO/IEC 8859-9<br>
 🟨 ISO/IEC 8859-10<br>
 ❌ ISO/IEC 8859-11<br>
@@ -33,7 +33,7 @@
 
 ## How to Use
 
-Font is in 4 parts: X Display、X Math、CW Display 与 CW Math。X version is Serif, and CW versio is sans-serif。Display version is used for normal text, provided in OTF, TTF and WOFF2 format; Math version is powered by OpenType MATH table, and is used for math expression input, only OTF format is provided.
+The font is in 4 parts: X Display, X Math, CW Display and CW Math. X version is serif, and CW version is sans-serif. Display version is used for normal text, provided in OTF, TTF and WOFF2 format; Math version is powered by OpenType MATH table, and is used for math expression input, only OTF format is provided.
 
 All version of font releases can be downloaded in the [release page](https://github.com/haydenwong7bm/ClasswizDisplayExt/releases).
 
@@ -45,7 +45,7 @@ If you think this project is helpful to you, you may click the ☆ on the upper 
 
 Font source file is provided with the [FontForge](https://fontforge.org/) font file format，which is a file with `.sfd` extension. To edit and build the font, please install FontForge. You can also build the font with `build.py` through FontForge.
 
-~~However `.sfd` file is a text document, so you can also edit it with notepad.~~
+~~However `.sfd` file is a text document, so you can also edit it with a text editor.~~
 
 ## Contribution and Feedback
 
