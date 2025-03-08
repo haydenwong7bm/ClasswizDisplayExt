@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1741163167
+ModificationTime: 1741415804
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -127,7 +127,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8200 25 8
+WinInfo: 8500 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -138,7 +138,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 1 0 0 823881 411940 274627 674085 1048576 274627 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114931 1981
+BeginChars: 1114931 1983
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -10456,38 +10456,39 @@ Flags: W
 IsExtendedShape: 1
 GlyphVariantsVertical: radical radical.v1 radical.v2 radical.v3 radical.v4 radical.v5 radical.v6 radical.v7 radical.v8
 GlyphCompositionVertical: 3  uni23B7%0,0,40,190 radical.ex%1,40,40,40 radical.tp%0,0,0,100
-HStem: 0 21G<30 50> 70 10<0 10> 110 10<70 100>
-VStem: 10 20<50 70> 20 20<30 50> 30 20<0 20> 50 10<30 70> 60 10<80 110>
+HStem: 0 21G<30 50> 60 20<0 10> 100 20<80 100>
+VStem: 0 30<60 80> 10 20<50 60> 30 20<0 20> 50 20<60 80> 60 20<90 100>
 LayerCount: 2
 Fore
 SplineSet
-0 70 m 1xf0
+0 60 m 1xf0
  0 80 l 1
- 30 80 l 1xe4
- 30 50 l 1xf0
+ 30 80 l 1xf0
+ 30 50 l 1
  40 50 l 1
- 40 30 l 1
- 50 30 l 1
- 50 80 l 1xea
- 60 80 l 1
+ 40 60 l 1
+ 50 60 l 1
+ 50 90 l 1xea
+ 60 90 l 1
  60 120 l 1
  100 120 l 1
- 100 110 l 1
- 70 110 l 1
- 70 70 l 1xe1
- 60 70 l 1xe2
+ 100 100 l 1
+ 80 100 l 1
+ 80 80 l 1xe1
+ 70 80 l 1
+ 70 50 l 1xe2
+ 60 50 l 1
  60 20 l 1
  50 20 l 1
  50 0 l 1
  30 0 l 1
  30 20 l 1xe5
  20 20 l 1
- 20 50 l 1xe8
- 10 50 l 1
- 10 70 l 1
- 0 70 l 1xf0
+ 20 40 l 1
+ 10 40 l 1
+ 10 60 l 1xe8
+ 0 60 l 1xf0
 EndSplineSet
-Validated: 1
 Substitution2: "'ss01' Style Set 1 lookup 3 subtable" radical.v2
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" radical.v2
 EndChar
@@ -10497,59 +10498,60 @@ Encoding: 8731 8731 251
 Width: 220
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<140 160> 50 20<20 60> 60 20<70 80> 70 10<110 120> 80 10<30 60> 90 20<70 80> 100 20<20 60> 110 10<180 210>
-VStem: 60 20<70 80 90 100> 120 20<50 70> 130 20<30 50> 140 20<0 20> 160 10<30 70> 170 10<80 110>
+HStem: 0 21G<140 160> 50 20<20 60> 60 20<70 80 110 120> 80 10<30 60> 100 20<20 60 190 210>
+VStem: 60 20<70 80 90 100> 110 30<60 80> 120 20<50 60> 140 20<0 20> 160 20<60 80> 170 20<90 100>
 LayerCount: 2
 Fore
 SplineSet
-20 100 m 1xca80
- 20 120 l 1xca80
- 70 120 l 1x8180
- 70 110 l 1
- 80 110 l 1
- 80 90 l 1
- 70 90 l 1
- 70 80 l 1
- 80 80 l 1
- 80 60 l 1
- 70 60 l 1xa480
- 70 50 l 1
- 20 50 l 1
- 20 70 l 1
- 60 70 l 1
- 60 80 l 1
- 30 80 l 1
- 30 90 l 1
- 60 90 l 1
- 60 100 l 1
- 20 100 l 1xca80
-110 70 m 1x90c0
- 110 80 l 1x90c0
- 140 80 l 1x8890
- 140 50 l 1xc8c0
- 150 50 l 1
- 150 30 l 1
- 160 30 l 1
- 160 80 l 1xc8a8
- 170 80 l 1xc884
- 170 120 l 1
- 210 120 l 1
- 210 110 l 1
- 180 110 l 1
- 180 70 l 1x9184
- 170 70 l 1x9188
- 170 20 l 1
- 160 20 l 1
- 160 0 l 1
- 140 0 l 1
- 140 20 l 1x9194
- 130 20 l 1
- 130 50 l 1xc0a0
- 120 50 l 1xc0c0
- 120 70 l 1
- 110 70 l 1x90c0
+20 100 m 5xdc
+ 20 120 l 5
+ 70 120 l 5
+ 70 110 l 5
+ 80 110 l 5
+ 80 90 l 5
+ 70 90 l 5xdc
+ 70 80 l 5
+ 80 80 l 5
+ 80 60 l 5
+ 70 60 l 5xac
+ 70 50 l 5
+ 20 50 l 5
+ 20 70 l 5
+ 60 70 l 5
+ 60 80 l 5
+ 30 80 l 5
+ 30 90 l 5
+ 60 90 l 5
+ 60 100 l 5
+ 20 100 l 5xdc
+110 60 m 5xae
+ 110 80 l 5xae
+ 140 80 l 5x9e
+ 140 50 l 5
+ 150 50 l 5xdd
+ 150 60 l 5
+ 160 60 l 5xad40
+ 160 90 l 5x9d40
+ 170 90 l 5
+ 170 120 l 5
+ 210 120 l 5
+ 210 100 l 5
+ 190 100 l 5
+ 190 80 l 5x9c20
+ 180 80 l 5
+ 180 50 l 5xdc40
+ 170 50 l 5
+ 170 20 l 5
+ 160 20 l 5
+ 160 0 l 5
+ 140 0 l 5
+ 140 20 l 5xdca0
+ 130 20 l 5
+ 130 40 l 5
+ 120 40 l 5
+ 120 60 l 5xad
+ 110 60 l 5xae
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: angle
@@ -10610,30 +10612,30 @@ GlyphClass: 2
 Flags: W
 IsExtendedShape: 1
 GlyphVariantsVertical: integral integral.v1 integral.v2 integral.v3 integral.v4
-HStem: -10 10<30 40> 0 10<10 20> 100 10<90 100> 110 10<70 80>
-VStem: 10 20<0 10> 40 20<0 60> 50 20<60 110> 80 20<100 110>
+HStem: -10 20<30 40> 0 20<10 20> 90 20<90 100> 100 20<70 80>
+VStem: 10 20<10 20> 40 20<10 50> 50 20<60 100> 80 20<90 100>
 LayerCount: 2
 Fore
 SplineSet
 10 0 m 1x4b
- 10 10 l 1
- 30 10 l 1x4b
- 30 0 l 1
- 40 0 l 1
+ 10 20 l 1
+ 30 20 l 1x4b
+ 30 10 l 1
+ 40 10 l 1
  40 60 l 1x8d
  50 60 l 1
- 50 110 l 1x9b
- 60 110 l 1
+ 50 110 l 1xab
+ 60 110 l 1xad
  60 120 l 1
- 90 120 l 1x9d
+ 90 120 l 1x1d
  90 110 l 1
  100 110 l 1
- 100 100 l 1
- 80 100 l 1x2d
- 80 110 l 1
- 70 110 l 1
- 70 60 l 1x1b
- 60 60 l 1
+ 100 90 l 1
+ 80 90 l 1x2d
+ 80 100 l 1
+ 70 100 l 1
+ 70 50 l 1x1b
+ 60 50 l 1
  60 0 l 1x5d
  50 0 l 1x5b
  50 -10 l 1
@@ -10641,7 +10643,6 @@ SplineSet
  20 0 l 1
  10 0 l 1x4b
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: notequal
@@ -40053,8 +40054,9 @@ SplineSet
  20 60 l 1x0ac0
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" x.bar.ssty x.bar.ssty2
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" x uni0304
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" x.bar.ssty x.bar.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" x.bar.ssty x.bar.ssty2
 EndChar
 
 StartChar: uniE009
@@ -40123,6 +40125,7 @@ SplineSet
  20 50 l 1xa080
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" x uni0302
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" x.hat.ssty x.hat.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" x.hat.ssty x.hat.ssty2
 EndChar
@@ -40177,6 +40180,7 @@ SplineSet
  10 70 l 1
 EndSplineSet
 Validated: 9
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" y uni0304
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" y.bar.ssty y.bar.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" y.bar.ssty y.bar.ssty2
 EndChar
@@ -40239,6 +40243,7 @@ SplineSet
  10 60 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" y uni0302
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" y.hat.ssty y.hat.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" y.hat.ssty y.hat.ssty2
 EndChar
@@ -87879,6 +87884,84 @@ SplineSet
  30 50 l 1
  30 70 l 1
  40 70 l 1
+EndSplineSet
+EndChar
+
+StartChar: arrowleft
+Encoding: 8592 8592 1981
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+100 70 m 1
+ 40 70 l 1
+ 40 100 l 1
+ 30 100 l 1
+ 30 90 l 1
+ 20 90 l 1
+ 20 80 l 1
+ 10 80 l 1
+ 10 70 l 1
+ 0 70 l 1
+ 0 50 l 1
+ 10 50 l 1
+ 10 40 l 1
+ 20 40 l 1
+ 20 30 l 1
+ 30 30 l 1
+ 30 20 l 1
+ 40 20 l 1
+ 40 50 l 1
+ 100 50 l 1
+ 100 70 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni21BB
+Encoding: 8635 8635 1982
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+70 20 m 1
+ 80 20 l 1
+ 80 40 l 1
+ 60 40 l 1
+ 60 30 l 1
+ 30 30 l 1
+ 30 40 l 1
+ 20 40 l 1
+ 20 70 l 1
+ 30 70 l 1
+ 30 80 l 1
+ 60 80 l 1
+ 60 70 l 1
+ 70 70 l 1
+ 70 60 l 1
+ 50 60 l 1
+ 50 50 l 1
+ 100 50 l 1
+ 100 100 l 1
+ 90 100 l 1
+ 90 80 l 1
+ 80 80 l 1
+ 80 90 l 1
+ 70 90 l 1
+ 70 100 l 1
+ 20 100 l 1
+ 20 90 l 1
+ 10 90 l 1
+ 10 80 l 1
+ 0 80 l 1
+ 0 30 l 1
+ 10 30 l 1
+ 10 20 l 1
+ 20 20 l 1
+ 20 10 l 1
+ 70 10 l 1
+ 70 20 l 1
 EndSplineSet
 EndChar
 EndChars
