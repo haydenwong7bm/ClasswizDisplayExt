@@ -1,18 +1,20 @@
-# CASIO ClassWiz 屏幕显示字体 Ext
+[繁體中文](https://github.com/haydenwong7bm/ClasswizDisplayExt/tree/main/README_zh-TC.md) [简体中文󠄁](https://github.com/haydenwong7bm/ClasswizDisplayExt/tree/main/README_zh-SC.md) **EN**
 
-**来自卡西欧计算器屏幕上的像素字体！**
+# CASIO ClassWiz Display Font Ext(ended)
+
+**Bitmap font from CASIO ClassWiz's Display!**
 
 ![ClassWizDisplay](readme_assets/ClassWizDisplay.svg)
 
-## 语言支持
+## Language Support
 
-✅ 英语、德语、捷克语、匈牙利语、波兰语、斯洛伐克语、法语、西班牙语、加泰罗尼亚语、巴斯克語、葡萄牙语、越南语、俄语<br>
-🟨 日语假名<br>
-❌ 希腊语、阿拉伯语、汉语拼音<br>
+✅ English, Germany, Czech, Hungarian, Polish, Slovak, French, Spanish, Catalan, Basque, Portuguese, Vietnamese, Russian<br>
+🟨 Japanese Kana<br>
+❌ Greek, Arabic, Chinese Pinyin<br>
 
-## 字符集支持
+## Character Set Support
 
-✅ ASCII（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayFont/issues/2)）<br>
+✅ ASCII（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayExt/issues/2)）<br>
 ✅ ISO/IEC 8859-1（🟨 Windows-1252）<br>
 🟨 ISO/IEC 8859-2<br>
 🟨 ISO/IEC 8859-3<br>
@@ -20,7 +22,7 @@
 🟨 ISO/IEC 8859-5<br>
 ❌ ISO/IEC 8859-6<br>
 ❌ ISO/IEC 8859-7<br>
-❌ ISO/IEC 8859-8（没计画支持）<br>
+❌ ISO/IEC 8859-8 (No plan to suppor)<br>
 🟨 ISO/IEC 8859-9<br>
 🟨 ISO/IEC 8859-10<br>
 ❌ ISO/IEC 8859-11<br>
@@ -29,22 +31,22 @@
 🟨 ISO/IEC 8859-15<br>
 🟨 ISO/IEC 8859-16
 
-## 食用方法
+## How to Use
 
-字体分为四部分：X Display、X Math、CW Display 与 CW Math。X版为衬线体，CW版为黑体。Display版用作普通文本，提供 OTF、TTF 与 WOFF2 格式；Math版由 OpenType MATH 表强力驱动，用作数学公式输入，仅提供 OTF 格式。
+Font is in 4 parts: X Display、X Math、CW Display 与 CW Math。X version is Serif, and CW versio is sans-serif。Display version is used for normal text, provided in OTF, TTF and WOFF2 format; Math version is powered by OpenType MATH table, and is used for math expression input, only OTF format is provided.
 
-所有版本的字体打包可以到 [Release 页面](https://github.com/haydenwong7bm/ClasswizDisplayFont/releases)获取，其中：
+All version of font releases can be downloaded in the [release page](https://github.com/haydenwong7bm/ClasswizDisplayExt/releases).
 
-本文只是关于字体的一个粗略说明，而**压缩包内除字体外还有自述文件（`README.pdf` 之类的文档），使用前请一定、务必、绝对要认真、仔细、用心阅读！**
+This README is just a rough description of the font，in additional to the font, **the zip file also contains a documentation file (such as `README.pdf`), read it carefully before use!**
 
-如果觉得本项目对你有帮助，不妨点一下页面右上角的 ☆。
+If you think this project is helpful to you, you may click the ☆ on the upper right corner of the page.
 
-## 构建字体
+## Build Font
 
-字体源文件以[FontForge](https://fontforge.org/)源文件格式提供，是一个扩展名为 `.sfd` 的文件。欲编辑、构建字体，请下载 FontForge。亦可通过 FontForge 使用`build.py`构建字体。
+Font source file is provided with the [FontForge](https://fontforge.org/) font file format，which is a file with `.sfd` extension. To edit and build the font, please install FontForge. You can also build the font with `build.py` through FontForge.
 
-~~然而 `.sfd` 文件是其实是文本，所以你用记事本修改也不是不行。~~
+~~However `.sfd` file is a text document, so you can also edit it with notepad.~~
 
-## 贡献与反馈
+## Contribution and Feedback
 
-「ClassWiz Display Ext」系列均以 SIL 开源字体许可 1.1 版（SIL Open Font License 1.1）协议授权，详情请查看 `OFL.txt` 文件，若想编辑、再发布字体，请务必遵守许可协议。如有任何问题或建议，还请开启一个议题（issue）。
+"ClassWiz Display Ext" font is all licensed under the SIL Open Font License Version 1.1 agreement authorization，For details, please see the `OFL.txt` file. If you want to edit and redistribute the font, please be sure to comply with the license agreement. If you have any problems or suggestions, please open an issue.
