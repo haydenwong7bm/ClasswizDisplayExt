@@ -8,11 +8,15 @@
 
 ## 语言支持
 
+（根据当前字体源文件）
+
 ✅ 英语、德语、捷克语、匈牙利语、波兰语、斯洛伐克语、法语、西班牙语、加泰罗尼亚语、巴斯克語、葡萄牙语、越南语、俄语<br>
 🟨 日语假名<br>
 ❌ 希腊语、阿拉伯语、汉语拼音<br>
 
 ## 字符集支持
+
+（根据当前字体源文件）
 
 ✅ ASCII（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayExt/issues/2)）<br>
 ✅ ISO/IEC 8859-1（🟨 Windows-1252）<br>
