@@ -2,7 +2,7 @@
 
 # CASIO ClassWiz 屏幕显示字体 Ext
 
-**来自卡西欧计算器屏幕上的像素字体！**
+**来自CASIO ClassWiz计算器屏幕上的像素字体！**
 
 ![ClassWizDisplay](readme_assets/ClassWizDisplay.svg)
 
@@ -31,7 +31,7 @@
 🟨 ISO/IEC 8859-15<br>
 🟨 ISO/IEC 8859-16
 
-## 食用方法
+## 使用方法
 
 字体分为四部分：X Display、X Math、CW Display 与 CW Math。X版为衬线体，CW版为无衬线体。Display版用作普通文本，提供 OTF、TTF 与 WOFF2 格式；Math版由 OpenType MATH 表强力驱动，用作数学公式输入，仅提供 OTF 格式。
 

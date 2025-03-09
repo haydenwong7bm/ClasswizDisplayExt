@@ -2,7 +2,7 @@
 
 # CASIO ClassWiz Display Font Ext(ended)
 
-**Bitmap font from CASIO ClassWiz's Display!**
+**Bitmap font from CASIO ClassWiz calculator's display!**
 
 ![ClassWizDisplay](readme_assets/ClassWizDisplay.svg)
 
@@ -37,16 +37,16 @@ The font is in 4 parts: X Display, X Math, CW Display and CW Math. X version is 
 
 All version of font releases can be downloaded in the [release page](https://github.com/haydenwong7bm/ClasswizDisplayExt/releases).
 
-This README is just a rough description of the font，in additional to the font, **the zip file also contains a documentation file (such as `README.pdf`), read it carefully before use!**
+This README is just a rough description of the font, in additional to the font, the zip file also contains a documentation file (such as `README.pdf`).
 
 If you think this project is helpful to you, you may click the ☆ on the upper right corner of the page.
 
 ## Build Font
 
-Font source file is provided with the [FontForge](https://fontforge.org/) font file format，which is a file with `.sfd` extension. To edit and build the font, please install FontForge. You can also build the font with `build.py` through FontForge.
+Font source file is provided with the [FontForge](https://fontforge.org/) font file format, which is a file with `.sfd` extension. To edit and build the font, please install FontForge. You can also build the font with `build.py` through FontForge.
 
 ~~However `.sfd` file is a text document, so you can also edit it with a text editor.~~
 
 ## Contribution and Feedback
 
-"ClassWiz Display Ext" font is all licensed under the SIL Open Font License Version 1.1 agreement authorization，For details, please see the `OFL.txt` file. If you want to edit and redistribute the font, please be sure to comply with the license agreement. If you have any problems or suggestions, please open an issue.
+"ClassWiz Display Ext" font is all licensed under the SIL Open Font License Version 1.1 agreement authorization, For details, please see the `OFL.txt` file. If you want to edit and redistribute the font, please be sure to comply with the license agreement. If you have any problems or suggestions, please open an issue.
