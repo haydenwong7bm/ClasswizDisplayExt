@@ -2,7 +2,7 @@
 
 # CASIO ClassWiz 屏幕顯示字體 Ext
 
-**來自卡西歐計算器屏幕上的像素字體！**
+**來自CASIO ClassWiz計算器屏幕上的像素字體！**
 
 ![ClassWizDisplay](readme_assets/ClassWizDisplay.svg)
 
