@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1731231796
-ModificationTime: 1741623880
+ModificationTime: 1741705654
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -191,10 +191,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 57300 25 8
+WinInfo: 725 25 8
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114253 1506
+BeginChars: 1114253 1509
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -86789,6 +86789,27 @@ SplineSet
  30 50 l 1,42,-1
 EndSplineSet
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" ecircumflex uni030C
+EndChar
+
+StartChar: uni0304
+Encoding: 772 772 1506
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni0302
+Encoding: 770 770 1507
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni030C
+Encoding: 780 780 1508
+Width: 0
+Flags: W
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
