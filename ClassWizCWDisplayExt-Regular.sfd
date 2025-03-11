@@ -86587,7 +86587,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE03C
+StartChar: Ecircumflexmacron
 Encoding: 57404 57404 1502
 Width: 110
 Flags: W
@@ -86629,7 +86629,7 @@ EndSplineSet
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" Ecircumflex uni0304
 EndChar
 
-StartChar: uniE03D
+StartChar: ecircumflexmacron
 Encoding: 57405 57405 1503
 Width: 110
 Flags: W
@@ -86680,7 +86680,7 @@ EndSplineSet
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" ecircumflex uni0304
 EndChar
 
-StartChar: uniE03E
+StartChar: Ecircumflexcaron
 Encoding: 57406 57406 1504
 Width: 110
 Flags: W
@@ -86730,7 +86730,7 @@ EndSplineSet
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" Ecircumflex uni030C
 EndChar
 
-StartChar: uniE03F
+StartChar: ecircumflexcaron
 Encoding: 57407 57407 1505
 Width: 110
 Flags: W
