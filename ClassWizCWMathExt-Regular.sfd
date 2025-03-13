@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1741705683
+ModificationTime: 1741875215
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -138,7 +138,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 1 0 0 823881 411940 274627 674085 1048576 274627 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114931 2041
+BeginChars: 1114931 2061
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -40048,7 +40048,8 @@ SplineSet
  20 60 l 1x0ac0
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" x uni0304
+LCarets2: 1 0
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" x uni0305
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" x.bar.ssty x.bar.ssty2
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" x.bar.ssty x.bar.ssty2
 EndChar
@@ -40174,7 +40175,7 @@ SplineSet
  10 70 l 1
 EndSplineSet
 Validated: 9
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" y uni0304
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" y uni0305
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" y.bar.ssty y.bar.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" y.bar.ssty y.bar.ssty2
 EndChar
@@ -78386,16 +78387,12 @@ StartChar: Zdotaccent
 Encoding: 379 379 1756
 Width: 110
 Flags: W
-HStem: 0 20<40 90> 70 20<10 50 80 90> 100 20<40 60>
+HStem: 0 20<40 90> 80 20<10 40> 100 20G<40 60>
 VStem: 40 20<100 120>
 LayerCount: 2
 Fore
 SplineSet
-50 70 m 1
- 10 70 l 1
- 10 90 l 1
- 90 90 l 1
- 90 70 l 1
+90 70 m 1xb0
  80 70 l 1
  80 60 l 1
  70 60 l 1
@@ -78418,13 +78415,17 @@ SplineSet
  40 60 l 1
  50 60 l 1
  50 70 l 1
-60 100 m 1
- 40 100 l 1
+ 60 70 l 1
+ 60 80 l 1
+ 10 80 l 1
+ 10 100 l 1
+ 40 100 l 1xd0
  40 120 l 1
  60 120 l 1
  60 100 l 1
+ 90 100 l 1
+ 90 70 l 1xb0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Ohorn
@@ -88207,24 +88208,24 @@ StartChar: uni01CD
 Encoding: 461 461 1989
 Width: 110
 Flags: W
-HStem: 0 30<10 20 90 100> 70 20<50 60> 100 10<50 70> 110 10<30 40 80 90>
-VStem: 10 20<0 20> 20 20<40 50> 30 20<60 70 110 120> 60 20<60 70> 70 20<40 50 110 120> 80 20<0 20>
+HStem: 0 30<10 20 90 100> 70 20<50 60> 100 10<40 60> 110 10<20 30 70 80>
+VStem: 10 20<0 20> 20 20<40 50 110 120> 30 20<60 70> 60 20<60 70 110 120> 70 20<40 50> 80 20<0 20>
 LayerCount: 2
 Fore
 SplineSet
-70 120 m 5xd280
- 90 120 l 5
- 90 110 l 5xd280
- 80 110 l 5xd040
- 80 100 l 5
- 40 100 l 5xe440
- 40 110 l 5xd440
- 30 110 l 5
- 30 120 l 5
- 50 120 l 5xd2
- 50 110 l 5
- 70 110 l 5xe280
- 70 120 l 5xd280
+60 120 m 1xd5
+ 80 120 l 1
+ 80 110 l 1xd5
+ 70 110 l 1xd080
+ 70 100 l 1
+ 30 100 l 1xe280
+ 30 110 l 1xd280
+ 20 110 l 1
+ 20 120 l 1
+ 40 120 l 1xd4
+ 40 110 l 1
+ 60 110 l 1xe5
+ 60 120 l 1xd5
 10 0 m 1xc840
  10 30 l 1xc840
  20 30 l 1
@@ -90422,5 +90423,701 @@ Width: 0
 Flags: W
 LayerCount: 2
 EndChar
+
+StartChar: kgreenlandic
+Encoding: 312 312 2041
+Width: 110
+Flags: W
+HStem: 0 20<80 90> 70 20<80 90>
+VStem: 10 20<0 20 50 90> 50 30<20 30 60 70> 60 30<10 20 70 80> 70 20<0 10 80 90>
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 1xf0
+ 10 90 l 1
+ 30 90 l 1
+ 30 50 l 1
+ 40 50 l 1
+ 40 60 l 1
+ 50 60 l 1
+ 50 70 l 1xf0
+ 60 70 l 1
+ 60 80 l 1xe8
+ 70 80 l 1
+ 70 90 l 1
+ 90 90 l 1xe4
+ 90 70 l 1xe8
+ 80 70 l 1
+ 80 60 l 1xf0
+ 70 60 l 1
+ 70 50 l 1xe4
+ 60 50 l 1
+ 60 40 l 1xe8
+ 70 40 l 1
+ 70 30 l 1xe4
+ 80 30 l 1
+ 80 20 l 1xf0
+ 90 20 l 1xe8
+ 90 0 l 1
+ 70 0 l 1
+ 70 10 l 1xe4
+ 60 10 l 1
+ 60 20 l 1xe8
+ 50 20 l 1
+ 50 30 l 1
+ 40 30 l 1
+ 40 20 l 1
+ 30 20 l 1
+ 30 0 l 1
+ 10 0 l 1xf0
+EndSplineSet
+EndChar
+
+StartChar: uni01F8
+Encoding: 504 504 2042
+Width: 110
+Flags: W
+HStem: 0 21G<10 30 70 90> 70 20G<10 30 70 90> 100 10<50 70> 110 10<20 40>
+VStem: 10 20<0 50 80 90> 70 20<0 20 50 90>
+LayerCount: 2
+Fore
+SplineSet
+70 100 m 1xec
+ 40 100 l 1xec
+ 40 110 l 1
+ 20 110 l 1
+ 20 120 l 1
+ 50 120 l 1xdc
+ 50 110 l 1
+ 70 110 l 1
+ 70 100 l 1xec
+10 0 m 1
+ 10 90 l 1
+ 30 90 l 1
+ 30 80 l 1
+ 40 80 l 1
+ 40 70 l 1
+ 50 70 l 1
+ 50 60 l 1
+ 60 60 l 1
+ 60 50 l 1
+ 70 50 l 1
+ 70 90 l 1
+ 90 90 l 1
+ 90 0 l 1
+ 70 0 l 1
+ 70 20 l 1
+ 60 20 l 1
+ 60 30 l 1
+ 50 30 l 1
+ 50 40 l 1
+ 40 40 l 1
+ 40 50 l 1
+ 30 50 l 1
+ 30 0 l 1
+ 10 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni01F9
+Encoding: 505 505 2043
+Width: 110
+Flags: W
+HStem: 0 21G<10 30 70 90> 60 20<30 40> 70 20<40 70> 100 10<50 70> 110 10<20 40>
+VStem: 10 20<0 60 80 90> 70 20<0 70>
+LayerCount: 2
+Fore
+SplineSet
+90 0 m 1xc6
+ 70 0 l 1
+ 70 70 l 1
+ 40 70 l 1xa6
+ 40 60 l 1
+ 30 60 l 1xc6
+ 30 0 l 1
+ 10 0 l 1
+ 10 90 l 1
+ 30 90 l 1xa6
+ 30 80 l 1
+ 40 80 l 1xc6
+ 40 90 l 1
+ 80 90 l 1xa6
+ 80 80 l 1
+ 90 80 l 1
+ 90 0 l 1xc6
+70 100 m 1x96
+ 40 100 l 1x96
+ 40 110 l 1
+ 20 110 l 1
+ 20 120 l 1
+ 50 120 l 1x8e
+ 50 110 l 1
+ 70 110 l 1
+ 70 100 l 1x96
+EndSplineSet
+EndChar
+
+StartChar: uni1E3E
+Encoding: 7742 7742 2044
+Width: 110
+Flags: W
+HStem: 0 21G<10 30 40 60 70 90> 70 20G<10 30 70 90> 100 10<30 50> 110 10<60 80>
+VStem: 10 30<50 70> 10 20<0 30 70 90> 40 20<0 30> 60 30<50 70> 70 20<0 30 70 90>
+LayerCount: 2
+Fore
+SplineSet
+30 100 m 1xe5
+ 30 110 l 1
+ 50 110 l 1xe5
+ 50 120 l 1
+ 80 120 l 1
+ 80 110 l 1
+ 60 110 l 1xd5
+ 60 100 l 1
+ 30 100 l 1xe5
+10 0 m 1
+ 10 90 l 1
+ 30 90 l 1
+ 30 70 l 1xc680
+ 40 70 l 1
+ 40 50 l 1
+ 60 50 l 1
+ 60 70 l 1xc9
+ 70 70 l 1
+ 70 90 l 1
+ 90 90 l 1
+ 90 0 l 1
+ 70 0 l 1
+ 70 30 l 1
+ 60 30 l 1
+ 60 0 l 1
+ 40 0 l 1
+ 40 30 l 1xc280
+ 30 30 l 1
+ 30 0 l 1
+ 10 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni1E3F
+Encoding: 7743 7743 2045
+Width: 110
+Flags: W
+HStem: 0 21G<0 20 40 60 80 100> 60 20<20 30> 70 20<30 40 70 80> 100 10<30 50> 110 10<60 80>
+VStem: 0 20<0 60 80 90> 30 20<80 90> 40 20<0 60> 80 20<0 70>
+LayerCount: 2
+Fore
+SplineSet
+30 100 m 1x9680
+ 30 110 l 1
+ 50 110 l 1x9680
+ 50 120 l 1x8e80
+ 80 120 l 1
+ 80 110 l 1
+ 60 110 l 1x8d80
+ 60 100 l 1x9580
+ 30 100 l 1x9680
+60 0 m 1xc580
+ 40 0 l 1
+ 40 70 l 1xa580
+ 30 70 l 1xa680
+ 30 60 l 1
+ 20 60 l 1xc680
+ 20 0 l 1
+ 0 0 l 1
+ 0 90 l 1
+ 20 90 l 1xa680
+ 20 80 l 1
+ 30 80 l 1xc680
+ 30 90 l 1
+ 50 90 l 1xa680
+ 50 80 l 1xc680
+ 60 80 l 1xc580
+ 60 90 l 1
+ 90 90 l 1xa580
+ 90 80 l 1
+ 100 80 l 1xc580
+ 100 0 l 1
+ 80 0 l 1
+ 80 70 l 1
+ 70 70 l 1xa580
+ 70 60 l 1
+ 60 60 l 1
+ 60 0 l 1xc580
+EndSplineSet
+EndChar
+
+StartChar: caron
+Encoding: 711 711 2046
+Width: 110
+Flags: W
+HStem: 100 20
+LayerCount: 2
+Fore
+SplineSet
+30 100 m 1
+ 70 100 l 1
+ 70 110 l 1
+ 80 110 l 1
+ 80 120 l 1
+ 60 120 l 1
+ 60 110 l 1
+ 40 110 l 1
+ 40 120 l 1
+ 20 120 l 1
+ 20 110 l 1
+ 30 110 l 1
+ 30 100 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni02C9
+Encoding: 713 713 2047
+Width: 110
+Flags: W
+HStem: 100 20<20 80>
+LayerCount: 2
+Fore
+SplineSet
+20 120 m 1
+ 80 120 l 1
+ 80 100 l 1
+ 20 100 l 1
+ 20 120 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni02CA
+Encoding: 714 714 2048
+Width: 110
+Flags: W
+HStem: 100 10<30 50> 110 10<60 80>
+LayerCount: 2
+Fore
+SplineSet
+30 100 m 1x80
+ 30 110 l 1
+ 50 110 l 1x80
+ 50 120 l 1
+ 80 120 l 1
+ 80 110 l 1
+ 60 110 l 1x40
+ 60 100 l 1
+ 30 100 l 1x80
+EndSplineSet
+EndChar
+
+StartChar: uni02CB
+Encoding: 715 715 2049
+Width: 110
+Flags: W
+HStem: 100 10<50 70> 110 10<20 40>
+LayerCount: 2
+Fore
+SplineSet
+70 100 m 1x80
+ 40 100 l 1x80
+ 40 110 l 1
+ 20 110 l 1
+ 20 120 l 1
+ 50 120 l 1x40
+ 50 110 l 1
+ 70 110 l 1
+ 70 100 l 1x80
+EndSplineSet
+EndChar
+
+StartChar: dotaccent
+Encoding: 729 729 2050
+Width: 110
+Flags: W
+HStem: 100 20<40 60>
+VStem: 40 20<100 120>
+LayerCount: 2
+Fore
+SplineSet
+40 100 m 1
+ 40 120 l 1
+ 60 120 l 1
+ 60 100 l 1
+ 40 100 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniE040
+Encoding: 57408 57408 2051
+Width: 110
+Flags: W
+HStem: 0 21G<10 30 40 60 70 90> 70 20G<10 30 70 90> 100 20<20 80>
+VStem: 10 30<50 70> 10 20<0 30 70 90> 40 20<0 30> 60 30<50 70> 70 20<0 30 70 90>
+LayerCount: 2
+Fore
+SplineSet
+20 120 m 1xe0
+ 80 120 l 1
+ 80 100 l 1
+ 20 100 l 1
+ 20 120 l 1xe0
+10 0 m 1xed
+ 10 90 l 1
+ 30 90 l 1
+ 30 70 l 1xed
+ 40 70 l 1
+ 40 50 l 1
+ 60 50 l 1
+ 60 70 l 1xf2
+ 70 70 l 1
+ 70 90 l 1
+ 90 90 l 1
+ 90 0 l 1
+ 70 0 l 1
+ 70 30 l 1
+ 60 30 l 1
+ 60 0 l 1
+ 40 0 l 1
+ 40 30 l 1
+ 30 30 l 1
+ 30 0 l 1
+ 10 0 l 1xed
+EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" M uni0304
+EndChar
+
+StartChar: uniE041
+Encoding: 57409 57409 2052
+Width: 110
+Flags: W
+HStem: 0 21G<0 20 40 60 80 100> 60 20<20 30> 70 20<30 40 70 80> 100 20<20 80>
+VStem: 0 20<0 60 80 90> 30 20<80 90> 40 20<0 60> 80 20<0 70>
+LayerCount: 2
+Fore
+SplineSet
+20 120 m 1x99
+ 80 120 l 1
+ 80 100 l 1
+ 20 100 l 1
+ 20 120 l 1x99
+60 0 m 1xdb
+ 40 0 l 1
+ 40 70 l 1xbb
+ 30 70 l 1xbd
+ 30 60 l 1
+ 20 60 l 1xdd
+ 20 0 l 1
+ 0 0 l 1
+ 0 90 l 1
+ 20 90 l 1xbd
+ 20 80 l 1
+ 30 80 l 1xdd
+ 30 90 l 1
+ 50 90 l 1xbd
+ 50 80 l 1xdd
+ 60 80 l 1xdb
+ 60 90 l 1
+ 90 90 l 1xbb
+ 90 80 l 1
+ 100 80 l 1xdb
+ 100 0 l 1
+ 80 0 l 1
+ 80 70 l 1
+ 70 70 l 1xbb
+ 70 60 l 1
+ 60 60 l 1
+ 60 0 l 1xdb
+EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" m uni0304
+EndChar
+
+StartChar: uniE042
+Encoding: 57410 57410 2053
+Width: 110
+Flags: W
+HStem: 0 21G<10 30 40 60 70 90> 70 20G<10 30 70 90> 100 10<40 60> 110 10<20 30 70 80>
+VStem: 10 20<0 30 70 90> 20 20<110 120> 40 20<0 30> 60 20<110 120> 70 20<0 30 70 90>
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 1xca80
+ 10 90 l 1
+ 30 90 l 1
+ 30 70 l 1
+ 40 70 l 1
+ 40 50 l 1xca80
+ 60 50 l 1
+ 60 70 l 1xc1
+ 70 70 l 1
+ 70 90 l 1
+ 90 90 l 1
+ 90 0 l 1
+ 70 0 l 1
+ 70 30 l 1
+ 60 30 l 1
+ 60 0 l 1
+ 40 0 l 1
+ 40 30 l 1
+ 30 30 l 1
+ 30 0 l 1
+ 10 0 l 1xca80
+60 120 m 1xd5
+ 80 120 l 1
+ 80 110 l 1xd5
+ 70 110 l 1xd080
+ 70 100 l 1
+ 30 100 l 1xe880
+ 30 110 l 1xd880
+ 20 110 l 1
+ 20 120 l 1
+ 40 120 l 1xd4
+ 40 110 l 1
+ 60 110 l 1xe5
+ 60 120 l 1xd5
+EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" M uni030C
+EndChar
+
+StartChar: uniE043
+Encoding: 57411 57411 2054
+Width: 110
+Flags: W
+HStem: 0 21G<0 20 40 60 80 100> 60 20<20 30> 70 20<30 40 70 80> 100 10<40 60> 110 10<20 30 70 80>
+VStem: 0 20<0 60 80 90> 20 20<110 120> 30 20<80 90> 40 20<0 60> 60 20<110 120> 80 20<0 70>
+LayerCount: 2
+Fore
+SplineSet
+60 120 m 1x8a40
+ 80 120 l 1
+ 80 110 l 1
+ 70 110 l 1x8a40
+ 70 100 l 1
+ 30 100 l 1x9140
+ 30 110 l 1x8940
+ 20 110 l 1
+ 20 120 l 1
+ 40 120 l 1x8a
+ 40 110 l 1
+ 60 110 l 1x9240
+ 60 120 l 1x8a40
+60 0 m 1xc0a0
+ 40 0 l 1
+ 40 70 l 1xa0a0
+ 30 70 l 1xa1
+ 30 60 l 1
+ 20 60 l 1xc5
+ 20 0 l 1
+ 0 0 l 1
+ 0 90 l 1
+ 20 90 l 1xa5
+ 20 80 l 1
+ 30 80 l 1xc5
+ 30 90 l 1
+ 50 90 l 1xa5
+ 50 80 l 1
+ 60 80 l 1xc540
+ 60 90 l 1
+ 90 90 l 1xa540
+ 90 80 l 1
+ 100 80 l 1xc020
+ 100 0 l 1
+ 80 0 l 1
+ 80 70 l 1
+ 70 70 l 1xa020
+ 70 60 l 1
+ 60 60 l 1
+ 60 0 l 1xc0a0
+EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" m uni030C
+EndChar
+
+StartChar: uniE044
+Encoding: 57412 57412 2055
+Width: 110
+Flags: W
+HStem: 0 21G<10 30 40 60 70 90> 70 20G<10 30 70 90> 100 10<50 70> 110 10<20 40>
+VStem: 10 30<50 70> 10 20<0 30 70 90> 40 20<0 30> 60 30<50 70> 70 20<0 30 70 90>
+LayerCount: 2
+Fore
+SplineSet
+70 100 m 1xe280
+ 40 100 l 1xe280
+ 40 110 l 1
+ 20 110 l 1
+ 20 120 l 1
+ 50 120 l 1xd280
+ 50 110 l 1
+ 70 110 l 1
+ 70 100 l 1xe280
+10 0 m 1xc680
+ 10 90 l 1
+ 30 90 l 1
+ 30 70 l 1xc680
+ 40 70 l 1
+ 40 50 l 1
+ 60 50 l 1
+ 60 70 l 1xc9
+ 70 70 l 1
+ 70 90 l 1
+ 90 90 l 1
+ 90 0 l 1
+ 70 0 l 1
+ 70 30 l 1
+ 60 30 l 1
+ 60 0 l 1
+ 40 0 l 1
+ 40 30 l 1
+ 30 30 l 1
+ 30 0 l 1
+ 10 0 l 1xc680
+EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" M acutecomb
+EndChar
+
+StartChar: uniE045
+Encoding: 57413 57413 2056
+Width: 110
+Flags: W
+HStem: 0 21G<0 20 40 60 80 100> 60 20<20 30> 70 20<30 40 70 80> 100 10<50 70> 110 10<20 40>
+VStem: 0 20<0 60 80 90> 30 20<80 90> 40 30<60 70 100 110> 40 20<0 60> 80 20<0 70>
+LayerCount: 2
+Fore
+SplineSet
+70 100 m 1x9540
+ 40 100 l 1x9540
+ 40 110 l 1x8d40
+ 20 110 l 1
+ 20 120 l 1
+ 50 120 l 1x8e40
+ 50 110 l 1x9640
+ 70 110 l 1
+ 70 100 l 1x9540
+60 0 m 1xc4c0
+ 40 0 l 1xc4c0
+ 40 70 l 1xa540
+ 30 70 l 1xa640
+ 30 60 l 1
+ 20 60 l 1xc640
+ 20 0 l 1
+ 0 0 l 1
+ 0 90 l 1
+ 20 90 l 1xa640
+ 20 80 l 1
+ 30 80 l 1xc640
+ 30 90 l 1
+ 50 90 l 1xa640
+ 50 80 l 1xc640
+ 60 80 l 1xc4c0
+ 60 90 l 1
+ 90 90 l 1xa4c0
+ 90 80 l 1
+ 100 80 l 1xc4c0
+ 100 0 l 1
+ 80 0 l 1
+ 80 70 l 1
+ 70 70 l 1xa540
+ 70 60 l 1xc540
+ 60 60 l 1
+ 60 0 l 1xc4c0
+EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" M acutecomb
+EndChar
+
+StartChar: uniE046
+Encoding: 57414 57414 2057
+Width: 110
+Flags: W
+HStem: 0 21G<10 30 70 90> 70 20G<10 30 70 90> 100 20<20 80>
+VStem: 10 20<0 50 80 90> 70 20<0 20 50 90>
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 1
+ 10 90 l 1
+ 30 90 l 1
+ 30 80 l 1
+ 40 80 l 1
+ 40 70 l 1
+ 50 70 l 1
+ 50 60 l 1
+ 60 60 l 1
+ 60 50 l 1
+ 70 50 l 1
+ 70 90 l 1
+ 90 90 l 1
+ 90 0 l 1
+ 70 0 l 1
+ 70 20 l 1
+ 60 20 l 1
+ 60 30 l 1
+ 50 30 l 1
+ 50 40 l 1
+ 40 40 l 1
+ 40 50 l 1
+ 30 50 l 1
+ 30 0 l 1
+ 10 0 l 1
+20 120 m 1
+ 80 120 l 1
+ 80 100 l 1
+ 20 100 l 1
+ 20 120 l 1
+EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" N uni0304
+EndChar
+
+StartChar: uniE047
+Encoding: 57415 57415 2058
+Width: 110
+Flags: W
+HStem: 0 21G<10 30 70 90> 60 20<30 40> 70 20<40 70> 100 20<20 80>
+VStem: 10 20<0 60 80 90> 70 20<0 70>
+LayerCount: 2
+Fore
+SplineSet
+20 120 m 1x9c
+ 80 120 l 1
+ 80 100 l 1
+ 20 100 l 1
+ 20 120 l 1x9c
+90 0 m 1
+ 70 0 l 1
+ 70 70 l 1
+ 40 70 l 1xbc
+ 40 60 l 1
+ 30 60 l 1xdc
+ 30 0 l 1
+ 10 0 l 1
+ 10 90 l 1
+ 30 90 l 1xbc
+ 30 80 l 1
+ 40 80 l 1xdc
+ 40 90 l 1
+ 80 90 l 1xbc
+ 80 80 l 1
+ 90 80 l 1xdc
+ 90 0 l 1
+EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" N uni0304
+EndChar
+
+StartChar: gravecomb
+Encoding: 768 768 2059
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: acutecomb
+Encoding: 769 769 2060
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni0305
+Encoding: 773 773 2061
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
 EndChars
 EndSplineFont
