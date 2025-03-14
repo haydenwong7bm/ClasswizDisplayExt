@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1731231796
-ModificationTime: 1741959829
+ModificationTime: 1741962468
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -191,10 +191,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 200 25 8
+WinInfo: 925 25 8
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114253 1531
+BeginChars: 1114253 1532
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -2386,45 +2386,45 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-10 0 m 5,0,-1
- 10 30 l 5,1,-1
- 20 30 l 5,2,-1
- 20 40 l 5,3,-1
- 30 40 l 5,4,-1
- 30 50 l 5,5,-1
- 20 50 l 5,6,-1
- 20 60 l 5,7,-1
- 10 60 l 5,8,-1
- 10 90 l 5,9,-1
- 20 90 l 5,10,-1
- 20 100 l 5,11,-1
- 90 100 l 5,12,-1
- 90 80 l 5,13,-1
- 80 80 l 5,14,-1
- 80 60 l 5,15,-1
- 70 60 l 5,16,-1
- 70 50 l 5,17,-1
- 50 50 l 5,18,-1
- 50 40 l 5,19,-1
- 80 40 l 5,20,-1
- 80 30 l 5,21,-1
- 90 30 l 5,22,-1
- 90 0 l 5,23,-1
- 80 0 l 5,24,-1
- 80 -10 l 5,25,-1
- 20 -10 l 5,26,-1
- 20 0 l 5,27,-1
- 10 0 l 5,0,-1
-30 70 m 5,28,-1
- 60 70 l 5,29,-1
- 60 80 l 5,30,-1
- 30 80 l 5,31,-1
- 30 70 l 5,28,-1
-30 10 m 5,32,-1
- 70 10 l 5,33,-1
- 70 20 l 5,34,-1
- 30 20 l 5,35,-1
- 30 10 l 5,32,-1
+10 0 m 1,0,-1
+ 10 30 l 1,1,-1
+ 20 30 l 1,2,-1
+ 20 40 l 1,3,-1
+ 30 40 l 1,4,-1
+ 30 50 l 1,5,-1
+ 20 50 l 1,6,-1
+ 20 60 l 1,7,-1
+ 10 60 l 1,8,-1
+ 10 90 l 1,9,-1
+ 20 90 l 1,10,-1
+ 20 100 l 1,11,-1
+ 90 100 l 1,12,-1
+ 90 80 l 1,13,-1
+ 80 80 l 1,14,-1
+ 80 60 l 1,15,-1
+ 70 60 l 1,16,-1
+ 70 50 l 1,17,-1
+ 50 50 l 1,18,-1
+ 50 40 l 1,19,-1
+ 80 40 l 1,20,-1
+ 80 30 l 1,21,-1
+ 90 30 l 1,22,-1
+ 90 0 l 1,23,-1
+ 80 0 l 1,24,-1
+ 80 -10 l 1,25,-1
+ 20 -10 l 1,26,-1
+ 20 0 l 1,27,-1
+ 10 0 l 1,0,-1
+30 70 m 1,28,-1
+ 60 70 l 1,29,-1
+ 60 80 l 1,30,-1
+ 30 80 l 1,31,-1
+ 30 70 l 1,28,-1
+30 10 m 1,32,-1
+ 70 10 l 1,33,-1
+ 70 20 l 1,34,-1
+ 30 20 l 1,35,-1
+ 30 10 l 1,32,-1
 EndSplineSet
 EndChar
 
@@ -87383,7 +87383,7 @@ EndSplineSet
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" M acutecomb
 EndChar
 
-StartChar: Nmacron
+StartChar: nmacron
 Encoding: 57415 57415 1525
 Width: 110
 Flags: W
@@ -87413,10 +87413,10 @@ SplineSet
  90 80 l 1,19,-1
  90 0 l 1,4,-1
 EndSplineSet
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" N uni0304
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" n uni0304
 EndChar
 
-StartChar: nmacron
+StartChar: Nmacron
 Encoding: 57414 57414 1526
 Width: 110
 Flags: W
@@ -87490,6 +87490,41 @@ SplineSet
  90 100 l 1,2,-1
  10 100 l 1,3,-1
  10 120 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: pi
+Encoding: 960 960 1531
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 70 m 1,0,-1
+ 10 90 l 1,1,-1
+ 100 90 l 1,2,-1
+ 100 70 l 1,3,-1
+ 80 70 l 1,4,-1
+ 80 20 l 1,5,-1
+ 100 20 l 1,6,-1
+ 100 0 l 1,7,-1
+ 70 0 l 1,8,-1
+ 70 10 l 1,9,-1
+ 60 10 l 1,10,-1
+ 60 70 l 1,11,-1
+ 50 70 l 1,12,-1
+ 50 40 l 1,13,-1
+ 40 40 l 1,14,-1
+ 40 10 l 1,15,-1
+ 30 10 l 1,16,-1
+ 30 0 l 1,17,-1
+ 10 0 l 1,18,-1
+ 10 20 l 1,19,-1
+ 20 20 l 1,20,-1
+ 20 50 l 1,21,-1
+ 30 50 l 1,22,-1
+ 30 70 l 1,23,-1
+ 10 70 l 1,0,-1
 EndSplineSet
 EndChar
 EndChars
