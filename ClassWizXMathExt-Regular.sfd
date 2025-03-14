@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1741960876
+ModificationTime: 1741964297
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -127,7 +127,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 57375 25 8
+WinInfo: 925 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -138,7 +138,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 2 0 0 823881 411940 274627 674085 1048576 274627 599186 449390 449390 599186 449390 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114930 2060
+BeginChars: 1114930 2067
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -97942,5 +97942,252 @@ Flags: W
 LayerCount: 2
 EndChar
 
+StartChar: iota
+Encoding: 953 953 2061
+Width: 110
+Flags: W
+HStem: 0 10<60 70> 10 10<70 80> 80 10<20 40>
+VStem: 40 20<10 80> 50 20<0 10> 70 10<10 20>
+LayerCount: 2
+Fore
+SplineSet
+50 10 m 1x68
+ 40 10 l 1x70
+ 40 80 l 1
+ 20 80 l 1
+ 20 90 l 1
+ 60 90 l 1
+ 60 10 l 1xb0
+ 70 10 l 1
+ 70 0 l 1
+ 50 0 l 1xa8
+ 50 10 l 1x68
+70 10 m 1xa8
+ 70 20 l 1
+ 80 20 l 1
+ 80 10 l 1x64
+ 70 10 l 1xa8
+EndSplineSet
+EndChar
+
+StartChar: kappa
+Encoding: 954 954 2062
+Width: 110
+Flags: W
+HStem: 0 20<70 80> 0 10<0 10 30 40 50 60 80 90> 20 20<50 60> 40 10<30 40> 50 20<50 60> 70 20<70 80> 80 10<0 10 30 40 50 60 80 90>
+VStem: 10 20<10 40 50 80> 40 20<30 40 50 60> 50 20<20 30 60 70> 60 20<10 20 70 80>
+LayerCount: 2
+Fore
+SplineSet
+50 40 m 1x2940
+ 60 40 l 1
+ 60 30 l 1x2980
+ 70 30 l 1
+ 70 20 l 1x8140
+ 80 20 l 1x8120
+ 80 10 l 1x4120
+ 90 10 l 1
+ 90 0 l 1
+ 50 0 l 1
+ 50 10 l 1x4140
+ 60 10 l 1
+ 60 20 l 1x6120
+ 50 20 l 1
+ 50 30 l 1x6140
+ 40 30 l 1
+ 40 40 l 1
+ 30 40 l 1
+ 30 10 l 1
+ 40 10 l 1
+ 40 0 l 1
+ 0 0 l 1
+ 0 10 l 1
+ 10 10 l 1
+ 10 80 l 1
+ 0 80 l 1
+ 0 90 l 1
+ 40 90 l 1
+ 40 80 l 1
+ 30 80 l 1
+ 30 50 l 1
+ 40 50 l 1
+ 40 60 l 1x5380
+ 50 60 l 1
+ 50 70 l 1x0940
+ 60 70 l 1
+ 60 80 l 1x0b20
+ 50 80 l 1
+ 50 90 l 1x0b40
+ 90 90 l 1
+ 90 80 l 1
+ 80 80 l 1x0b20
+ 80 70 l 1x0520
+ 70 70 l 1
+ 70 60 l 1x0540
+ 60 60 l 1
+ 60 50 l 1x0980
+ 50 50 l 1
+ 50 40 l 1x2940
+EndSplineSet
+EndChar
+
+StartChar: omicron
+Encoding: 959 959 2063
+Width: 110
+Flags: W
+HStem: 0 20<30 40 60 70> 0 10<40 60> 70 20<30 40 60 70> 80 10<40 60>
+VStem: 10 20<20 70> 20 20<10 20 70 80> 60 20<10 20 70 80> 70 20<20 70>
+LayerCount: 2
+Fore
+SplineSet
+10 70 m 1xa8
+ 20 70 l 1xa4
+ 20 80 l 1x14
+ 30 80 l 1x18
+ 30 90 l 1
+ 70 90 l 1x29
+ 70 80 l 1x19
+ 80 80 l 1x12
+ 80 70 l 1x22
+ 90 70 l 1
+ 90 20 l 1xa1
+ 80 20 l 1xa2
+ 80 10 l 1x42
+ 70 10 l 1x41
+ 70 0 l 1
+ 30 0 l 1x89
+ 30 10 l 1x49
+ 20 10 l 1x44
+ 20 20 l 1x84
+ 10 20 l 1
+ 10 70 l 1xa8
+30 70 m 1x28
+ 30 20 l 1xa8
+ 40 20 l 1xa4
+ 40 10 l 1
+ 60 10 l 1x46
+ 60 20 l 1x86
+ 70 20 l 1
+ 70 70 l 1xa1
+ 60 70 l 1xa2
+ 60 80 l 1
+ 40 80 l 1x16
+ 40 70 l 1x26
+ 30 70 l 1x28
+EndSplineSet
+EndChar
+
+StartChar: uni03F2
+Encoding: 1010 1010 2064
+Width: 110
+Flags: W
+HStem: 10 10<70 80> 20 10<80 90>
+VStem: 70 10<10 20> 80 10<20 30>
+LayerCount: 2
+Fore
+SplineSet
+90 70 m 1x50
+ 90 80 l 1
+ 80 80 l 1
+ 80 90 l 1
+ 30 90 l 1
+ 30 80 l 1
+ 20 80 l 1
+ 20 70 l 1
+ 10 70 l 1
+ 10 20 l 1
+ 20 20 l 1x50
+ 20 10 l 1
+ 30 10 l 1
+ 30 0 l 1
+ 70 0 l 1
+ 70 10 l 1
+ 40 10 l 1xa0
+ 40 20 l 1
+ 30 20 l 1
+ 30 70 l 1
+ 40 70 l 1
+ 40 80 l 1
+ 70 80 l 1
+ 70 70 l 1x60
+ 90 70 l 1x50
+80 10 m 1xa0
+ 70 10 l 1
+ 70 20 l 1
+ 80 20 l 1xa0
+ 80 30 l 1
+ 90 30 l 1
+ 90 20 l 1x50
+ 80 20 l 1
+ 80 10 l 1xa0
+EndSplineSet
+EndChar
+
+StartChar: uni03F3
+Encoding: 1011 1011 2065
+Width: 110
+Flags: W
+HStem: -10 10<40 60> 0 20<20 30> 80 10<40 60> 100 20<60 80>
+VStem: 20 20<0 20> 60 20<0 80 100 120>
+LayerCount: 2
+Fore
+SplineSet
+80 120 m 1x3c
+ 80 100 l 1
+ 60 100 l 1
+ 60 120 l 1
+ 80 120 l 1x3c
+80 90 m 1
+ 80 0 l 1
+ 70 0 l 1x7c
+ 70 -10 l 1
+ 30 -10 l 1xbc
+ 30 0 l 1
+ 20 0 l 1
+ 20 20 l 1
+ 40 20 l 1x7c
+ 40 0 l 1
+ 60 0 l 1xbc
+ 60 80 l 1
+ 40 80 l 1
+ 40 90 l 1
+ 80 90 l 1
+EndSplineSet
+EndChar
+
+StartChar: tau
+Encoding: 964 964 2066
+Width: 110
+Flags: W
+HStem: 0 10<60 80> 80 10<20 40 60 90>
+VStem: 40 20<10 80>
+LayerCount: 2
+Fore
+SplineSet
+10 70 m 1
+ 20 70 l 1
+ 20 80 l 1
+ 10 80 l 1
+ 10 70 l 1
+20 80 m 1
+ 20 90 l 1
+ 90 90 l 1
+ 90 80 l 1
+ 60 80 l 1
+ 60 10 l 1
+ 80 10 l 1
+ 80 0 l 1
+ 50 0 l 1
+ 50 10 l 1
+ 40 10 l 1
+ 40 80 l 1
+ 20 80 l 1
+80 10 m 1
+ 90 10 l 1
+ 90 20 l 1
+ 80 20 l 1
+ 80 10 l 1
+EndSplineSet
+EndChar
 EndChars
 EndSplineFont
