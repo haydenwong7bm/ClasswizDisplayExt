@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1725260647
-ModificationTime: 1741965874
+ModificationTime: 1741967383
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -190,10 +190,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 725 25 8
+WinInfo: 700 25 8
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114255 1536
+BeginChars: 1114255 1537
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -92431,7 +92431,7 @@ SplineSet
  60 110 l 1,47,-1
  60 100 l 1,40,-1
 EndSplineSet
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" M acutecomb
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" M gravecomb
 EndChar
 
 StartChar: mgrave
@@ -92480,7 +92480,7 @@ SplineSet
  60 110 l 1,35,-1
  60 100 l 1,28,-1
 EndSplineSet
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" m acutecomb
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" m gravecomb
 EndChar
 
 StartChar: Nmacron
@@ -92589,15 +92589,8 @@ EndSplineSet
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" n uni0304
 EndChar
 
-StartChar: uni0305
-Encoding: 772 772 1525
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: iota
-Encoding: 953 953 1526
+Encoding: 953 953 1525
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92623,7 +92616,7 @@ EndSplineSet
 EndChar
 
 StartChar: kappa
-Encoding: 954 954 1527
+Encoding: 954 954 1526
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92682,7 +92675,7 @@ EndSplineSet
 EndChar
 
 StartChar: omicron
-Encoding: 959 959 1528
+Encoding: 959 959 1527
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92726,7 +92719,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni03F3
-Encoding: 1011 1011 1529
+Encoding: 1011 1011 1528
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92756,7 +92749,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni03F2
-Encoding: 1010 1010 1530
+Encoding: 1010 1010 1529
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92800,7 +92793,7 @@ EndSplineSet
 EndChar
 
 StartChar: tau
-Encoding: 964 964 1531
+Encoding: 964 964 1530
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92833,7 +92826,7 @@ EndSplineSet
 EndChar
 
 StartChar: IJ
-Encoding: 306 306 1532
+Encoding: 306 306 1531
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92874,7 +92867,7 @@ EndSplineSet
 EndChar
 
 StartChar: ij
-Encoding: 307 307 1533
+Encoding: 307 307 1532
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92921,7 +92914,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni019A
-Encoding: 410 410 1534
+Encoding: 410 410 1533
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92950,7 +92943,21 @@ EndSplineSet
 EndChar
 
 StartChar: acutecomb
-Encoding: 769 769 1535
+Encoding: 769 769 1534
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: gravecomb
+Encoding: 768 768 1535
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni0305
+Encoding: 773 773 1536
 Width: 0
 Flags: W
 LayerCount: 2

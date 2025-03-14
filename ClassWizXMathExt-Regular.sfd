@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1741965889
+ModificationTime: 1741967393
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -127,7 +127,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 725 25 8
+WinInfo: 625 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -138,7 +138,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 2 0 0 823881 411940 274627 674085 1048576 274627 599186 449390 449390 599186 449390 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114930 2071
+BeginChars: 1114930 2072
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -42442,7 +42442,7 @@ SplineSet
  10 110 l 1
 EndSplineSet
 Validated: 5
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" x uni0304
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" x uni0305
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" x.bar.ssty x.bar.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" x.bar.ssty x.bar.ssty2
 EndChar
@@ -42596,7 +42596,7 @@ SplineSet
  100 120 l 1
 EndSplineSet
 Validated: 5
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" y uni0304
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" y uni0305
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" y.bar.ssty y.bar.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" y.bar.ssty y.bar.ssty2
 EndChar
@@ -97772,7 +97772,7 @@ SplineSet
  60 110 l 1
  60 100 l 1xa090
 EndSplineSet
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" M acutecomb
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" M gravecomb
 EndChar
 
 StartChar: uniE045
@@ -97823,7 +97823,7 @@ SplineSet
  60 110 l 1
  60 100 l 1xe180
 EndSplineSet
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" m acutecomb
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" m gravecomb
 EndChar
 
 StartChar: uniE046
@@ -97936,15 +97936,8 @@ EndSplineSet
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" n uni0304
 EndChar
 
-StartChar: uni0305
-Encoding: 772 772 2060
-Width: 0
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: iota
-Encoding: 953 953 2061
+Encoding: 953 953 2060
 Width: 110
 Flags: W
 HStem: 0 10<60 70> 10 10<70 80> 80 10<20 40>
@@ -97972,7 +97965,7 @@ EndSplineSet
 EndChar
 
 StartChar: kappa
-Encoding: 954 954 2062
+Encoding: 954 954 2061
 Width: 110
 Flags: W
 HStem: 0 20<70 80> 0 10<0 10 30 40 50 60 80 90> 20 20<50 60> 40 10<30 40> 50 20<50 60> 70 20<70 80> 80 10<0 10 30 40 50 60 80 90>
@@ -98033,7 +98026,7 @@ EndSplineSet
 EndChar
 
 StartChar: omicron
-Encoding: 959 959 2063
+Encoding: 959 959 2062
 Width: 110
 Flags: W
 HStem: 0 20<30 40 60 70> 0 10<40 60> 70 20<30 40 60 70> 80 10<40 60>
@@ -98079,7 +98072,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni03F2
-Encoding: 1010 1010 2064
+Encoding: 1010 1010 2063
 Width: 110
 Flags: W
 HStem: 10 10<70 80> 20 10<80 90>
@@ -98125,7 +98118,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni03F3
-Encoding: 1011 1011 2065
+Encoding: 1011 1011 2064
 Width: 110
 Flags: W
 HStem: -10 10<40 60> 0 20<20 30> 80 10<40 60> 100 20<60 80>
@@ -98157,7 +98150,7 @@ EndSplineSet
 EndChar
 
 StartChar: tau
-Encoding: 964 964 2066
+Encoding: 964 964 2065
 Width: 110
 Flags: W
 HStem: 0 10<60 80> 80 10<20 40 60 90>
@@ -98192,7 +98185,7 @@ EndSplineSet
 EndChar
 
 StartChar: IJ
-Encoding: 306 306 2067
+Encoding: 306 306 2066
 Width: 110
 Flags: W
 HStem: -10 10<60 70> 0 10<0 10 30 40 50 60> 110 10<0 10 30 40 60 70 90 100>
@@ -98235,7 +98228,7 @@ EndSplineSet
 EndChar
 
 StartChar: ij
-Encoding: 307 307 2068
+Encoding: 307 307 2067
 Width: 110
 Flags: W
 HStem: -10 10<70 80> 0 10<10 20 40 50 60 70> 80 10<10 20 70 80> 100 20<20 40 80 100>
@@ -98284,7 +98277,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni019A
-Encoding: 410 410 2069
+Encoding: 410 410 2068
 Width: 110
 Flags: W
 HStem: 0 10<20 40 60 80> 60 10<20 40 60 80> 110 10<30 40>
@@ -98315,7 +98308,21 @@ EndSplineSet
 EndChar
 
 StartChar: acutecomb
-Encoding: 769 769 2070
+Encoding: 769 769 2069
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: gravecomb
+Encoding: 768 768 2070
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni0305
+Encoding: 773 773 2071
 Width: 0
 Flags: W
 LayerCount: 2

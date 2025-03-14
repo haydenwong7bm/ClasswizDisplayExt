@@ -127,7 +127,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 925 25 8
+WinInfo: 57375 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -90963,7 +90963,7 @@ SplineSet
  30 0 l 1
  10 0 l 1xc680
 EndSplineSet
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" M acutecomb
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" M gravecomb
 EndChar
 
 StartChar: uniE045
@@ -91012,7 +91012,7 @@ SplineSet
  60 60 l 1
  60 0 l 1xc4c0
 EndSplineSet
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" M acutecomb
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" m gravecomb
 EndChar
 
 StartChar: uniE046
@@ -91090,7 +91090,7 @@ SplineSet
  90 80 l 1xdc
  90 0 l 1
 EndSplineSet
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" N uni0304
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" n uni0304
 EndChar
 
 StartChar: gravecomb

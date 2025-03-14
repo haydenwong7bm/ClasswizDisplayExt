@@ -87333,7 +87333,7 @@ SplineSet
  30 0 l 1,27,-1
  10 0 l 1,8,-1
 EndSplineSet
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" M acutecomb
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" M gravecomb
 EndChar
 
 StartChar: mgrave
@@ -87380,7 +87380,7 @@ SplineSet
  60 60 l 1,33,-1
  60 0 l 1,8,-1
 EndSplineSet
-Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" M acutecomb
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" m gravecomb
 EndChar
 
 StartChar: nmacron
