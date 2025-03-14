@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1731231796
-ModificationTime: 1741877372
+ModificationTime: 1741959829
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -191,7 +191,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8225 25 8
+WinInfo: 200 25 8
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1114253 1531
@@ -86443,8 +86443,8 @@ SplineSet
  10 120 l 1,3,-1
  30 120 l 1,4,-1
  30 110 l 1,5,-1
- 80 110 l 1,6,-1
- 80 90 l 1,7,-1
+ 60 110 l 1,6,-1
+ 60 90 l 1,7,-1
  30 90 l 1,8,-1
  30 70 l 1,9,-1
  40 70 l 1,10,-1
