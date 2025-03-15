@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1742023402
+ModificationTime: 1742024085
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -127,7 +127,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 275 25 8
+WinInfo: 925 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -138,7 +138,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 1 0 0 823881 411940 274627 674085 1048576 274627 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114931 2079
+BeginChars: 1114931 2080
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -91664,6 +91664,35 @@ SplineSet
  50 60 l 1
  50 70 l 1
  10 70 l 1
+EndSplineSet
+EndChar
+
+StartChar: eta
+Encoding: 951 951 2079
+Width: 110
+Flags: W
+HStem: -10 21G<70 90> 60 20<30 40> 70 20<40 70>
+VStem: 10 20<10 60 80 90> 70 20<-10 70>
+LayerCount: 2
+Fore
+SplineSet
+90 -10 m 1xd8
+ 70 -10 l 1
+ 70 70 l 1
+ 40 70 l 1xb8
+ 40 60 l 1
+ 30 60 l 1xd8
+ 30 10 l 1
+ 10 10 l 1
+ 10 90 l 1
+ 30 90 l 1xb8
+ 30 80 l 1
+ 40 80 l 1xd8
+ 40 90 l 1
+ 80 90 l 1xb8
+ 80 80 l 1
+ 90 80 l 1
+ 90 -10 l 1xd8
 EndSplineSet
 EndChar
 EndChars
