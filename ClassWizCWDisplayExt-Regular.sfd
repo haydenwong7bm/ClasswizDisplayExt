@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1731231796
-ModificationTime: 1742025235
+ModificationTime: 1742484968
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -62,11 +62,14 @@ Lookup: 4 0 0 "Ligature Substitution lookup 2" { "Ligature Substitution lookup 2
 Lookup: 1 0 0 "Single Substitution lookup 3" { "Single Substitution lookup 3 subtable"  } []
 Lookup: 4 0 0 "Ligature Substitution lookup 4" { "Ligature Substitution lookup 4 subtable"  } []
 Lookup: 1 0 0 "'ss01' Style Set 1 lookup 5" { "'ss01' Style Set 1 lookup 5 subtable"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 6" { "'ccmp' Glyph Composition/Decomposition lookup 6 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 6" { "'ccmp' Glyph Composition/Decomposition lookup 6 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'calt' Contextual Alternates lookup 7" { "'calt' Contextual Alternates lookup 7 subtable"  } ['calt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' Contextual Alternates lookup 8" { "'calt' Contextual Alternates lookup 8 subtable"  } ['calt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 9" { "Single Substitution lookup 9 subtable"  } []
 Lookup: 1 0 0 "'ss02' Style Set 2 lookup 10" { "'ss02' Style Set 2 lookup 10 subtable"  } ['ss02' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
+Lookup: 1 9 0 "'init' Initial Forms in Arabic lookup 10" { "'init' Initial Forms in Arabic lookup 10 subtable"  } ['init' ('arab' <'dflt' > ) ]
+Lookup: 1 9 0 "'medi' Medial Forms in Arabic lookup 11" { "'medi' Medial Forms in Arabic lookup 11 subtable"  } ['medi' ('arab' <'dflt' > ) ]
+Lookup: 1 9 0 "'fina' Terminal Forms in Arabic lookup 12" { "'fina' Terminal Forms in Arabic lookup 12 subtable"  } ['fina' ('arab' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: class "'calt' Contextual Alternates lookup 8 subtable" 14 10 8 10
@@ -191,10 +194,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 12325 25 8
+WinInfo: 65125 25 8
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114253 1548
+BeginChars: 1114258 1706
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -88048,6 +88051,5945 @@ SplineSet
  90 80 l 1,15,-1
  90 -10 l 1,0,-1
 EndSplineSet
+EndChar
+
+StartChar: question-ar
+Encoding: 1567 1567 1548
+Width: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 30 m 1,0,-1
+ 40 40 l 1,1,-1
+ 30 40 l 1,2,-1
+ 30 50 l 1,3,-1
+ 20 50 l 1,4,-1
+ 20 80 l 1,5,-1
+ 30 80 l 1,6,-1
+ 30 90 l 1,7,-1
+ 60 90 l 1,8,-1
+ 60 80 l 1,9,-1
+ 70 80 l 1,10,-1
+ 70 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 80 l 1,13,-1
+ 40 80 l 1,14,-1
+ 40 50 l 1,15,-1
+ 50 50 l 1,16,-1
+ 50 30 l 1,17,-1
+ 40 30 l 1,0,-1
+30 0 m 1,18,-1
+ 30 20 l 1,19,-1
+ 50 20 l 1,20,-1
+ 50 0 l 1,21,-1
+ 30 0 l 1,18,-1
+EndSplineSet
+EndChar
+
+StartChar: hamza-ar
+Encoding: 1569 1569 1549
+Width: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 30 m 1,0,-1
+ 40 40 l 1,1,-1
+ 30 40 l 1,2,-1
+ 30 50 l 1,3,-1
+ 20 50 l 1,4,-1
+ 20 70 l 1,5,-1
+ 30 70 l 1,6,-1
+ 30 80 l 1,7,-1
+ 50 80 l 1,8,-1
+ 50 60 l 1,9,-1
+ 40 60 l 1,10,-1
+ 40 50 l 1,11,-1
+ 60 50 l 1,12,-1
+ 60 60 l 1,13,-1
+ 70 60 l 1,14,-1
+ 70 40 l 1,15,-1
+ 60 40 l 1,16,-1
+ 60 30 l 1,17,-1
+ 50 30 l 1,18,-1
+ 50 20 l 1,19,-1
+ 30 20 l 1,20,-1
+ 30 30 l 1,21,-1
+ 40 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: alefMadda-ar
+Encoding: 1570 1570 1550
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 30 m 1,0,-1
+ 40 100 l 1,1,-1
+ 30 100 l 1,2,-1
+ 30 110 l 1,3,-1
+ 60 110 l 1,4,-1
+ 60 100 l 1,5,-1
+ 50 100 l 1,6,-1
+ 50 30 l 1,7,-1
+ 40 30 l 1,0,-1
+20 90 m 1,8,-1
+ 20 100 l 1,9,-1
+ 30 100 l 1,10,-1
+ 30 90 l 1,11,-1
+ 20 90 l 1,8,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" alefMadda-ar.fina
+EndChar
+
+StartChar: alefHamzaabove-ar
+Encoding: 1571 1571 1551
+Width: 40
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 100 m 1,0,-1
+ 30 110 l 1,1,-1
+ 50 110 l 1,2,-1
+ 50 100 l 1,3,-1
+ 30 100 l 1,0,-1
+30 30 m 1,4,-1
+ 30 70 l 1,5,-1
+ 20 70 l 1,6,-1
+ 20 80 l 1,7,-1
+ 30 80 l 1,8,-1
+ 30 90 l 1,9,-1
+ 20 90 l 1,10,-1
+ 20 100 l 1,11,-1
+ 30 100 l 1,12,-1
+ 30 90 l 1,13,-1
+ 50 90 l 1,14,-1
+ 50 80 l 1,15,-1
+ 40 80 l 1,16,-1
+ 40 30 l 1,17,-1
+ 30 30 l 1,4,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" alefHamzaabove-ar.fina
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" alef-ar hamzaabove-ar
+EndChar
+
+StartChar: alefHamzabelow-ar
+Encoding: 1573 1573 1552
+Width: 40
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 30 m 1,0,-1
+ 20 100 l 1,1,-1
+ 30 100 l 1,2,-1
+ 30 30 l 1,3,-1
+ 20 30 l 1,0,-1
+30 20 m 1,4,-1
+ 30 30 l 1,5,-1
+ 50 30 l 1,6,-1
+ 50 20 l 1,7,-1
+ 30 20 l 1,4,-1
+30 20 m 1,8,-1
+ 30 10 l 1,9,-1
+ 50 10 l 1,10,-1
+ 50 0 l 1,11,-1
+ 40 0 l 1,12,-1
+ 40 -10 l 1,13,-1
+ 20 -10 l 1,14,-1
+ 20 0 l 1,15,-1
+ 30 0 l 1,16,-1
+ 30 10 l 1,17,-1
+ 20 10 l 1,18,-1
+ 20 20 l 1,19,-1
+ 30 20 l 1,8,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" alefHamzabelow-ar.fina
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" alef-ar hamzabelow-ar
+EndChar
+
+StartChar: yehHamzaabove-ar
+Encoding: 1574 1574 1553
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 100 m 1,0,-1
+ 40 110 l 1,1,-1
+ 60 110 l 1,2,-1
+ 60 100 l 1,3,-1
+ 40 100 l 1,0,-1
+40 100 m 1,4,-1
+ 40 90 l 1,5,-1
+ 60 90 l 1,6,-1
+ 60 80 l 1,7,-1
+ 50 80 l 1,8,-1
+ 50 70 l 1,9,-1
+ 30 70 l 1,10,-1
+ 30 80 l 1,11,-1
+ 40 80 l 1,12,-1
+ 40 90 l 1,13,-1
+ 30 90 l 1,14,-1
+ 30 100 l 1,15,-1
+ 40 100 l 1,4,-1
+90 20 m 1,16,-1
+ 90 10 l 1,17,-1
+ 80 10 l 1,18,-1
+ 80 0 l 1,19,-1
+ 30 0 l 1,20,-1
+ 30 10 l 1,21,-1
+ 20 10 l 1,22,-1
+ 20 40 l 1,23,-1
+ 30 40 l 1,24,-1
+ 30 20 l 1,25,-1
+ 80 20 l 1,26,-1
+ 80 30 l 1,27,-1
+ 60 30 l 1,28,-1
+ 60 40 l 1,29,-1
+ 50 40 l 1,30,-1
+ 50 60 l 1,31,-1
+ 60 60 l 1,32,-1
+ 60 70 l 1,33,-1
+ 70 70 l 1,34,-1
+ 70 80 l 1,35,-1
+ 100 80 l 1,36,-1
+ 100 60 l 1,37,-1
+ 70 60 l 1,38,-1
+ 70 50 l 1,39,-1
+ 90 50 l 1,40,-1
+ 90 40 l 1,41,-1
+ 100 40 l 1,42,-1
+ 100 20 l 1,43,-1
+ 90 20 l 1,16,-1
+30 40 m 1,44,-1
+ 30 50 l 1,45,-1
+ 40 50 l 1,46,-1
+ 40 40 l 1,47,-1
+ 30 40 l 1,44,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" yehHamzaabove-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" yehHamzaabove-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" yehHamzaabove-ar.init
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" yeh-ar hamzaabove-ar
+EndChar
+
+StartChar: alef-ar
+Encoding: 1575 1575 1554
+Width: 20
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 30 m 1,0,-1
+ 20 100 l 1,1,-1
+ 30 100 l 1,2,-1
+ 30 30 l 1,3,-1
+ 20 30 l 1,0,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" alef-ar.fina
+EndChar
+
+StartChar: beh-ar
+Encoding: 1576 1576 1555
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 30 m 1,0,-1
+ 30 40 l 1,1,-1
+ 20 40 l 1,2,-1
+ 20 70 l 1,3,-1
+ 30 70 l 1,4,-1
+ 30 50 l 1,5,-1
+ 90 50 l 1,6,-1
+ 90 70 l 1,7,-1
+ 100 70 l 1,8,-1
+ 100 40 l 1,9,-1
+ 90 40 l 1,10,-1
+ 90 30 l 1,11,-1
+ 30 30 l 1,0,-1
+60 10 m 1,12,-1
+ 60 20 l 1,13,-1
+ 70 20 l 1,14,-1
+ 70 10 l 1,15,-1
+ 60 10 l 1,12,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" beh-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" beh-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" beh-ar.init
+EndChar
+
+StartChar: tehMarbuta-ar
+Encoding: 1577 1577 1556
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 90 m 1,0,-1
+ 20 100 l 1,1,-1
+ 30 100 l 1,2,-1
+ 30 90 l 1,3,-1
+ 20 90 l 1,0,-1
+40 90 m 1,4,-1
+ 40 100 l 1,5,-1
+ 50 100 l 1,6,-1
+ 50 90 l 1,7,-1
+ 40 90 l 1,4,-1
+30 30 m 1,8,-1
+ 30 40 l 1,9,-1
+ 20 40 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,12,-1
+ 30 50 l 1,13,-1
+ 50 50 l 1,14,-1
+ 50 60 l 1,15,-1
+ 40 60 l 1,16,-1
+ 40 70 l 1,17,-1
+ 30 70 l 1,18,-1
+ 30 80 l 1,19,-1
+ 40 80 l 1,20,-1
+ 40 70 l 1,21,-1
+ 50 70 l 1,22,-1
+ 50 60 l 1,23,-1
+ 60 60 l 1,24,-1
+ 60 40 l 1,25,-1
+ 50 40 l 1,26,-1
+ 50 30 l 1,27,-1
+ 30 30 l 1,8,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" tehMarbuta-ar.fina
+EndChar
+
+StartChar: teh-ar
+Encoding: 1578 1578 1557
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 80 m 1,0,-1
+ 50 90 l 1,1,-1
+ 60 90 l 1,2,-1
+ 60 80 l 1,3,-1
+ 50 80 l 1,0,-1
+70 80 m 1,4,-1
+ 70 90 l 1,5,-1
+ 80 90 l 1,6,-1
+ 80 80 l 1,7,-1
+ 70 80 l 1,4,-1
+30 30 m 1,8,-1
+ 30 40 l 1,9,-1
+ 20 40 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,12,-1
+ 30 50 l 1,13,-1
+ 90 50 l 1,14,-1
+ 90 70 l 1,15,-1
+ 100 70 l 1,16,-1
+ 100 40 l 1,17,-1
+ 90 40 l 1,18,-1
+ 90 30 l 1,19,-1
+ 30 30 l 1,8,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" teh-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" teh-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" teh-ar.init
+EndChar
+
+StartChar: theh-ar
+Encoding: 1579 1579 1558
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 100 m 1,0,-1
+ 60 110 l 1,1,-1
+ 70 110 l 1,2,-1
+ 70 100 l 1,3,-1
+ 60 100 l 1,0,-1
+50 80 m 1,4,-1
+ 50 90 l 1,5,-1
+ 60 90 l 1,6,-1
+ 60 80 l 1,7,-1
+ 50 80 l 1,4,-1
+70 80 m 1,8,-1
+ 70 90 l 1,9,-1
+ 80 90 l 1,10,-1
+ 80 80 l 1,11,-1
+ 70 80 l 1,8,-1
+30 30 m 1,12,-1
+ 30 40 l 1,13,-1
+ 20 40 l 1,14,-1
+ 20 70 l 1,15,-1
+ 30 70 l 1,16,-1
+ 30 50 l 1,17,-1
+ 90 50 l 1,18,-1
+ 90 70 l 1,19,-1
+ 100 70 l 1,20,-1
+ 100 40 l 1,21,-1
+ 90 40 l 1,22,-1
+ 90 30 l 1,23,-1
+ 30 30 l 1,12,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" theh-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" theh-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" theh-ar.init
+EndChar
+
+StartChar: jeem-ar
+Encoding: 1580 1580 1559
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 40 m 1,0,-1
+ 30 50 l 1,1,-1
+ 20 50 l 1,2,-1
+ 20 70 l 1,3,-1
+ 60 70 l 1,4,-1
+ 60 60 l 1,5,-1
+ 50 60 l 1,6,-1
+ 50 50 l 1,7,-1
+ 40 50 l 1,8,-1
+ 40 40 l 1,9,-1
+ 30 40 l 1,0,-1
+20 0 m 1,10,-1
+ 20 40 l 1,11,-1
+ 30 40 l 1,12,-1
+ 30 10 l 1,13,-1
+ 80 10 l 1,14,-1
+ 80 0 l 1,15,-1
+ 70 0 l 1,16,-1
+ 70 -10 l 1,17,-1
+ 30 -10 l 1,18,-1
+ 30 0 l 1,19,-1
+ 20 0 l 1,10,-1
+40 20 m 1,20,-1
+ 40 30 l 1,21,-1
+ 50 30 l 1,22,-1
+ 50 20 l 1,23,-1
+ 40 20 l 1,20,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" jeem-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" jeem-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" jeem-ar.init
+EndChar
+
+StartChar: hah-ar
+Encoding: 1581 1581 1560
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 40 m 1,0,-1
+ 30 50 l 1,1,-1
+ 20 50 l 1,2,-1
+ 20 70 l 1,3,-1
+ 60 70 l 1,4,-1
+ 60 60 l 1,5,-1
+ 50 60 l 1,6,-1
+ 50 50 l 1,7,-1
+ 40 50 l 1,8,-1
+ 40 40 l 1,9,-1
+ 30 40 l 1,0,-1
+20 0 m 1,10,-1
+ 20 40 l 1,11,-1
+ 30 40 l 1,12,-1
+ 30 10 l 1,13,-1
+ 80 10 l 1,14,-1
+ 80 0 l 1,15,-1
+ 70 0 l 1,16,-1
+ 70 -10 l 1,17,-1
+ 30 -10 l 1,18,-1
+ 30 0 l 1,19,-1
+ 20 0 l 1,10,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" hah-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" hah-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" hah-ar.init
+EndChar
+
+StartChar: khah-ar
+Encoding: 1582 1582 1561
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 80 m 1,0,-1
+ 40 90 l 1,1,-1
+ 50 90 l 1,2,-1
+ 50 80 l 1,3,-1
+ 40 80 l 1,0,-1
+30 40 m 1,4,-1
+ 30 50 l 1,5,-1
+ 20 50 l 1,6,-1
+ 20 70 l 1,7,-1
+ 60 70 l 1,8,-1
+ 60 60 l 1,9,-1
+ 50 60 l 1,10,-1
+ 50 50 l 1,11,-1
+ 40 50 l 1,12,-1
+ 40 40 l 1,13,-1
+ 30 40 l 1,4,-1
+20 0 m 1,14,-1
+ 20 40 l 1,15,-1
+ 30 40 l 1,16,-1
+ 30 10 l 1,17,-1
+ 80 10 l 1,18,-1
+ 80 0 l 1,19,-1
+ 70 0 l 1,20,-1
+ 70 -10 l 1,21,-1
+ 30 -10 l 1,22,-1
+ 30 0 l 1,23,-1
+ 20 0 l 1,14,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" khah-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" khah-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" khah-ar.init
+EndChar
+
+StartChar: dal-ar
+Encoding: 1583 1583 1562
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 80 m 1,0,-1
+ 60 40 l 1,1,-1
+ 50 40 l 1,2,-1
+ 50 30 l 1,3,-1
+ 30 30 l 1,4,-1
+ 30 40 l 1,5,-1
+ 20 40 l 1,6,-1
+ 20 60 l 1,7,-1
+ 30 60 l 1,8,-1
+ 30 50 l 1,9,-1
+ 50 50 l 1,10,-1
+ 50 70 l 1,11,-1
+ 40 70 l 1,12,-1
+ 40 90 l 1,13,-1
+ 50 90 l 1,14,-1
+ 50 80 l 1,15,-1
+ 60 80 l 1,0,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" dal-ar.fina
+EndChar
+
+StartChar: thal-ar
+Encoding: 1584 1584 1563
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 100 m 1,0,-1
+ 40 110 l 1,1,-1
+ 50 110 l 1,2,-1
+ 50 100 l 1,3,-1
+ 40 100 l 1,0,-1
+60 80 m 1,4,-1
+ 60 40 l 1,5,-1
+ 50 40 l 1,6,-1
+ 50 30 l 1,7,-1
+ 30 30 l 1,8,-1
+ 30 40 l 1,9,-1
+ 20 40 l 1,10,-1
+ 20 60 l 1,11,-1
+ 30 60 l 1,12,-1
+ 30 50 l 1,13,-1
+ 50 50 l 1,14,-1
+ 50 70 l 1,15,-1
+ 40 70 l 1,16,-1
+ 40 90 l 1,17,-1
+ 50 90 l 1,18,-1
+ 50 80 l 1,19,-1
+ 60 80 l 1,4,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" thal-ar.fina
+EndChar
+
+StartChar: reh-ar
+Encoding: 1585 1585 1564
+Width: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+70 70 m 1,0,-1
+ 70 20 l 1,1,-1
+ 60 20 l 1,2,-1
+ 60 10 l 1,3,-1
+ 50 10 l 1,4,-1
+ 50 0 l 1,5,-1
+ 30 0 l 1,6,-1
+ 30 10 l 1,7,-1
+ 20 10 l 1,8,-1
+ 20 20 l 1,9,-1
+ 50 20 l 1,10,-1
+ 50 30 l 1,11,-1
+ 60 30 l 1,12,-1
+ 60 70 l 1,13,-1
+ 70 70 l 1,0,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" reh-ar.fina
+EndChar
+
+StartChar: zain-ar
+Encoding: 1586 1586 1565
+Width: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 80 m 1,0,-1
+ 60 90 l 1,1,-1
+ 70 90 l 1,2,-1
+ 70 80 l 1,3,-1
+ 60 80 l 1,0,-1
+70 70 m 1,4,-1
+ 70 20 l 1,5,-1
+ 60 20 l 1,6,-1
+ 60 10 l 1,7,-1
+ 50 10 l 1,8,-1
+ 50 0 l 1,9,-1
+ 30 0 l 1,10,-1
+ 30 10 l 1,11,-1
+ 20 10 l 1,12,-1
+ 20 20 l 1,13,-1
+ 50 20 l 1,14,-1
+ 50 30 l 1,15,-1
+ 60 30 l 1,16,-1
+ 60 70 l 1,17,-1
+ 70 70 l 1,4,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" zain-ar.fina
+EndChar
+
+StartChar: seen-ar
+Encoding: 1587 1587 1566
+Width: 130
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+140 70 m 1,0,-1
+ 140 40 l 1,1,-1
+ 130 40 l 1,2,-1
+ 130 30 l 1,3,-1
+ 120 30 l 1,4,-1
+ 120 40 l 1,5,-1
+ 110 40 l 1,6,-1
+ 110 30 l 1,7,-1
+ 90 30 l 1,8,-1
+ 90 40 l 1,9,-1
+ 80 40 l 1,10,-1
+ 80 20 l 1,11,-1
+ 70 20 l 1,12,-1
+ 70 10 l 1,13,-1
+ 30 10 l 1,14,-1
+ 30 20 l 1,15,-1
+ 20 20 l 1,16,-1
+ 20 40 l 1,17,-1
+ 30 40 l 1,18,-1
+ 30 30 l 1,19,-1
+ 70 30 l 1,20,-1
+ 70 50 l 1,21,-1
+ 80 50 l 1,22,-1
+ 80 70 l 1,23,-1
+ 90 70 l 1,24,-1
+ 90 50 l 1,25,-1
+ 110 50 l 1,26,-1
+ 110 70 l 1,27,-1
+ 120 70 l 1,28,-1
+ 120 50 l 1,29,-1
+ 130 50 l 1,30,-1
+ 130 70 l 1,31,-1
+ 140 70 l 1,0,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" seen-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" seen-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" seen-ar.init
+EndChar
+
+StartChar: sheen-ar
+Encoding: 1588 1588 1567
+Width: 130
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+100 100 m 1,0,-1
+ 100 110 l 1,1,-1
+ 110 110 l 1,2,-1
+ 110 100 l 1,3,-1
+ 100 100 l 1,0,-1
+90 80 m 1,4,-1
+ 90 90 l 1,5,-1
+ 100 90 l 1,6,-1
+ 100 80 l 1,7,-1
+ 90 80 l 1,4,-1
+110 80 m 1,8,-1
+ 110 90 l 1,9,-1
+ 120 90 l 1,10,-1
+ 120 80 l 1,11,-1
+ 110 80 l 1,8,-1
+140 70 m 1,12,-1
+ 140 40 l 1,13,-1
+ 130 40 l 1,14,-1
+ 130 30 l 1,15,-1
+ 120 30 l 1,16,-1
+ 120 40 l 1,17,-1
+ 110 40 l 1,18,-1
+ 110 30 l 1,19,-1
+ 90 30 l 1,20,-1
+ 90 40 l 1,21,-1
+ 80 40 l 1,22,-1
+ 80 20 l 1,23,-1
+ 70 20 l 1,24,-1
+ 70 10 l 1,25,-1
+ 30 10 l 1,26,-1
+ 30 20 l 1,27,-1
+ 20 20 l 1,28,-1
+ 20 40 l 1,29,-1
+ 30 40 l 1,30,-1
+ 30 30 l 1,31,-1
+ 70 30 l 1,32,-1
+ 70 50 l 1,33,-1
+ 80 50 l 1,34,-1
+ 80 70 l 1,35,-1
+ 90 70 l 1,36,-1
+ 90 50 l 1,37,-1
+ 110 50 l 1,38,-1
+ 110 70 l 1,39,-1
+ 120 70 l 1,40,-1
+ 120 50 l 1,41,-1
+ 130 50 l 1,42,-1
+ 130 70 l 1,43,-1
+ 140 70 l 1,12,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" sheen-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" sheen-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" sheen-ar.init
+EndChar
+
+StartChar: sad-ar
+Encoding: 1589 1589 1568
+Width: 140
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+140 40 m 1,0,-1
+ 140 30 l 1,1,-1
+ 90 30 l 1,2,-1
+ 90 40 l 1,3,-1
+ 80 40 l 1,4,-1
+ 80 20 l 1,5,-1
+ 70 20 l 1,6,-1
+ 70 10 l 1,7,-1
+ 30 10 l 1,8,-1
+ 30 20 l 1,9,-1
+ 20 20 l 1,10,-1
+ 20 40 l 1,11,-1
+ 30 40 l 1,12,-1
+ 30 30 l 1,13,-1
+ 70 30 l 1,14,-1
+ 70 50 l 1,15,-1
+ 80 50 l 1,16,-1
+ 80 70 l 1,17,-1
+ 90 70 l 1,18,-1
+ 90 50 l 1,19,-1
+ 100 50 l 1,20,-1
+ 100 60 l 1,21,-1
+ 110 60 l 1,22,-1
+ 110 50 l 1,23,-1
+ 140 50 l 1,24,-1
+ 140 60 l 1,25,-1
+ 110 60 l 1,26,-1
+ 110 70 l 1,27,-1
+ 120 70 l 1,28,-1
+ 120 80 l 1,29,-1
+ 140 80 l 1,30,-1
+ 140 70 l 1,31,-1
+ 150 70 l 1,32,-1
+ 150 40 l 1,33,-1
+ 140 40 l 1,0,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" sad-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" sad-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" sad-ar.init
+EndChar
+
+StartChar: dad-ar
+Encoding: 1590 1590 1569
+Width: 140
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 90 m 1,0,-1
+ 120 100 l 1,1,-1
+ 130 100 l 1,2,-1
+ 130 90 l 1,3,-1
+ 120 90 l 1,0,-1
+140 40 m 1,4,-1
+ 140 30 l 1,5,-1
+ 90 30 l 1,6,-1
+ 90 40 l 1,7,-1
+ 80 40 l 1,8,-1
+ 80 20 l 1,9,-1
+ 70 20 l 1,10,-1
+ 70 10 l 1,11,-1
+ 30 10 l 1,12,-1
+ 30 20 l 1,13,-1
+ 20 20 l 1,14,-1
+ 20 40 l 1,15,-1
+ 30 40 l 1,16,-1
+ 30 30 l 1,17,-1
+ 70 30 l 1,18,-1
+ 70 50 l 1,19,-1
+ 80 50 l 1,20,-1
+ 80 70 l 1,21,-1
+ 90 70 l 1,22,-1
+ 90 50 l 1,23,-1
+ 100 50 l 1,24,-1
+ 100 60 l 1,25,-1
+ 110 60 l 1,26,-1
+ 110 50 l 1,27,-1
+ 140 50 l 1,28,-1
+ 140 60 l 1,29,-1
+ 110 60 l 1,30,-1
+ 110 70 l 1,31,-1
+ 120 70 l 1,32,-1
+ 120 80 l 1,33,-1
+ 140 80 l 1,34,-1
+ 140 70 l 1,35,-1
+ 150 70 l 1,36,-1
+ 150 40 l 1,37,-1
+ 140 40 l 1,4,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" dad-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" dad-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" dad-ar.init
+EndChar
+
+StartChar: tah-ar
+Encoding: 1591 1591 1570
+Width: 80
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+80 40 m 1,0,-1
+ 80 30 l 1,1,-1
+ 20 30 l 1,2,-1
+ 20 50 l 1,3,-1
+ 30 50 l 1,4,-1
+ 30 100 l 1,5,-1
+ 40 100 l 1,6,-1
+ 40 60 l 1,7,-1
+ 50 60 l 1,8,-1
+ 50 50 l 1,9,-1
+ 80 50 l 1,10,-1
+ 80 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 70 l 1,13,-1
+ 60 70 l 1,14,-1
+ 60 80 l 1,15,-1
+ 80 80 l 1,16,-1
+ 80 70 l 1,17,-1
+ 90 70 l 1,18,-1
+ 90 40 l 1,19,-1
+ 80 40 l 1,0,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" tah-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" tah-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" tah-ar.init
+EndChar
+
+StartChar: zah-ar
+Encoding: 1592 1592 1571
+Width: 80
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+80 40 m 1,0,-1
+ 80 30 l 1,1,-1
+ 20 30 l 1,2,-1
+ 20 50 l 1,3,-1
+ 30 50 l 1,4,-1
+ 30 100 l 1,5,-1
+ 40 100 l 1,6,-1
+ 40 60 l 1,7,-1
+ 50 60 l 1,8,-1
+ 50 50 l 1,9,-1
+ 80 50 l 1,10,-1
+ 80 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 70 l 1,13,-1
+ 60 70 l 1,14,-1
+ 60 80 l 1,15,-1
+ 80 80 l 1,16,-1
+ 80 70 l 1,17,-1
+ 90 70 l 1,18,-1
+ 90 40 l 1,19,-1
+ 80 40 l 1,0,-1
+60 90 m 1,20,-1
+ 60 100 l 1,21,-1
+ 70 100 l 1,22,-1
+ 70 90 l 1,23,-1
+ 60 90 l 1,20,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" zah-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" zah-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" zah-ar.init
+EndChar
+
+StartChar: ain-ar
+Encoding: 1593 1593 1572
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 0 m 1,0,-1
+ 20 40 l 1,1,-1
+ 30 40 l 1,2,-1
+ 30 50 l 1,3,-1
+ 20 50 l 1,4,-1
+ 20 70 l 1,5,-1
+ 30 70 l 1,6,-1
+ 30 80 l 1,7,-1
+ 40 80 l 1,8,-1
+ 40 90 l 1,9,-1
+ 60 90 l 1,10,-1
+ 60 80 l 1,11,-1
+ 70 80 l 1,12,-1
+ 70 70 l 1,13,-1
+ 40 70 l 1,14,-1
+ 40 50 l 1,15,-1
+ 50 50 l 1,16,-1
+ 50 60 l 1,17,-1
+ 70 60 l 1,18,-1
+ 70 50 l 1,19,-1
+ 60 50 l 1,20,-1
+ 60 40 l 1,21,-1
+ 40 40 l 1,22,-1
+ 40 30 l 1,23,-1
+ 30 30 l 1,24,-1
+ 30 10 l 1,25,-1
+ 80 10 l 1,26,-1
+ 80 0 l 1,27,-1
+ 70 0 l 1,28,-1
+ 70 -10 l 1,29,-1
+ 30 -10 l 1,30,-1
+ 30 0 l 1,31,-1
+ 20 0 l 1,0,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" ain-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" ain-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" ain-ar.init
+EndChar
+
+StartChar: ghain-ar
+Encoding: 1594 1594 1573
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 100 m 1,0,-1
+ 40 110 l 1,1,-1
+ 50 110 l 1,2,-1
+ 50 100 l 1,3,-1
+ 40 100 l 1,0,-1
+20 0 m 1,4,-1
+ 20 40 l 1,5,-1
+ 30 40 l 1,6,-1
+ 30 50 l 1,7,-1
+ 20 50 l 1,8,-1
+ 20 70 l 1,9,-1
+ 30 70 l 1,10,-1
+ 30 80 l 1,11,-1
+ 40 80 l 1,12,-1
+ 40 90 l 1,13,-1
+ 60 90 l 1,14,-1
+ 60 80 l 1,15,-1
+ 70 80 l 1,16,-1
+ 70 70 l 1,17,-1
+ 40 70 l 1,18,-1
+ 40 50 l 1,19,-1
+ 50 50 l 1,20,-1
+ 50 60 l 1,21,-1
+ 70 60 l 1,22,-1
+ 70 50 l 1,23,-1
+ 60 50 l 1,24,-1
+ 60 40 l 1,25,-1
+ 40 40 l 1,26,-1
+ 40 30 l 1,27,-1
+ 30 30 l 1,28,-1
+ 30 10 l 1,29,-1
+ 80 10 l 1,30,-1
+ 80 0 l 1,31,-1
+ 70 0 l 1,32,-1
+ 70 -10 l 1,33,-1
+ 30 -10 l 1,34,-1
+ 30 0 l 1,35,-1
+ 20 0 l 1,4,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" ghain-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" ghain-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" ghain-ar.init
+EndChar
+
+StartChar: feh-ar
+Encoding: 1601 1601 1574
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 100 m 1,0,-1
+ 90 110 l 1,1,-1
+ 100 110 l 1,2,-1
+ 100 100 l 1,3,-1
+ 90 100 l 1,0,-1
+30 30 m 1,4,-1
+ 30 40 l 1,5,-1
+ 20 40 l 1,6,-1
+ 20 70 l 1,7,-1
+ 30 70 l 1,8,-1
+ 30 50 l 1,9,-1
+ 100 50 l 1,10,-1
+ 100 60 l 1,11,-1
+ 90 60 l 1,12,-1
+ 90 80 l 1,13,-1
+ 100 80 l 1,14,-1
+ 100 60 l 1,15,-1
+ 110 60 l 1,16,-1
+ 110 80 l 1,17,-1
+ 100 80 l 1,18,-1
+ 100 90 l 1,19,-1
+ 110 90 l 1,20,-1
+ 110 80 l 1,21,-1
+ 120 80 l 1,22,-1
+ 120 40 l 1,23,-1
+ 110 40 l 1,24,-1
+ 110 30 l 1,25,-1
+ 30 30 l 1,4,-1
+30 70 m 1,26,-1
+ 30 80 l 1,27,-1
+ 40 80 l 1,28,-1
+ 40 70 l 1,29,-1
+ 30 70 l 1,26,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" feh-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" feh-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" feh-ar.init
+EndChar
+
+StartChar: qaf-ar
+Encoding: 1602 1602 1575
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 100 m 1,0,-1
+ 90 110 l 1,1,-1
+ 100 110 l 1,2,-1
+ 100 100 l 1,3,-1
+ 90 100 l 1,0,-1
+110 100 m 1,4,-1
+ 110 110 l 1,5,-1
+ 120 110 l 1,6,-1
+ 120 100 l 1,7,-1
+ 110 100 l 1,4,-1
+30 30 m 1,8,-1
+ 30 40 l 1,9,-1
+ 20 40 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,12,-1
+ 30 50 l 1,13,-1
+ 100 50 l 1,14,-1
+ 100 60 l 1,15,-1
+ 90 60 l 1,16,-1
+ 90 80 l 1,17,-1
+ 100 80 l 1,18,-1
+ 100 60 l 1,19,-1
+ 110 60 l 1,20,-1
+ 110 80 l 1,21,-1
+ 100 80 l 1,22,-1
+ 100 90 l 1,23,-1
+ 110 90 l 1,24,-1
+ 110 80 l 1,25,-1
+ 120 80 l 1,26,-1
+ 120 40 l 1,27,-1
+ 110 40 l 1,28,-1
+ 110 30 l 1,29,-1
+ 30 30 l 1,8,-1
+30 70 m 1,30,-1
+ 30 80 l 1,31,-1
+ 40 80 l 1,32,-1
+ 40 70 l 1,33,-1
+ 30 70 l 1,30,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" qaf-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" qaf-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" qaf-ar.init
+EndChar
+
+StartChar: kaf-ar
+Encoding: 1603 1603 1576
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 10 m 1,0,-1
+ 30 20 l 1,1,-1
+ 20 20 l 1,2,-1
+ 20 60 l 1,3,-1
+ 30 60 l 1,4,-1
+ 30 30 l 1,5,-1
+ 90 30 l 1,6,-1
+ 90 100 l 1,7,-1
+ 100 100 l 1,8,-1
+ 100 20 l 1,9,-1
+ 90 20 l 1,10,-1
+ 90 10 l 1,11,-1
+ 30 10 l 1,0,-1
+55 80 m 1,12,-1
+ 55 90 l 1,13,-1
+ 75 90 l 1,14,-1
+ 75 80 l 1,15,-1
+ 55 80 l 1,12,-1
+55 80 m 1,16,-1
+ 55 70 l 1,17,-1
+ 75 70 l 1,18,-1
+ 75 60 l 1,19,-1
+ 65 60 l 1,20,-1
+ 65 50 l 1,21,-1
+ 45 50 l 1,22,-1
+ 45 60 l 1,23,-1
+ 55 60 l 1,24,-1
+ 55 70 l 1,25,-1
+ 45 70 l 1,26,-1
+ 45 80 l 1,27,-1
+ 55 80 l 1,16,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" kaf-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" kaf-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" kaf-ar.init
+EndChar
+
+StartChar: lam-ar
+Encoding: 1604 1604 1577
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 10 m 1,0,-1
+ 30 20 l 1,1,-1
+ 20 20 l 1,2,-1
+ 20 60 l 1,3,-1
+ 30 60 l 1,4,-1
+ 30 30 l 1,5,-1
+ 70 30 l 1,6,-1
+ 70 100 l 1,7,-1
+ 80 100 l 1,8,-1
+ 80 20 l 1,9,-1
+ 70 20 l 1,10,-1
+ 70 10 l 1,11,-1
+ 30 10 l 1,0,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" lam-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" lam-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" lam-ar.init
+EndChar
+
+StartChar: meem-ar
+Encoding: 1605 1605 1578
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 50 m 1,0,-1
+ 50 60 l 1,1,-1
+ 30 60 l 1,2,-1
+ 30 70 l 1,3,-1
+ 50 70 l 1,4,-1
+ 50 60 l 1,5,-1
+ 60 60 l 1,6,-1
+ 60 30 l 1,7,-1
+ 30 30 l 1,8,-1
+ 30 -10 l 1,9,-1
+ 20 -10 l 1,10,-1
+ 20 40 l 1,11,-1
+ 30 40 l 1,12,-1
+ 30 50 l 1,13,-1
+ 50 50 l 1,0,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" meem-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" meem-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" meem-ar.init
+EndChar
+
+StartChar: noon-ar
+Encoding: 1606 1606 1579
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 80 m 1,0,-1
+ 50 90 l 1,1,-1
+ 60 90 l 1,2,-1
+ 60 80 l 1,3,-1
+ 50 80 l 1,0,-1
+30 30 m 1,4,-1
+ 30 40 l 1,5,-1
+ 20 40 l 1,6,-1
+ 20 70 l 1,7,-1
+ 30 70 l 1,8,-1
+ 30 50 l 1,9,-1
+ 70 50 l 1,10,-1
+ 70 70 l 1,11,-1
+ 80 70 l 1,12,-1
+ 80 40 l 1,13,-1
+ 70 40 l 1,14,-1
+ 70 30 l 1,15,-1
+ 30 30 l 1,4,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" noon-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" noon-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" noon-ar.init
+EndChar
+
+StartChar: heh-ar
+Encoding: 1607 1607 1580
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 30 m 1,0,-1
+ 30 40 l 1,1,-1
+ 20 40 l 1,2,-1
+ 20 70 l 1,3,-1
+ 30 70 l 1,4,-1
+ 30 50 l 1,5,-1
+ 50 50 l 1,6,-1
+ 50 60 l 1,7,-1
+ 40 60 l 1,8,-1
+ 40 70 l 1,9,-1
+ 30 70 l 1,10,-1
+ 30 80 l 1,11,-1
+ 40 80 l 1,12,-1
+ 40 70 l 1,13,-1
+ 50 70 l 1,14,-1
+ 50 60 l 1,15,-1
+ 60 60 l 1,16,-1
+ 60 40 l 1,17,-1
+ 50 40 l 1,18,-1
+ 50 30 l 1,19,-1
+ 30 30 l 1,0,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" heh-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" heh-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" heh-ar.init
+EndChar
+
+StartChar: waw-ar
+Encoding: 1608 1608 1581
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 10 m 1,0,-1
+ 20 20 l 1,1,-1
+ 60 20 l 1,2,-1
+ 60 30 l 1,3,-1
+ 70 30 l 1,4,-1
+ 70 40 l 1,5,-1
+ 60 40 l 1,6,-1
+ 60 50 l 1,7,-1
+ 50 50 l 1,8,-1
+ 50 70 l 1,9,-1
+ 60 70 l 1,10,-1
+ 60 50 l 1,11,-1
+ 70 50 l 1,12,-1
+ 70 70 l 1,13,-1
+ 60 70 l 1,14,-1
+ 60 80 l 1,15,-1
+ 70 80 l 1,16,-1
+ 70 70 l 1,17,-1
+ 80 70 l 1,18,-1
+ 80 20 l 1,19,-1
+ 70 20 l 1,20,-1
+ 70 10 l 1,21,-1
+ 60 10 l 1,22,-1
+ 60 0 l 1,23,-1
+ 30 0 l 1,24,-1
+ 30 10 l 1,25,-1
+ 20 10 l 1,0,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" waw-ar.fina
+EndChar
+
+StartChar: alefMaksura-ar
+Encoding: 1609 1609 1582
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 20 m 1,0,-1
+ 90 10 l 1,1,-1
+ 80 10 l 1,2,-1
+ 80 0 l 1,3,-1
+ 30 0 l 1,4,-1
+ 30 10 l 1,5,-1
+ 20 10 l 1,6,-1
+ 20 40 l 1,7,-1
+ 30 40 l 1,8,-1
+ 30 20 l 1,9,-1
+ 80 20 l 1,10,-1
+ 80 30 l 1,11,-1
+ 60 30 l 1,12,-1
+ 60 40 l 1,13,-1
+ 50 40 l 1,14,-1
+ 50 60 l 1,15,-1
+ 60 60 l 1,16,-1
+ 60 70 l 1,17,-1
+ 70 70 l 1,18,-1
+ 70 80 l 1,19,-1
+ 100 80 l 1,20,-1
+ 100 60 l 1,21,-1
+ 70 60 l 1,22,-1
+ 70 50 l 1,23,-1
+ 90 50 l 1,24,-1
+ 90 40 l 1,25,-1
+ 100 40 l 1,26,-1
+ 100 20 l 1,27,-1
+ 90 20 l 1,0,-1
+30 40 m 1,28,-1
+ 30 50 l 1,29,-1
+ 40 50 l 1,30,-1
+ 40 40 l 1,31,-1
+ 30 40 l 1,28,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" alefMaksura-ar.fina
+EndChar
+
+StartChar: yeh-ar
+Encoding: 1610 1610 1583
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 20 m 1,0,-1
+ 90 10 l 1,1,-1
+ 80 10 l 1,2,-1
+ 80 0 l 1,3,-1
+ 70 0 l 1,4,-1
+ 70 -10 l 1,5,-1
+ 60 -10 l 1,6,-1
+ 60 0 l 1,7,-1
+ 50 0 l 1,8,-1
+ 50 -10 l 1,9,-1
+ 40 -10 l 1,10,-1
+ 40 0 l 1,11,-1
+ 30 0 l 1,12,-1
+ 30 10 l 1,13,-1
+ 20 10 l 1,14,-1
+ 20 40 l 1,15,-1
+ 30 40 l 1,16,-1
+ 30 20 l 1,17,-1
+ 80 20 l 1,18,-1
+ 80 30 l 1,19,-1
+ 60 30 l 1,20,-1
+ 60 40 l 1,21,-1
+ 50 40 l 1,22,-1
+ 50 60 l 1,23,-1
+ 60 60 l 1,24,-1
+ 60 70 l 1,25,-1
+ 70 70 l 1,26,-1
+ 70 80 l 1,27,-1
+ 100 80 l 1,28,-1
+ 100 60 l 1,29,-1
+ 70 60 l 1,30,-1
+ 70 50 l 1,31,-1
+ 90 50 l 1,32,-1
+ 90 40 l 1,33,-1
+ 100 40 l 1,34,-1
+ 100 20 l 1,35,-1
+ 90 20 l 1,0,-1
+30 40 m 1,36,-1
+ 30 50 l 1,37,-1
+ 40 50 l 1,38,-1
+ 40 40 l 1,39,-1
+ 30 40 l 1,36,-1
+EndSplineSet
+Substitution2: "'fina' Terminal Forms in Arabic lookup 12 subtable" yeh-ar.fina
+Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" yeh-ar.medi
+Substitution2: "'init' Initial Forms in Arabic lookup 10 subtable" yeh-ar.init
+EndChar
+
+StartChar: damma-ar
+Encoding: 1615 1615 1584
+Width: 10
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-10 120 m 1,0,-1
+ -10 130 l 1,1,-1
+ 0 130 l 1,2,-1
+ 0 120 l 1,3,-1
+ -10 120 l 1,0,-1
+0 110 m 1,4,-1
+ 0 120 l 1,5,-1
+ 10 120 l 1,6,-1
+ 10 110 l 1,7,-1
+ 0 110 l 1,4,-1
+-20 110 m 1,8,-1
+ -20 120 l 1,9,-1
+ -10 120 l 1,10,-1
+ -10 110 l 1,11,-1
+ -20 110 l 1,8,-1
+-10 100 m 1,12,-1
+ -10 110 l 1,13,-1
+ 0 110 l 1,14,-1
+ 0 100 l 1,15,-1
+ -10 100 l 1,12,-1
+-20 90 m 1,16,-1
+ -20 100 l 1,17,-1
+ -10 100 l 1,18,-1
+ -10 90 l 1,19,-1
+ -20 90 l 1,16,-1
+EndSplineSet
+EndChar
+
+StartChar: madda-ar
+Encoding: 1619 1619 1585
+Width: 40
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 90 m 1,0,-1
+ 10 100 l 1,1,-1
+ 40 100 l 1,2,-1
+ 40 90 l 1,3,-1
+ 10 90 l 1,0,-1
+0 80 m 1,4,-1
+ 0 90 l 1,5,-1
+ 10 90 l 1,6,-1
+ 10 80 l 1,7,-1
+ 0 80 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: hamzaabove-ar
+Encoding: 1620 1620 1586
+Width: 30
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 90 m 1,0,-1
+ 10 100 l 1,1,-1
+ 30 100 l 1,2,-1
+ 30 90 l 1,3,-1
+ 10 90 l 1,0,-1
+10 90 m 1,4,-1
+ 10 80 l 1,5,-1
+ 30 80 l 1,6,-1
+ 30 70 l 1,7,-1
+ 20 70 l 1,8,-1
+ 20 60 l 1,9,-1
+ 0 60 l 1,10,-1
+ 0 70 l 1,11,-1
+ 10 70 l 1,12,-1
+ 10 80 l 1,13,-1
+ 0 80 l 1,14,-1
+ 0 90 l 1,15,-1
+ 10 90 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: hamzabelow-ar
+Encoding: 1621 1621 1587
+Width: 30
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 20 m 1,0,-1
+ 10 30 l 1,1,-1
+ 30 30 l 1,2,-1
+ 30 20 l 1,3,-1
+ 10 20 l 1,0,-1
+10 20 m 1,4,-1
+ 10 10 l 1,5,-1
+ 30 10 l 1,6,-1
+ 30 0 l 1,7,-1
+ 20 0 l 1,8,-1
+ 20 -10 l 1,9,-1
+ 0 -10 l 1,10,-1
+ 0 0 l 1,11,-1
+ 10 0 l 1,12,-1
+ 10 10 l 1,13,-1
+ 0 10 l 1,14,-1
+ 0 20 l 1,15,-1
+ 10 20 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: alefMadda-ar.isol
+Encoding: 65153 65153 1588
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 30 m 1,0,-1
+ 40 100 l 1,1,-1
+ 30 100 l 1,2,-1
+ 30 110 l 1,3,-1
+ 60 110 l 1,4,-1
+ 60 100 l 1,5,-1
+ 50 100 l 1,6,-1
+ 50 30 l 1,7,-1
+ 40 30 l 1,0,-1
+20 90 m 1,8,-1
+ 20 100 l 1,9,-1
+ 30 100 l 1,10,-1
+ 30 90 l 1,11,-1
+ 20 90 l 1,8,-1
+EndSplineSet
+EndChar
+
+StartChar: alefMadda-ar.fina
+Encoding: 65154 65154 1589
+Width: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 40 m 1,0,-1
+ 40 100 l 1,1,-1
+ 30 100 l 1,2,-1
+ 30 110 l 1,3,-1
+ 60 110 l 1,4,-1
+ 60 100 l 1,5,-1
+ 50 100 l 1,6,-1
+ 50 50 l 1,7,-1
+ 70 50 l 1,8,-1
+ 70 30 l 1,9,-1
+ 50 30 l 1,10,-1
+ 50 40 l 1,11,-1
+ 40 40 l 1,0,-1
+20 90 m 1,12,-1
+ 20 100 l 1,13,-1
+ 30 100 l 1,14,-1
+ 30 90 l 1,15,-1
+ 20 90 l 1,12,-1
+EndSplineSet
+EndChar
+
+StartChar: alefHamzaabove-ar.isol
+Encoding: 65155 65155 1590
+Width: 30
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 100 m 1,0,-1
+ 10 110 l 1,1,-1
+ 30 110 l 1,2,-1
+ 30 100 l 1,3,-1
+ 10 100 l 1,0,-1
+10 30 m 1,4,-1
+ 10 70 l 1,5,-1
+ 0 70 l 1,6,-1
+ 0 80 l 1,7,-1
+ 10 80 l 1,8,-1
+ 10 90 l 1,9,-1
+ 0 90 l 1,10,-1
+ 0 100 l 1,11,-1
+ 10 100 l 1,12,-1
+ 10 90 l 1,13,-1
+ 30 90 l 1,14,-1
+ 30 80 l 1,15,-1
+ 20 80 l 1,16,-1
+ 20 30 l 1,17,-1
+ 10 30 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: alefHamzaabove-ar.fina
+Encoding: 65156 65156 1591
+Width: 40
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 110 m 1,0,-1
+ 10 120 l 1,1,-1
+ 30 120 l 1,2,-1
+ 30 110 l 1,3,-1
+ 10 110 l 1,0,-1
+10 40 m 1,4,-1
+ 10 80 l 1,5,-1
+ 0 80 l 1,6,-1
+ 0 90 l 1,7,-1
+ 10 90 l 1,8,-1
+ 10 100 l 1,9,-1
+ 0 100 l 1,10,-1
+ 0 110 l 1,11,-1
+ 10 110 l 1,12,-1
+ 10 100 l 1,13,-1
+ 30 100 l 1,14,-1
+ 30 90 l 1,15,-1
+ 20 90 l 1,16,-1
+ 20 50 l 1,17,-1
+ 40 50 l 1,18,-1
+ 40 30 l 1,19,-1
+ 20 30 l 1,20,-1
+ 20 40 l 1,21,-1
+ 10 40 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: alefHamzabelow-ar.isol
+Encoding: 65159 65159 1592
+Width: 40
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 20 m 1,0,-1
+ 30 100 l 1,1,-1
+ 40 100 l 1,2,-1
+ 40 30 l 1,3,-1
+ 50 30 l 1,4,-1
+ 50 20 l 1,5,-1
+ 30 20 l 1,0,-1
+30 20 m 1,6,-1
+ 30 10 l 1,7,-1
+ 50 10 l 1,8,-1
+ 50 0 l 1,9,-1
+ 40 0 l 1,10,-1
+ 40 -10 l 1,11,-1
+ 20 -10 l 1,12,-1
+ 20 0 l 1,13,-1
+ 30 0 l 1,14,-1
+ 30 10 l 1,15,-1
+ 20 10 l 1,16,-1
+ 20 20 l 1,17,-1
+ 30 20 l 1,6,-1
+EndSplineSet
+EndChar
+
+StartChar: alefHamzabelow-ar.fina
+Encoding: 65160 65160 1593
+Width: 40
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 20 m 1,0,-1
+ 30 40 l 1,1,-1
+ 20 40 l 1,2,-1
+ 20 100 l 1,3,-1
+ 30 100 l 1,4,-1
+ 30 50 l 1,5,-1
+ 50 50 l 1,6,-1
+ 50 30 l 1,7,-1
+ 40 30 l 1,8,-1
+ 40 20 l 1,9,-1
+ 30 20 l 1,0,-1
+30 20 m 1,10,-1
+ 30 10 l 1,11,-1
+ 50 10 l 1,12,-1
+ 50 0 l 1,13,-1
+ 40 0 l 1,14,-1
+ 40 -10 l 1,15,-1
+ 20 -10 l 1,16,-1
+ 20 0 l 1,17,-1
+ 30 0 l 1,18,-1
+ 30 10 l 1,19,-1
+ 20 10 l 1,20,-1
+ 20 20 l 1,21,-1
+ 30 20 l 1,10,-1
+EndSplineSet
+EndChar
+
+StartChar: yehHamzaabove-ar.isol
+Encoding: 65161 65161 1594
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 100 m 1,0,-1
+ 40 110 l 1,1,-1
+ 60 110 l 1,2,-1
+ 60 100 l 1,3,-1
+ 40 100 l 1,0,-1
+40 100 m 1,4,-1
+ 40 90 l 1,5,-1
+ 60 90 l 1,6,-1
+ 60 80 l 1,7,-1
+ 50 80 l 1,8,-1
+ 50 70 l 1,9,-1
+ 30 70 l 1,10,-1
+ 30 80 l 1,11,-1
+ 40 80 l 1,12,-1
+ 40 90 l 1,13,-1
+ 30 90 l 1,14,-1
+ 30 100 l 1,15,-1
+ 40 100 l 1,4,-1
+90 20 m 1,16,-1
+ 90 10 l 1,17,-1
+ 80 10 l 1,18,-1
+ 80 0 l 1,19,-1
+ 30 0 l 1,20,-1
+ 30 10 l 1,21,-1
+ 20 10 l 1,22,-1
+ 20 40 l 1,23,-1
+ 30 40 l 1,24,-1
+ 30 20 l 1,25,-1
+ 80 20 l 1,26,-1
+ 80 30 l 1,27,-1
+ 60 30 l 1,28,-1
+ 60 40 l 1,29,-1
+ 50 40 l 1,30,-1
+ 50 60 l 1,31,-1
+ 60 60 l 1,32,-1
+ 60 70 l 1,33,-1
+ 70 70 l 1,34,-1
+ 70 80 l 1,35,-1
+ 100 80 l 1,36,-1
+ 100 60 l 1,37,-1
+ 70 60 l 1,38,-1
+ 70 50 l 1,39,-1
+ 90 50 l 1,40,-1
+ 90 40 l 1,41,-1
+ 100 40 l 1,42,-1
+ 100 20 l 1,43,-1
+ 90 20 l 1,16,-1
+30 40 m 1,44,-1
+ 30 50 l 1,45,-1
+ 40 50 l 1,46,-1
+ 40 40 l 1,47,-1
+ 30 40 l 1,44,-1
+EndSplineSet
+EndChar
+
+StartChar: yehHamzaabove-ar.fina
+Encoding: 65162 65162 1595
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 80 m 1,0,-1
+ 50 90 l 1,1,-1
+ 70 90 l 1,2,-1
+ 70 80 l 1,3,-1
+ 50 80 l 1,0,-1
+50 80 m 1,4,-1
+ 50 70 l 1,5,-1
+ 70 70 l 1,6,-1
+ 70 60 l 1,7,-1
+ 60 60 l 1,8,-1
+ 60 50 l 1,9,-1
+ 40 50 l 1,10,-1
+ 40 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 70 l 1,13,-1
+ 40 70 l 1,14,-1
+ 40 80 l 1,15,-1
+ 50 80 l 1,4,-1
+90 20 m 1,16,-1
+ 90 10 l 1,17,-1
+ 80 10 l 1,18,-1
+ 80 0 l 1,19,-1
+ 30 0 l 1,20,-1
+ 30 10 l 1,21,-1
+ 20 10 l 1,22,-1
+ 20 30 l 1,23,-1
+ 30 30 l 1,24,-1
+ 30 10 l 1,25,-1
+ 70 10 l 1,26,-1
+ 70 20 l 1,27,-1
+ 60 20 l 1,28,-1
+ 60 40 l 1,29,-1
+ 70 40 l 1,30,-1
+ 70 50 l 1,31,-1
+ 100 50 l 1,32,-1
+ 100 30 l 1,33,-1
+ 80 30 l 1,34,-1
+ 80 20 l 1,35,-1
+ 90 20 l 1,16,-1
+30 30 m 1,36,-1
+ 30 40 l 1,37,-1
+ 40 40 l 1,38,-1
+ 40 30 l 1,39,-1
+ 30 30 l 1,36,-1
+EndSplineSet
+EndChar
+
+StartChar: yehHamzaabove-ar.init
+Encoding: 65163 65163 1596
+Width: 40
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 110 m 1,0,-1
+ 10 120 l 1,1,-1
+ 30 120 l 1,2,-1
+ 30 110 l 1,3,-1
+ 10 110 l 1,0,-1
+10 110 m 1,4,-1
+ 10 100 l 1,5,-1
+ 30 100 l 1,6,-1
+ 30 90 l 1,7,-1
+ 20 90 l 1,8,-1
+ 20 80 l 1,9,-1
+ 0 80 l 1,10,-1
+ 0 90 l 1,11,-1
+ 10 90 l 1,12,-1
+ 10 100 l 1,13,-1
+ 0 100 l 1,14,-1
+ 0 110 l 1,15,-1
+ 10 110 l 1,4,-1
+40 70 m 1,16,-1
+ 40 40 l 1,17,-1
+ 30 40 l 1,18,-1
+ 30 30 l 1,19,-1
+ 0 30 l 1,20,-1
+ 0 50 l 1,21,-1
+ 30 50 l 1,22,-1
+ 30 70 l 1,23,-1
+ 20 70 l 1,24,-1
+ 20 80 l 1,25,-1
+ 30 80 l 1,26,-1
+ 30 70 l 1,27,-1
+ 40 70 l 1,16,-1
+EndSplineSet
+EndChar
+
+StartChar: yehHamzaabove-ar.medi
+Encoding: 65164 65164 1597
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 110 m 1,0,-1
+ 20 120 l 1,1,-1
+ 40 120 l 1,2,-1
+ 40 110 l 1,3,-1
+ 20 110 l 1,0,-1
+20 110 m 1,4,-1
+ 20 100 l 1,5,-1
+ 40 100 l 1,6,-1
+ 40 90 l 1,7,-1
+ 30 90 l 1,8,-1
+ 30 80 l 1,9,-1
+ 10 80 l 1,10,-1
+ 10 90 l 1,11,-1
+ 20 90 l 1,12,-1
+ 20 100 l 1,13,-1
+ 10 100 l 1,14,-1
+ 10 110 l 1,15,-1
+ 20 110 l 1,4,-1
+30 30 m 1,16,-1
+ 30 40 l 1,17,-1
+ 20 40 l 1,18,-1
+ 20 30 l 1,19,-1
+ 0 30 l 1,20,-1
+ 0 50 l 1,21,-1
+ 20 50 l 1,22,-1
+ 20 70 l 1,23,-1
+ 30 70 l 1,24,-1
+ 30 50 l 1,25,-1
+ 50 50 l 1,26,-1
+ 50 30 l 1,27,-1
+ 30 30 l 1,16,-1
+EndSplineSet
+EndChar
+
+StartChar: alef-ar.isol
+Encoding: 65165 65165 1598
+Width: 20
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 30 m 1,0,-1
+ 20 100 l 1,1,-1
+ 30 100 l 1,2,-1
+ 30 30 l 1,3,-1
+ 20 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: alef-ar.fina
+Encoding: 65166 65166 1599
+Width: 40
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 40 m 1,0,-1
+ 20 100 l 1,1,-1
+ 30 100 l 1,2,-1
+ 30 50 l 1,3,-1
+ 50 50 l 1,4,-1
+ 50 30 l 1,5,-1
+ 30 30 l 1,6,-1
+ 30 40 l 1,7,-1
+ 20 40 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: beh-ar.isol
+Encoding: 65167 65167 1600
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 30 m 1,0,-1
+ 30 40 l 1,1,-1
+ 20 40 l 1,2,-1
+ 20 70 l 1,3,-1
+ 30 70 l 1,4,-1
+ 30 50 l 1,5,-1
+ 90 50 l 1,6,-1
+ 90 70 l 1,7,-1
+ 100 70 l 1,8,-1
+ 100 40 l 1,9,-1
+ 90 40 l 1,10,-1
+ 90 30 l 1,11,-1
+ 30 30 l 1,0,-1
+60 10 m 1,12,-1
+ 60 20 l 1,13,-1
+ 70 20 l 1,14,-1
+ 70 10 l 1,15,-1
+ 60 10 l 1,12,-1
+EndSplineSet
+EndChar
+
+StartChar: beh-ar.fina
+Encoding: 65168 65168 1601
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 30 m 1,0,-1
+ 30 40 l 1,1,-1
+ 20 40 l 1,2,-1
+ 20 70 l 1,3,-1
+ 30 70 l 1,4,-1
+ 30 50 l 1,5,-1
+ 90 50 l 1,6,-1
+ 90 70 l 1,7,-1
+ 100 70 l 1,8,-1
+ 100 50 l 1,9,-1
+ 120 50 l 1,10,-1
+ 120 30 l 1,11,-1
+ 100 30 l 1,12,-1
+ 100 40 l 1,13,-1
+ 90 40 l 1,14,-1
+ 90 30 l 1,15,-1
+ 30 30 l 1,0,-1
+60 10 m 1,16,-1
+ 60 20 l 1,17,-1
+ 70 20 l 1,18,-1
+ 70 10 l 1,19,-1
+ 60 10 l 1,16,-1
+EndSplineSet
+EndChar
+
+StartChar: beh-ar.init
+Encoding: 65169 65169 1602
+Width: 30
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 30 m 1,0,-1
+ 0 50 l 1,1,-1
+ 20 50 l 1,2,-1
+ 20 70 l 1,3,-1
+ 10 70 l 1,4,-1
+ 10 80 l 1,5,-1
+ 20 80 l 1,6,-1
+ 20 70 l 1,7,-1
+ 30 70 l 1,8,-1
+ 30 40 l 1,9,-1
+ 20 40 l 1,10,-1
+ 20 30 l 1,11,-1
+ 0 30 l 1,0,-1
+10 10 m 1,12,-1
+ 10 20 l 1,13,-1
+ 20 20 l 1,14,-1
+ 20 10 l 1,15,-1
+ 10 10 l 1,12,-1
+EndSplineSet
+EndChar
+
+StartChar: beh-ar.medi
+Encoding: 65170 65170 1603
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 30 m 1,0,-1
+ 0 50 l 1,1,-1
+ 20 50 l 1,2,-1
+ 20 70 l 1,3,-1
+ 30 70 l 1,4,-1
+ 30 50 l 1,5,-1
+ 50 50 l 1,6,-1
+ 50 30 l 1,7,-1
+ 30 30 l 1,8,-1
+ 30 40 l 1,9,-1
+ 20 40 l 1,10,-1
+ 20 30 l 1,11,-1
+ 0 30 l 1,0,-1
+20 10 m 1,12,-1
+ 20 20 l 1,13,-1
+ 30 20 l 1,14,-1
+ 30 10 l 1,15,-1
+ 20 10 l 1,12,-1
+EndSplineSet
+EndChar
+
+StartChar: tehMarbuta-ar.isol
+Encoding: 65171 65171 1604
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 90 m 1,0,-1
+ 20 100 l 1,1,-1
+ 30 100 l 1,2,-1
+ 30 90 l 1,3,-1
+ 20 90 l 1,0,-1
+40 90 m 1,4,-1
+ 40 100 l 1,5,-1
+ 50 100 l 1,6,-1
+ 50 90 l 1,7,-1
+ 40 90 l 1,4,-1
+30 30 m 1,8,-1
+ 30 40 l 1,9,-1
+ 20 40 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,12,-1
+ 30 50 l 1,13,-1
+ 50 50 l 1,14,-1
+ 50 60 l 1,15,-1
+ 40 60 l 1,16,-1
+ 40 70 l 1,17,-1
+ 30 70 l 1,18,-1
+ 30 80 l 1,19,-1
+ 40 80 l 1,20,-1
+ 40 70 l 1,21,-1
+ 50 70 l 1,22,-1
+ 50 60 l 1,23,-1
+ 60 60 l 1,24,-1
+ 60 40 l 1,25,-1
+ 50 40 l 1,26,-1
+ 50 30 l 1,27,-1
+ 30 30 l 1,8,-1
+EndSplineSet
+EndChar
+
+StartChar: tehMarbuta-ar.fina
+Encoding: 65172 65172 1605
+Width: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 100 m 1,0,-1
+ 50 110 l 1,1,-1
+ 60 110 l 1,2,-1
+ 60 100 l 1,3,-1
+ 50 100 l 1,0,-1
+30 100 m 1,4,-1
+ 30 110 l 1,5,-1
+ 40 110 l 1,6,-1
+ 40 100 l 1,7,-1
+ 30 100 l 1,4,-1
+50 30 m 1,8,-1
+ 50 40 l 1,9,-1
+ 30 40 l 1,10,-1
+ 30 50 l 1,11,-1
+ 20 50 l 1,12,-1
+ 20 70 l 1,13,-1
+ 30 70 l 1,14,-1
+ 30 60 l 1,15,-1
+ 40 60 l 1,16,-1
+ 40 70 l 1,17,-1
+ 30 70 l 1,18,-1
+ 30 80 l 1,19,-1
+ 40 80 l 1,20,-1
+ 40 90 l 1,21,-1
+ 50 90 l 1,22,-1
+ 50 50 l 1,23,-1
+ 70 50 l 1,24,-1
+ 70 30 l 1,25,-1
+ 50 30 l 1,8,-1
+EndSplineSet
+EndChar
+
+StartChar: teh-ar.isol
+Encoding: 65173 65173 1606
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 80 m 1,0,-1
+ 50 90 l 1,1,-1
+ 60 90 l 1,2,-1
+ 60 80 l 1,3,-1
+ 50 80 l 1,0,-1
+70 80 m 1,4,-1
+ 70 90 l 1,5,-1
+ 80 90 l 1,6,-1
+ 80 80 l 1,7,-1
+ 70 80 l 1,4,-1
+30 30 m 1,8,-1
+ 30 40 l 1,9,-1
+ 20 40 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,12,-1
+ 30 50 l 1,13,-1
+ 90 50 l 1,14,-1
+ 90 70 l 1,15,-1
+ 100 70 l 1,16,-1
+ 100 40 l 1,17,-1
+ 90 40 l 1,18,-1
+ 90 30 l 1,19,-1
+ 30 30 l 1,8,-1
+EndSplineSet
+EndChar
+
+StartChar: teh-ar.fina
+Encoding: 65174 65174 1607
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 80 m 1,0,-1
+ 50 90 l 1,1,-1
+ 60 90 l 1,2,-1
+ 60 80 l 1,3,-1
+ 50 80 l 1,0,-1
+70 80 m 1,4,-1
+ 70 90 l 1,5,-1
+ 80 90 l 1,6,-1
+ 80 80 l 1,7,-1
+ 70 80 l 1,4,-1
+30 30 m 1,8,-1
+ 30 40 l 1,9,-1
+ 20 40 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,12,-1
+ 30 50 l 1,13,-1
+ 90 50 l 1,14,-1
+ 90 70 l 1,15,-1
+ 100 70 l 1,16,-1
+ 100 50 l 1,17,-1
+ 120 50 l 1,18,-1
+ 120 30 l 1,19,-1
+ 100 30 l 1,20,-1
+ 100 40 l 1,21,-1
+ 90 40 l 1,22,-1
+ 90 30 l 1,23,-1
+ 30 30 l 1,8,-1
+EndSplineSet
+EndChar
+
+StartChar: teh-ar.init
+Encoding: 65175 65175 1608
+Width: 30
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 90 m 1,0,-1
+ 20 100 l 1,1,-1
+ 30 100 l 1,2,-1
+ 30 90 l 1,3,-1
+ 20 90 l 1,0,-1
+0 90 m 1,4,-1
+ 0 100 l 1,5,-1
+ 10 100 l 1,6,-1
+ 10 90 l 1,7,-1
+ 0 90 l 1,4,-1
+0 30 m 1,8,-1
+ 0 50 l 1,9,-1
+ 20 50 l 1,10,-1
+ 20 70 l 1,11,-1
+ 10 70 l 1,12,-1
+ 10 80 l 1,13,-1
+ 20 80 l 1,14,-1
+ 20 70 l 1,15,-1
+ 30 70 l 1,16,-1
+ 30 40 l 1,17,-1
+ 20 40 l 1,18,-1
+ 20 30 l 1,19,-1
+ 0 30 l 1,8,-1
+EndSplineSet
+EndChar
+
+StartChar: teh-ar.medi
+Encoding: 65176 65176 1609
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 90 m 1,0,-1
+ 30 100 l 1,1,-1
+ 40 100 l 1,2,-1
+ 40 90 l 1,3,-1
+ 30 90 l 1,0,-1
+10 90 m 1,4,-1
+ 10 100 l 1,5,-1
+ 20 100 l 1,6,-1
+ 20 90 l 1,7,-1
+ 10 90 l 1,4,-1
+0 30 m 1,8,-1
+ 0 50 l 1,9,-1
+ 20 50 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,12,-1
+ 30 50 l 1,13,-1
+ 50 50 l 1,14,-1
+ 50 30 l 1,15,-1
+ 30 30 l 1,16,-1
+ 30 40 l 1,17,-1
+ 20 40 l 1,18,-1
+ 20 30 l 1,19,-1
+ 0 30 l 1,8,-1
+EndSplineSet
+EndChar
+
+StartChar: theh-ar.isol
+Encoding: 65177 65177 1610
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 100 m 1,0,-1
+ 60 110 l 1,1,-1
+ 70 110 l 1,2,-1
+ 70 100 l 1,3,-1
+ 60 100 l 1,0,-1
+50 80 m 1,4,-1
+ 50 90 l 1,5,-1
+ 60 90 l 1,6,-1
+ 60 80 l 1,7,-1
+ 50 80 l 1,4,-1
+70 80 m 1,8,-1
+ 70 90 l 1,9,-1
+ 80 90 l 1,10,-1
+ 80 80 l 1,11,-1
+ 70 80 l 1,8,-1
+30 30 m 1,12,-1
+ 30 40 l 1,13,-1
+ 20 40 l 1,14,-1
+ 20 70 l 1,15,-1
+ 30 70 l 1,16,-1
+ 30 50 l 1,17,-1
+ 90 50 l 1,18,-1
+ 90 70 l 1,19,-1
+ 100 70 l 1,20,-1
+ 100 40 l 1,21,-1
+ 90 40 l 1,22,-1
+ 90 30 l 1,23,-1
+ 30 30 l 1,12,-1
+EndSplineSet
+EndChar
+
+StartChar: theh-ar.fina
+Encoding: 65178 65178 1611
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 100 m 1,0,-1
+ 60 110 l 1,1,-1
+ 70 110 l 1,2,-1
+ 70 100 l 1,3,-1
+ 60 100 l 1,0,-1
+50 80 m 1,4,-1
+ 50 90 l 1,5,-1
+ 60 90 l 1,6,-1
+ 60 80 l 1,7,-1
+ 50 80 l 1,4,-1
+70 80 m 1,8,-1
+ 70 90 l 1,9,-1
+ 80 90 l 1,10,-1
+ 80 80 l 1,11,-1
+ 70 80 l 1,8,-1
+30 30 m 1,12,-1
+ 30 40 l 1,13,-1
+ 20 40 l 1,14,-1
+ 20 70 l 1,15,-1
+ 30 70 l 1,16,-1
+ 30 50 l 1,17,-1
+ 90 50 l 1,18,-1
+ 90 70 l 1,19,-1
+ 100 70 l 1,20,-1
+ 100 50 l 1,21,-1
+ 120 50 l 1,22,-1
+ 120 30 l 1,23,-1
+ 100 30 l 1,24,-1
+ 100 40 l 1,25,-1
+ 90 40 l 1,26,-1
+ 90 30 l 1,27,-1
+ 30 30 l 1,12,-1
+EndSplineSet
+EndChar
+
+StartChar: theh-ar.init
+Encoding: 65179 65179 1612
+Width: 30
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 110 m 1,0,-1
+ 10 120 l 1,1,-1
+ 20 120 l 1,2,-1
+ 20 110 l 1,3,-1
+ 10 110 l 1,0,-1
+20 90 m 1,4,-1
+ 20 100 l 1,5,-1
+ 30 100 l 1,6,-1
+ 30 90 l 1,7,-1
+ 20 90 l 1,4,-1
+0 90 m 1,8,-1
+ 0 100 l 1,9,-1
+ 10 100 l 1,10,-1
+ 10 90 l 1,11,-1
+ 0 90 l 1,8,-1
+0 30 m 1,12,-1
+ 0 50 l 1,13,-1
+ 20 50 l 1,14,-1
+ 20 70 l 1,15,-1
+ 10 70 l 1,16,-1
+ 10 80 l 1,17,-1
+ 20 80 l 1,18,-1
+ 20 70 l 1,19,-1
+ 30 70 l 1,20,-1
+ 30 40 l 1,21,-1
+ 20 40 l 1,22,-1
+ 20 30 l 1,23,-1
+ 0 30 l 1,12,-1
+EndSplineSet
+EndChar
+
+StartChar: theh-ar.medi
+Encoding: 65180 65180 1613
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 110 m 1,0,-1
+ 20 120 l 1,1,-1
+ 30 120 l 1,2,-1
+ 30 110 l 1,3,-1
+ 20 110 l 1,0,-1
+30 90 m 1,4,-1
+ 30 100 l 1,5,-1
+ 40 100 l 1,6,-1
+ 40 90 l 1,7,-1
+ 30 90 l 1,4,-1
+10 90 m 1,8,-1
+ 10 100 l 1,9,-1
+ 20 100 l 1,10,-1
+ 20 90 l 1,11,-1
+ 10 90 l 1,8,-1
+0 30 m 1,12,-1
+ 0 50 l 1,13,-1
+ 20 50 l 1,14,-1
+ 20 70 l 1,15,-1
+ 30 70 l 1,16,-1
+ 30 50 l 1,17,-1
+ 50 50 l 1,18,-1
+ 50 30 l 1,19,-1
+ 30 30 l 1,20,-1
+ 30 40 l 1,21,-1
+ 20 40 l 1,22,-1
+ 20 30 l 1,23,-1
+ 0 30 l 1,12,-1
+EndSplineSet
+EndChar
+
+StartChar: jeem-ar.isol
+Encoding: 65181 65181 1614
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 40 m 1,0,-1
+ 30 50 l 1,1,-1
+ 20 50 l 1,2,-1
+ 20 70 l 1,3,-1
+ 60 70 l 1,4,-1
+ 60 60 l 1,5,-1
+ 50 60 l 1,6,-1
+ 50 50 l 1,7,-1
+ 40 50 l 1,8,-1
+ 40 40 l 1,9,-1
+ 30 40 l 1,0,-1
+20 0 m 1,10,-1
+ 20 40 l 1,11,-1
+ 30 40 l 1,12,-1
+ 30 10 l 1,13,-1
+ 80 10 l 1,14,-1
+ 80 0 l 1,15,-1
+ 70 0 l 1,16,-1
+ 70 -10 l 1,17,-1
+ 30 -10 l 1,18,-1
+ 30 0 l 1,19,-1
+ 20 0 l 1,10,-1
+40 20 m 1,20,-1
+ 40 30 l 1,21,-1
+ 50 30 l 1,22,-1
+ 50 20 l 1,23,-1
+ 40 20 l 1,20,-1
+EndSplineSet
+EndChar
+
+StartChar: jeem-ar.fina
+Encoding: 65182 65182 1615
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 40 m 1,0,-1
+ 30 50 l 1,1,-1
+ 20 50 l 1,2,-1
+ 20 70 l 1,3,-1
+ 70 70 l 1,4,-1
+ 70 60 l 1,5,-1
+ 60 60 l 1,6,-1
+ 60 50 l 1,7,-1
+ 80 50 l 1,8,-1
+ 80 30 l 1,9,-1
+ 60 30 l 1,10,-1
+ 60 40 l 1,11,-1
+ 50 40 l 1,12,-1
+ 50 50 l 1,13,-1
+ 40 50 l 1,14,-1
+ 40 40 l 1,15,-1
+ 30 40 l 1,0,-1
+20 0 m 1,16,-1
+ 20 40 l 1,17,-1
+ 30 40 l 1,18,-1
+ 30 10 l 1,19,-1
+ 80 10 l 1,20,-1
+ 80 0 l 1,21,-1
+ 70 0 l 1,22,-1
+ 70 -10 l 1,23,-1
+ 30 -10 l 1,24,-1
+ 30 0 l 1,25,-1
+ 20 0 l 1,16,-1
+40 20 m 1,26,-1
+ 40 30 l 1,27,-1
+ 50 30 l 1,28,-1
+ 50 20 l 1,29,-1
+ 40 20 l 1,26,-1
+EndSplineSet
+EndChar
+
+StartChar: jeem-ar.init
+Encoding: 65183 65183 1616
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 30 m 1,0,-1
+ 0 50 l 1,1,-1
+ 30 50 l 1,2,-1
+ 30 60 l 1,3,-1
+ 20 60 l 1,4,-1
+ 20 70 l 1,5,-1
+ 10 70 l 1,6,-1
+ 10 80 l 1,7,-1
+ 30 80 l 1,8,-1
+ 30 70 l 1,9,-1
+ 40 70 l 1,10,-1
+ 40 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 30 l 1,13,-1
+ 0 30 l 1,0,-1
+20 10 m 1,14,-1
+ 20 20 l 1,15,-1
+ 30 20 l 1,16,-1
+ 30 10 l 1,17,-1
+ 20 10 l 1,14,-1
+EndSplineSet
+EndChar
+
+StartChar: jeem-ar.medi
+Encoding: 65184 65184 1617
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 30 m 1,0,-1
+ 0 50 l 1,1,-1
+ 30 50 l 1,2,-1
+ 30 60 l 1,3,-1
+ 20 60 l 1,4,-1
+ 20 70 l 1,5,-1
+ 10 70 l 1,6,-1
+ 10 80 l 1,7,-1
+ 30 80 l 1,8,-1
+ 30 70 l 1,9,-1
+ 40 70 l 1,10,-1
+ 40 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 50 l 1,13,-1
+ 70 50 l 1,14,-1
+ 70 30 l 1,15,-1
+ 50 30 l 1,16,-1
+ 50 40 l 1,17,-1
+ 40 40 l 1,18,-1
+ 40 30 l 1,19,-1
+ 0 30 l 1,0,-1
+20 10 m 1,20,-1
+ 20 20 l 1,21,-1
+ 30 20 l 1,22,-1
+ 30 10 l 1,23,-1
+ 20 10 l 1,20,-1
+EndSplineSet
+EndChar
+
+StartChar: hah-ar.isol
+Encoding: 65185 65185 1618
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 40 m 1,0,-1
+ 30 50 l 1,1,-1
+ 20 50 l 1,2,-1
+ 20 70 l 1,3,-1
+ 60 70 l 1,4,-1
+ 60 60 l 1,5,-1
+ 50 60 l 1,6,-1
+ 50 50 l 1,7,-1
+ 40 50 l 1,8,-1
+ 40 40 l 1,9,-1
+ 30 40 l 1,0,-1
+20 0 m 1,10,-1
+ 20 40 l 1,11,-1
+ 30 40 l 1,12,-1
+ 30 10 l 1,13,-1
+ 80 10 l 1,14,-1
+ 80 0 l 1,15,-1
+ 70 0 l 1,16,-1
+ 70 -10 l 1,17,-1
+ 30 -10 l 1,18,-1
+ 30 0 l 1,19,-1
+ 20 0 l 1,10,-1
+EndSplineSet
+EndChar
+
+StartChar: hah-ar.fina
+Encoding: 65186 65186 1619
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 40 m 1,0,-1
+ 30 50 l 1,1,-1
+ 20 50 l 1,2,-1
+ 20 70 l 1,3,-1
+ 70 70 l 1,4,-1
+ 70 60 l 1,5,-1
+ 60 60 l 1,6,-1
+ 60 50 l 1,7,-1
+ 80 50 l 1,8,-1
+ 80 30 l 1,9,-1
+ 60 30 l 1,10,-1
+ 60 40 l 1,11,-1
+ 50 40 l 1,12,-1
+ 50 50 l 1,13,-1
+ 40 50 l 1,14,-1
+ 40 40 l 1,15,-1
+ 30 40 l 1,0,-1
+20 0 m 1,16,-1
+ 20 40 l 1,17,-1
+ 30 40 l 1,18,-1
+ 30 10 l 1,19,-1
+ 80 10 l 1,20,-1
+ 80 0 l 1,21,-1
+ 70 0 l 1,22,-1
+ 70 -10 l 1,23,-1
+ 30 -10 l 1,24,-1
+ 30 0 l 1,25,-1
+ 20 0 l 1,16,-1
+EndSplineSet
+EndChar
+
+StartChar: hah-ar.init
+Encoding: 65187 65187 1620
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 30 m 1,0,-1
+ 0 50 l 1,1,-1
+ 30 50 l 1,2,-1
+ 30 60 l 1,3,-1
+ 20 60 l 1,4,-1
+ 20 70 l 1,5,-1
+ 10 70 l 1,6,-1
+ 10 80 l 1,7,-1
+ 30 80 l 1,8,-1
+ 30 70 l 1,9,-1
+ 40 70 l 1,10,-1
+ 40 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 30 l 1,13,-1
+ 0 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: hah-ar.medi
+Encoding: 65188 65188 1621
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 30 m 1,0,-1
+ 0 50 l 1,1,-1
+ 30 50 l 1,2,-1
+ 30 60 l 1,3,-1
+ 20 60 l 1,4,-1
+ 20 70 l 1,5,-1
+ 10 70 l 1,6,-1
+ 10 80 l 1,7,-1
+ 30 80 l 1,8,-1
+ 30 70 l 1,9,-1
+ 40 70 l 1,10,-1
+ 40 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 50 l 1,13,-1
+ 70 50 l 1,14,-1
+ 70 30 l 1,15,-1
+ 50 30 l 1,16,-1
+ 50 40 l 1,17,-1
+ 40 40 l 1,18,-1
+ 40 30 l 1,19,-1
+ 0 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: khah-ar.isol
+Encoding: 65189 65189 1622
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 80 m 1,0,-1
+ 40 90 l 1,1,-1
+ 50 90 l 1,2,-1
+ 50 80 l 1,3,-1
+ 40 80 l 1,0,-1
+30 40 m 1,4,-1
+ 30 50 l 1,5,-1
+ 20 50 l 1,6,-1
+ 20 70 l 1,7,-1
+ 60 70 l 1,8,-1
+ 60 60 l 1,9,-1
+ 50 60 l 1,10,-1
+ 50 50 l 1,11,-1
+ 40 50 l 1,12,-1
+ 40 40 l 1,13,-1
+ 30 40 l 1,4,-1
+20 0 m 1,14,-1
+ 20 40 l 1,15,-1
+ 30 40 l 1,16,-1
+ 30 10 l 1,17,-1
+ 80 10 l 1,18,-1
+ 80 0 l 1,19,-1
+ 70 0 l 1,20,-1
+ 70 -10 l 1,21,-1
+ 30 -10 l 1,22,-1
+ 30 0 l 1,23,-1
+ 20 0 l 1,14,-1
+EndSplineSet
+EndChar
+
+StartChar: khah-ar.fina
+Encoding: 65190 65190 1623
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 80 m 1,0,-1
+ 40 90 l 1,1,-1
+ 50 90 l 1,2,-1
+ 50 80 l 1,3,-1
+ 40 80 l 1,0,-1
+30 40 m 1,4,-1
+ 30 50 l 1,5,-1
+ 20 50 l 1,6,-1
+ 20 70 l 1,7,-1
+ 70 70 l 1,8,-1
+ 70 60 l 1,9,-1
+ 60 60 l 1,10,-1
+ 60 50 l 1,11,-1
+ 80 50 l 1,12,-1
+ 80 30 l 1,13,-1
+ 60 30 l 1,14,-1
+ 60 40 l 1,15,-1
+ 50 40 l 1,16,-1
+ 50 50 l 1,17,-1
+ 40 50 l 1,18,-1
+ 40 40 l 1,19,-1
+ 30 40 l 1,4,-1
+20 0 m 1,20,-1
+ 20 40 l 1,21,-1
+ 30 40 l 1,22,-1
+ 30 10 l 1,23,-1
+ 80 10 l 1,24,-1
+ 80 0 l 1,25,-1
+ 70 0 l 1,26,-1
+ 70 -10 l 1,27,-1
+ 30 -10 l 1,28,-1
+ 30 0 l 1,29,-1
+ 20 0 l 1,20,-1
+EndSplineSet
+EndChar
+
+StartChar: khah-ar.init
+Encoding: 65191 65191 1624
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 90 m 1,0,-1
+ 20 100 l 1,1,-1
+ 30 100 l 1,2,-1
+ 30 90 l 1,3,-1
+ 20 90 l 1,0,-1
+0 30 m 1,4,-1
+ 0 50 l 1,5,-1
+ 30 50 l 1,6,-1
+ 30 60 l 1,7,-1
+ 20 60 l 1,8,-1
+ 20 70 l 1,9,-1
+ 10 70 l 1,10,-1
+ 10 80 l 1,11,-1
+ 30 80 l 1,12,-1
+ 30 70 l 1,13,-1
+ 40 70 l 1,14,-1
+ 40 60 l 1,15,-1
+ 50 60 l 1,16,-1
+ 50 30 l 1,17,-1
+ 0 30 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: khah-ar.medi
+Encoding: 65192 65192 1625
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 90 m 1,0,-1
+ 20 100 l 1,1,-1
+ 30 100 l 1,2,-1
+ 30 90 l 1,3,-1
+ 20 90 l 1,0,-1
+0 30 m 1,4,-1
+ 0 50 l 1,5,-1
+ 30 50 l 1,6,-1
+ 30 60 l 1,7,-1
+ 20 60 l 1,8,-1
+ 20 70 l 1,9,-1
+ 10 70 l 1,10,-1
+ 10 80 l 1,11,-1
+ 30 80 l 1,12,-1
+ 30 70 l 1,13,-1
+ 40 70 l 1,14,-1
+ 40 60 l 1,15,-1
+ 50 60 l 1,16,-1
+ 50 50 l 1,17,-1
+ 70 50 l 1,18,-1
+ 70 30 l 1,19,-1
+ 50 30 l 1,20,-1
+ 50 40 l 1,21,-1
+ 40 40 l 1,22,-1
+ 40 30 l 1,23,-1
+ 0 30 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: dal-ar.isol
+Encoding: 65193 65193 1626
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 80 m 1,0,-1
+ 60 40 l 1,1,-1
+ 50 40 l 1,2,-1
+ 50 30 l 1,3,-1
+ 30 30 l 1,4,-1
+ 30 40 l 1,5,-1
+ 20 40 l 1,6,-1
+ 20 60 l 1,7,-1
+ 30 60 l 1,8,-1
+ 30 50 l 1,9,-1
+ 50 50 l 1,10,-1
+ 50 70 l 1,11,-1
+ 40 70 l 1,12,-1
+ 40 90 l 1,13,-1
+ 50 90 l 1,14,-1
+ 50 80 l 1,15,-1
+ 60 80 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: dal-ar.fina
+Encoding: 65194 65194 1627
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 30 m 1,0,-1
+ 60 40 l 1,1,-1
+ 50 40 l 1,2,-1
+ 50 30 l 1,3,-1
+ 30 30 l 1,4,-1
+ 30 40 l 1,5,-1
+ 20 40 l 1,6,-1
+ 20 60 l 1,7,-1
+ 30 60 l 1,8,-1
+ 30 50 l 1,9,-1
+ 50 50 l 1,10,-1
+ 50 70 l 1,11,-1
+ 40 70 l 1,12,-1
+ 40 90 l 1,13,-1
+ 50 90 l 1,14,-1
+ 50 80 l 1,15,-1
+ 60 80 l 1,16,-1
+ 60 50 l 1,17,-1
+ 80 50 l 1,18,-1
+ 80 30 l 1,19,-1
+ 60 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: thal-ar.isol
+Encoding: 65195 65195 1628
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 100 m 1,0,-1
+ 40 110 l 1,1,-1
+ 50 110 l 1,2,-1
+ 50 100 l 1,3,-1
+ 40 100 l 1,0,-1
+60 80 m 1,4,-1
+ 60 40 l 1,5,-1
+ 50 40 l 1,6,-1
+ 50 30 l 1,7,-1
+ 30 30 l 1,8,-1
+ 30 40 l 1,9,-1
+ 20 40 l 1,10,-1
+ 20 60 l 1,11,-1
+ 30 60 l 1,12,-1
+ 30 50 l 1,13,-1
+ 50 50 l 1,14,-1
+ 50 70 l 1,15,-1
+ 40 70 l 1,16,-1
+ 40 90 l 1,17,-1
+ 50 90 l 1,18,-1
+ 50 80 l 1,19,-1
+ 60 80 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: thal-ar.fina
+Encoding: 65196 65196 1629
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 100 m 1,0,-1
+ 40 110 l 1,1,-1
+ 50 110 l 1,2,-1
+ 50 100 l 1,3,-1
+ 40 100 l 1,0,-1
+60 30 m 1,4,-1
+ 60 40 l 1,5,-1
+ 50 40 l 1,6,-1
+ 50 30 l 1,7,-1
+ 30 30 l 1,8,-1
+ 30 40 l 1,9,-1
+ 20 40 l 1,10,-1
+ 20 60 l 1,11,-1
+ 30 60 l 1,12,-1
+ 30 50 l 1,13,-1
+ 50 50 l 1,14,-1
+ 50 70 l 1,15,-1
+ 40 70 l 1,16,-1
+ 40 90 l 1,17,-1
+ 50 90 l 1,18,-1
+ 50 80 l 1,19,-1
+ 60 80 l 1,20,-1
+ 60 50 l 1,21,-1
+ 80 50 l 1,22,-1
+ 80 30 l 1,23,-1
+ 60 30 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: reh-ar.isol
+Encoding: 65197 65197 1630
+Width: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+70 70 m 1,0,-1
+ 70 20 l 1,1,-1
+ 60 20 l 1,2,-1
+ 60 10 l 1,3,-1
+ 50 10 l 1,4,-1
+ 50 0 l 1,5,-1
+ 30 0 l 1,6,-1
+ 30 10 l 1,7,-1
+ 20 10 l 1,8,-1
+ 20 20 l 1,9,-1
+ 50 20 l 1,10,-1
+ 50 30 l 1,11,-1
+ 60 30 l 1,12,-1
+ 60 70 l 1,13,-1
+ 70 70 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: reh-ar.fina
+Encoding: 65198 65198 1631
+Width: 80
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+70 30 m 1,0,-1
+ 70 20 l 1,1,-1
+ 60 20 l 1,2,-1
+ 60 10 l 1,3,-1
+ 50 10 l 1,4,-1
+ 50 0 l 1,5,-1
+ 30 0 l 1,6,-1
+ 30 10 l 1,7,-1
+ 20 10 l 1,8,-1
+ 20 20 l 1,9,-1
+ 50 20 l 1,10,-1
+ 50 30 l 1,11,-1
+ 60 30 l 1,12,-1
+ 60 70 l 1,13,-1
+ 70 70 l 1,14,-1
+ 70 50 l 1,15,-1
+ 90 50 l 1,16,-1
+ 90 30 l 1,17,-1
+ 70 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: zain-ar.isol
+Encoding: 65199 65199 1632
+Width: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 80 m 1,0,-1
+ 60 90 l 1,1,-1
+ 70 90 l 1,2,-1
+ 70 80 l 1,3,-1
+ 60 80 l 1,0,-1
+70 70 m 1,4,-1
+ 70 20 l 1,5,-1
+ 60 20 l 1,6,-1
+ 60 10 l 1,7,-1
+ 50 10 l 1,8,-1
+ 50 0 l 1,9,-1
+ 30 0 l 1,10,-1
+ 30 10 l 1,11,-1
+ 20 10 l 1,12,-1
+ 20 20 l 1,13,-1
+ 50 20 l 1,14,-1
+ 50 30 l 1,15,-1
+ 60 30 l 1,16,-1
+ 60 70 l 1,17,-1
+ 70 70 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: zain-ar.fina
+Encoding: 65200 65200 1633
+Width: 80
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 80 m 1,0,-1
+ 60 90 l 1,1,-1
+ 70 90 l 1,2,-1
+ 70 80 l 1,3,-1
+ 60 80 l 1,0,-1
+70 30 m 1,4,-1
+ 70 20 l 1,5,-1
+ 60 20 l 1,6,-1
+ 60 10 l 1,7,-1
+ 50 10 l 1,8,-1
+ 50 0 l 1,9,-1
+ 30 0 l 1,10,-1
+ 30 10 l 1,11,-1
+ 20 10 l 1,12,-1
+ 20 20 l 1,13,-1
+ 50 20 l 1,14,-1
+ 50 30 l 1,15,-1
+ 60 30 l 1,16,-1
+ 60 70 l 1,17,-1
+ 70 70 l 1,18,-1
+ 70 50 l 1,19,-1
+ 90 50 l 1,20,-1
+ 90 30 l 1,21,-1
+ 70 30 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: seen-ar.isol
+Encoding: 65201 65201 1634
+Width: 130
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+140 70 m 1,0,-1
+ 140 40 l 1,1,-1
+ 130 40 l 1,2,-1
+ 130 30 l 1,3,-1
+ 120 30 l 1,4,-1
+ 120 40 l 1,5,-1
+ 110 40 l 1,6,-1
+ 110 30 l 1,7,-1
+ 90 30 l 1,8,-1
+ 90 40 l 1,9,-1
+ 80 40 l 1,10,-1
+ 80 20 l 1,11,-1
+ 70 20 l 1,12,-1
+ 70 10 l 1,13,-1
+ 30 10 l 1,14,-1
+ 30 20 l 1,15,-1
+ 20 20 l 1,16,-1
+ 20 40 l 1,17,-1
+ 30 40 l 1,18,-1
+ 30 30 l 1,19,-1
+ 70 30 l 1,20,-1
+ 70 50 l 1,21,-1
+ 80 50 l 1,22,-1
+ 80 70 l 1,23,-1
+ 90 70 l 1,24,-1
+ 90 50 l 1,25,-1
+ 110 50 l 1,26,-1
+ 110 70 l 1,27,-1
+ 120 70 l 1,28,-1
+ 120 50 l 1,29,-1
+ 130 50 l 1,30,-1
+ 130 70 l 1,31,-1
+ 140 70 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: seen-ar.fina
+Encoding: 65202 65202 1635
+Width: 140
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+140 30 m 1,0,-1
+ 140 40 l 1,1,-1
+ 130 40 l 1,2,-1
+ 130 30 l 1,3,-1
+ 120 30 l 1,4,-1
+ 120 40 l 1,5,-1
+ 110 40 l 1,6,-1
+ 110 30 l 1,7,-1
+ 90 30 l 1,8,-1
+ 90 40 l 1,9,-1
+ 80 40 l 1,10,-1
+ 80 20 l 1,11,-1
+ 70 20 l 1,12,-1
+ 70 10 l 1,13,-1
+ 30 10 l 1,14,-1
+ 30 20 l 1,15,-1
+ 20 20 l 1,16,-1
+ 20 40 l 1,17,-1
+ 30 40 l 1,18,-1
+ 30 30 l 1,19,-1
+ 70 30 l 1,20,-1
+ 70 50 l 1,21,-1
+ 80 50 l 1,22,-1
+ 80 70 l 1,23,-1
+ 90 70 l 1,24,-1
+ 90 50 l 1,25,-1
+ 110 50 l 1,26,-1
+ 110 70 l 1,27,-1
+ 120 70 l 1,28,-1
+ 120 50 l 1,29,-1
+ 130 50 l 1,30,-1
+ 130 70 l 1,31,-1
+ 140 70 l 1,32,-1
+ 140 50 l 1,33,-1
+ 150 50 l 1,34,-1
+ 150 30 l 1,35,-1
+ 140 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: seen-ar.init
+Encoding: 65203 65203 1636
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+70 70 m 1,0,-1
+ 70 40 l 1,1,-1
+ 60 40 l 1,2,-1
+ 60 30 l 1,3,-1
+ 50 30 l 1,4,-1
+ 50 40 l 1,5,-1
+ 40 40 l 1,6,-1
+ 40 30 l 1,7,-1
+ 20 30 l 1,8,-1
+ 20 40 l 1,9,-1
+ 10 40 l 1,10,-1
+ 10 30 l 1,11,-1
+ 0 30 l 1,12,-1
+ 0 50 l 1,13,-1
+ 10 50 l 1,14,-1
+ 10 70 l 1,15,-1
+ 20 70 l 1,16,-1
+ 20 50 l 1,17,-1
+ 40 50 l 1,18,-1
+ 40 70 l 1,19,-1
+ 50 70 l 1,20,-1
+ 50 50 l 1,21,-1
+ 60 50 l 1,22,-1
+ 60 70 l 1,23,-1
+ 70 70 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: seen-ar.medi
+Encoding: 65204 65204 1637
+Width: 80
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+70 30 m 1,0,-1
+ 70 40 l 1,1,-1
+ 60 40 l 1,2,-1
+ 60 30 l 1,3,-1
+ 50 30 l 1,4,-1
+ 50 40 l 1,5,-1
+ 40 40 l 1,6,-1
+ 40 30 l 1,7,-1
+ 20 30 l 1,8,-1
+ 20 40 l 1,9,-1
+ 10 40 l 1,10,-1
+ 10 30 l 1,11,-1
+ 0 30 l 1,12,-1
+ 0 50 l 1,13,-1
+ 10 50 l 1,14,-1
+ 10 70 l 1,15,-1
+ 20 70 l 1,16,-1
+ 20 50 l 1,17,-1
+ 40 50 l 1,18,-1
+ 40 70 l 1,19,-1
+ 50 70 l 1,20,-1
+ 50 50 l 1,21,-1
+ 60 50 l 1,22,-1
+ 60 70 l 1,23,-1
+ 70 70 l 1,24,-1
+ 70 50 l 1,25,-1
+ 80 50 l 1,26,-1
+ 80 30 l 1,27,-1
+ 70 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: sheen-ar.isol
+Encoding: 65205 65205 1638
+Width: 130
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+100 100 m 1,0,-1
+ 100 110 l 1,1,-1
+ 110 110 l 1,2,-1
+ 110 100 l 1,3,-1
+ 100 100 l 1,0,-1
+90 80 m 1,4,-1
+ 90 90 l 1,5,-1
+ 100 90 l 1,6,-1
+ 100 80 l 1,7,-1
+ 90 80 l 1,4,-1
+110 80 m 1,8,-1
+ 110 90 l 1,9,-1
+ 120 90 l 1,10,-1
+ 120 80 l 1,11,-1
+ 110 80 l 1,8,-1
+140 70 m 1,12,-1
+ 140 40 l 1,13,-1
+ 130 40 l 1,14,-1
+ 130 30 l 1,15,-1
+ 120 30 l 1,16,-1
+ 120 40 l 1,17,-1
+ 110 40 l 1,18,-1
+ 110 30 l 1,19,-1
+ 90 30 l 1,20,-1
+ 90 40 l 1,21,-1
+ 80 40 l 1,22,-1
+ 80 20 l 1,23,-1
+ 70 20 l 1,24,-1
+ 70 10 l 1,25,-1
+ 30 10 l 1,26,-1
+ 30 20 l 1,27,-1
+ 20 20 l 1,28,-1
+ 20 40 l 1,29,-1
+ 30 40 l 1,30,-1
+ 30 30 l 1,31,-1
+ 70 30 l 1,32,-1
+ 70 50 l 1,33,-1
+ 80 50 l 1,34,-1
+ 80 70 l 1,35,-1
+ 90 70 l 1,36,-1
+ 90 50 l 1,37,-1
+ 110 50 l 1,38,-1
+ 110 70 l 1,39,-1
+ 120 70 l 1,40,-1
+ 120 50 l 1,41,-1
+ 130 50 l 1,42,-1
+ 130 70 l 1,43,-1
+ 140 70 l 1,12,-1
+EndSplineSet
+EndChar
+
+StartChar: sheen-ar.fina
+Encoding: 65206 65206 1639
+Width: 140
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+100 100 m 1,0,-1
+ 100 110 l 1,1,-1
+ 110 110 l 1,2,-1
+ 110 100 l 1,3,-1
+ 100 100 l 1,0,-1
+90 80 m 1,4,-1
+ 90 90 l 1,5,-1
+ 100 90 l 1,6,-1
+ 100 80 l 1,7,-1
+ 90 80 l 1,4,-1
+110 80 m 1,8,-1
+ 110 90 l 1,9,-1
+ 120 90 l 1,10,-1
+ 120 80 l 1,11,-1
+ 110 80 l 1,8,-1
+140 30 m 1,12,-1
+ 140 40 l 1,13,-1
+ 130 40 l 1,14,-1
+ 130 30 l 1,15,-1
+ 120 30 l 1,16,-1
+ 120 40 l 1,17,-1
+ 110 40 l 1,18,-1
+ 110 30 l 1,19,-1
+ 90 30 l 1,20,-1
+ 90 40 l 1,21,-1
+ 80 40 l 1,22,-1
+ 80 20 l 1,23,-1
+ 70 20 l 1,24,-1
+ 70 10 l 1,25,-1
+ 30 10 l 1,26,-1
+ 30 20 l 1,27,-1
+ 20 20 l 1,28,-1
+ 20 40 l 1,29,-1
+ 30 40 l 1,30,-1
+ 30 30 l 1,31,-1
+ 70 30 l 1,32,-1
+ 70 50 l 1,33,-1
+ 80 50 l 1,34,-1
+ 80 70 l 1,35,-1
+ 90 70 l 1,36,-1
+ 90 50 l 1,37,-1
+ 110 50 l 1,38,-1
+ 110 70 l 1,39,-1
+ 120 70 l 1,40,-1
+ 120 50 l 1,41,-1
+ 130 50 l 1,42,-1
+ 130 70 l 1,43,-1
+ 140 70 l 1,44,-1
+ 140 50 l 1,45,-1
+ 150 50 l 1,46,-1
+ 150 30 l 1,47,-1
+ 140 30 l 1,12,-1
+EndSplineSet
+EndChar
+
+StartChar: sheen-ar.init
+Encoding: 65207 65207 1640
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 100 m 1,0,-1
+ 30 110 l 1,1,-1
+ 40 110 l 1,2,-1
+ 40 100 l 1,3,-1
+ 30 100 l 1,0,-1
+20 80 m 1,4,-1
+ 20 90 l 1,5,-1
+ 30 90 l 1,6,-1
+ 30 80 l 1,7,-1
+ 20 80 l 1,4,-1
+40 80 m 1,8,-1
+ 40 90 l 1,9,-1
+ 50 90 l 1,10,-1
+ 50 80 l 1,11,-1
+ 40 80 l 1,8,-1
+70 70 m 1,12,-1
+ 70 40 l 1,13,-1
+ 60 40 l 1,14,-1
+ 60 30 l 1,15,-1
+ 50 30 l 1,16,-1
+ 50 40 l 1,17,-1
+ 40 40 l 1,18,-1
+ 40 30 l 1,19,-1
+ 20 30 l 1,20,-1
+ 20 40 l 1,21,-1
+ 10 40 l 1,22,-1
+ 10 30 l 1,23,-1
+ 0 30 l 1,24,-1
+ 0 50 l 1,25,-1
+ 10 50 l 1,26,-1
+ 10 70 l 1,27,-1
+ 20 70 l 1,28,-1
+ 20 50 l 1,29,-1
+ 40 50 l 1,30,-1
+ 40 70 l 1,31,-1
+ 50 70 l 1,32,-1
+ 50 50 l 1,33,-1
+ 60 50 l 1,34,-1
+ 60 70 l 1,35,-1
+ 70 70 l 1,12,-1
+EndSplineSet
+EndChar
+
+StartChar: sheen-ar.medi
+Encoding: 65208 65208 1641
+Width: 80
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 100 m 1,0,-1
+ 30 110 l 1,1,-1
+ 40 110 l 1,2,-1
+ 40 100 l 1,3,-1
+ 30 100 l 1,0,-1
+20 80 m 1,4,-1
+ 20 90 l 1,5,-1
+ 30 90 l 1,6,-1
+ 30 80 l 1,7,-1
+ 20 80 l 1,4,-1
+40 80 m 1,8,-1
+ 40 90 l 1,9,-1
+ 50 90 l 1,10,-1
+ 50 80 l 1,11,-1
+ 40 80 l 1,8,-1
+70 30 m 1,12,-1
+ 70 40 l 1,13,-1
+ 60 40 l 1,14,-1
+ 60 30 l 1,15,-1
+ 50 30 l 1,16,-1
+ 50 40 l 1,17,-1
+ 40 40 l 1,18,-1
+ 40 30 l 1,19,-1
+ 20 30 l 1,20,-1
+ 20 40 l 1,21,-1
+ 10 40 l 1,22,-1
+ 10 30 l 1,23,-1
+ 0 30 l 1,24,-1
+ 0 50 l 1,25,-1
+ 10 50 l 1,26,-1
+ 10 70 l 1,27,-1
+ 20 70 l 1,28,-1
+ 20 50 l 1,29,-1
+ 40 50 l 1,30,-1
+ 40 70 l 1,31,-1
+ 50 70 l 1,32,-1
+ 50 50 l 1,33,-1
+ 60 50 l 1,34,-1
+ 60 70 l 1,35,-1
+ 70 70 l 1,36,-1
+ 70 50 l 1,37,-1
+ 80 50 l 1,38,-1
+ 80 30 l 1,39,-1
+ 70 30 l 1,12,-1
+EndSplineSet
+EndChar
+
+StartChar: sad-ar.isol
+Encoding: 65209 65209 1642
+Width: 140
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+140 40 m 1,0,-1
+ 140 30 l 1,1,-1
+ 90 30 l 1,2,-1
+ 90 40 l 1,3,-1
+ 80 40 l 1,4,-1
+ 80 20 l 1,5,-1
+ 70 20 l 1,6,-1
+ 70 10 l 1,7,-1
+ 30 10 l 1,8,-1
+ 30 20 l 1,9,-1
+ 20 20 l 1,10,-1
+ 20 40 l 1,11,-1
+ 30 40 l 1,12,-1
+ 30 30 l 1,13,-1
+ 70 30 l 1,14,-1
+ 70 50 l 1,15,-1
+ 80 50 l 1,16,-1
+ 80 70 l 1,17,-1
+ 90 70 l 1,18,-1
+ 90 50 l 1,19,-1
+ 100 50 l 1,20,-1
+ 100 60 l 1,21,-1
+ 110 60 l 1,22,-1
+ 110 50 l 1,23,-1
+ 140 50 l 1,24,-1
+ 140 60 l 1,25,-1
+ 110 60 l 1,26,-1
+ 110 70 l 1,27,-1
+ 120 70 l 1,28,-1
+ 120 80 l 1,29,-1
+ 140 80 l 1,30,-1
+ 140 70 l 1,31,-1
+ 150 70 l 1,32,-1
+ 150 40 l 1,33,-1
+ 140 40 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: sad-ar.fina
+Encoding: 65210 65210 1643
+Width: 150
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+160 50 m 1,0,-1
+ 160 30 l 1,1,-1
+ 90 30 l 1,2,-1
+ 90 40 l 1,3,-1
+ 80 40 l 1,4,-1
+ 80 20 l 1,5,-1
+ 70 20 l 1,6,-1
+ 70 10 l 1,7,-1
+ 30 10 l 1,8,-1
+ 30 20 l 1,9,-1
+ 20 20 l 1,10,-1
+ 20 40 l 1,11,-1
+ 30 40 l 1,12,-1
+ 30 30 l 1,13,-1
+ 70 30 l 1,14,-1
+ 70 50 l 1,15,-1
+ 80 50 l 1,16,-1
+ 80 70 l 1,17,-1
+ 90 70 l 1,18,-1
+ 90 50 l 1,19,-1
+ 100 50 l 1,20,-1
+ 100 60 l 1,21,-1
+ 110 60 l 1,22,-1
+ 110 50 l 1,23,-1
+ 140 50 l 1,24,-1
+ 140 60 l 1,25,-1
+ 110 60 l 1,26,-1
+ 110 70 l 1,27,-1
+ 120 70 l 1,28,-1
+ 120 80 l 1,29,-1
+ 140 80 l 1,30,-1
+ 140 70 l 1,31,-1
+ 150 70 l 1,32,-1
+ 150 50 l 1,33,-1
+ 160 50 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: sad-ar.init
+Encoding: 65211 65211 1644
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+80 40 m 1,0,-1
+ 80 30 l 1,1,-1
+ 30 30 l 1,2,-1
+ 30 40 l 1,3,-1
+ 20 40 l 1,4,-1
+ 20 30 l 1,5,-1
+ 0 30 l 1,6,-1
+ 0 50 l 1,7,-1
+ 20 50 l 1,8,-1
+ 20 70 l 1,9,-1
+ 30 70 l 1,10,-1
+ 30 50 l 1,11,-1
+ 40 50 l 1,12,-1
+ 40 60 l 1,13,-1
+ 50 60 l 1,14,-1
+ 50 50 l 1,15,-1
+ 80 50 l 1,16,-1
+ 80 60 l 1,17,-1
+ 50 60 l 1,18,-1
+ 50 70 l 1,19,-1
+ 60 70 l 1,20,-1
+ 60 80 l 1,21,-1
+ 80 80 l 1,22,-1
+ 80 70 l 1,23,-1
+ 90 70 l 1,24,-1
+ 90 40 l 1,25,-1
+ 80 40 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: sad-ar.medi
+Encoding: 65212 65212 1645
+Width: 100
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 30 m 1,0,-1
+ 30 40 l 1,1,-1
+ 20 40 l 1,2,-1
+ 20 30 l 1,3,-1
+ 0 30 l 1,4,-1
+ 0 50 l 1,5,-1
+ 20 50 l 1,6,-1
+ 20 70 l 1,7,-1
+ 30 70 l 1,8,-1
+ 30 50 l 1,9,-1
+ 40 50 l 1,10,-1
+ 40 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 50 l 1,13,-1
+ 80 50 l 1,14,-1
+ 80 60 l 1,15,-1
+ 50 60 l 1,16,-1
+ 50 70 l 1,17,-1
+ 60 70 l 1,18,-1
+ 60 80 l 1,19,-1
+ 80 80 l 1,20,-1
+ 80 70 l 1,21,-1
+ 90 70 l 1,22,-1
+ 90 50 l 1,23,-1
+ 100 50 l 1,24,-1
+ 100 30 l 1,25,-1
+ 30 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: dad-ar.isol
+Encoding: 65213 65213 1646
+Width: 140
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 90 m 1,0,-1
+ 120 100 l 1,1,-1
+ 130 100 l 1,2,-1
+ 130 90 l 1,3,-1
+ 120 90 l 1,0,-1
+140 40 m 1,4,-1
+ 140 30 l 1,5,-1
+ 90 30 l 1,6,-1
+ 90 40 l 1,7,-1
+ 80 40 l 1,8,-1
+ 80 20 l 1,9,-1
+ 70 20 l 1,10,-1
+ 70 10 l 1,11,-1
+ 30 10 l 1,12,-1
+ 30 20 l 1,13,-1
+ 20 20 l 1,14,-1
+ 20 40 l 1,15,-1
+ 30 40 l 1,16,-1
+ 30 30 l 1,17,-1
+ 70 30 l 1,18,-1
+ 70 50 l 1,19,-1
+ 80 50 l 1,20,-1
+ 80 70 l 1,21,-1
+ 90 70 l 1,22,-1
+ 90 50 l 1,23,-1
+ 100 50 l 1,24,-1
+ 100 60 l 1,25,-1
+ 110 60 l 1,26,-1
+ 110 50 l 1,27,-1
+ 140 50 l 1,28,-1
+ 140 60 l 1,29,-1
+ 110 60 l 1,30,-1
+ 110 70 l 1,31,-1
+ 120 70 l 1,32,-1
+ 120 80 l 1,33,-1
+ 140 80 l 1,34,-1
+ 140 70 l 1,35,-1
+ 150 70 l 1,36,-1
+ 150 40 l 1,37,-1
+ 140 40 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: dad-ar.fina
+Encoding: 65214 65214 1647
+Width: 150
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+120 90 m 1,0,-1
+ 120 100 l 1,1,-1
+ 130 100 l 1,2,-1
+ 130 90 l 1,3,-1
+ 120 90 l 1,0,-1
+160 50 m 1,4,-1
+ 160 30 l 1,5,-1
+ 90 30 l 1,6,-1
+ 90 40 l 1,7,-1
+ 80 40 l 1,8,-1
+ 80 20 l 1,9,-1
+ 70 20 l 1,10,-1
+ 70 10 l 1,11,-1
+ 30 10 l 1,12,-1
+ 30 20 l 1,13,-1
+ 20 20 l 1,14,-1
+ 20 40 l 1,15,-1
+ 30 40 l 1,16,-1
+ 30 30 l 1,17,-1
+ 70 30 l 1,18,-1
+ 70 50 l 1,19,-1
+ 80 50 l 1,20,-1
+ 80 70 l 1,21,-1
+ 90 70 l 1,22,-1
+ 90 50 l 1,23,-1
+ 100 50 l 1,24,-1
+ 100 60 l 1,25,-1
+ 110 60 l 1,26,-1
+ 110 50 l 1,27,-1
+ 140 50 l 1,28,-1
+ 140 60 l 1,29,-1
+ 110 60 l 1,30,-1
+ 110 70 l 1,31,-1
+ 120 70 l 1,32,-1
+ 120 80 l 1,33,-1
+ 140 80 l 1,34,-1
+ 140 70 l 1,35,-1
+ 150 70 l 1,36,-1
+ 150 50 l 1,37,-1
+ 160 50 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: dad-ar.init
+Encoding: 65215 65215 1648
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 90 m 1,0,-1
+ 40 100 l 1,1,-1
+ 50 100 l 1,2,-1
+ 50 90 l 1,3,-1
+ 40 90 l 1,0,-1
+80 40 m 1,4,-1
+ 80 30 l 1,5,-1
+ 30 30 l 1,6,-1
+ 30 40 l 1,7,-1
+ 20 40 l 1,8,-1
+ 20 30 l 1,9,-1
+ 0 30 l 1,10,-1
+ 0 50 l 1,11,-1
+ 20 50 l 1,12,-1
+ 20 70 l 1,13,-1
+ 30 70 l 1,14,-1
+ 30 50 l 1,15,-1
+ 40 50 l 1,16,-1
+ 40 60 l 1,17,-1
+ 50 60 l 1,18,-1
+ 50 50 l 1,19,-1
+ 80 50 l 1,20,-1
+ 80 60 l 1,21,-1
+ 50 60 l 1,22,-1
+ 50 70 l 1,23,-1
+ 60 70 l 1,24,-1
+ 60 80 l 1,25,-1
+ 80 80 l 1,26,-1
+ 80 70 l 1,27,-1
+ 90 70 l 1,28,-1
+ 90 40 l 1,29,-1
+ 80 40 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: dad-ar.medi
+Encoding: 65216 65216 1649
+Width: 100
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 90 m 1,0,-1
+ 40 100 l 1,1,-1
+ 50 100 l 1,2,-1
+ 50 90 l 1,3,-1
+ 40 90 l 1,0,-1
+30 30 m 1,4,-1
+ 30 40 l 1,5,-1
+ 20 40 l 1,6,-1
+ 20 30 l 1,7,-1
+ 0 30 l 1,8,-1
+ 0 50 l 1,9,-1
+ 20 50 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,12,-1
+ 30 50 l 1,13,-1
+ 40 50 l 1,14,-1
+ 40 60 l 1,15,-1
+ 50 60 l 1,16,-1
+ 50 50 l 1,17,-1
+ 80 50 l 1,18,-1
+ 80 60 l 1,19,-1
+ 50 60 l 1,20,-1
+ 50 70 l 1,21,-1
+ 60 70 l 1,22,-1
+ 60 80 l 1,23,-1
+ 80 80 l 1,24,-1
+ 80 70 l 1,25,-1
+ 90 70 l 1,26,-1
+ 90 50 l 1,27,-1
+ 100 50 l 1,28,-1
+ 100 30 l 1,29,-1
+ 30 30 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: tah-ar.isol
+Encoding: 65217 65217 1650
+Width: 80
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+80 40 m 1,0,-1
+ 80 30 l 1,1,-1
+ 20 30 l 1,2,-1
+ 20 50 l 1,3,-1
+ 30 50 l 1,4,-1
+ 30 100 l 1,5,-1
+ 40 100 l 1,6,-1
+ 40 60 l 1,7,-1
+ 50 60 l 1,8,-1
+ 50 50 l 1,9,-1
+ 80 50 l 1,10,-1
+ 80 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 70 l 1,13,-1
+ 60 70 l 1,14,-1
+ 60 80 l 1,15,-1
+ 80 80 l 1,16,-1
+ 80 70 l 1,17,-1
+ 90 70 l 1,18,-1
+ 90 40 l 1,19,-1
+ 80 40 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: tah-ar.fina
+Encoding: 65218 65218 1651
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+100 50 m 1,0,-1
+ 100 30 l 1,1,-1
+ 20 30 l 1,2,-1
+ 20 50 l 1,3,-1
+ 30 50 l 1,4,-1
+ 30 100 l 1,5,-1
+ 40 100 l 1,6,-1
+ 40 60 l 1,7,-1
+ 50 60 l 1,8,-1
+ 50 50 l 1,9,-1
+ 80 50 l 1,10,-1
+ 80 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 70 l 1,13,-1
+ 60 70 l 1,14,-1
+ 60 80 l 1,15,-1
+ 80 80 l 1,16,-1
+ 80 70 l 1,17,-1
+ 90 70 l 1,18,-1
+ 90 50 l 1,19,-1
+ 100 50 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: tah-ar.init
+Encoding: 65219 65219 1652
+Width: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 40 m 1,0,-1
+ 50 30 l 1,1,-1
+ 0 30 l 1,2,-1
+ 0 100 l 1,3,-1
+ 10 100 l 1,4,-1
+ 10 60 l 1,5,-1
+ 20 60 l 1,6,-1
+ 20 50 l 1,7,-1
+ 50 50 l 1,8,-1
+ 50 60 l 1,9,-1
+ 20 60 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,12,-1
+ 30 80 l 1,13,-1
+ 50 80 l 1,14,-1
+ 50 70 l 1,15,-1
+ 60 70 l 1,16,-1
+ 60 40 l 1,17,-1
+ 50 40 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: tah-ar.medi
+Encoding: 65220 65220 1653
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+70 50 m 1,0,-1
+ 70 30 l 1,1,-1
+ 0 30 l 1,2,-1
+ 0 100 l 1,3,-1
+ 10 100 l 1,4,-1
+ 10 60 l 1,5,-1
+ 20 60 l 1,6,-1
+ 20 50 l 1,7,-1
+ 50 50 l 1,8,-1
+ 50 60 l 1,9,-1
+ 20 60 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,12,-1
+ 30 80 l 1,13,-1
+ 50 80 l 1,14,-1
+ 50 70 l 1,15,-1
+ 60 70 l 1,16,-1
+ 60 50 l 1,17,-1
+ 70 50 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: zah-ar.isol
+Encoding: 65221 65221 1654
+Width: 80
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+80 40 m 1,0,-1
+ 80 30 l 1,1,-1
+ 20 30 l 1,2,-1
+ 20 50 l 1,3,-1
+ 30 50 l 1,4,-1
+ 30 100 l 1,5,-1
+ 40 100 l 1,6,-1
+ 40 60 l 1,7,-1
+ 50 60 l 1,8,-1
+ 50 50 l 1,9,-1
+ 80 50 l 1,10,-1
+ 80 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 70 l 1,13,-1
+ 60 70 l 1,14,-1
+ 60 80 l 1,15,-1
+ 80 80 l 1,16,-1
+ 80 70 l 1,17,-1
+ 90 70 l 1,18,-1
+ 90 40 l 1,19,-1
+ 80 40 l 1,0,-1
+60 90 m 1,20,-1
+ 60 100 l 1,21,-1
+ 70 100 l 1,22,-1
+ 70 90 l 1,23,-1
+ 60 90 l 1,20,-1
+EndSplineSet
+EndChar
+
+StartChar: zah-ar.fina
+Encoding: 65222 65222 1655
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+100 50 m 1,0,-1
+ 100 30 l 1,1,-1
+ 20 30 l 1,2,-1
+ 20 50 l 1,3,-1
+ 30 50 l 1,4,-1
+ 30 100 l 1,5,-1
+ 40 100 l 1,6,-1
+ 40 60 l 1,7,-1
+ 50 60 l 1,8,-1
+ 50 50 l 1,9,-1
+ 80 50 l 1,10,-1
+ 80 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 70 l 1,13,-1
+ 60 70 l 1,14,-1
+ 60 80 l 1,15,-1
+ 80 80 l 1,16,-1
+ 80 70 l 1,17,-1
+ 90 70 l 1,18,-1
+ 90 50 l 1,19,-1
+ 100 50 l 1,0,-1
+60 90 m 1,20,-1
+ 60 100 l 1,21,-1
+ 70 100 l 1,22,-1
+ 70 90 l 1,23,-1
+ 60 90 l 1,20,-1
+EndSplineSet
+EndChar
+
+StartChar: zah-ar.init
+Encoding: 65223 65223 1656
+Width: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 40 m 1,0,-1
+ 50 30 l 1,1,-1
+ 0 30 l 1,2,-1
+ 0 100 l 1,3,-1
+ 10 100 l 1,4,-1
+ 10 60 l 1,5,-1
+ 20 60 l 1,6,-1
+ 20 50 l 1,7,-1
+ 50 50 l 1,8,-1
+ 50 60 l 1,9,-1
+ 20 60 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,12,-1
+ 30 80 l 1,13,-1
+ 50 80 l 1,14,-1
+ 50 70 l 1,15,-1
+ 60 70 l 1,16,-1
+ 60 40 l 1,17,-1
+ 50 40 l 1,0,-1
+30 90 m 1,18,-1
+ 30 100 l 1,19,-1
+ 40 100 l 1,20,-1
+ 40 90 l 1,21,-1
+ 30 90 l 1,18,-1
+EndSplineSet
+EndChar
+
+StartChar: zah-ar.medi
+Encoding: 65224 65224 1657
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+70 50 m 1,0,-1
+ 70 30 l 1,1,-1
+ 0 30 l 1,2,-1
+ 0 100 l 1,3,-1
+ 10 100 l 1,4,-1
+ 10 60 l 1,5,-1
+ 20 60 l 1,6,-1
+ 20 50 l 1,7,-1
+ 50 50 l 1,8,-1
+ 50 60 l 1,9,-1
+ 20 60 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,12,-1
+ 30 80 l 1,13,-1
+ 50 80 l 1,14,-1
+ 50 70 l 1,15,-1
+ 60 70 l 1,16,-1
+ 60 50 l 1,17,-1
+ 70 50 l 1,0,-1
+30 90 m 1,18,-1
+ 30 100 l 1,19,-1
+ 40 100 l 1,20,-1
+ 40 90 l 1,21,-1
+ 30 90 l 1,18,-1
+EndSplineSet
+EndChar
+
+StartChar: ain-ar.isol
+Encoding: 65225 65225 1658
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 0 m 1,0,-1
+ 20 40 l 1,1,-1
+ 30 40 l 1,2,-1
+ 30 50 l 1,3,-1
+ 20 50 l 1,4,-1
+ 20 70 l 1,5,-1
+ 30 70 l 1,6,-1
+ 30 80 l 1,7,-1
+ 40 80 l 1,8,-1
+ 40 90 l 1,9,-1
+ 60 90 l 1,10,-1
+ 60 80 l 1,11,-1
+ 70 80 l 1,12,-1
+ 70 70 l 1,13,-1
+ 40 70 l 1,14,-1
+ 40 50 l 1,15,-1
+ 50 50 l 1,16,-1
+ 50 60 l 1,17,-1
+ 70 60 l 1,18,-1
+ 70 50 l 1,19,-1
+ 60 50 l 1,20,-1
+ 60 40 l 1,21,-1
+ 40 40 l 1,22,-1
+ 40 30 l 1,23,-1
+ 30 30 l 1,24,-1
+ 30 10 l 1,25,-1
+ 80 10 l 1,26,-1
+ 80 0 l 1,27,-1
+ 70 0 l 1,28,-1
+ 70 -10 l 1,29,-1
+ 30 -10 l 1,30,-1
+ 30 0 l 1,31,-1
+ 20 0 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: ain-ar.fina
+Encoding: 65226 65226 1659
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 30 m 1,0,-1
+ 60 40 l 1,1,-1
+ 40 40 l 1,2,-1
+ 40 30 l 1,3,-1
+ 30 30 l 1,4,-1
+ 30 10 l 1,5,-1
+ 80 10 l 1,6,-1
+ 80 0 l 1,7,-1
+ 70 0 l 1,8,-1
+ 70 -10 l 1,9,-1
+ 30 -10 l 1,10,-1
+ 30 0 l 1,11,-1
+ 20 0 l 1,12,-1
+ 20 40 l 1,13,-1
+ 30 40 l 1,14,-1
+ 30 50 l 1,15,-1
+ 20 50 l 1,16,-1
+ 20 70 l 1,17,-1
+ 30 70 l 1,18,-1
+ 30 80 l 1,19,-1
+ 40 80 l 1,20,-1
+ 40 90 l 1,21,-1
+ 60 90 l 1,22,-1
+ 60 80 l 1,23,-1
+ 70 80 l 1,24,-1
+ 70 60 l 1,25,-1
+ 60 60 l 1,26,-1
+ 60 70 l 1,27,-1
+ 40 70 l 1,28,-1
+ 40 60 l 1,29,-1
+ 60 60 l 1,30,-1
+ 60 50 l 1,31,-1
+ 80 50 l 1,32,-1
+ 80 30 l 1,33,-1
+ 60 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: ain-ar.init
+Encoding: 65227 65227 1660
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 40 m 1,0,-1
+ 40 30 l 1,1,-1
+ 0 30 l 1,2,-1
+ 0 50 l 1,3,-1
+ 20 50 l 1,4,-1
+ 20 60 l 1,5,-1
+ 10 60 l 1,6,-1
+ 10 70 l 1,7,-1
+ 20 70 l 1,8,-1
+ 20 80 l 1,9,-1
+ 30 80 l 1,10,-1
+ 30 90 l 1,11,-1
+ 50 90 l 1,12,-1
+ 50 80 l 1,13,-1
+ 60 80 l 1,14,-1
+ 60 70 l 1,15,-1
+ 30 70 l 1,16,-1
+ 30 60 l 1,17,-1
+ 40 60 l 1,18,-1
+ 40 50 l 1,19,-1
+ 50 50 l 1,20,-1
+ 50 60 l 1,21,-1
+ 70 60 l 1,22,-1
+ 70 50 l 1,23,-1
+ 60 50 l 1,24,-1
+ 60 40 l 1,25,-1
+ 40 40 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: ain-ar.medi
+Encoding: 65228 65228 1661
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 30 m 1,0,-1
+ 30 40 l 1,1,-1
+ 20 40 l 1,2,-1
+ 20 30 l 1,3,-1
+ 0 30 l 1,4,-1
+ 0 50 l 1,5,-1
+ 20 50 l 1,6,-1
+ 20 60 l 1,7,-1
+ 10 60 l 1,8,-1
+ 10 80 l 1,9,-1
+ 40 80 l 1,10,-1
+ 40 60 l 1,11,-1
+ 30 60 l 1,12,-1
+ 30 70 l 1,13,-1
+ 20 70 l 1,14,-1
+ 20 60 l 1,15,-1
+ 30 60 l 1,16,-1
+ 30 50 l 1,17,-1
+ 50 50 l 1,18,-1
+ 50 30 l 1,19,-1
+ 30 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: ghain-ar.isol
+Encoding: 65229 65229 1662
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 100 m 1,0,-1
+ 40 110 l 1,1,-1
+ 50 110 l 1,2,-1
+ 50 100 l 1,3,-1
+ 40 100 l 1,0,-1
+20 0 m 1,4,-1
+ 20 40 l 1,5,-1
+ 30 40 l 1,6,-1
+ 30 50 l 1,7,-1
+ 20 50 l 1,8,-1
+ 20 70 l 1,9,-1
+ 30 70 l 1,10,-1
+ 30 80 l 1,11,-1
+ 40 80 l 1,12,-1
+ 40 90 l 1,13,-1
+ 60 90 l 1,14,-1
+ 60 80 l 1,15,-1
+ 70 80 l 1,16,-1
+ 70 70 l 1,17,-1
+ 40 70 l 1,18,-1
+ 40 50 l 1,19,-1
+ 50 50 l 1,20,-1
+ 50 60 l 1,21,-1
+ 70 60 l 1,22,-1
+ 70 50 l 1,23,-1
+ 60 50 l 1,24,-1
+ 60 40 l 1,25,-1
+ 40 40 l 1,26,-1
+ 40 30 l 1,27,-1
+ 30 30 l 1,28,-1
+ 30 10 l 1,29,-1
+ 80 10 l 1,30,-1
+ 80 0 l 1,31,-1
+ 70 0 l 1,32,-1
+ 70 -10 l 1,33,-1
+ 30 -10 l 1,34,-1
+ 30 0 l 1,35,-1
+ 20 0 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: ghain-ar.fina
+Encoding: 65230 65230 1663
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 100 m 1,0,-1
+ 40 110 l 1,1,-1
+ 50 110 l 1,2,-1
+ 50 100 l 1,3,-1
+ 40 100 l 1,0,-1
+60 30 m 1,4,-1
+ 60 40 l 1,5,-1
+ 40 40 l 1,6,-1
+ 40 30 l 1,7,-1
+ 30 30 l 1,8,-1
+ 30 10 l 1,9,-1
+ 80 10 l 1,10,-1
+ 80 0 l 1,11,-1
+ 70 0 l 1,12,-1
+ 70 -10 l 1,13,-1
+ 30 -10 l 1,14,-1
+ 30 0 l 1,15,-1
+ 20 0 l 1,16,-1
+ 20 40 l 1,17,-1
+ 30 40 l 1,18,-1
+ 30 50 l 1,19,-1
+ 20 50 l 1,20,-1
+ 20 70 l 1,21,-1
+ 30 70 l 1,22,-1
+ 30 80 l 1,23,-1
+ 40 80 l 1,24,-1
+ 40 90 l 1,25,-1
+ 60 90 l 1,26,-1
+ 60 80 l 1,27,-1
+ 70 80 l 1,28,-1
+ 70 60 l 1,29,-1
+ 60 60 l 1,30,-1
+ 60 70 l 1,31,-1
+ 40 70 l 1,32,-1
+ 40 60 l 1,33,-1
+ 60 60 l 1,34,-1
+ 60 50 l 1,35,-1
+ 80 50 l 1,36,-1
+ 80 30 l 1,37,-1
+ 60 30 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: ghain-ar.init
+Encoding: 65231 65231 1664
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 100 m 1,0,-1
+ 30 110 l 1,1,-1
+ 40 110 l 1,2,-1
+ 40 100 l 1,3,-1
+ 30 100 l 1,0,-1
+40 40 m 1,4,-1
+ 40 30 l 1,5,-1
+ 0 30 l 1,6,-1
+ 0 50 l 1,7,-1
+ 20 50 l 1,8,-1
+ 20 60 l 1,9,-1
+ 10 60 l 1,10,-1
+ 10 70 l 1,11,-1
+ 20 70 l 1,12,-1
+ 20 80 l 1,13,-1
+ 30 80 l 1,14,-1
+ 30 90 l 1,15,-1
+ 50 90 l 1,16,-1
+ 50 80 l 1,17,-1
+ 60 80 l 1,18,-1
+ 60 70 l 1,19,-1
+ 30 70 l 1,20,-1
+ 30 60 l 1,21,-1
+ 40 60 l 1,22,-1
+ 40 50 l 1,23,-1
+ 50 50 l 1,24,-1
+ 50 60 l 1,25,-1
+ 70 60 l 1,26,-1
+ 70 50 l 1,27,-1
+ 60 50 l 1,28,-1
+ 60 40 l 1,29,-1
+ 40 40 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: ghain-ar.medi
+Encoding: 65232 65232 1665
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 100 m 1,0,-1
+ 20 110 l 1,1,-1
+ 30 110 l 1,2,-1
+ 30 100 l 1,3,-1
+ 20 100 l 1,0,-1
+30 30 m 1,4,-1
+ 30 40 l 1,5,-1
+ 20 40 l 1,6,-1
+ 20 30 l 1,7,-1
+ 0 30 l 1,8,-1
+ 0 50 l 1,9,-1
+ 20 50 l 1,10,-1
+ 20 60 l 1,11,-1
+ 10 60 l 1,12,-1
+ 10 80 l 1,13,-1
+ 40 80 l 1,14,-1
+ 40 60 l 1,15,-1
+ 30 60 l 1,16,-1
+ 30 70 l 1,17,-1
+ 20 70 l 1,18,-1
+ 20 60 l 1,19,-1
+ 30 60 l 1,20,-1
+ 30 50 l 1,21,-1
+ 50 50 l 1,22,-1
+ 50 30 l 1,23,-1
+ 30 30 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: feh-ar.isol
+Encoding: 65233 65233 1666
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 100 m 1,0,-1
+ 90 110 l 1,1,-1
+ 100 110 l 1,2,-1
+ 100 100 l 1,3,-1
+ 90 100 l 1,0,-1
+30 30 m 1,4,-1
+ 30 40 l 1,5,-1
+ 20 40 l 1,6,-1
+ 20 70 l 1,7,-1
+ 30 70 l 1,8,-1
+ 30 50 l 1,9,-1
+ 100 50 l 1,10,-1
+ 100 60 l 1,11,-1
+ 90 60 l 1,12,-1
+ 90 80 l 1,13,-1
+ 100 80 l 1,14,-1
+ 100 60 l 1,15,-1
+ 110 60 l 1,16,-1
+ 110 80 l 1,17,-1
+ 100 80 l 1,18,-1
+ 100 90 l 1,19,-1
+ 110 90 l 1,20,-1
+ 110 80 l 1,21,-1
+ 120 80 l 1,22,-1
+ 120 40 l 1,23,-1
+ 110 40 l 1,24,-1
+ 110 30 l 1,25,-1
+ 30 30 l 1,4,-1
+30 70 m 1,26,-1
+ 30 80 l 1,27,-1
+ 40 80 l 1,28,-1
+ 40 70 l 1,29,-1
+ 30 70 l 1,26,-1
+EndSplineSet
+EndChar
+
+StartChar: feh-ar.fina
+Encoding: 65234 65234 1667
+Width: 120
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+100 100 m 1,0,-1
+ 100 110 l 1,1,-1
+ 110 110 l 1,2,-1
+ 110 100 l 1,3,-1
+ 100 100 l 1,0,-1
+100 80 m 1,4,-1
+ 100 90 l 1,5,-1
+ 110 90 l 1,6,-1
+ 110 80 l 1,7,-1
+ 120 80 l 1,8,-1
+ 120 60 l 1,9,-1
+ 110 60 l 1,10,-1
+ 110 80 l 1,11,-1
+ 100 80 l 1,4,-1
+30 70 m 1,12,-1
+ 30 50 l 1,13,-1
+ 100 50 l 1,14,-1
+ 100 60 l 1,15,-1
+ 90 60 l 1,16,-1
+ 90 80 l 1,17,-1
+ 100 80 l 1,18,-1
+ 100 60 l 1,19,-1
+ 110 60 l 1,20,-1
+ 110 50 l 1,21,-1
+ 130 50 l 1,22,-1
+ 130 30 l 1,23,-1
+ 110 30 l 1,24,-1
+ 110 40 l 1,25,-1
+ 100 40 l 1,26,-1
+ 100 30 l 1,27,-1
+ 30 30 l 1,28,-1
+ 30 40 l 1,29,-1
+ 20 40 l 1,30,-1
+ 20 70 l 1,31,-1
+ 30 70 l 1,12,-1
+30 70 m 1,32,-1
+ 30 80 l 1,33,-1
+ 40 80 l 1,34,-1
+ 40 70 l 1,35,-1
+ 30 70 l 1,32,-1
+EndSplineSet
+EndChar
+
+StartChar: feh-ar.init
+Encoding: 65235 65235 1668
+Width: 40
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 100 m 1,0,-1
+ 10 110 l 1,1,-1
+ 20 110 l 1,2,-1
+ 20 100 l 1,3,-1
+ 10 100 l 1,0,-1
+0 30 m 1,4,-1
+ 0 50 l 1,5,-1
+ 20 50 l 1,6,-1
+ 20 60 l 1,7,-1
+ 10 60 l 1,8,-1
+ 10 80 l 1,9,-1
+ 20 80 l 1,10,-1
+ 20 60 l 1,11,-1
+ 30 60 l 1,12,-1
+ 30 80 l 1,13,-1
+ 20 80 l 1,14,-1
+ 20 90 l 1,15,-1
+ 30 90 l 1,16,-1
+ 30 80 l 1,17,-1
+ 40 80 l 1,18,-1
+ 40 40 l 1,19,-1
+ 30 40 l 1,20,-1
+ 30 30 l 1,21,-1
+ 0 30 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: feh-ar.medi
+Encoding: 65236 65236 1669
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 100 m 1,0,-1
+ 20 110 l 1,1,-1
+ 30 110 l 1,2,-1
+ 30 100 l 1,3,-1
+ 20 100 l 1,0,-1
+20 80 m 1,4,-1
+ 20 90 l 1,5,-1
+ 30 90 l 1,6,-1
+ 30 80 l 1,7,-1
+ 20 80 l 1,4,-1
+30 60 m 1,8,-1
+ 30 80 l 1,9,-1
+ 40 80 l 1,10,-1
+ 40 60 l 1,11,-1
+ 30 60 l 1,8,-1
+10 60 m 1,12,-1
+ 10 80 l 1,13,-1
+ 20 80 l 1,14,-1
+ 20 60 l 1,15,-1
+ 10 60 l 1,12,-1
+0 30 m 1,16,-1
+ 0 50 l 1,17,-1
+ 20 50 l 1,18,-1
+ 20 60 l 1,19,-1
+ 30 60 l 1,20,-1
+ 30 50 l 1,21,-1
+ 50 50 l 1,22,-1
+ 50 30 l 1,23,-1
+ 30 30 l 1,24,-1
+ 30 40 l 1,25,-1
+ 20 40 l 1,26,-1
+ 20 30 l 1,27,-1
+ 0 30 l 1,16,-1
+EndSplineSet
+EndChar
+
+StartChar: qaf-ar.isol
+Encoding: 65237 65237 1670
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 100 m 1,0,-1
+ 90 110 l 1,1,-1
+ 100 110 l 1,2,-1
+ 100 100 l 1,3,-1
+ 90 100 l 1,0,-1
+110 100 m 1,4,-1
+ 110 110 l 1,5,-1
+ 120 110 l 1,6,-1
+ 120 100 l 1,7,-1
+ 110 100 l 1,4,-1
+30 30 m 1,8,-1
+ 30 40 l 1,9,-1
+ 20 40 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,12,-1
+ 30 50 l 1,13,-1
+ 100 50 l 1,14,-1
+ 100 60 l 1,15,-1
+ 90 60 l 1,16,-1
+ 90 80 l 1,17,-1
+ 100 80 l 1,18,-1
+ 100 60 l 1,19,-1
+ 110 60 l 1,20,-1
+ 110 80 l 1,21,-1
+ 100 80 l 1,22,-1
+ 100 90 l 1,23,-1
+ 110 90 l 1,24,-1
+ 110 80 l 1,25,-1
+ 120 80 l 1,26,-1
+ 120 40 l 1,27,-1
+ 110 40 l 1,28,-1
+ 110 30 l 1,29,-1
+ 30 30 l 1,8,-1
+30 70 m 1,30,-1
+ 30 80 l 1,31,-1
+ 40 80 l 1,32,-1
+ 40 70 l 1,33,-1
+ 30 70 l 1,30,-1
+EndSplineSet
+EndChar
+
+StartChar: qaf-ar.fina
+Encoding: 65238 65238 1671
+Width: 120
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 100 m 1,0,-1
+ 90 110 l 1,1,-1
+ 100 110 l 1,2,-1
+ 100 100 l 1,3,-1
+ 90 100 l 1,0,-1
+110 100 m 1,4,-1
+ 110 110 l 1,5,-1
+ 120 110 l 1,6,-1
+ 120 100 l 1,7,-1
+ 110 100 l 1,4,-1
+100 80 m 1,8,-1
+ 100 90 l 1,9,-1
+ 110 90 l 1,10,-1
+ 110 80 l 1,11,-1
+ 120 80 l 1,12,-1
+ 120 60 l 1,13,-1
+ 110 60 l 1,14,-1
+ 110 80 l 1,15,-1
+ 100 80 l 1,8,-1
+30 70 m 1,16,-1
+ 30 50 l 1,17,-1
+ 100 50 l 1,18,-1
+ 100 60 l 1,19,-1
+ 90 60 l 1,20,-1
+ 90 80 l 1,21,-1
+ 100 80 l 1,22,-1
+ 100 60 l 1,23,-1
+ 110 60 l 1,24,-1
+ 110 50 l 1,25,-1
+ 130 50 l 1,26,-1
+ 130 30 l 1,27,-1
+ 110 30 l 1,28,-1
+ 110 40 l 1,29,-1
+ 100 40 l 1,30,-1
+ 100 30 l 1,31,-1
+ 30 30 l 1,32,-1
+ 30 40 l 1,33,-1
+ 20 40 l 1,34,-1
+ 20 70 l 1,35,-1
+ 30 70 l 1,16,-1
+30 70 m 1,36,-1
+ 30 80 l 1,37,-1
+ 40 80 l 1,38,-1
+ 40 70 l 1,39,-1
+ 30 70 l 1,36,-1
+EndSplineSet
+EndChar
+
+StartChar: qaf-ar.init
+Encoding: 65239 65239 1672
+Width: 40
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 100 m 1,0,-1
+ 10 110 l 1,1,-1
+ 20 110 l 1,2,-1
+ 20 100 l 1,3,-1
+ 10 100 l 1,0,-1
+30 100 m 1,4,-1
+ 30 110 l 1,5,-1
+ 40 110 l 1,6,-1
+ 40 100 l 1,7,-1
+ 30 100 l 1,4,-1
+0 30 m 1,8,-1
+ 0 50 l 1,9,-1
+ 20 50 l 1,10,-1
+ 20 60 l 1,11,-1
+ 10 60 l 1,12,-1
+ 10 80 l 1,13,-1
+ 20 80 l 1,14,-1
+ 20 60 l 1,15,-1
+ 30 60 l 1,16,-1
+ 30 80 l 1,17,-1
+ 20 80 l 1,18,-1
+ 20 90 l 1,19,-1
+ 30 90 l 1,20,-1
+ 30 80 l 1,21,-1
+ 40 80 l 1,22,-1
+ 40 40 l 1,23,-1
+ 30 40 l 1,24,-1
+ 30 30 l 1,25,-1
+ 0 30 l 1,8,-1
+EndSplineSet
+EndChar
+
+StartChar: qaf-ar.medi
+Encoding: 65240 65240 1673
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 100 m 1,0,-1
+ 10 110 l 1,1,-1
+ 20 110 l 1,2,-1
+ 20 100 l 1,3,-1
+ 10 100 l 1,0,-1
+30 100 m 1,4,-1
+ 30 110 l 1,5,-1
+ 40 110 l 1,6,-1
+ 40 100 l 1,7,-1
+ 30 100 l 1,4,-1
+20 80 m 1,8,-1
+ 20 90 l 1,9,-1
+ 30 90 l 1,10,-1
+ 30 80 l 1,11,-1
+ 20 80 l 1,8,-1
+30 60 m 1,12,-1
+ 30 80 l 1,13,-1
+ 40 80 l 1,14,-1
+ 40 60 l 1,15,-1
+ 30 60 l 1,12,-1
+10 60 m 1,16,-1
+ 10 80 l 1,17,-1
+ 20 80 l 1,18,-1
+ 20 60 l 1,19,-1
+ 10 60 l 1,16,-1
+0 30 m 1,20,-1
+ 0 50 l 1,21,-1
+ 20 50 l 1,22,-1
+ 20 60 l 1,23,-1
+ 30 60 l 1,24,-1
+ 30 50 l 1,25,-1
+ 50 50 l 1,26,-1
+ 50 30 l 1,27,-1
+ 30 30 l 1,28,-1
+ 30 40 l 1,29,-1
+ 20 40 l 1,30,-1
+ 20 30 l 1,31,-1
+ 0 30 l 1,20,-1
+EndSplineSet
+EndChar
+
+StartChar: kaf-ar.isol
+Encoding: 65241 65241 1674
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 10 m 1,0,-1
+ 30 20 l 1,1,-1
+ 20 20 l 1,2,-1
+ 20 60 l 1,3,-1
+ 30 60 l 1,4,-1
+ 30 30 l 1,5,-1
+ 90 30 l 1,6,-1
+ 90 100 l 1,7,-1
+ 100 100 l 1,8,-1
+ 100 20 l 1,9,-1
+ 90 20 l 1,10,-1
+ 90 10 l 1,11,-1
+ 30 10 l 1,0,-1
+55 80 m 1,12,-1
+ 55 90 l 1,13,-1
+ 75 90 l 1,14,-1
+ 75 80 l 1,15,-1
+ 55 80 l 1,12,-1
+55 80 m 1,16,-1
+ 55 70 l 1,17,-1
+ 75 70 l 1,18,-1
+ 75 60 l 1,19,-1
+ 65 60 l 1,20,-1
+ 65 50 l 1,21,-1
+ 45 50 l 1,22,-1
+ 45 60 l 1,23,-1
+ 55 60 l 1,24,-1
+ 55 70 l 1,25,-1
+ 45 70 l 1,26,-1
+ 45 80 l 1,27,-1
+ 55 80 l 1,16,-1
+EndSplineSet
+EndChar
+
+StartChar: kaf-ar.fina
+Encoding: 65242 65242 1675
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+55 80 m 1,0,-1
+ 55 90 l 1,1,-1
+ 75 90 l 1,2,-1
+ 75 80 l 1,3,-1
+ 55 80 l 1,0,-1
+55 80 m 1,4,-1
+ 55 70 l 1,5,-1
+ 75 70 l 1,6,-1
+ 75 60 l 1,7,-1
+ 65 60 l 1,8,-1
+ 65 50 l 1,9,-1
+ 45 50 l 1,10,-1
+ 45 60 l 1,11,-1
+ 55 60 l 1,12,-1
+ 55 70 l 1,13,-1
+ 45 70 l 1,14,-1
+ 45 80 l 1,15,-1
+ 55 80 l 1,4,-1
+30 10 m 1,16,-1
+ 30 20 l 1,17,-1
+ 20 20 l 1,18,-1
+ 20 60 l 1,19,-1
+ 30 60 l 1,20,-1
+ 30 30 l 1,21,-1
+ 90 30 l 1,22,-1
+ 90 100 l 1,23,-1
+ 100 100 l 1,24,-1
+ 100 50 l 1,25,-1
+ 120 50 l 1,26,-1
+ 120 30 l 1,27,-1
+ 100 30 l 1,28,-1
+ 100 20 l 1,29,-1
+ 90 20 l 1,30,-1
+ 90 10 l 1,31,-1
+ 30 10 l 1,16,-1
+EndSplineSet
+EndChar
+
+StartChar: kaf-ar.init
+Encoding: 65243 65243 1676
+Width: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 90 m 1,0,-1
+ 40 100 l 1,1,-1
+ 50 100 l 1,2,-1
+ 50 90 l 1,3,-1
+ 40 90 l 1,0,-1
+30 80 m 1,4,-1
+ 30 90 l 1,5,-1
+ 40 90 l 1,6,-1
+ 40 80 l 1,7,-1
+ 30 80 l 1,4,-1
+0 30 m 1,8,-1
+ 0 50 l 1,9,-1
+ 30 50 l 1,10,-1
+ 30 60 l 1,11,-1
+ 20 60 l 1,12,-1
+ 20 80 l 1,13,-1
+ 30 80 l 1,14,-1
+ 30 70 l 1,15,-1
+ 40 70 l 1,16,-1
+ 40 60 l 1,17,-1
+ 50 60 l 1,18,-1
+ 50 50 l 1,19,-1
+ 60 50 l 1,20,-1
+ 60 30 l 1,21,-1
+ 0 30 l 1,8,-1
+EndSplineSet
+EndChar
+
+StartChar: kaf-ar.medi
+Encoding: 65244 65244 1677
+Width: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 90 m 1,0,-1
+ 30 100 l 1,1,-1
+ 40 100 l 1,2,-1
+ 40 90 l 1,3,-1
+ 30 90 l 1,0,-1
+20 80 m 1,4,-1
+ 20 90 l 1,5,-1
+ 30 90 l 1,6,-1
+ 30 80 l 1,7,-1
+ 20 80 l 1,4,-1
+0 30 m 1,8,-1
+ 0 50 l 1,9,-1
+ 20 50 l 1,10,-1
+ 20 60 l 1,11,-1
+ 10 60 l 1,12,-1
+ 10 80 l 1,13,-1
+ 20 80 l 1,14,-1
+ 20 70 l 1,15,-1
+ 30 70 l 1,16,-1
+ 30 60 l 1,17,-1
+ 40 60 l 1,18,-1
+ 40 50 l 1,19,-1
+ 60 50 l 1,20,-1
+ 60 30 l 1,21,-1
+ 40 30 l 1,22,-1
+ 40 40 l 1,23,-1
+ 30 40 l 1,24,-1
+ 30 30 l 1,25,-1
+ 0 30 l 1,8,-1
+EndSplineSet
+EndChar
+
+StartChar: lam-ar.isol
+Encoding: 65245 65245 1678
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 10 m 1,0,-1
+ 30 20 l 1,1,-1
+ 20 20 l 1,2,-1
+ 20 60 l 1,3,-1
+ 30 60 l 1,4,-1
+ 30 30 l 1,5,-1
+ 70 30 l 1,6,-1
+ 70 100 l 1,7,-1
+ 80 100 l 1,8,-1
+ 80 20 l 1,9,-1
+ 70 20 l 1,10,-1
+ 70 10 l 1,11,-1
+ 30 10 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: lam-ar.fina
+Encoding: 65246 65246 1679
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 10 m 1,0,-1
+ 30 20 l 1,1,-1
+ 20 20 l 1,2,-1
+ 20 60 l 1,3,-1
+ 30 60 l 1,4,-1
+ 30 30 l 1,5,-1
+ 70 30 l 1,6,-1
+ 70 100 l 1,7,-1
+ 80 100 l 1,8,-1
+ 80 50 l 1,9,-1
+ 100 50 l 1,10,-1
+ 100 30 l 1,11,-1
+ 80 30 l 1,12,-1
+ 80 20 l 1,13,-1
+ 70 20 l 1,14,-1
+ 70 10 l 1,15,-1
+ 30 10 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: lam-ar.init
+Encoding: 65247 65247 1680
+Width: 30
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 30 m 1,0,-1
+ 0 50 l 1,1,-1
+ 20 50 l 1,2,-1
+ 20 100 l 1,3,-1
+ 30 100 l 1,4,-1
+ 30 40 l 1,5,-1
+ 20 40 l 1,6,-1
+ 20 30 l 1,7,-1
+ 0 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: lam-ar.medi
+Encoding: 65248 65248 1681
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 30 m 1,0,-1
+ 0 50 l 1,1,-1
+ 20 50 l 1,2,-1
+ 20 100 l 1,3,-1
+ 30 100 l 1,4,-1
+ 30 50 l 1,5,-1
+ 50 50 l 1,6,-1
+ 50 30 l 1,7,-1
+ 30 30 l 1,8,-1
+ 30 40 l 1,9,-1
+ 20 40 l 1,10,-1
+ 20 30 l 1,11,-1
+ 0 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: meem-ar.isol
+Encoding: 65249 65249 1682
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 50 m 1,0,-1
+ 50 60 l 1,1,-1
+ 30 60 l 1,2,-1
+ 30 70 l 1,3,-1
+ 50 70 l 1,4,-1
+ 50 60 l 1,5,-1
+ 60 60 l 1,6,-1
+ 60 30 l 1,7,-1
+ 30 30 l 1,8,-1
+ 30 -10 l 1,9,-1
+ 20 -10 l 1,10,-1
+ 20 40 l 1,11,-1
+ 30 40 l 1,12,-1
+ 30 50 l 1,13,-1
+ 50 50 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: meem-ar.fina
+Encoding: 65250 65250 1683
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 30 m 1,0,-1
+ 40 40 l 1,1,-1
+ 30 40 l 1,2,-1
+ 30 0 l 1,3,-1
+ 20 0 l 1,4,-1
+ 20 60 l 1,5,-1
+ 30 60 l 1,6,-1
+ 30 70 l 1,7,-1
+ 50 70 l 1,8,-1
+ 50 60 l 1,9,-1
+ 60 60 l 1,10,-1
+ 60 50 l 1,11,-1
+ 80 50 l 1,12,-1
+ 80 30 l 1,13,-1
+ 40 30 l 1,0,-1
+50 50 m 1,14,-1
+ 50 60 l 1,15,-1
+ 40 60 l 1,16,-1
+ 40 50 l 1,17,-1
+ 50 50 l 1,14,-1
+EndSplineSet
+EndChar
+
+StartChar: meem-ar.init
+Encoding: 65251 65251 1684
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 30 m 1,0,-1
+ 0 50 l 1,1,-1
+ 20 50 l 1,2,-1
+ 20 60 l 1,3,-1
+ 30 60 l 1,4,-1
+ 30 50 l 1,5,-1
+ 40 50 l 1,6,-1
+ 40 60 l 1,7,-1
+ 30 60 l 1,8,-1
+ 30 70 l 1,9,-1
+ 40 70 l 1,10,-1
+ 40 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 40 l 1,13,-1
+ 40 40 l 1,14,-1
+ 40 30 l 1,15,-1
+ 30 30 l 1,16,-1
+ 30 40 l 1,17,-1
+ 20 40 l 1,18,-1
+ 20 30 l 1,19,-1
+ 0 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: meem-ar.medi
+Encoding: 65252 65252 1685
+Width: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 30 m 1,0,-1
+ 0 50 l 1,1,-1
+ 20 50 l 1,2,-1
+ 20 60 l 1,3,-1
+ 30 60 l 1,4,-1
+ 30 50 l 1,5,-1
+ 40 50 l 1,6,-1
+ 40 60 l 1,7,-1
+ 30 60 l 1,8,-1
+ 30 70 l 1,9,-1
+ 40 70 l 1,10,-1
+ 40 60 l 1,11,-1
+ 50 60 l 1,12,-1
+ 50 50 l 1,13,-1
+ 60 50 l 1,14,-1
+ 60 30 l 1,15,-1
+ 50 30 l 1,16,-1
+ 50 40 l 1,17,-1
+ 40 40 l 1,18,-1
+ 40 30 l 1,19,-1
+ 30 30 l 1,20,-1
+ 30 40 l 1,21,-1
+ 20 40 l 1,22,-1
+ 20 30 l 1,23,-1
+ 0 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: noon-ar.isol
+Encoding: 65253 65253 1686
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 80 m 1,0,-1
+ 50 90 l 1,1,-1
+ 60 90 l 1,2,-1
+ 60 80 l 1,3,-1
+ 50 80 l 1,0,-1
+30 30 m 1,4,-1
+ 30 40 l 1,5,-1
+ 20 40 l 1,6,-1
+ 20 70 l 1,7,-1
+ 30 70 l 1,8,-1
+ 30 50 l 1,9,-1
+ 70 50 l 1,10,-1
+ 70 70 l 1,11,-1
+ 80 70 l 1,12,-1
+ 80 40 l 1,13,-1
+ 70 40 l 1,14,-1
+ 70 30 l 1,15,-1
+ 30 30 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: noon-ar.fina
+Encoding: 65254 65254 1687
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 80 m 1,0,-1
+ 50 90 l 1,1,-1
+ 60 90 l 1,2,-1
+ 60 80 l 1,3,-1
+ 50 80 l 1,0,-1
+30 30 m 1,4,-1
+ 30 40 l 1,5,-1
+ 20 40 l 1,6,-1
+ 20 70 l 1,7,-1
+ 30 70 l 1,8,-1
+ 30 50 l 1,9,-1
+ 70 50 l 1,10,-1
+ 70 70 l 1,11,-1
+ 80 70 l 1,12,-1
+ 80 50 l 1,13,-1
+ 100 50 l 1,14,-1
+ 100 30 l 1,15,-1
+ 80 30 l 1,16,-1
+ 80 40 l 1,17,-1
+ 70 40 l 1,18,-1
+ 70 30 l 1,19,-1
+ 30 30 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: noon-ar.init
+Encoding: 65255 65255 1688
+Width: 30
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+10 90 m 1,0,-1
+ 10 100 l 1,1,-1
+ 20 100 l 1,2,-1
+ 20 90 l 1,3,-1
+ 10 90 l 1,0,-1
+0 30 m 1,4,-1
+ 0 50 l 1,5,-1
+ 20 50 l 1,6,-1
+ 20 70 l 1,7,-1
+ 10 70 l 1,8,-1
+ 10 80 l 1,9,-1
+ 20 80 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,12,-1
+ 30 40 l 1,13,-1
+ 20 40 l 1,14,-1
+ 20 30 l 1,15,-1
+ 0 30 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: noon-ar.medi
+Encoding: 65256 65256 1689
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 90 m 1,0,-1
+ 20 100 l 1,1,-1
+ 30 100 l 1,2,-1
+ 30 90 l 1,3,-1
+ 20 90 l 1,0,-1
+0 30 m 1,4,-1
+ 0 50 l 1,5,-1
+ 20 50 l 1,6,-1
+ 20 70 l 1,7,-1
+ 30 70 l 1,8,-1
+ 30 50 l 1,9,-1
+ 50 50 l 1,10,-1
+ 50 30 l 1,11,-1
+ 30 30 l 1,12,-1
+ 30 40 l 1,13,-1
+ 20 40 l 1,14,-1
+ 20 30 l 1,15,-1
+ 0 30 l 1,4,-1
+EndSplineSet
+EndChar
+
+StartChar: heh-ar.isol
+Encoding: 65257 65257 1690
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 30 m 1,0,-1
+ 30 40 l 1,1,-1
+ 20 40 l 1,2,-1
+ 20 70 l 1,3,-1
+ 30 70 l 1,4,-1
+ 30 50 l 1,5,-1
+ 50 50 l 1,6,-1
+ 50 60 l 1,7,-1
+ 40 60 l 1,8,-1
+ 40 70 l 1,9,-1
+ 30 70 l 1,10,-1
+ 30 80 l 1,11,-1
+ 40 80 l 1,12,-1
+ 40 70 l 1,13,-1
+ 50 70 l 1,14,-1
+ 50 60 l 1,15,-1
+ 60 60 l 1,16,-1
+ 60 40 l 1,17,-1
+ 50 40 l 1,18,-1
+ 50 30 l 1,19,-1
+ 30 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: heh-ar.fina
+Encoding: 65258 65258 1691
+Width: 60
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+50 30 m 1,0,-1
+ 50 40 l 1,1,-1
+ 30 40 l 1,2,-1
+ 30 50 l 1,3,-1
+ 20 50 l 1,4,-1
+ 20 70 l 1,5,-1
+ 30 70 l 1,6,-1
+ 30 60 l 1,7,-1
+ 40 60 l 1,8,-1
+ 40 70 l 1,9,-1
+ 30 70 l 1,10,-1
+ 30 80 l 1,11,-1
+ 40 80 l 1,12,-1
+ 40 90 l 1,13,-1
+ 50 90 l 1,14,-1
+ 50 50 l 1,15,-1
+ 70 50 l 1,16,-1
+ 70 30 l 1,17,-1
+ 50 30 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: heh-ar.init
+Encoding: 65259 65259 1692
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 30 m 1,0,-1
+ 0 50 l 1,1,-1
+ 20 50 l 1,2,-1
+ 20 60 l 1,3,-1
+ 10 60 l 1,4,-1
+ 10 80 l 1,5,-1
+ 30 80 l 1,6,-1
+ 30 90 l 1,7,-1
+ 20 90 l 1,8,-1
+ 20 100 l 1,9,-1
+ 30 100 l 1,10,-1
+ 30 90 l 1,11,-1
+ 40 90 l 1,12,-1
+ 40 80 l 1,13,-1
+ 50 80 l 1,14,-1
+ 50 70 l 1,15,-1
+ 60 70 l 1,16,-1
+ 60 60 l 1,17,-1
+ 70 60 l 1,18,-1
+ 70 40 l 1,19,-1
+ 60 40 l 1,20,-1
+ 60 30 l 1,21,-1
+ 30 30 l 1,22,-1
+ 30 40 l 1,23,-1
+ 20 40 l 1,24,-1
+ 20 30 l 1,25,-1
+ 0 30 l 1,0,-1
+20 60 m 1,26,-1
+ 30 60 l 1,27,-1
+ 30 70 l 1,28,-1
+ 20 70 l 1,29,-1
+ 20 60 l 1,26,-1
+50 50 m 1,30,-1
+ 50 60 l 1,31,-1
+ 40 60 l 1,32,-1
+ 40 50 l 1,33,-1
+ 50 50 l 1,30,-1
+EndSplineSet
+EndChar
+
+StartChar: heh-ar.medi
+Encoding: 65260 65260 1693
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 70 m 1,0,-1
+ 20 80 l 1,1,-1
+ 40 80 l 1,2,-1
+ 40 60 l 1,3,-1
+ 30 60 l 1,4,-1
+ 30 70 l 1,5,-1
+ 20 70 l 1,0,-1
+30 50 m 1,6,-1
+ 50 50 l 1,7,-1
+ 50 30 l 1,8,-1
+ 30 30 l 1,9,-1
+ 30 20 l 1,10,-1
+ 40 20 l 1,11,-1
+ 40 0 l 1,12,-1
+ 20 0 l 1,13,-1
+ 20 10 l 1,14,-1
+ 10 10 l 1,15,-1
+ 10 30 l 1,16,-1
+ 0 30 l 1,17,-1
+ 0 50 l 1,18,-1
+ 10 50 l 1,19,-1
+ 10 70 l 1,20,-1
+ 20 70 l 1,21,-1
+ 20 60 l 1,22,-1
+ 30 60 l 1,23,-1
+ 30 50 l 1,6,-1
+30 20 m 1,24,-1
+ 20 20 l 1,25,-1
+ 20 10 l 1,26,-1
+ 30 10 l 1,27,-1
+ 30 20 l 1,24,-1
+EndSplineSet
+EndChar
+
+StartChar: waw-ar.isol
+Encoding: 65261 65261 1694
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 10 m 1,0,-1
+ 20 20 l 1,1,-1
+ 60 20 l 1,2,-1
+ 60 30 l 1,3,-1
+ 70 30 l 1,4,-1
+ 70 40 l 1,5,-1
+ 60 40 l 1,6,-1
+ 60 50 l 1,7,-1
+ 50 50 l 1,8,-1
+ 50 70 l 1,9,-1
+ 60 70 l 1,10,-1
+ 60 50 l 1,11,-1
+ 70 50 l 1,12,-1
+ 70 70 l 1,13,-1
+ 60 70 l 1,14,-1
+ 60 80 l 1,15,-1
+ 70 80 l 1,16,-1
+ 70 70 l 1,17,-1
+ 80 70 l 1,18,-1
+ 80 20 l 1,19,-1
+ 70 20 l 1,20,-1
+ 70 10 l 1,21,-1
+ 60 10 l 1,22,-1
+ 60 0 l 1,23,-1
+ 30 0 l 1,24,-1
+ 30 10 l 1,25,-1
+ 20 10 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: waw-ar.fina
+Encoding: 65262 65262 1695
+Width: 80
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 10 m 1,0,-1
+ 20 20 l 1,1,-1
+ 60 20 l 1,2,-1
+ 60 30 l 1,3,-1
+ 70 30 l 1,4,-1
+ 70 40 l 1,5,-1
+ 60 40 l 1,6,-1
+ 60 50 l 1,7,-1
+ 50 50 l 1,8,-1
+ 50 70 l 1,9,-1
+ 60 70 l 1,10,-1
+ 60 50 l 1,11,-1
+ 70 50 l 1,12,-1
+ 70 70 l 1,13,-1
+ 60 70 l 1,14,-1
+ 60 80 l 1,15,-1
+ 70 80 l 1,16,-1
+ 70 70 l 1,17,-1
+ 80 70 l 1,18,-1
+ 80 50 l 1,19,-1
+ 90 50 l 1,20,-1
+ 90 30 l 1,21,-1
+ 80 30 l 1,22,-1
+ 80 20 l 1,23,-1
+ 70 20 l 1,24,-1
+ 70 10 l 1,25,-1
+ 60 10 l 1,26,-1
+ 60 0 l 1,27,-1
+ 30 0 l 1,28,-1
+ 30 10 l 1,29,-1
+ 20 10 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: alefMaksura-ar.isol
+Encoding: 65263 65263 1696
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 20 m 1,0,-1
+ 90 10 l 1,1,-1
+ 80 10 l 1,2,-1
+ 80 0 l 1,3,-1
+ 30 0 l 1,4,-1
+ 30 10 l 1,5,-1
+ 20 10 l 1,6,-1
+ 20 40 l 1,7,-1
+ 30 40 l 1,8,-1
+ 30 20 l 1,9,-1
+ 80 20 l 1,10,-1
+ 80 30 l 1,11,-1
+ 60 30 l 1,12,-1
+ 60 40 l 1,13,-1
+ 50 40 l 1,14,-1
+ 50 60 l 1,15,-1
+ 60 60 l 1,16,-1
+ 60 70 l 1,17,-1
+ 70 70 l 1,18,-1
+ 70 80 l 1,19,-1
+ 100 80 l 1,20,-1
+ 100 60 l 1,21,-1
+ 70 60 l 1,22,-1
+ 70 50 l 1,23,-1
+ 90 50 l 1,24,-1
+ 90 40 l 1,25,-1
+ 100 40 l 1,26,-1
+ 100 20 l 1,27,-1
+ 90 20 l 1,0,-1
+30 40 m 1,28,-1
+ 30 50 l 1,29,-1
+ 40 50 l 1,30,-1
+ 40 40 l 1,31,-1
+ 30 40 l 1,28,-1
+EndSplineSet
+EndChar
+
+StartChar: alefMaksura-ar.fina
+Encoding: 65264 65264 1697
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 20 m 1,0,-1
+ 90 10 l 1,1,-1
+ 80 10 l 1,2,-1
+ 80 0 l 1,3,-1
+ 30 0 l 1,4,-1
+ 30 10 l 1,5,-1
+ 20 10 l 1,6,-1
+ 20 30 l 1,7,-1
+ 30 30 l 1,8,-1
+ 30 10 l 1,9,-1
+ 70 10 l 1,10,-1
+ 70 20 l 1,11,-1
+ 60 20 l 1,12,-1
+ 60 40 l 1,13,-1
+ 70 40 l 1,14,-1
+ 70 50 l 1,15,-1
+ 100 50 l 1,16,-1
+ 100 30 l 1,17,-1
+ 80 30 l 1,18,-1
+ 80 20 l 1,19,-1
+ 90 20 l 1,0,-1
+30 30 m 1,20,-1
+ 30 40 l 1,21,-1
+ 40 40 l 1,22,-1
+ 40 30 l 1,23,-1
+ 30 30 l 1,20,-1
+EndSplineSet
+EndChar
+
+StartChar: yeh-ar.isol
+Encoding: 65265 65265 1698
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 20 m 1,0,-1
+ 90 10 l 1,1,-1
+ 80 10 l 1,2,-1
+ 80 0 l 1,3,-1
+ 70 0 l 1,4,-1
+ 70 -10 l 1,5,-1
+ 60 -10 l 1,6,-1
+ 60 0 l 1,7,-1
+ 50 0 l 1,8,-1
+ 50 -10 l 1,9,-1
+ 40 -10 l 1,10,-1
+ 40 0 l 1,11,-1
+ 30 0 l 1,12,-1
+ 30 10 l 1,13,-1
+ 20 10 l 1,14,-1
+ 20 40 l 1,15,-1
+ 30 40 l 1,16,-1
+ 30 20 l 1,17,-1
+ 80 20 l 1,18,-1
+ 80 30 l 1,19,-1
+ 60 30 l 1,20,-1
+ 60 40 l 1,21,-1
+ 50 40 l 1,22,-1
+ 50 60 l 1,23,-1
+ 60 60 l 1,24,-1
+ 60 70 l 1,25,-1
+ 70 70 l 1,26,-1
+ 70 80 l 1,27,-1
+ 100 80 l 1,28,-1
+ 100 60 l 1,29,-1
+ 70 60 l 1,30,-1
+ 70 50 l 1,31,-1
+ 90 50 l 1,32,-1
+ 90 40 l 1,33,-1
+ 100 40 l 1,34,-1
+ 100 20 l 1,35,-1
+ 90 20 l 1,0,-1
+30 40 m 1,36,-1
+ 30 50 l 1,37,-1
+ 40 50 l 1,38,-1
+ 40 40 l 1,39,-1
+ 30 40 l 1,36,-1
+EndSplineSet
+EndChar
+
+StartChar: yeh-ar.fina
+Encoding: 65266 65266 1699
+Width: 90
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 20 m 1,0,-1
+ 90 10 l 1,1,-1
+ 80 10 l 1,2,-1
+ 80 0 l 1,3,-1
+ 70 0 l 1,4,-1
+ 70 -10 l 1,5,-1
+ 60 -10 l 1,6,-1
+ 60 0 l 1,7,-1
+ 50 0 l 1,8,-1
+ 50 -10 l 1,9,-1
+ 40 -10 l 1,10,-1
+ 40 0 l 1,11,-1
+ 30 0 l 1,12,-1
+ 30 10 l 1,13,-1
+ 20 10 l 1,14,-1
+ 20 30 l 1,15,-1
+ 30 30 l 1,16,-1
+ 30 10 l 1,17,-1
+ 70 10 l 1,18,-1
+ 70 20 l 1,19,-1
+ 60 20 l 1,20,-1
+ 60 40 l 1,21,-1
+ 70 40 l 1,22,-1
+ 70 50 l 1,23,-1
+ 100 50 l 1,24,-1
+ 100 30 l 1,25,-1
+ 80 30 l 1,26,-1
+ 80 20 l 1,27,-1
+ 90 20 l 1,0,-1
+30 30 m 1,28,-1
+ 30 40 l 1,29,-1
+ 40 40 l 1,30,-1
+ 40 30 l 1,31,-1
+ 30 30 l 1,28,-1
+EndSplineSet
+EndChar
+
+StartChar: yeh-ar.init
+Encoding: 65267 65267 1700
+Width: 30
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 70 m 1,0,-1
+ 30 40 l 1,1,-1
+ 20 40 l 1,2,-1
+ 20 30 l 1,3,-1
+ 0 30 l 1,4,-1
+ 0 50 l 1,5,-1
+ 20 50 l 1,6,-1
+ 20 70 l 1,7,-1
+ 10 70 l 1,8,-1
+ 10 80 l 1,9,-1
+ 20 80 l 1,10,-1
+ 20 70 l 1,11,-1
+ 30 70 l 1,0,-1
+20 10 m 1,12,-1
+ 20 20 l 1,13,-1
+ 30 20 l 1,14,-1
+ 30 10 l 1,15,-1
+ 20 10 l 1,12,-1
+0 10 m 1,16,-1
+ 0 20 l 1,17,-1
+ 10 20 l 1,18,-1
+ 10 10 l 1,19,-1
+ 0 10 l 1,16,-1
+EndSplineSet
+EndChar
+
+StartChar: yeh-ar.medi
+Encoding: 65268 65268 1701
+Width: 50
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 30 m 1,0,-1
+ 30 40 l 1,1,-1
+ 20 40 l 1,2,-1
+ 20 30 l 1,3,-1
+ 0 30 l 1,4,-1
+ 0 50 l 1,5,-1
+ 20 50 l 1,6,-1
+ 20 70 l 1,7,-1
+ 30 70 l 1,8,-1
+ 30 50 l 1,9,-1
+ 50 50 l 1,10,-1
+ 50 30 l 1,11,-1
+ 30 30 l 1,0,-1
+30 10 m 1,12,-1
+ 30 20 l 1,13,-1
+ 40 20 l 1,14,-1
+ 40 10 l 1,15,-1
+ 30 10 l 1,12,-1
+10 10 m 1,16,-1
+ 10 20 l 1,17,-1
+ 20 20 l 1,18,-1
+ 20 10 l 1,19,-1
+ 10 10 l 1,16,-1
+EndSplineSet
+EndChar
+
+StartChar: lam_alefMadda-ar
+Encoding: 65269 65269 1702
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 110 m 1,0,-1
+ 40 120 l 1,1,-1
+ 70 120 l 1,2,-1
+ 70 110 l 1,3,-1
+ 40 110 l 1,0,-1
+30 100 m 1,4,-1
+ 30 110 l 1,5,-1
+ 40 110 l 1,6,-1
+ 40 100 l 1,7,-1
+ 30 100 l 1,4,-1
+70 80 m 1,8,-1
+ 70 100 l 1,9,-1
+ 80 100 l 1,10,-1
+ 80 80 l 1,11,-1
+ 70 80 l 1,8,-1
+20 90 m 1,12,-1
+ 40 90 l 1,13,-1
+ 40 80 l 1,14,-1
+ 50 80 l 1,15,-1
+ 50 60 l 1,16,-1
+ 60 60 l 1,17,-1
+ 60 50 l 1,18,-1
+ 70 50 l 1,19,-1
+ 70 20 l 1,20,-1
+ 30 20 l 1,21,-1
+ 30 40 l 1,22,-1
+ 40 40 l 1,23,-1
+ 40 50 l 1,24,-1
+ 50 50 l 1,25,-1
+ 50 40 l 1,26,-1
+ 60 40 l 1,27,-1
+ 60 50 l 1,28,-1
+ 50 50 l 1,29,-1
+ 50 60 l 1,30,-1
+ 40 60 l 1,31,-1
+ 40 70 l 1,32,-1
+ 30 70 l 1,33,-1
+ 30 80 l 1,34,-1
+ 20 80 l 1,35,-1
+ 20 90 l 1,12,-1
+70 80 m 1,36,-1
+ 70 60 l 1,37,-1
+ 60 60 l 1,38,-1
+ 60 80 l 1,39,-1
+ 70 80 l 1,36,-1
+EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" lam-ar alefMadda-ar
+EndChar
+
+StartChar: lam_alefHamzaabove-ar
+Encoding: 65271 65271 1703
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 110 m 1,0,-1
+ 30 120 l 1,1,-1
+ 50 120 l 1,2,-1
+ 50 110 l 1,3,-1
+ 30 110 l 1,0,-1
+60 60 m 1,4,-1
+ 60 50 l 1,5,-1
+ 70 50 l 1,6,-1
+ 70 20 l 1,7,-1
+ 30 20 l 1,8,-1
+ 30 40 l 1,9,-1
+ 40 40 l 1,10,-1
+ 40 50 l 1,11,-1
+ 50 50 l 1,12,-1
+ 50 60 l 1,13,-1
+ 40 60 l 1,14,-1
+ 40 70 l 1,15,-1
+ 30 70 l 1,16,-1
+ 30 80 l 1,17,-1
+ 20 80 l 1,18,-1
+ 20 90 l 1,19,-1
+ 30 90 l 1,20,-1
+ 30 100 l 1,21,-1
+ 20 100 l 1,22,-1
+ 20 110 l 1,23,-1
+ 30 110 l 1,24,-1
+ 30 100 l 1,25,-1
+ 50 100 l 1,26,-1
+ 50 90 l 1,27,-1
+ 40 90 l 1,28,-1
+ 40 80 l 1,29,-1
+ 50 80 l 1,30,-1
+ 50 60 l 1,31,-1
+ 60 60 l 1,4,-1
+70 80 m 1,32,-1
+ 70 100 l 1,33,-1
+ 80 100 l 1,34,-1
+ 80 80 l 1,35,-1
+ 70 80 l 1,32,-1
+70 80 m 1,36,-1
+ 70 60 l 1,37,-1
+ 60 60 l 1,38,-1
+ 60 80 l 1,39,-1
+ 70 80 l 1,36,-1
+50 50 m 1,40,-1
+ 50 40 l 1,41,-1
+ 60 40 l 1,42,-1
+ 60 50 l 1,43,-1
+ 50 50 l 1,40,-1
+EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" lam-ar alefHamzaabove-ar
+EndChar
+
+StartChar: lam_alefHamzabelow-ar
+Encoding: 65273 65273 1704
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+70 80 m 1,0,-1
+ 70 100 l 1,1,-1
+ 80 100 l 1,2,-1
+ 80 80 l 1,3,-1
+ 70 80 l 1,0,-1
+20 90 m 1,4,-1
+ 40 90 l 1,5,-1
+ 40 80 l 1,6,-1
+ 50 80 l 1,7,-1
+ 50 60 l 1,8,-1
+ 60 60 l 1,9,-1
+ 60 50 l 1,10,-1
+ 70 50 l 1,11,-1
+ 70 20 l 1,12,-1
+ 30 20 l 1,13,-1
+ 30 40 l 1,14,-1
+ 40 40 l 1,15,-1
+ 40 50 l 1,16,-1
+ 50 50 l 1,17,-1
+ 50 40 l 1,18,-1
+ 60 40 l 1,19,-1
+ 60 50 l 1,20,-1
+ 50 50 l 1,21,-1
+ 50 60 l 1,22,-1
+ 40 60 l 1,23,-1
+ 40 70 l 1,24,-1
+ 30 70 l 1,25,-1
+ 30 80 l 1,26,-1
+ 20 80 l 1,27,-1
+ 20 90 l 1,4,-1
+70 80 m 1,28,-1
+ 70 60 l 1,29,-1
+ 60 60 l 1,30,-1
+ 60 80 l 1,31,-1
+ 70 80 l 1,28,-1
+50 0 m 1,32,-1
+ 40 0 l 1,33,-1
+ 40 -10 l 1,34,-1
+ 20 -10 l 1,35,-1
+ 20 0 l 1,36,-1
+ 30 0 l 1,37,-1
+ 30 10 l 1,38,-1
+ 20 10 l 1,39,-1
+ 20 20 l 1,40,-1
+ 30 20 l 1,41,-1
+ 30 10 l 1,42,-1
+ 50 10 l 1,43,-1
+ 50 0 l 1,32,-1
+EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" lam-ar alefHamzabelow-ar
+EndChar
+
+StartChar: lam_alef-ar
+Encoding: 65275 65275 1705
+Width: 70
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+70 80 m 1,0,-1
+ 70 100 l 1,1,-1
+ 80 100 l 1,2,-1
+ 80 80 l 1,3,-1
+ 70 80 l 1,0,-1
+20 90 m 1,4,-1
+ 40 90 l 1,5,-1
+ 40 80 l 1,6,-1
+ 50 80 l 1,7,-1
+ 50 60 l 1,8,-1
+ 60 60 l 1,9,-1
+ 60 50 l 1,10,-1
+ 70 50 l 1,11,-1
+ 70 20 l 1,12,-1
+ 30 20 l 1,13,-1
+ 30 40 l 1,14,-1
+ 40 40 l 1,15,-1
+ 40 50 l 1,16,-1
+ 50 50 l 1,17,-1
+ 50 40 l 1,18,-1
+ 60 40 l 1,19,-1
+ 60 50 l 1,20,-1
+ 50 50 l 1,21,-1
+ 50 60 l 1,22,-1
+ 40 60 l 1,23,-1
+ 40 70 l 1,24,-1
+ 30 70 l 1,25,-1
+ 30 80 l 1,26,-1
+ 20 80 l 1,27,-1
+ 20 90 l 1,4,-1
+70 80 m 1,28,-1
+ 70 60 l 1,29,-1
+ 60 60 l 1,30,-1
+ 60 80 l 1,31,-1
+ 70 80 l 1,28,-1
+EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" lam-ar alef-ar
 EndChar
 EndChars
 EndSplineFont
