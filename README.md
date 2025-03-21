@@ -11,8 +11,8 @@
 (From the current font source file)
 
 ✅ English, Germany, Czech, Hungarian, Polish, Slovak, French, Spanish, Catalan, Basque, Portuguese, Vietnamese, Russian, Chinese Pinyin<br>
-🟨 Japanese Kana<br>
-❌ Greek, Arabic, Pe̍h-ōe-jī<br>
+🟨 Japanese Kana, Arabic<br>
+❌ Greek, Pe̍h-ōe-jī<br>
 
 ## Character Set Support
 
