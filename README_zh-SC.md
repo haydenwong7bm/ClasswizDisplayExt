@@ -19,7 +19,7 @@
 （根据当前字体源文件）
 
 ✅ ASCII（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayExt/issues/2)）<br>
-✅ ISO/IEC 8859-1（🟨 Windows-1252）<br>
+✅ ISO/IEC 8859-1 + Windows-1252<br>
 🟨 ISO/IEC 8859-2<br>
 🟨 ISO/IEC 8859-3<br>
 🟨 ISO/IEC 8859-4<br>
