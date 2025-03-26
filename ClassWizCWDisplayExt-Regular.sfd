@@ -194,10 +194,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 25 8
+WinInfo: 1114075 25 8
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114258 1731
+BeginChars: 1114253 1731
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
