@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1742995040
+ModificationTime: 1742996636
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -59,6 +59,7 @@ OS2UnicodeRanges: a000023f.1a0638e9.0a000000.00000000
 Lookup: 1 0 0 "'aalt' Access All Alternates lookup 0" { "'aalt' Access All Alternates lookup 0 subtable"  } ['aalt' ('DFLT' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 3 0 0 "'aalt' Access All Alternates lookup 1" { "'aalt' Access All Alternates lookup 1 subtable"  } ['aalt' ('DFLT' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 2" { "'ccmp' Glyph Composition/Decomposition lookup 2 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss01' Style Set 1 lookup 3" { "'ss01' Style Set 1 lookup 3 subtable"  } ['ss01' ('DFLT' <'dflt' > 'arab' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
 Lookup: 3 0 0 "'ssty' Math Script Style lookup 4" { "'ssty' Math Script Style lookup 4 subtable"  } ['ssty' ('DFLT' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
 Lookup: 1 9 0 "'init' Initial Forms in Arabic lookup 5" { "'init' Initial Forms in Arabic lookup 5 subtable"  } ['init' ('arab' <'dflt' > ) ]
 Lookup: 1 9 0 "'medi' Medial Forms in Arabic lookup 6" { "'medi' Medial Forms in Arabic lookup 6 subtable"  } ['medi' ('arab' <'dflt' > ) ]
@@ -140,7 +141,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 2 0 0 823881 411940 274627 674085 1048576 274627 599186 449390 449390 599186 449390 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114930 2262
+BeginChars: 1114932 2264
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -3357,8 +3358,9 @@ SplineSet
  20 10 l 1x4060
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" a.ssty a.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" a.ssty a.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" a.ssty a.ssty2
+Substitution2: "'ss01' Style Set 1 lookup 3 subtable" uni0251
 EndChar
 
 StartChar: b
@@ -3668,8 +3670,9 @@ SplineSet
  10 -10 l 1x8090
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" g.ssty g.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" g.ssty g.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" g.ssty g.ssty2
+Substitution2: "'ss01' Style Set 1 lookup 3 subtable" uni0261
 EndChar
 
 StartChar: h
@@ -7386,6 +7389,7 @@ SplineSet
  90 90 l 1
 EndSplineSet
 Validated: 5
+Substitution2: "'ss01' Style Set 1 lookup 3 subtable" lcaron.ss01
 EndChar
 
 StartChar: Lslash
@@ -81712,6 +81716,7 @@ SplineSet
  60 80 l 1x2e
 EndSplineSet
 Validated: 5
+Substitution2: "'ss01' Style Set 1 lookup 3 subtable" Lcaron.ss01
 EndChar
 
 StartChar: Nacute
@@ -106148,6 +106153,84 @@ SplineSet
  50 100 l 1
  40 100 l 1
  40 120 l 1
+EndSplineSet
+EndChar
+
+StartChar: Lcaron.ss01
+Encoding: 1114930 -1 2262
+Width: 110
+Flags: W
+HStem: 0 20<80 90> 0 10<0 10 30 80> 80 10<0 10 30 40> 100 10<40 50> 110 10<20 30 60 70>
+VStem: 10 20<10 80> 20 20<110 120> 50 20<110 120> 80 20<10 20> 90 10<20 40>
+LayerCount: 2
+Fore
+SplineSet
+70 110 m 1x2b
+ 60 110 l 1x2b
+ 60 100 l 1
+ 30 100 l 1x35
+ 30 110 l 1x2d
+ 20 110 l 1
+ 20 120 l 1
+ 40 120 l 1x2b
+ 40 110 l 1
+ 50 110 l 1x33
+ 50 120 l 1
+ 70 120 l 1
+ 70 110 l 1x2b
+0 80 m 1
+ 0 90 l 1
+ 40 90 l 1
+ 40 80 l 1x63
+ 30 80 l 1
+ 30 10 l 1
+ 80 10 l 1x6580
+ 80 20 l 1xa580
+ 90 20 l 1xa140
+ 90 40 l 1
+ 100 40 l 1
+ 100 0 l 1
+ 0 0 l 1
+ 0 10 l 1
+ 10 10 l 1
+ 10 80 l 1x6540
+ 0 80 l 1
+EndSplineSet
+EndChar
+
+StartChar: lcaron.ss01
+Encoding: 1114931 -1 2263
+Width: 110
+Flags: W
+HStem: 0 10<20 40 60 80> 80 10<30 40> 100 10<40 50> 110 10<20 30 60 70>
+VStem: 20 20<110 120> 30 30<80 90 100 110> 40 20<10 80> 50 20<110 120>
+LayerCount: 2
+Fore
+SplineSet
+70 110 m 1xd9
+ 60 110 l 1xd4
+ 60 100 l 1
+ 30 100 l 1xe4
+ 30 110 l 1xd4
+ 20 110 l 1
+ 20 120 l 1
+ 40 120 l 1xd8
+ 40 110 l 1
+ 50 110 l 1xe9
+ 50 120 l 1
+ 70 120 l 1
+ 70 110 l 1xd9
+60 10 m 1xc2
+ 80 10 l 1
+ 80 0 l 1
+ 20 0 l 1
+ 20 10 l 1xc8
+ 40 10 l 1
+ 40 80 l 1xc2
+ 30 80 l 1
+ 30 90 l 1
+ 60 90 l 1xc4
+ 60 10 l 1xc2
 EndSplineSet
 EndChar
 EndChars
