@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1743520602
+ModificationTime: 1743522979
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -130,7 +130,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 800 25 8
+WinInfo: 825 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -141,7 +141,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 1 0 0 823881 411940 274627 674085 1048576 274627 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114933 2283
+BeginChars: 1114933 2296
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -99542,8 +99542,8 @@ SplineSet
  60 90 l 1
  50 90 l 1
  50 100 l 1
- 90 100 l 1
- 90 120 l 1
+ 100 100 l 1
+ 100 120 l 1
  10 120 l 1
  10 100 l 1
  20 100 l 1
@@ -99562,8 +99562,8 @@ SplineSet
  20 20 l 1
  10 20 l 1
  10 0 l 1
- 90 0 l 1
- 90 20 l 1
+ 100 0 l 1
+ 100 20 l 1
  50 20 l 1
  50 30 l 1
  60 30 l 1
@@ -99633,6 +99633,461 @@ SplineSet
  20 70 l 1
  20 40 l 1
  10 40 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni037E
+Encoding: 894 894 2283
+Width: 110
+Flags: W
+HStem: -10 21G<40 60> 70 30<40 70>
+VStem: 40 30<10 40 70 100> 40 20<-10 10>
+LayerCount: 2
+Fore
+SplineSet
+40 70 m 1xe0
+ 40 100 l 1
+ 70 100 l 1
+ 70 70 l 1
+ 40 70 l 1xe0
+40 -10 m 1xd0
+ 40 40 l 1
+ 70 40 l 1
+ 70 10 l 1xe0
+ 60 10 l 1
+ 60 -10 l 1
+ 40 -10 l 1xd0
+EndSplineSet
+EndChar
+
+StartChar: uni037F
+Encoding: 895 895 2284
+Width: 110
+Flags: W
+HStem: -10 20<20 50> 100 20G<60 80>
+VStem: 60 20<20 120>
+LayerCount: 2
+Fore
+SplineSet
+20 -10 m 1
+ 20 10 l 1
+ 50 10 l 1
+ 50 20 l 1
+ 60 20 l 1
+ 60 120 l 1
+ 80 120 l 1
+ 80 10 l 1
+ 70 10 l 1
+ 70 0 l 1
+ 60 0 l 1
+ 60 -10 l 1
+ 20 -10 l 1
+EndSplineSet
+EndChar
+
+StartChar: Gamma
+Encoding: 915 915 2285
+Width: 110
+Flags: W
+HStem: 0 21G<10 30> 100 20<30 90>
+VStem: 10 20<0 100>
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 1
+ 10 120 l 1
+ 90 120 l 1
+ 90 100 l 1
+ 30 100 l 1
+ 30 0 l 1
+ 10 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni0394
+Encoding: 916 916 2286
+Width: 110
+Flags: W
+HStem: 0 20<30 80> 100 20G<40 70>
+VStem: 10 20<20 40> 20 20<50 70> 30 20<80 90> 40 30<100 120> 60 20<80 90> 70 20<50 70> 80 20<20 40>
+LayerCount: 2
+Fore
+SplineSet
+80 20 m 1xe480
+ 80 40 l 1xe480
+ 70 40 l 1
+ 70 70 l 1xc1
+ 60 70 l 1
+ 60 90 l 1
+ 50 90 l 1
+ 50 70 l 1xca
+ 40 70 l 1xd0
+ 40 40 l 1
+ 30 40 l 1
+ 30 20 l 1
+ 80 20 l 1xe480
+10 0 m 1
+ 10 50 l 1xe080
+ 20 50 l 1
+ 20 80 l 1xd0
+ 30 80 l 1
+ 30 100 l 1xc8
+ 40 100 l 1
+ 40 120 l 1
+ 70 120 l 1
+ 70 100 l 1
+ 80 100 l 1xc480
+ 80 80 l 1xc2
+ 90 80 l 1
+ 90 50 l 1xc1
+ 100 50 l 1
+ 100 0 l 1
+ 10 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: Theta
+Encoding: 920 920 2287
+Width: 110
+Flags: W
+HStem: 0 30<30 40 70 80> 0 20<40 70> 50 20<40 70> 90 30<30 40 70 80> 100 20<40 70>
+VStem: 10 30<20 30 90 100> 10 20<30 90> 40 30<50 70> 70 30<20 30 90 100> 80 20<30 90>
+LayerCount: 2
+Fore
+SplineSet
+70 50 m 1x21
+ 40 50 l 1
+ 40 70 l 1
+ 70 70 l 1
+ 70 50 l 1x21
+10 20 m 1x64
+ 10 100 l 1
+ 20 100 l 1x6c
+ 20 110 l 1
+ 30 110 l 1
+ 30 120 l 1
+ 80 120 l 1
+ 80 110 l 1x3240
+ 90 110 l 1
+ 90 100 l 1
+ 100 100 l 1
+ 100 20 l 1
+ 90 20 l 1x6880
+ 90 10 l 1
+ 80 10 l 1
+ 80 0 l 1
+ 30 0 l 1
+ 30 10 l 1xa240
+ 20 10 l 1
+ 20 20 l 1
+ 10 20 l 1x64
+40 20 m 1
+ 70 20 l 1x6480
+ 70 30 l 1xa480
+ 80 30 l 1
+ 80 90 l 1xb040
+ 70 90 l 1xb080
+ 70 100 l 1
+ 40 100 l 1x2c80
+ 40 90 l 1x3480
+ 30 90 l 1
+ 30 30 l 1xb2
+ 40 30 l 1xb4
+ 40 20 l 1
+EndSplineSet
+EndChar
+
+StartChar: epsilon
+Encoding: 949 949 2288
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 70 m 1
+ 70 70 l 1
+ 70 60 l 1
+ 90 60 l 1
+ 90 80 l 1
+ 80 80 l 1
+ 80 90 l 1
+ 20 90 l 1
+ 20 80 l 1
+ 10 80 l 1
+ 10 60 l 1
+ 20 60 l 1
+ 20 50 l 1
+ 10 50 l 1
+ 10 10 l 1
+ 20 10 l 1
+ 20 0 l 1
+ 80 0 l 1
+ 80 10 l 1
+ 90 10 l 1
+ 90 30 l 1
+ 70 30 l 1
+ 70 20 l 1
+ 30 20 l 1
+ 30 40 l 1
+ 60 40 l 1
+ 60 60 l 1
+ 30 60 l 1
+ 30 70 l 1
+EndSplineSet
+EndChar
+
+StartChar: gamma
+Encoding: 947 947 2289
+Width: 110
+Flags: W
+HStem: -10 21G<40 60> 70 20<10 20>
+VStem: 10 20<70 90> 20 20<50 70> 30 20<40 50> 40 20<-10 20> 60 20<40 60> 70 20<60 90>
+LayerCount: 2
+Fore
+SplineSet
+70 20 m 1xc1
+ 60 20 l 1
+ 60 -10 l 1
+ 40 -10 l 1
+ 40 30 l 1xc5
+ 30 30 l 1
+ 30 50 l 1xc8
+ 20 50 l 1
+ 20 70 l 1xd0
+ 10 70 l 1
+ 10 90 l 1
+ 30 90 l 1
+ 30 70 l 1xe0
+ 40 70 l 1
+ 40 50 l 1xd0
+ 50 50 l 1
+ 50 40 l 1
+ 60 40 l 1
+ 60 60 l 1xca
+ 70 60 l 1
+ 70 90 l 1
+ 90 90 l 1
+ 90 60 l 1xc1
+ 80 60 l 1
+ 80 30 l 1xc2
+ 70 30 l 1
+ 70 20 l 1xc1
+EndSplineSet
+EndChar
+
+StartChar: nu
+Encoding: 957 957 2290
+Width: 110
+Flags: W
+HStem: 0 21G<40 60> 70 20G<10 30 70 90>
+VStem: 10 20<60 90> 20 20<40 60> 30 20<30 40> 40 20<0 10> 60 20<30 50> 70 20<50 90>
+LayerCount: 2
+Fore
+SplineSet
+70 10 m 1xc1
+ 60 10 l 1
+ 60 0 l 1
+ 40 0 l 1
+ 40 20 l 1xc5
+ 30 20 l 1
+ 30 40 l 1xc8
+ 20 40 l 1
+ 20 60 l 1xd0
+ 10 60 l 1
+ 10 90 l 1
+ 30 90 l 1
+ 30 60 l 1xe0
+ 40 60 l 1
+ 40 40 l 1xd0
+ 50 40 l 1
+ 50 30 l 1
+ 60 30 l 1
+ 60 50 l 1xca
+ 70 50 l 1
+ 70 90 l 1
+ 90 90 l 1
+ 90 50 l 1xc1
+ 80 50 l 1
+ 80 30 l 1xc2
+ 70 30 l 1
+ 70 10 l 1xc1
+EndSplineSet
+EndChar
+
+StartChar: theta
+Encoding: 952 952 2291
+Width: 110
+Flags: W
+HStem: 0 30<30 40 60 70> 0 20<40 60> 50 20<30 70> 90 30<30 40 60 70> 100 20<40 60>
+VStem: 10 30<20 30 90 100> 10 20<30 50 70 90> 60 30<20 30 90 100> 70 20<30 50 70 90>
+LayerCount: 2
+Fore
+SplineSet
+10 20 m 1x64
+ 10 100 l 1
+ 20 100 l 1x6c
+ 20 110 l 1
+ 30 110 l 1
+ 30 120 l 1
+ 70 120 l 1
+ 70 110 l 1x3280
+ 80 110 l 1
+ 80 100 l 1
+ 90 100 l 1
+ 90 20 l 1
+ 80 20 l 1x69
+ 80 10 l 1
+ 70 10 l 1
+ 70 0 l 1
+ 30 0 l 1
+ 30 10 l 1xa280
+ 20 10 l 1
+ 20 20 l 1
+ 10 20 l 1x64
+40 20 m 1
+ 60 20 l 1x65
+ 60 30 l 1xa5
+ 70 30 l 1
+ 70 50 l 1
+ 30 50 l 1
+ 30 30 l 1xa280
+ 40 30 l 1xa4
+ 40 20 l 1
+30 70 m 1x32
+ 70 70 l 1
+ 70 90 l 1x3280
+ 60 90 l 1x31
+ 60 100 l 1
+ 40 100 l 1x2d
+ 40 90 l 1x35
+ 30 90 l 1
+ 30 70 l 1x32
+EndSplineSet
+EndChar
+
+StartChar: rho
+Encoding: 961 961 2292
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20 90 m 1
+ 20 80 l 1
+ 10 80 l 1
+ 10 -10 l 1
+ 30 -10 l 1
+ 30 10 l 1
+ 80 10 l 1
+ 80 20 l 1
+ 90 20 l 1
+ 90 80 l 1
+ 80 80 l 1
+ 80 90 l 1
+ 20 90 l 1
+30 70 m 1
+ 70 70 l 1
+ 70 30 l 1
+ 30 30 l 1
+ 30 70 l 1
+EndSplineSet
+EndChar
+
+StartChar: sigma
+Encoding: 963 963 2293
+Width: 110
+Flags: W
+HStem: 0 20<30 60> 70 20<30 60 80 90>
+VStem: 10 20<20 70> 60 20<20 70>
+LayerCount: 2
+Fore
+SplineSet
+30 20 m 1
+ 60 20 l 1
+ 60 70 l 1
+ 30 70 l 1
+ 30 20 l 1
+10 10 m 1
+ 10 80 l 1
+ 20 80 l 1
+ 20 90 l 1
+ 90 90 l 1
+ 90 70 l 1
+ 80 70 l 1
+ 80 10 l 1
+ 70 10 l 1
+ 70 0 l 1
+ 20 0 l 1
+ 20 10 l 1
+ 10 10 l 1
+EndSplineSet
+EndChar
+
+StartChar: upsilon
+Encoding: 965 965 2294
+Width: 110
+Flags: W
+HStem: 0 20<40 70> 70 20<10 20>
+VStem: 10 20<80 90> 20 20<20 70> 70 20<20 90>
+LayerCount: 2
+Fore
+SplineSet
+70 90 m 1xd8
+ 90 90 l 1
+ 90 10 l 1
+ 80 10 l 1
+ 80 0 l 1
+ 30 0 l 1
+ 30 10 l 1xe8
+ 20 10 l 1
+ 20 70 l 1xd8
+ 10 70 l 1
+ 10 90 l 1
+ 30 90 l 1
+ 30 80 l 1xe8
+ 40 80 l 1
+ 40 20 l 1
+ 70 20 l 1
+ 70 90 l 1xd8
+EndSplineSet
+EndChar
+
+StartChar: omega
+Encoding: 969 969 2295
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 10 m 1
+ 60 10 l 1
+ 60 0 l 1
+ 90 0 l 1
+ 90 10 l 1
+ 100 10 l 1
+ 100 80 l 1
+ 90 80 l 1
+ 90 90 l 1
+ 70 90 l 1
+ 70 70 l 1
+ 80 70 l 1
+ 80 20 l 1
+ 60 20 l 1
+ 60 70 l 1
+ 40 70 l 1
+ 40 20 l 1
+ 20 20 l 1
+ 20 70 l 1
+ 30 70 l 1
+ 30 90 l 1
+ 10 90 l 1
+ 10 80 l 1
+ 0 80 l 1
+ 0 10 l 1
+ 10 10 l 1
+ 10 0 l 1
+ 40 0 l 1
+ 40 10 l 1
 EndSplineSet
 EndChar
 EndChars
