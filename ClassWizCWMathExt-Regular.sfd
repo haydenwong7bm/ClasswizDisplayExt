@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1743945705
+ModificationTime: 1745500078
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -141,7 +141,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 1 0 0 823881 411940 274627 674085 1048576 274627 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114933 2610
+BeginChars: 1114933 2614
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -122747,6 +122747,169 @@ SplineSet
  90 100 l 1
  100 100 l 1
  100 40 l 1xa1
+EndSplineSet
+EndChar
+
+StartChar: Psi
+Encoding: 936 936 2610
+Width: 110
+Flags: W
+HStem: 0 21G<40 60> 50 20<30 40 60 70> 100 20G<10 30 40 60 70 90>
+VStem: 10 20<70 120> 40 20<0 50 70 120> 70 20<70 120>
+CounterMasks: 1 1c
+LayerCount: 2
+Fore
+SplineSet
+20 60 m 1
+ 10 60 l 1
+ 10 120 l 1
+ 30 120 l 1
+ 30 70 l 1
+ 40 70 l 1
+ 40 120 l 1
+ 60 120 l 1
+ 60 70 l 1
+ 70 70 l 1
+ 70 120 l 1
+ 90 120 l 1
+ 90 60 l 1
+ 80 60 l 1
+ 80 50 l 1
+ 60 50 l 1
+ 60 0 l 1
+ 40 0 l 1
+ 40 50 l 1
+ 20 50 l 1
+ 20 60 l 1
+EndSplineSet
+EndChar
+
+StartChar: sigma1
+Encoding: 962 962 2611
+Width: 110
+Flags: W
+HStem: -10 20<60 70> 20 20<30 70> 60 20<80 90> 70 20<30 70>
+VStem: 10 20<40 70> 60 20<-10 0> 70 20<10 20 60 70>
+LayerCount: 2
+Fore
+SplineSet
+10 30 m 1xda
+ 10 80 l 1
+ 20 80 l 1xea
+ 20 90 l 1
+ 80 90 l 1xdc
+ 80 80 l 1xec
+ 90 80 l 1
+ 90 60 l 1
+ 70 60 l 1xea
+ 70 70 l 1xda
+ 30 70 l 1
+ 30 40 l 1
+ 80 40 l 1
+ 80 30 l 1xdc
+ 90 30 l 1
+ 90 0 l 1xda
+ 80 0 l 1
+ 80 -10 l 1
+ 60 -10 l 1
+ 60 10 l 1xdc
+ 70 10 l 1
+ 70 20 l 1
+ 20 20 l 1
+ 20 30 l 1
+ 10 30 l 1xda
+EndSplineSet
+EndChar
+
+StartChar: delta
+Encoding: 948 948 2612
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 50 m 1
+ 40 50 l 1
+ 40 60 l 1
+ 60 60 l 1
+ 60 50 l 1
+ 70 50 l 1
+ 70 30 l 1
+ 60 30 l 1
+ 60 20 l 1
+ 40 20 l 1
+ 40 30 l 1
+ 30 30 l 1
+ 30 50 l 1
+70 70 m 1
+ 70 80 l 1
+ 50 80 l 1
+ 50 90 l 1
+ 40 90 l 1
+ 40 100 l 1
+ 60 100 l 1
+ 60 90 l 1
+ 80 90 l 1
+ 80 110 l 1
+ 70 110 l 1
+ 70 120 l 1
+ 30 120 l 1
+ 30 110 l 1
+ 20 110 l 1
+ 20 80 l 1
+ 30 80 l 1
+ 30 70 l 1
+ 20 70 l 1
+ 20 60 l 1
+ 10 60 l 1
+ 10 20 l 1
+ 20 20 l 1
+ 20 10 l 1
+ 30 10 l 1
+ 30 0 l 1
+ 70 0 l 1
+ 70 10 l 1
+ 80 10 l 1
+ 80 20 l 1
+ 90 20 l 1
+ 90 60 l 1
+ 80 60 l 1
+ 80 70 l 1
+ 70 70 l 1
+EndSplineSet
+EndChar
+
+StartChar: psi
+Encoding: 968 968 2613
+Width: 110
+Flags: W
+HStem: -10 21G<40 60> 10 20<30 40 60 70> 70 20G<40 60>
+VStem: 10 20<30 80> 40 20<-10 10 30 90> 70 20<30 80>
+CounterMasks: 1 1c
+LayerCount: 2
+Fore
+SplineSet
+20 20 m 1x7c
+ 10 20 l 1
+ 10 80 l 1
+ 30 80 l 1
+ 30 30 l 1
+ 40 30 l 1
+ 40 90 l 1
+ 60 90 l 1
+ 60 30 l 1
+ 70 30 l 1
+ 70 80 l 1
+ 90 80 l 1
+ 90 20 l 1
+ 80 20 l 1
+ 80 10 l 1
+ 60 10 l 1x7c
+ 60 -10 l 1
+ 40 -10 l 1xbc
+ 40 10 l 1
+ 20 10 l 1
+ 20 20 l 1x7c
 EndSplineSet
 EndChar
 EndChars
