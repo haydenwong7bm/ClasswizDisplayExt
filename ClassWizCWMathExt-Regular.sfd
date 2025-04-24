@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1745506719
+ModificationTime: 1745507522
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -130,7 +130,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 25 8
+WinInfo: 175 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -58233,7 +58233,7 @@ EndChar
 
 StartChar: Hbar
 Encoding: 294 294 1632
-Width: 104
+Width: 110
 Flags: W
 HStem: 0 21G<10 30 70 90> 50 20<30 70> 90 20<0 10 30 70 90 100> 100 20G<10 30 70 90>
 VStem: 10 20<0 50 70 90 110 120> 70 20<0 50 70 90 110 120>
