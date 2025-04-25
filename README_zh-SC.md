@@ -18,14 +18,14 @@
 
 （根据当前字体源文件）
 
-✅ ASCII（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayExt/issues/2)）<br>
+✅ ASCII（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayFont/issues/2)）<br>
 ✅ ISO/IEC 8859-1 + Windows-1252<br>
 🟨 ISO/IEC 8859-2<br>
 🟨 ISO/IEC 8859-3<br>
 🟨 ISO/IEC 8859-4<br>
 🟨 ISO/IEC 8859-5<br>
 🟨 ISO/IEC 8859-6<br>
-❌ ISO/IEC 8859-7<br>
+✅ ISO/IEC 8859-7:1987<br>
 ❌ ISO/IEC 8859-8（没计画支持）<br>
 🟨 ISO/IEC 8859-9<br>
 🟨 ISO/IEC 8859-10<br>
