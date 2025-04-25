@@ -6,17 +6,13 @@
 
 ![ClassWizDisplay](readme_assets/ClassWizDisplay.svg)
 
-## Language Support
+## Language and Character Set Support
 
-(From the current font source file)
+(From the current font SFD source file)
 
-✅ English, Germany, Czech, Hungarian, Polish, Slovak, French, Spanish, Catalan, Basque, Portuguese, Vietnamese, Russian, Chinese Pinyin<br>
+✅ English, Germany, Czech, Hungarian, Polish, Slovak, French, Spanish, Catalan, Basque, Portuguese, Vietnamese, Greek, Russian, Chinese Pinyin<br>
 🟨 Japanese Kana, Arabic<br>
-❌ Greek, Pe̍h-ōe-jī<br>
-
-## Character Set Support
-
-(From the current font source file)
+❌ Pe̍h-ōe-jī<br>
 
 ✅ ASCII ([Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayFont/issues/2))<br>
 ✅ ISO/IEC 8859-1 + Windows-1252<br>

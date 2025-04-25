@@ -6,17 +6,13 @@
 
 ![ClassWizDisplay](readme_assets/ClassWizDisplay.svg)
 
-## 語言支持
+## 語言及字符集支持
 
-（根據當前字體源文件）
+（根據當前字體SFD源文件）
 
-✅ 英語、德語、捷克語、匈牙利語、波蘭語、斯洛伐克語、法語、西班牙語、加泰羅尼亞語、巴斯克語、葡萄牙語、越南語、俄語、漢語拼音<br>
+✅ 英語、德語、捷克語、匈牙利語、波蘭語、斯洛伐克語、法語、西班牙語、加泰羅尼亞語、巴斯克語、葡萄牙語、越南語、希臘語、俄語、漢語拼音<br>
 🟨 日語假名、阿拉伯語<br>
-❌ 希臘語、台語白話字<br>
-
-## 字符集支持
-
-（根據當前字體源文件）
+❌ 台語白話字<br>
 
 ✅ ASCII（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayFont/issues/2)）<br>
 ✅ ISO/IEC 8859-1 + Windows-1252<br>
