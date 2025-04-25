@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1745551653
+ModificationTime: 1745554873
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -141,7 +141,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 1 0 0 823881 411940 274627 674085 1048576 274627 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114933 1719
+BeginChars: 1114933 1720
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -61471,6 +61471,26 @@ SplineSet
  90 110 l 1
  90 90 l 1
  70 90 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni037A
+Encoding: 890 890 1719
+Width: 110
+Flags: W
+HStem: -10 30
+LayerCount: 2
+Fore
+SplineSet
+60 20 m 1
+ 40 20 l 1
+ 40 0 l 1
+ 50 0 l 1
+ 50 -10 l 1
+ 70 -10 l 1
+ 70 0 l 1
+ 60 0 l 1
+ 60 20 l 1
 EndSplineSet
 EndChar
 EndChars
