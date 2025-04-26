@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1745642685
+ModificationTime: 1745643757
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -141,7 +141,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 1 0 0 823881 411940 274627 674085 1048576 274627 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114933 1723
+BeginChars: 1114933 1725
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -61622,6 +61622,94 @@ SplineSet
  40 20 l 1
  40 0 l 1
  60 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: phi1
+Encoding: 981 981 1723
+Width: 110
+Flags: W
+HStem: -10 21G<40 60> 20 20<30 40 60 70> 70 20<30 40 60 70> 100 20G<40 60>
+VStem: 10 20<40 70> 40 20<-10 20 40 70 90 120> 70 20<40 70>
+CounterMasks: 1 0e
+LayerCount: 2
+Fore
+SplineSet
+10 30 m 1
+ 10 80 l 1
+ 20 80 l 1
+ 20 90 l 1
+ 40 90 l 1
+ 40 120 l 1
+ 60 120 l 1
+ 60 90 l 1
+ 80 90 l 1
+ 80 80 l 1
+ 90 80 l 1
+ 90 30 l 1
+ 80 30 l 1
+ 80 20 l 1
+ 60 20 l 1
+ 60 -10 l 1
+ 40 -10 l 1
+ 40 20 l 1
+ 20 20 l 1
+ 20 30 l 1
+ 10 30 l 1
+40 40 m 1
+ 40 70 l 1
+ 30 70 l 1
+ 30 40 l 1
+ 40 40 l 1
+60 40 m 1
+ 70 40 l 1
+ 70 70 l 1
+ 60 70 l 1
+ 60 40 l 1
+EndSplineSet
+EndChar
+
+StartChar: omega1
+Encoding: 982 982 1724
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+40 10 m 1
+ 60 10 l 1
+ 60 0 l 1
+ 90 0 l 1
+ 90 10 l 1
+ 100 10 l 1
+ 100 60 l 1
+ 90 60 l 1
+ 90 70 l 1
+ 100 70 l 1
+ 100 90 l 1
+ 0 90 l 1
+ 0 70 l 1
+ 10 70 l 1
+ 10 60 l 1
+ 0 60 l 1
+ 0 10 l 1
+ 10 10 l 1
+ 10 0 l 1
+ 40 0 l 1
+ 40 10 l 1
+70 70 m 1
+ 70 50 l 1
+ 80 50 l 1
+ 80 20 l 1
+ 60 20 l 1
+ 60 60 l 1
+ 40 60 l 1
+ 40 20 l 1
+ 20 20 l 1
+ 20 50 l 1
+ 30 50 l 1
+ 30 70 l 1
+ 70 70 l 1
 EndSplineSet
 EndChar
 EndChars
