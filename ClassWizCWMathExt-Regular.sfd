@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1745645998
+ModificationTime: 1745841262
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -130,7 +130,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 225 25 8
+WinInfo: 300 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -141,7 +141,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 1 0 0 823881 411940 274627 674085 1048576 274627 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114933 1727
+BeginChars: 1114934 1728
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -44555,6 +44555,7 @@ SplineSet
  90 90 l 1xfa
 EndSplineSet
 Validated: 1
+Substitution2: "'ss01' Style Set 1 lookup 3 subtable" dcaron.ss01
 EndChar
 
 StartChar: Dcroat
@@ -45417,44 +45418,40 @@ StartChar: Zdotaccent
 Encoding: 379 379 1316
 Width: 110
 Flags: W
-HStem: 0 20<40 90> 80 20<10 40> 100 20G<40 60>
-VStem: 40 20<100 120>
+HStem: 0 20<40 90> 30 20<40 50> 40 20<50 60> 70 20<10 60>
 LayerCount: 2
 Fore
 SplineSet
-90 70 m 1xb0
- 80 70 l 1
- 80 60 l 1
- 70 60 l 1
- 70 50 l 1
- 60 50 l 1
- 60 40 l 1
- 50 40 l 1
- 50 30 l 1
- 40 30 l 1
- 40 20 l 1
- 90 20 l 1
- 90 0 l 1
- 10 0 l 1
- 10 30 l 1
- 20 30 l 1
- 20 40 l 1
- 30 40 l 1
- 30 50 l 1
- 40 50 l 1
- 40 60 l 1
- 50 60 l 1
- 50 70 l 1
- 60 70 l 1
- 60 80 l 1
- 10 80 l 1
- 10 100 l 1
- 40 100 l 1xd0
- 40 120 l 1
- 60 120 l 1
- 60 100 l 1
- 90 100 l 1
- 90 70 l 1xb0
+60 120 m 5x90
+ 40 120 l 5
+ 40 100 l 5
+ 60 100 l 5
+ 60 120 l 5x90
+90 20 m 5
+ 90 0 l 5
+ 10 0 l 5
+ 10 30 l 5
+ 20 30 l 5xd0
+ 20 40 l 5
+ 30 40 l 5xb0
+ 30 50 l 5
+ 50 50 l 5xd0
+ 50 60 l 5
+ 60 60 l 5
+ 60 70 l 5
+ 10 70 l 5
+ 10 90 l 5
+ 90 90 l 5
+ 90 60 l 5
+ 80 60 l 5xb0
+ 80 50 l 5
+ 70 50 l 5xd0
+ 70 40 l 5
+ 50 40 l 5xb0
+ 50 30 l 5
+ 40 30 l 5xd0
+ 40 20 l 5
+ 90 20 l 5
 EndSplineSet
 EndChar
 
@@ -57460,23 +57457,24 @@ Encoding: 437 437 1615
 Width: 110
 Flags: W
 HStem: 0 20<40 90> 50 20<10 30 70 90> 100 20<10 60>
-VStem: 30 20<40 50> 50 20<70 80>
 CounterMasks: 1 e0
 LayerCount: 2
 Fore
 SplineSet
-10 100 m 1xe8
+10 100 m 1
  10 120 l 1
  90 120 l 1
  90 90 l 1
  80 90 l 1
  80 80 l 1
  70 80 l 1
- 70 70 l 1xe8
+ 70 70 l 1
  90 70 l 1
  90 50 l 1
- 50 50 l 1xf0
- 50 30 l 1xe8
+ 60 50 l 1
+ 60 40 l 1
+ 50 40 l 1
+ 50 30 l 1
  40 30 l 1
  40 20 l 1
  90 20 l 1
@@ -57486,14 +57484,16 @@ SplineSet
  20 30 l 1
  20 40 l 1
  30 40 l 1
- 30 50 l 1xf0
+ 30 50 l 1
  10 50 l 1
  10 70 l 1
- 50 70 l 1
+ 40 70 l 1
+ 40 80 l 1
+ 50 80 l 1
  50 90 l 1
  60 90 l 1
  60 100 l 1
- 10 100 l 1xe8
+ 10 100 l 1
 EndSplineSet
 EndChar
 
@@ -58590,61 +58590,65 @@ EndChar
 StartChar: Lcaron.ss01
 Encoding: 1114931 -1 1643
 Width: 110
-Flags: HW
+Flags: W
+HStem: 0 20<30 90> 70 20G<10 30> 100 10<40 60> 110 10<20 30 70 80>
+VStem: 10 20<20 90> 20 20<110 120> 60 20<110 120>
 LayerCount: 2
 Fore
 SplineSet
-60 120 m 5
+60 120 m 5xd6
  80 120 l 5
  80 110 l 5
- 70 110 l 5
+ 70 110 l 5xd6
  70 100 l 5
- 30 100 l 5
- 30 110 l 5
+ 30 100 l 5xea
+ 30 110 l 5xda
  20 110 l 5
  20 120 l 5
- 40 120 l 5
+ 40 120 l 5xd6
  40 110 l 5
- 60 110 l 5
- 60 120 l 5
-10 0 m 1
+ 60 110 l 5xe6
+ 60 120 l 5xd6
+10 0 m 1xca
  10 90 l 1
  30 90 l 1
  30 20 l 1
  90 20 l 1
  90 0 l 1
- 10 0 l 1
+ 10 0 l 1xca
 EndSplineSet
 EndChar
 
 StartChar: lcaron.ss01
 Encoding: 1114932 -1 1644
 Width: 110
-Flags: HW
+Flags: W
+HStem: 0 20<20 40 60 80> 80 10<20 40> 100 10<40 60> 110 10<20 30 70 80>
+VStem: 20 20<110 120> 40 20<20 80> 60 20<110 120>
 LayerCount: 2
 Fore
 SplineSet
-60 120 m 1
+60 120 m 1xda
  80 120 l 1
  80 110 l 1
- 70 110 l 1
+ 70 110 l 1xda
  70 100 l 1
- 30 100 l 1
+ 30 100 l 1xea
  30 110 l 1
  20 110 l 1
  20 120 l 1
- 40 120 l 1
+ 40 120 l 1xda
  40 110 l 1
- 60 110 l 1
- 60 120 l 1
+ 60 110 l 1xea
+ 60 120 l 1xda
 60 90 m 1
- 60 20 l 1
+ 60 20 l 1xc4
  80 20 l 1
  80 0 l 1
  20 0 l 1
- 20 20 l 1
+ 20 20 l 1xca
  40 20 l 1
- 40 80 l 1
+ 40 80 l 1xc4
  20 80 l 1
  20 90 l 1
  60 90 l 1
@@ -61788,6 +61792,47 @@ SplineSet
  40 20 l 1
  40 70 l 1xcc
  20 70 l 1
+EndSplineSet
+EndChar
+
+StartChar: dcaron.ss01
+Encoding: 1114933 -1 1727
+Width: 110
+Flags: W
+HStem: 0 20<30 70> 60 20<30 70> 100 10<40 60> 110 10<20 30 70 80>
+VStem: 10 20<20 60> 20 20<110 120> 60 20<110 120> 70 20<20 60 80 100>
+LayerCount: 2
+Fore
+SplineSet
+90 100 m 1xe5
+ 90 0 l 1
+ 20 0 l 1
+ 20 10 l 1xe5
+ 10 10 l 1
+ 10 70 l 1xe8
+ 20 70 l 1
+ 20 80 l 1
+ 70 80 l 1
+ 70 100 l 1
+ 90 100 l 1xe5
+70 20 m 1
+ 70 60 l 1
+ 30 60 l 1
+ 30 20 l 1xc9
+ 70 20 l 1
+60 120 m 1xd6
+ 80 120 l 1
+ 80 110 l 1xd6
+ 70 110 l 1xd1
+ 70 100 l 1
+ 30 100 l 1xe9
+ 30 110 l 1xd9
+ 20 110 l 1
+ 20 120 l 1
+ 40 120 l 1xd4
+ 40 110 l 1
+ 60 110 l 1xe6
+ 60 120 l 1xd6
 EndSplineSet
 EndChar
 EndChars
