@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1746351524
+ModificationTime: 1746372670
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -131,7 +131,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 25 25 8
+WinInfo: 525 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -8708,52 +8708,50 @@ Encoding: 628 628 170
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: 0 10<0 10 20 30> 80 10<0 10 70 80 90 100>
-VStem: 0 20<80 90> 10 20<70 80> 10 10<10 50> 70 20<0 10> 80 10<30 80>
+HStem: 0 10<10 20 30 40> 80 10<10 20 70 80 90 100>
+VStem: 10 20<80 90> 20 20<70 80> 20 10<10 50> 70 20<10 20> 80 10<0 10 40 80>
 LayerCount: 2
 Fore
 SplineSet
-10 80 m 1xd0
- 0 80 l 1
- 0 90 l 1
- 20 90 l 1
- 20 80 l 1xe0
- 30 80 l 1
- 30 70 l 1
- 40 70 l 1
- 40 60 l 1
- 50 60 l 1
- 50 50 l 1
- 60 50 l 1
- 60 40 l 1
- 70 40 l 1
- 70 30 l 1xd4
- 80 30 l 1
- 80 80 l 1xc2
+80 80 m 1xc2
  70 80 l 1
  70 90 l 1xc4
  100 90 l 1
  100 80 l 1
- 90 80 l 1xc2
+ 90 80 l 1
  90 0 l 1
- 70 0 l 1
+ 80 0 l 1
+ 80 10 l 1xc2
  70 10 l 1
- 60 10 l 1
+ 70 20 l 1
  60 20 l 1
- 50 20 l 1
+ 60 30 l 1
  50 30 l 1
- 40 30 l 1
+ 50 40 l 1
  40 40 l 1
- 30 40 l 1
- 30 50 l 1xd4
- 20 50 l 1
+ 40 50 l 1xd4
+ 30 50 l 1
+ 30 10 l 1xc8
+ 40 10 l 1
+ 40 0 l 1xd0
+ 10 0 l 1
+ 10 10 l 1xe0
  20 10 l 1xc8
- 30 10 l 1
- 30 0 l 1xd0
- 0 0 l 1
- 0 10 l 1xe0
- 10 10 l 1xc8
- 10 80 l 1xd0
+ 20 80 l 1xd0
+ 10 80 l 1
+ 10 90 l 1
+ 30 90 l 1
+ 30 80 l 1xe0
+ 40 80 l 1
+ 40 70 l 1
+ 50 70 l 1
+ 50 60 l 1
+ 60 60 l 1
+ 60 50 l 1
+ 70 50 l 1
+ 70 40 l 1xd4
+ 80 40 l 1
+ 80 80 l 1xc2
 EndSplineSet
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Nsmall.ssty Nsmall.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Nsmall.ssty Nsmall.ssty2
