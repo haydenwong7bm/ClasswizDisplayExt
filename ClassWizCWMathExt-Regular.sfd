@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1746352202
+ModificationTime: 1746371983
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -56,6 +56,7 @@ OS2XHeight: 90
 OS2Vendor: '    '
 OS2CodePages: 40040003.00000000
 OS2UnicodeRanges: 20000007.1a070001.02000000.00000000
+Lookup: 3 0 0 "'subs' Subscript lookup 0" { "'subs' Subscript lookup 0 subtable"  } ['    ' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) 'subs' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' Access All Alternates lookup 0" { "'aalt' Access All Alternates lookup 0 subtable"  } ['aalt' ('DFLT' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 3 0 0 "'aalt' Access All Alternates lookup 1" { "'aalt' Access All Alternates lookup 1 subtable"  } ['aalt' ('DFLT' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 2" { "'ccmp' Glyph Composition/Decomposition lookup 2 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
@@ -130,7 +131,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 325 25 8
+WinInfo: 0 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -141,7 +142,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 1 0 0 823881 411940 274627 674085 1048576 274627 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114944 1783
+BeginChars: 1114944 1792
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -1583,8 +1584,9 @@ SplineSet
  30 0 l 1xf040
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" A.ssty A.ssty2
+AlternateSubs2: "'subs' Subscript lookup 0 subtable" A.subs
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" A.ssty A.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" A.ssty A.ssty2
 EndChar
 
 StartChar: B
@@ -1623,8 +1625,9 @@ SplineSet
  10 0 l 1
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" B.ssty B.ssty2
+AlternateSubs2: "'subs' Subscript lookup 0 subtable" B.subs
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" B.ssty B.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" B.ssty B.ssty2
 EndChar
 
 StartChar: C
@@ -1668,8 +1671,9 @@ SplineSet
  10 20 l 1x8a
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" C.ssty C.ssty2
+AlternateSubs2: "'subs' Subscript lookup 0 subtable" C.subs
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" C.ssty C.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" C.ssty C.ssty2
 EndChar
 
 StartChar: D
@@ -1706,8 +1710,8 @@ SplineSet
  90 20 l 1
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" D.ssty D.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" D.ssty D.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" D.ssty D.ssty2
 EndChar
 
 StartChar: E
@@ -1736,8 +1740,8 @@ SplineSet
  10 0 l 1
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" E.ssty E.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" E.ssty E.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" E.ssty E.ssty2
 EndChar
 
 StartChar: F
@@ -1763,8 +1767,8 @@ SplineSet
  10 0 l 1
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" F.ssty F.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" F.ssty F.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" F.ssty F.ssty2
 EndChar
 
 StartChar: G
@@ -1810,8 +1814,8 @@ SplineSet
  10 20 l 1xea
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" G.ssty G.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" G.ssty G.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" G.ssty G.ssty2
 EndChar
 
 StartChar: H
@@ -1838,8 +1842,8 @@ SplineSet
  30 0 l 1
  10 0 l 1
 EndSplineSet
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" H.ssty H.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" H.ssty H.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" H.ssty H.ssty2
 EndChar
 
 StartChar: I
@@ -1867,8 +1871,9 @@ SplineSet
  20 100 l 1
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" I.ssty I.ssty2
+AlternateSubs2: "'subs' Subscript lookup 0 subtable" I.subs
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" I.ssty I.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" I.ssty I.ssty2
 EndChar
 
 StartChar: J
@@ -1896,8 +1901,9 @@ SplineSet
  60 -10 l 1
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" J.ssty J.ssty2
+AlternateSubs2: "'subs' Subscript lookup 0 subtable" J.subs
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" J.ssty J.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" J.ssty J.ssty2
 EndChar
 
 StartChar: K
@@ -1949,8 +1955,9 @@ SplineSet
  10 0 l 1xf0
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" K.ssty K.ssty2
+AlternateSubs2: "'subs' Subscript lookup 0 subtable" K.subs
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" K.ssty K.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" K.ssty K.ssty2
 EndChar
 
 StartChar: L
@@ -1972,8 +1979,8 @@ SplineSet
  10 0 l 1
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" L.ssty L.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" L.ssty L.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" L.ssty L.ssty2
 EndChar
 
 StartChar: M
@@ -2009,8 +2016,8 @@ SplineSet
  10 0 l 1xda
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" M.ssty M.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" M.ssty M.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" M.ssty M.ssty2
 EndChar
 
 StartChar: N
@@ -2050,8 +2057,9 @@ SplineSet
  10 0 l 1xd8
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" N.ssty N.ssty2
+AlternateSubs2: "'subs' Subscript lookup 0 subtable" N.subs
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" N.ssty N.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" N.ssty N.ssty2
 EndChar
 
 StartChar: O
@@ -2100,8 +2108,8 @@ SplineSet
  20 20 l 1
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" O.ssty O.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" O.ssty O.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" O.ssty O.ssty2
 EndChar
 
 StartChar: P
@@ -2132,8 +2140,9 @@ SplineSet
  10 0 l 1
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" P.ssty P.ssty2
+AlternateSubs2: "'subs' Subscript lookup 0 subtable" P.subs
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" P.ssty P.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" P.ssty P.ssty2
 EndChar
 
 StartChar: Q
@@ -2189,8 +2198,8 @@ SplineSet
  10 20 l 1
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Q.ssty Q.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Q.ssty Q.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Q.ssty Q.ssty2
 EndChar
 
 StartChar: R
@@ -2234,8 +2243,8 @@ SplineSet
  10 0 l 1
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" R.ssty R.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" R.ssty R.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" R.ssty R.ssty2
 EndChar
 
 StartChar: S
@@ -2295,8 +2304,8 @@ SplineSet
  80 90 l 1x3280
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" S.ssty S.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" S.ssty S.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" S.ssty S.ssty2
 EndChar
 
 StartChar: T
@@ -2320,8 +2329,9 @@ SplineSet
  10 100 l 1
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" T.ssty T.ssty2
+AlternateSubs2: "'subs' Subscript lookup 0 subtable" T.subs
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" T.ssty T.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" T.ssty T.ssty2
 EndChar
 
 StartChar: U
@@ -2349,8 +2359,8 @@ SplineSet
  20 10 l 1
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" U.ssty U.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" U.ssty U.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" U.ssty U.ssty2
 EndChar
 
 StartChar: V
@@ -2394,8 +2404,8 @@ SplineSet
  10 80 l 1xe0
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" V.ssty V.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" V.ssty V.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" V.ssty V.ssty2
 EndChar
 
 StartChar: W
@@ -2431,8 +2441,8 @@ SplineSet
  90 120 l 1xea
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" W.ssty W.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" W.ssty W.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" W.ssty W.ssty2
 EndChar
 
 StartChar: X
@@ -2484,8 +2494,8 @@ SplineSet
  10 90 l 1xe0
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" X.ssty X.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" X.ssty X.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" X.ssty X.ssty2
 EndChar
 
 StartChar: Y
@@ -2525,8 +2535,8 @@ SplineSet
  70 50 l 1xc2
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Y.ssty Y.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Y.ssty Y.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Y.ssty Y.ssty2
 EndChar
 
 StartChar: Z
@@ -2570,8 +2580,8 @@ SplineSet
  10 100 l 1xd0
 EndSplineSet
 Validated: 1
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Z.ssty Z.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Z.ssty Z.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Z.ssty Z.ssty2
 EndChar
 
 StartChar: bracketleft
@@ -6986,26 +6996,25 @@ Encoding: 618 618 169
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: -10 20<30 40 60 70> 40 20<30 40 60 70>
-VStem: 30 40<-10 10 40 60>
+HStem: 0 20<20 40 60 80> 70 20<20 40 60 80>
+VStem: 40 20<20 70>
 LayerCount: 2
 Fore
 SplineSet
-30 40 m 1
- 30 60 l 1
- 70 60 l 1
- 70 40 l 1
- 60 40 l 1
- 60 10 l 1
- 70 10 l 1
- 70 -10 l 1
- 30 -10 l 1
- 30 10 l 1
- 40 10 l 1
- 40 40 l 1
- 30 40 l 1
+20 70 m 5
+ 20 90 l 5
+ 80 90 l 5
+ 80 70 l 5
+ 60 70 l 5
+ 60 20 l 5
+ 80 20 l 5
+ 80 0 l 5
+ 20 0 l 5
+ 20 20 l 5
+ 40 20 l 5
+ 40 70 l 5
+ 20 70 l 5
 EndSplineSet
-Validated: 1
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Ismall.ssty Ismall.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Ismall.ssty Ismall.ssty2
 EndChar
@@ -7015,34 +7024,37 @@ Encoding: 628 628 170
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: -10 21G<20 40 70 90>
-VStem: 20 20<-10 20 50 60> 70 20<-10 0 30 60>
+HStem: 0 21G<10 30 70 90> 70 20G<10 30 70 90>
+VStem: 10 20<0 50 80 90> 70 20<0 20 50 90>
 LayerCount: 2
 Fore
 SplineSet
-20 -10 m 1
- 20 60 l 1
- 40 60 l 1
- 40 50 l 1
- 50 50 l 1
- 50 40 l 1
- 60 40 l 1
- 60 30 l 1
- 70 30 l 1
- 70 60 l 1
- 90 60 l 1
- 90 -10 l 1
- 70 -10 l 1
- 70 0 l 1
- 60 0 l 1
- 60 10 l 1
- 50 10 l 1
- 50 20 l 1
- 40 20 l 1
- 40 -10 l 1
- 20 -10 l 1
+10 0 m 5
+ 10 90 l 5
+ 30 90 l 5
+ 30 80 l 5
+ 40 80 l 5
+ 40 70 l 5
+ 50 70 l 5
+ 50 60 l 5
+ 60 60 l 5
+ 60 50 l 5
+ 70 50 l 5
+ 70 90 l 5
+ 90 90 l 5
+ 90 0 l 5
+ 70 0 l 5
+ 70 20 l 5
+ 60 20 l 5
+ 60 30 l 5
+ 50 30 l 5
+ 50 40 l 5
+ 40 40 l 5
+ 40 50 l 5
+ 30 50 l 5
+ 30 0 l 5
+ 10 0 l 5
 EndSplineSet
-Validated: 1
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Nsmall.ssty Nsmall.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Nsmall.ssty Nsmall.ssty2
 EndChar
@@ -7052,36 +7064,35 @@ Encoding: 665 665 171
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: -10 20<40 60> 0 20<70 80> 20 10<40 60> 30 20<70 80> 40 20<40 60>
-VStem: 20 20<10 20 30 40> 60 20<10 20 30 40>
+HStem: 0 20<30 70> 40 20<30 70> 60 20<80 90> 70 20<30 70>
+VStem: 10 20<20 40 60 70> 70 20<20 40 60 70>
 LayerCount: 2
 Fore
 SplineSet
-40 30 m 1x2e
- 60 30 l 1
- 60 40 l 1
- 40 40 l 1
- 40 30 l 1x2e
-40 10 m 1xa6
- 60 10 l 1
- 60 20 l 1
- 40 20 l 1
- 40 10 l 1xa6
-20 -10 m 1
- 20 60 l 1
- 70 60 l 1x8e
- 70 50 l 1
+10 0 m 1xac
+ 10 90 l 1
+ 80 90 l 1x9c
+ 80 80 l 1
+ 90 80 l 1
+ 90 60 l 1
+ 80 60 l 1
  80 50 l 1
- 80 30 l 1
- 70 30 l 1
- 70 20 l 1
- 80 20 l 1
+ 90 50 l 1
+ 90 10 l 1
+ 80 10 l 1
  80 0 l 1
- 70 0 l 1x56
- 70 -10 l 1
- 20 -10 l 1
+ 10 0 l 1xac
+30 70 m 1
+ 30 60 l 1
+ 70 60 l 1xdc
+ 70 70 l 1
+ 30 70 l 1
+30 20 m 1
+ 70 20 l 1
+ 70 40 l 1
+ 30 40 l 1
+ 30 20 l 1
 EndSplineSet
-Validated: 1
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Bsmall.ssty Bsmall.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Bsmall.ssty Bsmall.ssty2
 EndChar
@@ -7120,39 +7131,42 @@ Encoding: 7424 7424 173
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: -10 20<10 20 80 90> 30 30<40 60>
-VStem: 10 20<-10 0> 20 20<20 30> 40 20<50 60> 60 20<20 30> 70 20<-10 0>
+HStem: 0 30<10 20 90 100> 70 20<50 60>
+VStem: 10 20<0 20> 20 20<40 50> 30 20<60 70> 60 20<60 70> 70 20<40 50> 80 20<0 20>
 LayerCount: 2
 Fore
 SplineSet
-10 -10 m 1xe2
- 10 10 l 1xe2
- 20 10 l 1
- 20 30 l 1xd0
- 30 30 l 1
- 30 50 l 1
- 40 50 l 1
- 40 60 l 1
- 60 60 l 1
- 60 50 l 1
- 70 50 l 1
- 70 30 l 1xea
- 80 30 l 1
- 80 10 l 1xc4
- 90 10 l 1
- 90 -10 l 1
- 70 -10 l 1
- 70 0 l 1
+10 0 m 1xe1
+ 10 30 l 1xe1
+ 20 30 l 1
+ 20 60 l 1xd0
+ 30 60 l 1
+ 30 80 l 1xc8
+ 40 80 l 1
+ 40 90 l 1
+ 70 90 l 1
+ 70 80 l 1xd2
+ 80 80 l 1xc1
+ 80 60 l 1xc4
+ 90 60 l 1
+ 90 30 l 1xc2
+ 100 30 l 1
+ 100 0 l 1
+ 80 0 l 1
+ 80 20 l 1
+ 30 20 l 1
  30 0 l 1
- 30 -10 l 1
- 10 -10 l 1xe2
-60 20 m 1xd4
- 60 30 l 1
- 40 30 l 1
- 40 20 l 1
- 60 20 l 1xd4
+ 10 0 l 1xe1
+70 40 m 1xd2
+ 70 50 l 1xd2
+ 60 50 l 1
+ 60 70 l 1
+ 50 70 l 1
+ 50 50 l 1xcc
+ 40 50 l 1
+ 40 40 l 1
+ 70 40 l 1xd2
 EndSplineSet
-Validated: 1
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Asmall.ssty Asmall.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Asmall.ssty Asmall.ssty2
 EndChar
@@ -7162,34 +7176,39 @@ Encoding: 7428 7428 174
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: -10 20<30 60> 0 20<70 80> 30 20<70 80> 40 20<30 60>
-VStem: 10 20<10 40> 60 20<10 20 30 40>
 LayerCount: 2
 Fore
 SplineSet
-10 0 m 1x4c
- 10 50 l 1
- 20 50 l 1x6c
- 20 60 l 1
- 70 60 l 1x1c
- 70 50 l 1
- 80 50 l 1
- 80 30 l 1
- 60 30 l 1x2c
- 60 40 l 1
- 30 40 l 1
+30 90 m 1
+ 30 80 l 1
+ 20 80 l 1
+ 20 70 l 1
+ 10 70 l 1
+ 10 20 l 1
+ 20 20 l 1
+ 20 10 l 1
  30 10 l 1
- 60 10 l 1x9c
- 60 20 l 1
- 80 20 l 1
+ 30 0 l 1
  80 0 l 1
- 70 0 l 1x4c
- 70 -10 l 1
- 20 -10 l 1x8c
- 20 0 l 1
- 10 0 l 1x4c
+ 80 10 l 1
+ 90 10 l 1
+ 90 30 l 1
+ 70 30 l 1
+ 70 20 l 1
+ 40 20 l 1
+ 40 30 l 1
+ 30 30 l 1
+ 30 60 l 1
+ 40 60 l 1
+ 40 70 l 1
+ 70 70 l 1
+ 70 60 l 1
+ 90 60 l 1
+ 90 80 l 1
+ 80 80 l 1
+ 80 90 l 1
+ 30 90 l 1
 EndSplineSet
-Validated: 1
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Csmall.ssty Csmall.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Csmall.ssty Csmall.ssty2
 EndChar
@@ -7199,26 +7218,25 @@ Encoding: 7434 7434 175
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: -10 20<30 50> 0 20<10 20>
-VStem: 10 20<10 20> 50 20<10 60>
+HStem: -10 20<20 50> 70 20G<60 80>
+VStem: 60 20<20 90>
 LayerCount: 2
 Fore
 SplineSet
-10 0 m 1x70
- 10 20 l 1
- 30 20 l 1x70
- 30 10 l 1
- 50 10 l 1xb0
- 50 60 l 1
- 70 60 l 1
+20 -10 m 1
+ 20 10 l 1
+ 50 10 l 1
+ 50 20 l 1
+ 60 20 l 1
+ 60 90 l 1
+ 80 90 l 1
+ 80 10 l 1
+ 70 10 l 1
  70 0 l 1
- 60 0 l 1x70
+ 60 0 l 1
  60 -10 l 1
- 20 -10 l 1xb0
- 20 0 l 1
- 10 0 l 1x70
+ 20 -10 l 1
 EndSplineSet
-Validated: 1
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Jsmall.ssty Jsmall.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Jsmall.ssty Jsmall.ssty2
 EndChar
@@ -7228,42 +7246,49 @@ Encoding: 7435 7435 176
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: -10 20<70 80> -10 10<80 90> 40 20<70 80> 50 10<80 90>
-VStem: 20 20<-10 10 40 60> 50 30<0 10 40 50> 60 30<-10 0 50 60>
+HStem: 0 20<80 90> 70 20<80 90>
+VStem: 10 20<0 20 50 90> 50 30<20 30 60 70> 60 30<10 20 70 80> 70 20<0 10 80 90>
 LayerCount: 2
 Fore
 SplineSet
-20 -10 m 1x4c
- 20 60 l 1
- 40 60 l 1x5c
- 40 40 l 1
- 50 40 l 1x2c
- 50 50 l 1x1c
+10 0 m 1xf0
+ 10 90 l 1
+ 30 90 l 1
+ 30 50 l 1
+ 40 50 l 1
+ 40 60 l 1
+ 50 60 l 1
+ 50 70 l 1xf0
+ 60 70 l 1
+ 60 80 l 1xe8
+ 70 80 l 1
+ 70 90 l 1
+ 90 90 l 1xe4
+ 90 70 l 1xe8
+ 80 70 l 1
+ 80 60 l 1xf0
+ 70 60 l 1
+ 70 50 l 1xe4
  60 50 l 1
- 60 60 l 1
- 90 60 l 1
- 90 50 l 1x1a
- 80 50 l 1x1c
- 80 40 l 1x2c
+ 60 40 l 1xe8
  70 40 l 1
- 70 30 l 1
- 60 30 l 1
- 60 20 l 1x2a
- 70 20 l 1
- 70 10 l 1
- 80 10 l 1xac
- 80 0 l 1x4c
+ 70 30 l 1xe4
+ 80 30 l 1
+ 80 20 l 1xf0
+ 90 20 l 1xe8
  90 0 l 1
- 90 -10 l 1
- 60 -10 l 1
- 60 0 l 1x4a
- 50 0 l 1x4c
- 50 10 l 1
- 40 10 l 1x8c
- 40 -10 l 1
- 20 -10 l 1x4c
+ 70 0 l 1
+ 70 10 l 1xe4
+ 60 10 l 1
+ 60 20 l 1xe8
+ 50 20 l 1
+ 50 30 l 1
+ 40 30 l 1
+ 40 20 l 1
+ 30 20 l 1
+ 30 0 l 1
+ 10 0 l 1xf0
 EndSplineSet
-Validated: 1
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Ksmall.ssty Ksmall.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Ksmall.ssty Ksmall.ssty2
 EndChar
@@ -7273,52 +7298,51 @@ Encoding: 7448 7448 177
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: -10 21G<30 50> 10 20<50 70> 40 20<50 70>
-VStem: 30 20<-10 10 30 40> 70 20<30 40>
+HStem: 0 21G<10 30> 30 20<30 70> 70 20<30 70>
+VStem: 10 20<0 30 50 70> 70 20<50 70>
 LayerCount: 2
 Fore
 SplineSet
-50 40 m 1x78
- 50 30 l 1
- 70 30 l 1
- 70 40 l 1
- 50 40 l 1x78
-30 -10 m 1xb8
- 30 60 l 1
- 80 60 l 1
- 80 50 l 1
- 90 50 l 1
- 90 20 l 1
- 80 20 l 1
- 80 10 l 1
- 50 10 l 1x78
- 50 -10 l 1
- 30 -10 l 1xb8
+10 0 m 1
+ 10 90 l 1
+ 80 90 l 1
+ 80 80 l 1
+ 90 80 l 1
+ 90 40 l 1
+ 80 40 l 1
+ 80 30 l 1
+ 30 30 l 1
+ 30 0 l 1
+ 10 0 l 1
+30 70 m 1
+ 30 50 l 1
+ 70 50 l 1
+ 70 70 l 1
+ 30 70 l 1
 EndSplineSet
-Validated: 1
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Psmall.ssty Psmall.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Psmall.ssty Psmall.ssty2
 EndChar
 
 StartChar: uni1D1B
 Encoding: 7451 7451 178
-Width: 100
+Width: 110
 GlyphClass: 2
 Flags: W
-HStem: -10 21G<40 60> 40 20<20 40 60 80>
-VStem: 40 20<-10 40>
+HStem: 0 21G<40 60> 70 20<10 40 60 90>
+VStem: 40 20<0 70>
 LayerCount: 2
 Fore
 SplineSet
-20 40 m 1
- 20 60 l 1
- 80 60 l 1
- 80 40 l 1
- 60 40 l 1
- 60 -10 l 1
- 40 -10 l 1
- 40 40 l 1
- 20 40 l 1
+10 70 m 1
+ 10 90 l 1
+ 90 90 l 1
+ 90 70 l 1
+ 60 70 l 1
+ 60 0 l 1
+ 40 0 l 1
+ 40 70 l 1
+ 10 70 l 1
 EndSplineSet
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" Tsmall.ssty Tsmall.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" Tsmall.ssty Tsmall.ssty2
@@ -63812,6 +63836,285 @@ SplineSet
  30 50 l 1
  10 50 l 1
  10 70 l 1xc3
+EndSplineSet
+EndChar
+
+StartChar: I.subs
+Encoding: 1114934 -1 1783
+Width: 110
+Flags: W
+HStem: -10 20<30 40 60 70> 40 20<30 40 60 70>
+VStem: 30 40<-10 10 40 60>
+LayerCount: 2
+Fore
+SplineSet
+30 40 m 1
+ 30 60 l 1
+ 70 60 l 1
+ 70 40 l 1
+ 60 40 l 1
+ 60 10 l 1
+ 70 10 l 1
+ 70 -10 l 1
+ 30 -10 l 1
+ 30 10 l 1
+ 40 10 l 1
+ 40 40 l 1
+ 30 40 l 1
+EndSplineSet
+EndChar
+
+StartChar: N.subs
+Encoding: 1114935 -1 1784
+Width: 110
+Flags: W
+HStem: -10 21G<20 40 70 90>
+VStem: 20 20<-10 20 50 60> 70 20<-10 0 30 60>
+LayerCount: 2
+Fore
+SplineSet
+20 -10 m 1
+ 20 60 l 1
+ 40 60 l 1
+ 40 50 l 1
+ 50 50 l 1
+ 50 40 l 1
+ 60 40 l 1
+ 60 30 l 1
+ 70 30 l 1
+ 70 60 l 1
+ 90 60 l 1
+ 90 -10 l 1
+ 70 -10 l 1
+ 70 0 l 1
+ 60 0 l 1
+ 60 10 l 1
+ 50 10 l 1
+ 50 20 l 1
+ 40 20 l 1
+ 40 -10 l 1
+ 20 -10 l 1
+EndSplineSet
+EndChar
+
+StartChar: B.subs
+Encoding: 1114936 -1 1785
+Width: 110
+Flags: W
+HStem: -10 20<40 60> 0 20<70 80> 20 10<40 60> 30 20<70 80> 40 20<40 60>
+VStem: 20 20<10 20 30 40> 60 20<10 20 30 40>
+LayerCount: 2
+Fore
+SplineSet
+20 -10 m 1x86
+ 20 60 l 1
+ 70 60 l 1x8e
+ 70 50 l 1
+ 80 50 l 1
+ 80 30 l 1
+ 70 30 l 1
+ 70 20 l 1
+ 80 20 l 1
+ 80 0 l 1
+ 70 0 l 1x56
+ 70 -10 l 1
+ 20 -10 l 1x86
+40 30 m 1x2e
+ 60 30 l 1
+ 60 40 l 1
+ 40 40 l 1
+ 40 30 l 1x2e
+40 10 m 1xa6
+ 60 10 l 1
+ 60 20 l 1
+ 40 20 l 1
+ 40 10 l 1xa6
+EndSplineSet
+EndChar
+
+StartChar: A.subs
+Encoding: 1114937 -1 1786
+Width: 110
+Flags: W
+HStem: -10 20<10 20 80 90> 30 30<40 60>
+VStem: 10 20<-10 0> 20 20<20 30> 40 20<50 60> 60 20<20 30> 70 20<-10 0>
+LayerCount: 2
+Fore
+SplineSet
+10 -10 m 1xe2
+ 10 10 l 1xe2
+ 20 10 l 1
+ 20 30 l 1xd0
+ 30 30 l 1
+ 30 50 l 1
+ 40 50 l 1
+ 40 60 l 1
+ 60 60 l 1
+ 60 50 l 1
+ 70 50 l 1
+ 70 30 l 1xea
+ 80 30 l 1
+ 80 10 l 1xc4
+ 90 10 l 1
+ 90 -10 l 1
+ 70 -10 l 1
+ 70 0 l 1
+ 30 0 l 1
+ 30 -10 l 1
+ 10 -10 l 1xe2
+60 20 m 1xd4
+ 60 30 l 1
+ 40 30 l 1
+ 40 20 l 1
+ 60 20 l 1xd4
+EndSplineSet
+EndChar
+
+StartChar: C.subs
+Encoding: 1114938 -1 1787
+Width: 110
+Flags: W
+HStem: -10 20<30 60> 0 20<70 80> 30 20<70 80> 40 20<30 60>
+VStem: 10 20<10 40> 60 20<10 20 30 40>
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 1x4c
+ 10 50 l 1
+ 20 50 l 1x6c
+ 20 60 l 1
+ 70 60 l 1x1c
+ 70 50 l 1
+ 80 50 l 1
+ 80 30 l 1
+ 60 30 l 1x2c
+ 60 40 l 1
+ 30 40 l 1
+ 30 10 l 1
+ 60 10 l 1x9c
+ 60 20 l 1
+ 80 20 l 1
+ 80 0 l 1
+ 70 0 l 1x4c
+ 70 -10 l 1
+ 20 -10 l 1x8c
+ 20 0 l 1
+ 10 0 l 1x4c
+EndSplineSet
+EndChar
+
+StartChar: J.subs
+Encoding: 1114939 -1 1788
+Width: 110
+Flags: W
+HStem: -10 20<30 50> 0 20<10 20>
+VStem: 10 20<10 20> 50 20<10 60>
+LayerCount: 2
+Fore
+SplineSet
+10 0 m 1x70
+ 10 20 l 1
+ 30 20 l 1x70
+ 30 10 l 1
+ 50 10 l 1xb0
+ 50 60 l 1
+ 70 60 l 1
+ 70 0 l 1
+ 60 0 l 1x70
+ 60 -10 l 1
+ 20 -10 l 1xb0
+ 20 0 l 1
+ 10 0 l 1x70
+EndSplineSet
+EndChar
+
+StartChar: K.subs
+Encoding: 1114940 -1 1789
+Width: 110
+Flags: W
+HStem: -10 20<70 80> -10 10<80 90> 40 20<70 80> 50 10<80 90>
+VStem: 20 20<-10 10 40 60> 50 30<0 10 40 50> 60 30<-10 0 50 60>
+LayerCount: 2
+Fore
+SplineSet
+20 -10 m 1x4c
+ 20 60 l 1
+ 40 60 l 1x5c
+ 40 40 l 1
+ 50 40 l 1x2c
+ 50 50 l 1x1c
+ 60 50 l 1
+ 60 60 l 1
+ 90 60 l 1
+ 90 50 l 1x1a
+ 80 50 l 1x1c
+ 80 40 l 1x2c
+ 70 40 l 1
+ 70 30 l 1
+ 60 30 l 1
+ 60 20 l 1x2a
+ 70 20 l 1
+ 70 10 l 1
+ 80 10 l 1xac
+ 80 0 l 1x4c
+ 90 0 l 1
+ 90 -10 l 1
+ 60 -10 l 1
+ 60 0 l 1x4a
+ 50 0 l 1x4c
+ 50 10 l 1
+ 40 10 l 1x8c
+ 40 -10 l 1
+ 20 -10 l 1x4c
+EndSplineSet
+EndChar
+
+StartChar: P.subs
+Encoding: 1114941 -1 1790
+Width: 110
+Flags: W
+HStem: -10 21G<30 50> 10 20<50 70> 40 20<50 70>
+VStem: 30 20<-10 10 30 40> 70 20<30 40>
+LayerCount: 2
+Fore
+SplineSet
+30 -10 m 1xb8
+ 30 60 l 1
+ 80 60 l 1
+ 80 50 l 1
+ 90 50 l 1
+ 90 20 l 1
+ 80 20 l 1
+ 80 10 l 1
+ 50 10 l 1x78
+ 50 -10 l 1
+ 30 -10 l 1xb8
+50 40 m 1
+ 50 30 l 1
+ 70 30 l 1
+ 70 40 l 1
+ 50 40 l 1
+EndSplineSet
+EndChar
+
+StartChar: T.subs
+Encoding: 1114942 -1 1791
+Width: 100
+Flags: W
+HStem: -10 21G<40 60> 40 20<20 40 60 80>
+VStem: 40 20<-10 40>
+LayerCount: 2
+Fore
+SplineSet
+20 40 m 1
+ 20 60 l 1
+ 80 60 l 1
+ 80 40 l 1
+ 60 40 l 1
+ 60 -10 l 1
+ 40 -10 l 1
+ 40 40 l 1
+ 20 40 l 1
 EndSplineSet
 EndChar
 EndChars
