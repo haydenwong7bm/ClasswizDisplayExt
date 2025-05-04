@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1746350072
+ModificationTime: 1746351524
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -131,7 +131,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 25 8
+WinInfo: 25 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -142,7 +142,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 2 0 0 823881 411940 274627 674085 1048576 274627 599186 449390 449390 599186 449390 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114942 1795
+BeginChars: 1114943 1796
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -8126,6 +8126,7 @@ SplineSet
  80 80 l 1x1c80
 EndSplineSet
 Validated: 5
+Substitution2: "'ss01' Style Set 1 lookup 3 subtable" tcaron.ss01
 EndChar
 
 StartChar: utilde
@@ -72783,6 +72784,54 @@ SplineSet
  60 0 l 1
  60 -10 l 1
  20 -10 l 1xbc
+EndSplineSet
+EndChar
+
+StartChar: tcaron.ss01
+Encoding: 1114942 -1 1795
+Width: 110
+Flags: W
+HStem: 0 20<60 70> 0 10<50 60> 10 20<70 80> 60 10<10 30 50 80> 70 20G<30 50> 100 10<40 50> 110 10<20 30 60 70>
+VStem: 20 20<110 120> 30 20<10 60 70 90> 50 20<110 120> 60 20<10 20> 70 10<20 30>
+LayerCount: 2
+Fore
+SplineSet
+70 110 m 1x0340
+ 60 110 l 1x0220
+ 60 100 l 1
+ 30 100 l 1x04a0
+ 30 110 l 1x02a0
+ 20 110 l 1
+ 20 120 l 1
+ 40 120 l 1x03
+ 40 110 l 1
+ 50 110 l 1x0540
+ 50 120 l 1
+ 70 120 l 1
+ 70 110 l 1x0340
+10 70 m 1x3080
+ 30 70 l 1x3080
+ 30 90 l 1
+ 50 90 l 1x0880
+ 50 70 l 1
+ 80 70 l 1
+ 80 60 l 1x1090
+ 50 60 l 1
+ 50 10 l 1
+ 60 10 l 1x50a0
+ 60 20 l 1x80a0
+ 70 20 l 1x8010
+ 70 30 l 1
+ 80 30 l 1x2010
+ 80 10 l 1x2020
+ 70 10 l 1x2010
+ 70 0 l 1x8010
+ 40 0 l 1x4110
+ 40 10 l 1x2110
+ 30 10 l 1
+ 30 60 l 1
+ 10 60 l 1
+ 10 70 l 1x3080
 EndSplineSet
 EndChar
 EndChars

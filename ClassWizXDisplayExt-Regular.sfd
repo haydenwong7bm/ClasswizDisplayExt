@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1725260647
-ModificationTime: 1746350593
+ModificationTime: 1746351449
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -194,10 +194,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 25 8
+WinInfo: 25 25 8
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114267 1875
+BeginChars: 1114268 1876
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -31012,6 +31012,7 @@ SplineSet
  80 80 l 1,31,-1
  80 90 l 1,28,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set 1 lookup 6 subtable" tcaron.ss01
 EndChar
 
 StartChar: udieresis
@@ -107845,6 +107846,52 @@ SplineSet
  60 0 l 1,14,-1
  60 -10 l 1,15,-1
  20 -10 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: tcaron.ss01
+Encoding: 1114267 -1 1875
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+70 110 m 1,0,-1
+ 60 110 l 1,1,-1
+ 60 100 l 1,2,-1
+ 30 100 l 1,3,-1
+ 30 110 l 1,4,-1
+ 20 110 l 1,5,-1
+ 20 120 l 1,6,-1
+ 40 120 l 1,7,-1
+ 40 110 l 1,8,-1
+ 50 110 l 1,9,-1
+ 50 120 l 1,10,-1
+ 70 120 l 1,11,-1
+ 70 110 l 1,0,-1
+10 70 m 1,12,-1
+ 30 70 l 1,13,-1
+ 30 90 l 1,14,-1
+ 50 90 l 1,15,-1
+ 50 70 l 1,16,-1
+ 80 70 l 1,17,-1
+ 80 60 l 1,18,-1
+ 50 60 l 1,19,-1
+ 50 10 l 1,20,-1
+ 60 10 l 1,21,-1
+ 60 20 l 1,22,-1
+ 70 20 l 1,23,-1
+ 70 30 l 1,24,-1
+ 80 30 l 1,25,-1
+ 80 10 l 1,26,-1
+ 70 10 l 1,27,-1
+ 70 0 l 1,28,-1
+ 40 0 l 1,29,-1
+ 40 10 l 1,30,-1
+ 30 10 l 1,31,-1
+ 30 60 l 1,32,-1
+ 10 60 l 1,33,-1
+ 10 70 l 1,12,-1
 EndSplineSet
 EndChar
 EndChars
