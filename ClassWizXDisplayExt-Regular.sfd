@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1725260647
-ModificationTime: 1746372546
+ModificationTime: 1746372909
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -194,7 +194,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 150 25 8
+WinInfo: 225 25 8
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1114268 1876
@@ -8548,8 +8548,8 @@ SplineSet
  40 10 l 1,38,-1
  50 10 l 1,39,-1
  50 20 l 1,40,-1
- 39 20 l 1,41,-1
- 39 40 l 1,42,-1
+ 40 20 l 1,41,-1
+ 40 40 l 1,42,-1
  30 40 l 1,43,-1
  30 60 l 1,44,-1
  20 60 l 1,45,-1
@@ -105230,6 +105230,7 @@ SplineSet
  80 60 l 1,55,-1
  80 40 l 1,44,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set 1 lookup 6 subtable" y.hat
 EndChar
 
 StartChar: Ycircumflex
