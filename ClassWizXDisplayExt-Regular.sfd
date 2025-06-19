@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1725260647
-ModificationTime: 1750332421
+ModificationTime: 1750339048
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -194,10 +194,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 175 25 8
+WinInfo: 300 25 8
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114268 1940
+BeginChars: 1114268 1942
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -111074,6 +111074,86 @@ SplineSet
  100 100 l 1,46,-1
  100 120 l 1,47,-1
  60 120 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni019C
+Encoding: 412 412 1940
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+100 110 m 1,0,-1
+ 90 110 l 1,1,-1
+ 90 10 l 1,2,-1
+ 100 10 l 1,3,-1
+ 100 0 l 1,4,-1
+ 80 0 l 1,5,-1
+ 80 10 l 1,6,-1
+ 70 10 l 1,7,-1
+ 70 0 l 1,8,-1
+ 50 0 l 1,9,-1
+ 50 10 l 1,10,-1
+ 40 10 l 1,11,-1
+ 40 0 l 1,12,-1
+ 20 0 l 1,13,-1
+ 20 10 l 1,14,-1
+ 10 10 l 1,15,-1
+ 10 110 l 1,16,-1
+ 0 110 l 1,17,-1
+ 0 120 l 1,18,-1
+ 30 120 l 1,19,-1
+ 30 10 l 1,20,-1
+ 40 10 l 1,21,-1
+ 40 120 l 1,22,-1
+ 60 120 l 1,23,-1
+ 60 10 l 1,24,-1
+ 70 10 l 1,25,-1
+ 70 120 l 1,26,-1
+ 100 120 l 1,27,-1
+ 100 110 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni210E
+Encoding: 8462 8462 1941
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 10 m 1,0,-1
+ 10 10 l 1,1,-1
+ 10 110 l 1,2,-1
+ 0 110 l 1,3,-1
+ 0 120 l 1,4,-1
+ 30 120 l 1,5,-1
+ 30 80 l 1,6,-1
+ 40 80 l 1,7,-1
+ 40 90 l 1,8,-1
+ 70 90 l 1,9,-1
+ 70 80 l 1,10,-1
+ 80 80 l 1,11,-1
+ 80 70 l 1,12,-1
+ 90 70 l 1,13,-1
+ 90 10 l 1,14,-1
+ 100 10 l 1,15,-1
+ 100 0 l 1,16,-1
+ 60 0 l 1,17,-1
+ 60 10 l 1,18,-1
+ 70 10 l 1,19,-1
+ 70 70 l 1,20,-1
+ 60 70 l 1,21,-1
+ 60 80 l 1,22,-1
+ 40 80 l 1,23,-1
+ 40 70 l 1,24,-1
+ 30 70 l 1,25,-1
+ 30 10 l 1,26,-1
+ 40 10 l 1,27,-1
+ 40 0 l 1,28,-1
+ 0 0 l 1,29,-1
+ 0 10 l 1,0,-1
 EndSplineSet
 EndChar
 EndChars
