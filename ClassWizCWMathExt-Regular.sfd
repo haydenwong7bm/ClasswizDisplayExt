@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1750432483
+ModificationTime: 1750433140
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -131,7 +131,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 225 25 8
+WinInfo: 250 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -142,7 +142,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 1 0 0 823881 411940 274627 674085 1048576 274627 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114944 1887
+BeginChars: 1114944 1888
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -67663,6 +67663,27 @@ SplineSet
  60 60 l 1
  80 60 l 1
  80 80 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni0374
+Encoding: 884 884 1887
+Width: 110
+Flags: W
+HStem: 80 20<40 50> 100 20<50 60>
+VStem: 40 10<80 100> 50 10<100 120>
+LayerCount: 2
+Fore
+SplineSet
+50 120 m 1x50
+ 60 120 l 1
+ 60 100 l 1x50
+ 50 100 l 1
+ 50 80 l 1
+ 40 80 l 1
+ 40 100 l 1
+ 50 100 l 1xa0
+ 50 120 l 1x50
 EndSplineSet
 EndChar
 EndChars
