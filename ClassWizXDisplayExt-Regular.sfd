@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1725260647
-ModificationTime: 1760706162
+ModificationTime: 1760719499
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -195,10 +195,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 57350 25 8
+WinInfo: 25975 25 8
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114270 2032
+BeginChars: 1114259 2048
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -11925,8 +11925,9 @@ SplineSet
  60 10 l 1,59,-1
  70 10 l 1,52,-1
 EndSplineSet
-Substitution2: "'ss01' Style Set 1 lookup 6 subtable" uni5206_uniFE00
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni5206.ss02
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni5206_uniFE00
+Substitution2: "'ss01' Style Set 1 lookup 6 subtable" uni5206_uniFE00
 EndChar
 
 StartChar: uni5F27
@@ -21718,6 +21719,7 @@ SplineSet
  50 10 l 1,67,-1
  40 10 l 1,32,-1
 EndSplineSet
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni53CD.ss02
 EndChar
 
 StartChar: uni7EF4
@@ -23726,6 +23728,7 @@ SplineSet
  50 60 l 1,35,-1
  50 80 l 1,32,-1
 EndSplineSet
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni91CC.ss02
 EndChar
 
 StartChar: uni70ED
@@ -32597,7 +32600,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Shaku.Length
+StartChar: uni5C3A.ss02
 Encoding: 57600 57600 546
 Width: 110
 GlyphClass: 1
@@ -32616,26 +32619,26 @@ SplineSet
  20 120 l 1,8,-1
  90 120 l 1,9,-1
  90 60 l 1,10,-1
- 50 60 l 1,11,-1
- 50 50 l 1,12,-1
- 60 50 l 1,13,-1
- 60 30 l 1,14,-1
- 70 30 l 1,15,-1
- 70 20 l 1,16,-1
- 80 20 l 1,17,-1
- 80 10 l 1,18,-1
- 100 10 l 1,19,-1
- 100 0 l 1,20,-1
- 80 0 l 1,21,-1
- 80 10 l 1,22,-1
- 70 10 l 1,23,-1
- 70 20 l 1,24,-1
- 60 20 l 1,25,-1
- 60 30 l 1,26,-1
- 50 30 l 1,27,-1
- 50 50 l 1,28,-1
- 40 50 l 1,29,-1
- 40 60 l 1,30,-1
+ 50 60 l 5,11,-1
+ 50 50 l 5,12,-1
+ 60 50 l 5,13,-1
+ 60 30 l 5,14,-1
+ 70 30 l 5,15,-1
+ 70 20 l 5,16,-1
+ 80 20 l 5,17,-1
+ 80 10 l 5,18,-1
+ 100 10 l 5,19,-1
+ 100 0 l 5,20,-1
+ 80 0 l 5,21,-1
+ 80 10 l 5,22,-1
+ 70 10 l 5,23,-1
+ 70 20 l 5,24,-1
+ 60 20 l 5,25,-1
+ 60 30 l 5,26,-1
+ 50 30 l 5,27,-1
+ 50 50 l 5,28,-1
+ 40 50 l 5,29,-1
+ 40 60 l 5,30,-1
  30 60 l 1,31,-1
  30 30 l 1,32,-1
  20 30 l 1,33,-1
@@ -32648,7 +32651,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Sun
+StartChar: uni5BF8.ss02
 Encoding: 57601 57601 547
 Width: 110
 GlyphClass: 1
@@ -32684,7 +32687,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Fun
+StartChar: uni5206.ss02
 Encoding: 57602 57602 548
 Width: 110
 GlyphClass: 1
@@ -32763,7 +32766,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Ken
+StartChar: uni9593.ss02
 Encoding: 57603 57603 549
 Width: 110
 GlyphClass: 1
@@ -32825,7 +32828,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Chou
+StartChar: uni753A.ss02
 Encoding: 57604 57604 550
 Width: 110
 GlyphClass: 1
@@ -32871,7 +32874,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Ri
+StartChar: uni91CC.ss02
 Encoding: 57605 57605 551
 Width: 110
 GlyphClass: 1
@@ -32923,7 +32926,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Kai
+StartChar: uni6D77.ss02
 Encoding: 57606 57606 552
 Width: 110
 GlyphClass: 1
@@ -33018,7 +33021,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Jou
+StartChar: uni4E08.ss02
 Encoding: 57607 57607 553
 Width: 110
 GlyphClass: 1
@@ -33097,7 +33100,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Mou
+StartChar: uni6BDB.ss02
 Encoding: 57608 57608 554
 Width: 110
 GlyphClass: 1
@@ -33164,7 +33167,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Rin
+StartChar: uni5398.ss02
 Encoding: 57609 57609 555
 Width: 110
 GlyphClass: 1
@@ -33228,7 +33231,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Bu
+StartChar: uni6B69.ss02
 Encoding: 57610 57610 556
 Width: 110
 GlyphClass: 1
@@ -33297,7 +33300,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Shaku.Volume
+StartChar: uni52FA.ss02
 Encoding: 57611 57611 557
 Width: 110
 GlyphClass: 1
@@ -33346,7 +33349,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Tsubo
+StartChar: uni576A.ss02
 Encoding: 57612 57612 558
 Width: 110
 GlyphClass: 1
@@ -33414,7 +33417,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Se
+StartChar: uni755D.ss02
 Encoding: 57613 57613 559
 Width: 110
 GlyphClass: 1
@@ -33505,7 +33508,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Tan
+StartChar: uni53CD.ss02
 Encoding: 57614 57614 560
 Width: 110
 GlyphClass: 1
@@ -33576,7 +33579,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Shou
+StartChar: uni5347.ss02
 Encoding: 57615 57615 561
 Width: 110
 GlyphClass: 1
@@ -33635,7 +33638,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Gou
+StartChar: uni5408.ss02
 Encoding: 57616 57616 562
 Width: 110
 GlyphClass: 1
@@ -33698,7 +33701,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: To
+StartChar: uni6597.ss02
 Encoding: 57617 57617 563
 Width: 110
 GlyphClass: 1
@@ -33747,7 +33750,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Koku
+StartChar: uni77F3.ss02
 Encoding: 57618 57618 564
 Width: 110
 GlyphClass: 1
@@ -33794,7 +33797,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Kan
+StartChar: uni8CAB.ss02
 Encoding: 57619 57619 565
 Width: 110
 GlyphClass: 1
@@ -33871,7 +33874,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Monme
+StartChar: uni5301.ss02
 Encoding: 57620 57620 566
 Width: 110
 GlyphClass: 1
@@ -33954,7 +33957,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Kin
+StartChar: uni65A4.ss02
 Encoding: 57621 57621 567
 Width: 110
 GlyphClass: 1
@@ -38334,6 +38337,7 @@ SplineSet
  70 30 l 1,41,-1
  40 30 l 1,38,-1
 EndSplineSet
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni9593.ss02
 EndChar
 
 StartChar: uni8CEA
@@ -68665,8 +68669,9 @@ SplineSet
  80 50 l 1,51,-1
  30 50 l 1,48,-1
 EndSplineSet
-Substitution2: "'ss01' Style Set 1 lookup 6 subtable" uni5408_uniFE00
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni5408.ss02
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni5408_uniFE00
+Substitution2: "'ss01' Style Set 1 lookup 6 subtable" uni5408_uniFE00
 EndChar
 
 StartChar: uni968F
@@ -70877,6 +70882,7 @@ SplineSet
  0 0 l 1,37,-1
  0 10 l 1,34,-1
 EndSplineSet
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni5347.ss02
 EndChar
 
 StartChar: uni964D
@@ -75652,7 +75658,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni4E00_uniFE00
-Encoding: 1114220 -1 1208
+Encoding: 1114218 -1 1208
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -75673,7 +75679,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni4E00 un
 EndChar
 
 StartChar: uni504F_uniFE00
-Encoding: 1114221 -1 1209
+Encoding: 1114219 -1 1209
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -75749,7 +75755,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni504F un
 EndChar
 
 StartChar: uni5143_uniFE00
-Encoding: 1114222 -1 1210
+Encoding: 1114220 -1 1210
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -75797,7 +75803,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni5143 un
 EndChar
 
 StartChar: uni5468_uniFE00
-Encoding: 1114223 -1 1211
+Encoding: 1114221 -1 1211
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -75850,7 +75856,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni5468 un
 EndChar
 
 StartChar: uni5BB9_uniFE00
-Encoding: 1114224 -1 1212
+Encoding: 1114222 -1 1212
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -75931,7 +75937,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni5BB9 un
 EndChar
 
 StartChar: uni5E73_uniFE00
-Encoding: 1114225 -1 1213
+Encoding: 1114223 -1 1213
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -75980,7 +75986,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni5E73 un
 EndChar
 
 StartChar: uni671F_uniFE00
-Encoding: 1114226 -1 1214
+Encoding: 1114224 -1 1214
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -76074,7 +76080,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni671F un
 EndChar
 
 StartChar: uni76EE_uniFE00
-Encoding: 1114227 -1 1215
+Encoding: 1114225 -1 1215
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -79958,7 +79964,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni6587_uniFE00
-Encoding: 1114228 -1 1273
+Encoding: 1114226 -1 1273
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -80027,7 +80033,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni6587 un
 EndChar
 
 StartChar: uni5B57_uniFE00
-Encoding: 1114229 -1 1274
+Encoding: 1114227 -1 1274
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -80079,7 +80085,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni5B57 un
 EndChar
 
 StartChar: uni6790_uniFE00
-Encoding: 1114230 -1 1275
+Encoding: 1114228 -1 1275
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -80145,7 +80151,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni6790 un
 EndChar
 
 StartChar: uni79D2_uniFE00
-Encoding: 1114231 -1 1276
+Encoding: 1114229 -1 1276
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -80239,7 +80245,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni79D2 un
 EndChar
 
 StartChar: uni79D1_uniFE00
-Encoding: 1114232 -1 1277
+Encoding: 1114230 -1 1277
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -80441,7 +80447,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni5FAE_uniFE00
-Encoding: 1114233 -1 1279
+Encoding: 1114231 -1 1279
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -80547,7 +80553,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni5FAE un
 EndChar
 
 StartChar: uni4F59_uniFE00
-Encoding: 1114234 -1 1280
+Encoding: 1114232 -1 1280
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -80899,7 +80905,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni5408_uniFE00
-Encoding: 1114235 -1 1284
+Encoding: 1114233 -1 1284
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -81015,7 +81021,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni6574_uniFE00
-Encoding: 1114236 -1 1286
+Encoding: 1114234 -1 1286
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -81115,7 +81121,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni6574 un
 EndChar
 
 StartChar: uni500D_uniFE00
-Encoding: 1114237 -1 1287
+Encoding: 1114235 -1 1287
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -81349,7 +81355,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni5411_uniFE00
-Encoding: 1114238 -1 1290
+Encoding: 1114236 -1 1290
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -81614,7 +81620,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni672A_uniFE00
-Encoding: 1114239 -1 1293
+Encoding: 1114237 -1 1293
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -81909,7 +81915,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni56E0_uniFE00
-Encoding: 1114240 -1 1296
+Encoding: 1114238 -1 1296
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -82050,7 +82056,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni5B58_uniFE00
-Encoding: 1114241 -1 1298
+Encoding: 1114239 -1 1298
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -82182,7 +82188,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni65B0_uniFE00
-Encoding: 1114242 -1 1300
+Encoding: 1114240 -1 1300
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -82269,7 +82275,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni65B0 un
 EndChar
 
 StartChar: uni56DB_uniFE00
-Encoding: 1114243 -1 1301
+Encoding: 1114241 -1 1301
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -82534,7 +82540,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni534A_uniFE00
-Encoding: 1114244 -1 1304
+Encoding: 1114242 -1 1304
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -82597,7 +82603,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni534A un
 EndChar
 
 StartChar: uni679A_uniFE00
-Encoding: 1114245 -1 1305
+Encoding: 1114243 -1 1305
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -82689,7 +82695,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni679A un
 EndChar
 
 StartChar: uni5FC3_uniFE00
-Encoding: 1114246 -1 1306
+Encoding: 1114244 -1 1306
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -82740,7 +82746,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" uni5FC3 un
 EndChar
 
 StartChar: uni5E38_uniFE00
-Encoding: 1114247 -1 1307
+Encoding: 1114245 -1 1307
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -82999,7 +83005,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni964D_uniFE00
-Encoding: 1114248 -1 1311
+Encoding: 1114246 -1 1311
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -83537,7 +83543,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni66F4_uniFE00
-Encoding: 1114249 -1 1318
+Encoding: 1114247 -1 1318
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -84154,7 +84160,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni76F8_uniFE00
-Encoding: 1114250 -1 1326
+Encoding: 1114248 -1 1326
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -84313,7 +84319,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni57DF_uniFE00
-Encoding: 1114251 -1 1328
+Encoding: 1114249 -1 1328
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -84632,7 +84638,7 @@ EndSplineSet
 EndChar
 
 StartChar: ideographicperiod.ss01
-Encoding: 1114252 -1 1332
+Encoding: 1114250 -1 1332
 Width: 120
 GlyphClass: 1
 Flags: W
@@ -84686,7 +84692,7 @@ EndSplineSet
 EndChar
 
 StartChar: bar.ss01
-Encoding: 1114253 -1 1334
+Encoding: 1114251 -1 1334
 Width: 0
 GlyphClass: 1
 Flags: W
@@ -85027,7 +85033,7 @@ EndSplineSet
 EndChar
 
 StartChar: bar.ss02
-Encoding: 1114254 -1 1342
+Encoding: 1114252 -1 1342
 Width: 110
 Flags: W
 LayerCount: 2
@@ -100261,7 +100267,7 @@ EndSplineSet
 EndChar
 
 StartChar: Lcaron.ss01
-Encoding: 1114255 -1 1704
+Encoding: 1114253 -1 1704
 Width: 110
 Flags: W
 LayerCount: 2
@@ -100301,7 +100307,7 @@ EndSplineSet
 EndChar
 
 StartChar: lcaron.ss01
-Encoding: 1114256 -1 1705
+Encoding: 1114254 -1 1705
 Width: 110
 Flags: W
 LayerCount: 2
@@ -105073,7 +105079,7 @@ EndSplineSet
 EndChar
 
 StartChar: dcaron.ss01
-Encoding: 1114257 -1 1811
+Encoding: 1114255 -1 1811
 Width: 110
 Flags: W
 LayerCount: 2
@@ -107810,7 +107816,7 @@ EndSplineSet
 EndChar
 
 StartChar: tcaron.ss01
-Encoding: 1114267 -1 1874
+Encoding: 1114256 -1 1874
 Width: 110
 Flags: W
 LayerCount: 2
@@ -113240,7 +113246,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero.zero
-Encoding: 1114268 -1 1993
+Encoding: 1114257 -1 1993
 Width: 110
 Flags: W
 LayerCount: 2
@@ -113305,7 +113311,7 @@ EndSplineSet
 EndChar
 
 StartChar: one.ss01
-Encoding: 1114269 -1 1994
+Encoding: 1114258 -1 1994
 Width: 110
 Flags: W
 LayerCount: 2
@@ -115059,6 +115065,281 @@ SplineSet
  20 30 l 1,11,-1
  40 30 l 1,0,-1
 EndSplineSet
+EndChar
+
+StartChar: uni5C3A
+Encoding: 23610 23610 2032
+Width: 120
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+80 10 m 1,0,-1
+ 70 10 l 1,1,-1
+ 70 20 l 1,2,-1
+ 60 20 l 1,3,-1
+ 60 30 l 1,4,-1
+ 50 30 l 1,5,-1
+ 50 50 l 1,6,-1
+ 60 50 l 1,7,-1
+ 60 30 l 1,8,-1
+ 70 30 l 1,9,-1
+ 70 20 l 1,10,-1
+ 80 20 l 1,11,-1
+ 80 10 l 1,0,-1
+10 10 m 1,12,-1
+ 10 0 l 1,13,-1
+ 0 0 l 1,14,-1
+ 0 10 l 1,15,-1
+ 10 10 l 1,12,-1
+10 10 m 1,16,-1
+ 10 30 l 1,17,-1
+ 20 30 l 1,18,-1
+ 20 120 l 1,19,-1
+ 100 120 l 1,20,-1
+ 100 70 l 1,21,-1
+ 50 70 l 1,22,-1
+ 50 50 l 1,23,-1
+ 40 50 l 1,24,-1
+ 40 70 l 1,25,-1
+ 30 70 l 1,26,-1
+ 30 30 l 1,27,-1
+ 20 30 l 1,28,-1
+ 20 10 l 1,29,-1
+ 10 10 l 1,16,-1
+30 80 m 1,30,-1
+ 90 80 l 1,31,-1
+ 90 110 l 1,32,-1
+ 30 110 l 1,33,-1
+ 30 80 l 1,30,-1
+100 0 m 1,34,-1
+ 100 10 l 1,35,-1
+ 80 10 l 1,36,-1
+ 80 0 l 1,37,-1
+ 100 0 l 1,34,-1
+EndSplineSet
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni5C3A.ss02
+EndChar
+
+StartChar: uni5BF8
+Encoding: 23544 23544 2033
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 50 m 1,0,-1
+ 40 50 l 1,1,-1
+ 40 40 l 1,2,-1
+ 30 40 l 1,3,-1
+ 30 50 l 1,0,-1
+20 60 m 1,4,-1
+ 30 60 l 1,5,-1
+ 30 50 l 1,6,-1
+ 20 50 l 1,7,-1
+ 20 60 l 1,4,-1
+40 20 m 1,8,-1
+ 50 20 l 1,9,-1
+ 50 10 l 1,10,-1
+ 40 10 l 1,11,-1
+ 40 20 l 1,8,-1
+70 10 m 1,12,-1
+ 70 80 l 1,13,-1
+ 100 80 l 1,14,-1
+ 100 90 l 1,15,-1
+ 70 90 l 1,16,-1
+ 70 120 l 1,17,-1
+ 60 120 l 1,18,-1
+ 60 90 l 1,19,-1
+ 0 90 l 1,20,-1
+ 0 80 l 1,21,-1
+ 60 80 l 1,22,-1
+ 60 10 l 1,23,-1
+ 70 10 l 1,12,-1
+60 10 m 1,24,-1
+ 50 10 l 1,25,-1
+ 50 0 l 1,26,-1
+ 60 0 l 1,27,-1
+ 60 10 l 1,24,-1
+EndSplineSet
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni5BF8.ss02
+EndChar
+
+StartChar: uni753A
+Encoding: 30010 30010 2034
+Width: 120
+Flags: W
+LayerCount: 2
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni753A.ss02
+EndChar
+
+StartChar: uni6D77
+Encoding: 28023 28023 2035
+Width: 120
+Flags: W
+LayerCount: 2
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni6D77.ss02
+EndChar
+
+StartChar: uni4E08
+Encoding: 19976 19976 2036
+Width: 120
+Flags: W
+LayerCount: 2
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni4E08.ss02
+EndChar
+
+StartChar: uni6BDB
+Encoding: 27611 27611 2037
+Width: 120
+Flags: W
+LayerCount: 2
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni6BDB.ss02
+EndChar
+
+StartChar: uni5398
+Encoding: 21400 21400 2038
+Width: 120
+Flags: W
+LayerCount: 2
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni5398.ss02
+EndChar
+
+StartChar: uni6B69
+Encoding: 27497 27497 2039
+Width: 120
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+80 30 m 1,0,-1
+ 70 30 l 1,1,-1
+ 70 40 l 1,2,-1
+ 80 40 l 1,3,-1
+ 80 30 l 1,0,-1
+20 40 m 1,4,-1
+ 20 50 l 1,5,-1
+ 30 50 l 1,6,-1
+ 30 60 l 1,7,-1
+ 0 60 l 1,8,-1
+ 0 70 l 1,9,-1
+ 20 70 l 1,10,-1
+ 20 110 l 1,11,-1
+ 30 110 l 1,12,-1
+ 30 70 l 1,13,-1
+ 50 70 l 1,14,-1
+ 50 120 l 1,15,-1
+ 60 120 l 1,16,-1
+ 60 100 l 1,17,-1
+ 100 100 l 1,18,-1
+ 100 90 l 1,19,-1
+ 60 90 l 1,20,-1
+ 60 70 l 1,21,-1
+ 110 70 l 1,22,-1
+ 110 60 l 1,23,-1
+ 90 60 l 1,24,-1
+ 90 50 l 1,25,-1
+ 80 50 l 1,26,-1
+ 80 60 l 1,27,-1
+ 60 60 l 1,28,-1
+ 60 30 l 1,29,-1
+ 50 30 l 1,30,-1
+ 50 60 l 1,31,-1
+ 40 60 l 1,32,-1
+ 40 50 l 1,33,-1
+ 30 50 l 1,34,-1
+ 30 40 l 1,35,-1
+ 20 40 l 1,4,-1
+20 40 m 1,36,-1
+ 20 30 l 1,37,-1
+ 10 30 l 1,38,-1
+ 10 40 l 1,39,-1
+ 20 40 l 1,36,-1
+40 10 m 1,40,-1
+ 40 20 l 1,41,-1
+ 60 20 l 1,42,-1
+ 60 30 l 1,43,-1
+ 70 30 l 1,44,-1
+ 70 20 l 1,45,-1
+ 60 20 l 1,46,-1
+ 60 10 l 1,47,-1
+ 40 10 l 1,40,-1
+40 10 m 1,48,-1
+ 40 0 l 1,49,-1
+ 10 0 l 1,50,-1
+ 10 10 l 1,51,-1
+ 40 10 l 1,48,-1
+90 50 m 1,52,-1
+ 100 50 l 1,53,-1
+ 100 40 l 1,54,-1
+ 90 40 l 1,55,-1
+ 90 50 l 1,52,-1
+EndSplineSet
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni6B69.ss02
+EndChar
+
+StartChar: uni52FA
+Encoding: 21242 21242 2040
+Width: 120
+Flags: W
+LayerCount: 2
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni52FA.ss02
+EndChar
+
+StartChar: uni576A
+Encoding: 22378 22378 2041
+Width: 120
+Flags: W
+LayerCount: 2
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni576A.ss02
+EndChar
+
+StartChar: uni755D
+Encoding: 30045 30045 2042
+Width: 120
+Flags: W
+LayerCount: 2
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni755D.ss02
+EndChar
+
+StartChar: uni6597
+Encoding: 26007 26007 2043
+Width: 120
+Flags: W
+LayerCount: 2
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni6597.ss02
+EndChar
+
+StartChar: uni77F3
+Encoding: 30707 30707 2044
+Width: 120
+Flags: W
+LayerCount: 2
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni77F3.ss02
+EndChar
+
+StartChar: uni8CAB
+Encoding: 36011 36011 2045
+Width: 120
+Flags: W
+LayerCount: 2
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni8CAB.ss02
+EndChar
+
+StartChar: uni5301
+Encoding: 21249 21249 2046
+Width: 120
+Flags: W
+LayerCount: 2
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni5301.ss02
+EndChar
+
+StartChar: uni65A4
+Encoding: 26020 26020 2047
+Width: 120
+Flags: W
+LayerCount: 2
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" uni65A4.ss02
 EndChar
 EndChars
 EndSplineFont
