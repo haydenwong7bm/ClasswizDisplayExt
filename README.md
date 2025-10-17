@@ -33,11 +33,11 @@
 
 ## How to Use
 
-The font is in 4 parts: X Display, X Math, CW Display and CW Math. X version is serif, and CW version is sans-serif. Display version is used for normal text, provided in OTF, TTF and WOFF2 format; Math version is powered by OpenType MATH table, and is used for math expression input, only OTF format is provided.
+The font is in 4 parts: X Display, X Math, CW Display and CW Math. X version is serif, and CW version is sans-serif. Display version is used for normal text, provided in OTF, TTF and WOFF2 format; Math version is powered by OpenType `MATH` table, and is used for math expression input, only OTF format is provided.
 
 All version of font releases can be downloaded in the [release page](https://github.com/haydenwong7bm/ClasswizDisplayExt/releases).
 
-This README is just a rough description of the font, in additional to the font, the zip file also contains a documentation file (such as `README.pdf`).
+This README is just a rough description of the font.~~, in additional to the font, the zip file also contains a documentation file (such as `README.pdf`).~~
 
 If you think this project is helpful to you, you may click the ☆ on the upper right corner of the page.
 

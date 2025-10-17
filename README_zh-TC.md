@@ -33,13 +33,13 @@
 
 ## 使用方法
 
-字體分爲四部分：X Display、X Math、CW Display 與 CW Math。X版爲襯線體，CW版爲無襯線體。Display版用作普通文本，提供 OTF、TTF 與 WOFF2 格式；Math版由 OpenType MATH 表強力驅動，用作數學公式輸入，僅提供 OTF 格式。
+字體分爲四部分：X Display、X Math、CW Display 與 CW Math。X版爲襯線體，CW版爲無襯線體。Display版用作普通文本，提供OTF、TTF與WOFF2 格式；Math版由OpenType `MATH`表強力驅動，用作數學公式輸入，僅提供OTF格式。
 
 所有版本的字體打包可以到 [Release 頁面](https://github.com/haydenwong7bm/ClasswizDisplayExt/releases)獲取。
 
-本文只是關於字體的一個粗略說明，而壓縮包內除字體外還有自述文件（`README.pdf` 之類的文檔）。
+本文只是關於字體的一個粗略說明。~~，而**壓縮包內除字體外還有自述文件（`README.pdf` 之類的文檔），使用前請一定、務必、絕對要認真、仔細、用心閱讀！**~~
 
-如果覺得本項目對你有幫助，不妨點一下頁面右上角的 ☆。
+如果覺得本項目對你有幫助，不妨點一下頁面右上角的☆。
 
 ## 構建字體
 
@@ -49,4 +49,4 @@
 
 ## 貢獻與反饋
 
-「ClassWiz Display Ext」系列均以 SIL 開源字體許可 1.1 版（SIL Open Font License 1.1）協議授權，詳情請查看 `OFL.txt` 文件，若想編輯、再發布字體，請務必遵守許可協議。如有任何問題或建議，請開啓一個議題（issue）。
+「ClassWiz Display Ext」系列均以SIL開源字體許可1.1版（SIL Open Font License 1.1）協議授權，詳情請查看`OFL.txt`文件，若想編輯、再發布字體，請務必遵守許可協議。如有任何問題或建議，請開啓一個議題（issue）。
