@@ -33,7 +33,7 @@
 
 ## 使用方法
 
-字体分为四部分：X Display、X Math、CW Display 与 CW Math。X版为衬线体，CW版为无衬线体。Display版用作普通文本，提供OTF、TTF与WOFF2格式；Math版由 OpenType `MATH`表强力驱动，用作数学公式输入，仅提供OTF格式。
+字体分为四部分：X Display、X Math、CW Display 与 CW Math。X版为衬线体，CW版为无衬线体。Display版用作普通文本，提供OTF、TTF与WOFF2格式；Math版由OpenType `MATH`表强力驱动，用作数学公式输入，仅提供OTF格式。
 
 所有版本的字体打包可以到 [Release 页面](https://github.com/haydenwong7bm/ClasswizDisplayExt/releases)获取。
 
