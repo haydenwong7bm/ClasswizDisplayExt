@@ -195,7 +195,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 25975 25 8
+WinInfo: 0 25 8
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1114259 2048
@@ -293,7 +293,7 @@ SplineSet
  80 0 l 1,11,-1
  20 0 l 1,0,-1
 EndSplineSet
-Substitution2: "'ss01' Style Set 1 lookup 6 subtable" one.ss01
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" one.ss02
 EndChar
 
 StartChar: two
@@ -6165,8 +6165,8 @@ SplineSet
  30 20 l 1,31,-1
  40 20 l 1,20,-1
 EndSplineSet
-Substitution2: "'ss01' Style Set 1 lookup 6 subtable" zero.zero
 Substitution2: "'zero' Slashed Zero lookup 0 subtable" zero.zero
+Substitution2: "'ss02' Style Set 2 lookup 9 subtable" zero.zero
 EndChar
 
 StartChar: period
@@ -113310,7 +113310,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: one.ss01
+StartChar: one.ss02
 Encoding: 1114258 -1 1994
 Width: 110
 Flags: W

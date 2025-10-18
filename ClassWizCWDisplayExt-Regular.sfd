@@ -196,7 +196,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8450 25 8
+WinInfo: 0 25 8
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1114268 2042
@@ -737,8 +737,8 @@ SplineSet
  30 100 l 1,15,-1
  30 20 l 1,12,-1
 EndSplineSet
-Substitution2: "'ss01' Style Set 1 lookup 5 subtable" zero.zero
 Substitution2: "'zero' Slashed Zero lookup 0 subtable" zero.zero
+Substitution2: "'ss02' Style Set 2 lookup 10 subtable" zero.zero
 EndChar
 
 StartChar: eight
@@ -1474,7 +1474,7 @@ SplineSet
  70 0 l 1,11,-1
  50 0 l 1,0,-1
 EndSplineSet
-Substitution2: "'ss01' Style Set 1 lookup 5 subtable" one.ss01
+Substitution2: "'ss02' Style Set 2 lookup 10 subtable" one.ss02
 EndChar
 
 StartChar: four
@@ -86700,6 +86700,7 @@ SplineSet
  90 0 l 1,27,-1
  10 0 l 1,16,-1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" Ecircumflex uni0304
 EndChar
 
@@ -104653,7 +104654,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: one.ss01
+StartChar: one.ss02
 Encoding: 1114267 -1 2002
 Width: 110
 Flags: W
