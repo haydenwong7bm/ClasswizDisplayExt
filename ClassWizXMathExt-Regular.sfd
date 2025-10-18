@@ -62423,7 +62423,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ecircumflexmacron
-Encoding: 57404 57404 1566
+Encoding: 57632 57632 1566
 Width: 110
 Flags: W
 HStem: 0 20<80 90> 0 10<0 10 30 80> 30 10<30 60> 50 20<80 90> 60 10<0 10 30 80> 80 10<30 40 70 80> 90 10<50 60> 110 10<30 80>
@@ -62483,7 +62483,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" Ecircumfle
 EndChar
 
 StartChar: ecircumflexmacron
-Encoding: 57405 57405 1567
+Encoding: 57633 57633 1567
 Width: 110
 Flags: W
 HStem: 0 10<40 70> 10 10<70 80> 30 20<80 90> 30 10<30 70> 50 20<30 40 60 70> 60 10<40 60> 80 10<20 30 60 70> 90 10<40 50> 110 10<20 70>
@@ -62551,7 +62551,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" ecircumfle
 EndChar
 
 StartChar: uniE03E
-Encoding: 57406 57406 1568
+Encoding: 57634 57634 1568
 Width: 110
 Flags: W
 HStem: 0 20<80 90> 0 10<0 10 30 80> 40 10<30 60> 60 20<80 90> 70 10<0 10 30 80> 90 10<10 20 50 60> 100 10<30 40>
@@ -62619,7 +62619,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" Ecircumfle
 EndChar
 
 StartChar: ecircumflexcaron
-Encoding: 57407 57407 1569
+Encoding: 57635 57635 1569
 Width: 110
 Flags: W
 HStem: 0 10<40 70> 10 10<70 80> 20 10<80 90> 40 20<80 90> 40 10<30 70> 60 20<30 40 60 70> 70 10<40 60> 90 10<10 20 50 60> 100 10<30 40>
@@ -63322,7 +63322,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE040
-Encoding: 57408 57408 1588
+Encoding: 57636 57636 1588
 Width: 110
 Flags: W
 HStem: 0 10<0 10 20 30 60 70 90 100> 90 10<0 10 90 100> 110 10<20 80>
@@ -63381,7 +63381,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" M uni0304
 EndChar
 
 StartChar: uniE041
-Encoding: 57409 57409 1589
+Encoding: 57637 57637 1589
 Width: 110
 Flags: W
 HStem: 0 10<0 10 90 100> 80 10<0 10 30 40 60 70> 100 10<20 80>
@@ -63428,7 +63428,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" m uni0304
 EndChar
 
 StartChar: uniE042
-Encoding: 57410 57410 1590
+Encoding: 57638 57638 1590
 Width: 110
 Flags: W
 HStem: 0 10<0 10 20 30 60 70 90 100> 90 10<0 10 90 100> 100 10<40 50> 110 10<20 30 60 70>
@@ -63495,7 +63495,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" M uni030C
 EndChar
 
 StartChar: uniE043
-Encoding: 57411 57411 1591
+Encoding: 57639 57639 1591
 Width: 110
 Flags: W
 HStem: 0 10<0 10 90 100> 80 10<0 10 30 40 60 70> 100 10<40 50> 110 10<20 30 60 70>
@@ -63550,7 +63550,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" m uni030C
 EndChar
 
 StartChar: uniE044
-Encoding: 57412 57412 1592
+Encoding: 57640 57640 1592
 Width: 110
 Flags: W
 HStem: 0 10<0 10 20 30 60 70 90 100> 90 10<0 10 90 100> 100 10<50 60> 110 10<30 40>
@@ -63613,7 +63613,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" M gravecom
 EndChar
 
 StartChar: uniE045
-Encoding: 57413 57413 1593
+Encoding: 57641 57641 1593
 Width: 110
 Flags: W
 HStem: 0 10<0 10 90 100> 80 10<0 10 30 40 60 70> 100 10<50 60> 110 10<30 40>
@@ -63664,7 +63664,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" m gravecom
 EndChar
 
 StartChar: uniE046
-Encoding: 57414 57414 1594
+Encoding: 57642 57642 1594
 Width: 110
 Flags: W
 HStem: 0 10<0 10 20 30> 90 10<0 10 70 80 90 100> 110 10<20 80>
@@ -63725,7 +63725,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 2 subtable" N uni0304
 EndChar
 
 StartChar: uniE047
-Encoding: 57415 57415 1595
+Encoding: 57643 57643 1595
 Width: 110
 Flags: W
 HStem: 0 10<0 10 30 40 60 70 90 100> 70 10<30 40> 80 10<0 10 40 60> 100 10<20 80>
@@ -72366,7 +72366,7 @@ EndSplineSet
 EndChar
 
 StartChar: I.subs
-Encoding: 57416 57416 1785
+Encoding: 57644 57644 1785
 Width: 110
 Flags: W
 HStem: -10 10<20 30 50 60> 50 10<20 30 50 60>
@@ -72391,7 +72391,7 @@ EndSplineSet
 EndChar
 
 StartChar: N.subs
-Encoding: 57417 57417 1786
+Encoding: 57645 57645 1786
 Width: 110
 Flags: W
 HStem: -10 10<10 20 30 40> 50 10<10 20 50 60 70 80>
@@ -72434,7 +72434,7 @@ EndSplineSet
 EndChar
 
 StartChar: B.subs
-Encoding: 57418 57418 1787
+Encoding: 57646 57646 1787
 Width: 110
 Flags: W
 HStem: -10 10<10 20 40 60> 0 20<70 80> 20 10<40 60> 30 20<70 80> 50 10<10 20 40 60>
@@ -72473,7 +72473,7 @@ EndSplineSet
 EndChar
 
 StartChar: A.subs
-Encoding: 57419 57419 1788
+Encoding: 57647 57647 1788
 Width: 110
 Flags: W
 HStem: -10 10<10 20 30 40 50 60 80 90> 10 10<40 50>
@@ -72515,7 +72515,7 @@ EndSplineSet
 EndChar
 
 StartChar: C.subs
-Encoding: 57420 57420 1789
+Encoding: 57648 57648 1789
 Width: 110
 Flags: W
 HStem: -10 10<40 70> 0 10<70 80> 40 10<60 70> 50 10<40 60>
@@ -72559,7 +72559,7 @@ EndSplineSet
 EndChar
 
 StartChar: J.subs
-Encoding: 57421 57421 1790
+Encoding: 57649 57649 1790
 Width: 110
 Flags: W
 HStem: -10 10<30 50> 0 20<10 20> 50 10<40 50 70 80>
@@ -72588,7 +72588,7 @@ EndSplineSet
 EndChar
 
 StartChar: K.subs
-Encoding: 57422 57422 1791
+Encoding: 57650 57650 1791
 Width: 110
 Flags: W
 HStem: -10 20<70 80> -10 10<10 20 40 50 80 90> 20 10<40 50> 40 20<70 80> 50 10<10 20 40 50 80 90>
@@ -72637,7 +72637,7 @@ EndSplineSet
 EndChar
 
 StartChar: P.subs
-Encoding: 57423 57423 1792
+Encoding: 57651 57651 1792
 Width: 110
 Flags: W
 HStem: -10 10<10 20 40 50> 20 10<40 60> 30 20<70 80> 50 10<10 20 40 60>
@@ -72671,7 +72671,7 @@ EndSplineSet
 EndChar
 
 StartChar: T.subs
-Encoding: 57424 57424 1793
+Encoding: 57652 57652 1793
 Width: 110
 Flags: W
 HStem: -10 10<20 30 50 60> 40 20<10 20 60 70> 50 10<20 30 50 60>
@@ -74188,7 +74188,7 @@ EndSplineSet
 EndChar
 
 StartChar: F.subs
-Encoding: 57425 57425 1825
+Encoding: 57653 57653 1825
 Width: 110
 Flags: W
 HStem: -10 10<10 20 40 50> 20 10<40 50> 40 20<70 80> 50 10<10 20 40 70>

@@ -91145,7 +91145,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ecircumflexmacron
-Encoding: 57404 57404 1472
+Encoding: 57632 57632 1472
 Width: 110
 Flags: W
 LayerCount: 2
@@ -91203,7 +91203,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" Ecircumfle
 EndChar
 
 StartChar: ecircumflexmacron
-Encoding: 57405 57405 1473
+Encoding: 57633 57633 1473
 Width: 110
 Flags: W
 LayerCount: 2
@@ -91269,7 +91269,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" ecircumfle
 EndChar
 
 StartChar: Ecircumflexcaron
-Encoding: 57406 57406 1474
+Encoding: 57634 57634 1474
 Width: 110
 Flags: W
 LayerCount: 2
@@ -91335,7 +91335,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" Ecircumfle
 EndChar
 
 StartChar: ecircumflexcaron
-Encoding: 57407 57407 1475
+Encoding: 57635 57635 1475
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92008,7 +92008,7 @@ EndSplineSet
 EndChar
 
 StartChar: Mmacron
-Encoding: 57408 57408 1494
+Encoding: 57636 57636 1494
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92066,7 +92066,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" M uni0304
 EndChar
 
 StartChar: mmacron
-Encoding: 57409 57409 1495
+Encoding: 57637 57637 1495
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92111,7 +92111,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" m uni0304
 EndChar
 
 StartChar: Mcaron
-Encoding: 57410 57410 1496
+Encoding: 57638 57638 1496
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92176,7 +92176,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" M uni030C
 EndChar
 
 StartChar: mcaron
-Encoding: 57411 57411 1497
+Encoding: 57639 57639 1497
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92229,7 +92229,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" m uni030C
 EndChar
 
 StartChar: Mgrave
-Encoding: 57412 57412 1498
+Encoding: 57640 57640 1498
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92290,7 +92290,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" M gravecom
 EndChar
 
 StartChar: mgrave
-Encoding: 57413 57413 1499
+Encoding: 57641 57641 1499
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92339,7 +92339,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" m gravecom
 EndChar
 
 StartChar: Nmacron
-Encoding: 57414 57414 1500
+Encoding: 57642 57642 1500
 Width: 110
 Flags: W
 LayerCount: 2
@@ -92398,7 +92398,7 @@ Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 5 subtable" N uni0304
 EndChar
 
 StartChar: nmacron
-Encoding: 57415 57415 1501
+Encoding: 57643 57643 1501
 Width: 110
 Flags: W
 LayerCount: 2
@@ -107500,7 +107500,7 @@ EndSplineSet
 EndChar
 
 StartChar: I.subs
-Encoding: 57416 57416 1865
+Encoding: 57644 57644 1865
 Width: 110
 Flags: W
 LayerCount: 2
@@ -107523,7 +107523,7 @@ EndSplineSet
 EndChar
 
 StartChar: N.subs
-Encoding: 57417 57417 1866
+Encoding: 57645 57645 1866
 Width: 110
 Flags: W
 LayerCount: 2
@@ -107564,7 +107564,7 @@ EndSplineSet
 EndChar
 
 StartChar: B.subs
-Encoding: 57418 57418 1867
+Encoding: 57646 57646 1867
 Width: 110
 Flags: W
 LayerCount: 2
@@ -107601,7 +107601,7 @@ EndSplineSet
 EndChar
 
 StartChar: A.subs
-Encoding: 57419 57419 1868
+Encoding: 57647 57647 1868
 Width: 110
 Flags: W
 LayerCount: 2
@@ -107641,7 +107641,7 @@ EndSplineSet
 EndChar
 
 StartChar: C.subs
-Encoding: 57420 57420 1869
+Encoding: 57648 57648 1869
 Width: 110
 Flags: W
 LayerCount: 2
@@ -107683,7 +107683,7 @@ EndSplineSet
 EndChar
 
 StartChar: J.subs
-Encoding: 57421 57421 1870
+Encoding: 57649 57649 1870
 Width: 110
 Flags: W
 LayerCount: 2
@@ -107710,7 +107710,7 @@ EndSplineSet
 EndChar
 
 StartChar: K.subs
-Encoding: 57422 57422 1871
+Encoding: 57650 57650 1871
 Width: 110
 Flags: W
 LayerCount: 2
@@ -107757,7 +107757,7 @@ EndSplineSet
 EndChar
 
 StartChar: P.subs
-Encoding: 57423 57423 1872
+Encoding: 57651 57651 1872
 Width: 110
 Flags: W
 LayerCount: 2
@@ -107789,7 +107789,7 @@ EndSplineSet
 EndChar
 
 StartChar: T.subs
-Encoding: 57424 57424 1873
+Encoding: 57652 57652 1873
 Width: 110
 Flags: W
 LayerCount: 2
@@ -109255,7 +109255,7 @@ EndSplineSet
 EndChar
 
 StartChar: F.subs
-Encoding: 57425 57425 1905
+Encoding: 57653 57653 1905
 Width: 110
 Flags: W
 LayerCount: 2
@@ -113958,7 +113958,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE080
-Encoding: 57472 57472 2008
+Encoding: 57404 57404 2008
 Width: 110
 Flags: W
 LayerCount: 2
@@ -113983,7 +113983,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE081
-Encoding: 57473 57473 2009
+Encoding: 57405 57405 2009
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114008,7 +114008,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE082
-Encoding: 57474 57474 2010
+Encoding: 57406 57406 2010
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114047,7 +114047,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE083
-Encoding: 57475 57475 2011
+Encoding: 57407 57407 2011
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114084,7 +114084,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE084
-Encoding: 57476 57476 2012
+Encoding: 57408 57408 2012
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114134,7 +114134,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE085
-Encoding: 57477 57477 2013
+Encoding: 57409 57409 2013
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114174,7 +114174,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE086
-Encoding: 57478 57478 2014
+Encoding: 57410 57410 2014
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114237,7 +114237,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE087
-Encoding: 57479 57479 2015
+Encoding: 57411 57411 2015
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114300,7 +114300,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE088
-Encoding: 57480 57480 2016
+Encoding: 57412 57412 2016
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114355,7 +114355,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE089
-Encoding: 57481 57481 2017
+Encoding: 57413 57413 2017
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114407,7 +114407,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE08A
-Encoding: 57482 57482 2018
+Encoding: 57414 57414 2018
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114460,7 +114460,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE08B
-Encoding: 57483 57483 2019
+Encoding: 57415 57415 2019
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114507,7 +114507,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE08C
-Encoding: 57484 57484 2020
+Encoding: 57416 57416 2020
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114569,7 +114569,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE08D
-Encoding: 57485 57485 2021
+Encoding: 57417 57417 2021
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114622,7 +114622,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE08E
-Encoding: 57486 57486 2022
+Encoding: 57418 57418 2022
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114666,7 +114666,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE08F
-Encoding: 57487 57487 2023
+Encoding: 57419 57419 2023
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114702,7 +114702,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE090
-Encoding: 57488 57488 2024
+Encoding: 57420 57420 2024
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114778,7 +114778,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE091
-Encoding: 57489 57489 2025
+Encoding: 57421 57421 2025
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114824,7 +114824,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE092
-Encoding: 57490 57490 2026
+Encoding: 57422 57422 2026
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114860,7 +114860,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE093
-Encoding: 57491 57491 2027
+Encoding: 57423 57423 2027
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114898,7 +114898,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE094
-Encoding: 57492 57492 2028
+Encoding: 57424 57424 2028
 Width: 110
 Flags: W
 LayerCount: 2
@@ -114954,7 +114954,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE095
-Encoding: 57493 57493 2029
+Encoding: 57425 57425 2029
 Width: 110
 Flags: W
 LayerCount: 2
@@ -115010,7 +115010,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE096
-Encoding: 57494 57494 2030
+Encoding: 57426 57426 2030
 Width: 110
 Flags: W
 LayerCount: 2
@@ -115045,7 +115045,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE097
-Encoding: 57495 57495 2031
+Encoding: 57427 57427 2031
 Width: 110
 Flags: W
 LayerCount: 2
