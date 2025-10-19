@@ -16,20 +16,20 @@
 
 ✅ ASCII（[Wenti-D#2](https://github.com/Wenti-D/ClasswizDisplayFont/issues/2)）<br>
 ✅ ISO/IEC 8859-1 + Windows-1252<br>
-🟨 ISO/IEC 8859-2<br>
-🟨 ISO/IEC 8859-3<br>
-🟨 ISO/IEC 8859-4<br>
-🟨 ISO/IEC 8859-5<br>
-🟨 ISO/IEC 8859-6<br>
-✅ ISO/IEC 8859-7:1987<br>
+✅ ISO/IEC 8859-2<br>
+✅ ISO/IEC 8859-3<br>
+✅ ISO/IEC 8859-4<br>
+🟨 ISO/IEC 8859-5（缺失 Ќ Ў № ќ ў）<br>
+✅ ISO/IEC 8859-6<br>
+🟨 ISO/IEC 8859-7（缺失 ― ₯）<br>
 ❌ ISO/IEC 8859-8（没计画支持）<br>
-🟨 ISO/IEC 8859-9<br>
-🟨 ISO/IEC 8859-10<br>
+✅ ISO/IEC 8859-9<br>
+🟨 ISO/IEC 8859-10（缺失 ―）<br>
 ❌ ISO/IEC 8859-11（没计画支持）<br>
-🟨 ISO/IEC 8859-13<br>
-🟨 ISO/IEC 8859-14<br>
-🟨 ISO/IEC 8859-15<br>
-🟨 ISO/IEC 8859-16
+✅ ISO/IEC 8859-13<br>
+🟨 ISO/IEC 8859-14（缺失 Ḃ ḃ Ḋ Ẁ Ẃ ḋ Ḟ ḟ Ṁ ṁ Ṗ ẁ ṗ ẃ Ṡ Ẅ ẅ ṡ Ṫ ṫ）<br>
+✅ ISO/IEC 8859-15<br>
+🟨 ISO/IEC 8859-16（缺失 Ș ș Ț ț）
 
 ## 使用方法
 
