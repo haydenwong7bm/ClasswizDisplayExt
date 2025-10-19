@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1760850695
+ModificationTime: 1760873721
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -144,7 +144,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 1 0 0 823881 411940 274627 674085 1048576 274627 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114946 1918
+BeginChars: 1114937 1918
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -61786,8 +61786,8 @@ StartChar: dcaron.ss01
 Encoding: 1114933 -1 1726
 Width: 110
 Flags: W
-HStem: 0 20<30 70> 60 20<30 70> 100 10<40 60> 110 10<20 30 70 80>
-VStem: 10 20<20 60> 20 20<110 120> 60 20<110 120> 70 20<20 60 80 100>
+HStem: 0 20<30 70> 50 20<30 70> 100 10<40 60> 110 10<20 30 70 80>
+VStem: 10 20<20 50> 20 20<110 120> 60 20<110 120> 70 20<20 50 70 100>
 LayerCount: 2
 Fore
 SplineSet
@@ -61796,15 +61796,15 @@ SplineSet
  20 0 l 1
  20 10 l 1xe5
  10 10 l 1
- 10 70 l 1xe8
+ 10 60 l 1xe8
+ 20 60 l 1
  20 70 l 1
- 20 80 l 1
- 70 80 l 1
+ 70 70 l 1
  70 100 l 1
  90 100 l 1xe5
 70 20 m 1
- 70 60 l 1
- 30 60 l 1
+ 70 50 l 1
+ 30 50 l 1
  30 20 l 1xc9
  70 20 l 1
 60 120 m 1xd6
@@ -63752,7 +63752,7 @@ EndSplineSet
 EndChar
 
 StartChar: tcaron.ss01
-Encoding: 1114943 -1 1781
+Encoding: 1114934 -1 1781
 Width: 110
 Flags: W
 HStem: 0 20<50 80> 50 20<10 30 50 80> 70 20G<30 50> 100 10<40 60> 110 10<20 30 70 80>
@@ -68194,7 +68194,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero.zero
-Encoding: 1114944 -1 1901
+Encoding: 1114935 -1 1901
 Width: 110
 Flags: W
 HStem: 0 20<30 70> 100 20<30 70>
@@ -68241,7 +68241,7 @@ EndSplineSet
 EndChar
 
 StartChar: one.ss02
-Encoding: 1114945 -1 1902
+Encoding: 1114936 -1 1902
 Width: 110
 Flags: W
 HStem: 0 20<30 50 70 90> 80 20<20 30> 100 20G<40 70>

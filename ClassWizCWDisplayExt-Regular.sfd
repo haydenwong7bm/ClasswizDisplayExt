@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1731231796
-ModificationTime: 1760850539
+ModificationTime: 1760873689
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -199,7 +199,7 @@ FitToEm: 0
 WinInfo: 8175 25 8
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114268 2042
+BeginChars: 1114259 2042
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -98096,15 +98096,15 @@ SplineSet
  20 0 l 1,2,-1
  20 10 l 1,3,-1
  10 10 l 1,4,-1
- 10 70 l 1,5,-1
- 20 70 l 1,6,-1
- 20 80 l 1,7,-1
- 70 80 l 1,8,-1
+ 10 60 l 1,5,-1
+ 20 60 l 1,6,-1
+ 20 70 l 1,7,-1
+ 70 70 l 1,8,-1
  70 100 l 1,9,-1
  90 100 l 1,0,-1
 70 20 m 1,10,-1
- 70 60 l 1,11,-1
- 30 60 l 1,12,-1
+ 70 50 l 1,11,-1
+ 30 50 l 1,12,-1
  30 20 l 1,13,-1
  70 20 l 1,10,-1
 60 120 m 1,14,-1
@@ -99983,7 +99983,7 @@ EndSplineSet
 EndChar
 
 StartChar: tcaron.ss01
-Encoding: 1114265 -1 1866
+Encoding: 1114256 -1 1866
 Width: 110
 Flags: W
 LayerCount: 2
@@ -104629,7 +104629,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero.zero
-Encoding: 1114266 -1 2001
+Encoding: 1114257 -1 2001
 Width: 110
 Flags: W
 LayerCount: 2
@@ -104674,7 +104674,7 @@ EndSplineSet
 EndChar
 
 StartChar: one.ss02
-Encoding: 1114267 -1 2002
+Encoding: 1114258 -1 2002
 Width: 110
 Flags: W
 LayerCount: 2
