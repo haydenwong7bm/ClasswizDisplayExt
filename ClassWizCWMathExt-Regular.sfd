@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1760706393
+ModificationTime: 1760850695
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -133,7 +133,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 25 8
+WinInfo: 8175 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -763,17 +763,16 @@ Encoding: 45 45 16
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: 50 20<20 80>
+HStem: 50 20<0 100>
 LayerCount: 2
 Fore
 SplineSet
-20 50 m 1
- 20 70 l 1
- 80 70 l 1
- 80 50 l 1
- 20 50 l 1
+0 50 m 1
+ 0 70 l 1
+ 100 70 l 1
+ 100 50 l 1
+ 0 50 l 1
 EndSplineSet
-Validated: 1
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" hyphen.ssty hyphen.ssty2
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" hyphen.ssty hyphen.ssty2
 EndChar
@@ -52278,15 +52277,15 @@ StartChar: uni00AD
 Encoding: 173 173 1475
 Width: 110
 Flags: W
-HStem: 50 20<10 90>
+HStem: 50 20<20 80>
 LayerCount: 2
 Fore
 SplineSet
-10 70 m 1
- 90 70 l 1
- 90 50 l 1
- 10 50 l 1
- 10 70 l 1
+20 50 m 1
+ 20 70 l 1
+ 80 70 l 1
+ 80 50 l 1
+ 20 50 l 1
 EndSplineSet
 EndChar
 
@@ -52842,13 +52841,13 @@ StartChar: uni2010
 Encoding: 8208 8208 1489
 Width: 110
 Flags: W
-HStem: 50 20<20 90>
+HStem: 50 20<20 80>
 LayerCount: 2
 Fore
 SplineSet
 20 70 m 1
- 90 70 l 1
- 90 50 l 1
+ 80 70 l 1
+ 80 50 l 1
  20 50 l 1
  20 70 l 1
 EndSplineSet
@@ -52858,13 +52857,13 @@ StartChar: uni2011
 Encoding: 8209 8209 1490
 Width: 110
 Flags: W
-HStem: 50 20<20 90>
+HStem: 50 20<20 80>
 LayerCount: 2
 Fore
 SplineSet
 20 70 m 1
- 90 70 l 1
- 90 50 l 1
+ 80 70 l 1
+ 80 50 l 1
  20 50 l 1
  20 70 l 1
 EndSplineSet
