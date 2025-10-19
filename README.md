@@ -25,7 +25,7 @@
 ❌ ISO/IEC 8859-8 (No plans to support)<br>
 🟨 ISO/IEC 8859-9<br>
 🟨 ISO/IEC 8859-10<br>
-❌ ISO/IEC 8859-11<br>
+❌ ISO/IEC 8859-11 (No plans to support)<br>
 🟨 ISO/IEC 8859-13<br>
 🟨 ISO/IEC 8859-14<br>
 🟨 ISO/IEC 8859-15<br>
