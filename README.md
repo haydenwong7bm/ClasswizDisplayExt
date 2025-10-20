@@ -21,10 +21,10 @@
 ✅ ISO/IEC 8859-4<br>
 🟨 ISO/IEC 8859-5 (Ќ Ў № ќ ў is missing)<br>
 ✅ ISO/IEC 8859-6<br>
-🟨 ISO/IEC 8859-7 (― ₯ is missing)<br>
+🟨 ISO/IEC 8859-7 (₯ is missing)<br>
 ❌ ISO/IEC 8859-8 (No plans to support)<br>
 ✅ ISO/IEC 8859-9<br>
-🟨 ISO/IEC 8859-10 (― is missing)<br>
+✅ ISO/IEC 8859-10<br>
 ❌ ISO/IEC 8859-11 (No plans to support)<br>
 ✅ ISO/IEC 8859-13<br>
 🟨 ISO/IEC 8859-14 (Ḃ ḃ Ḋ Ẁ Ẃ ḋ Ḟ ḟ Ṁ ṁ Ṗ ẁ ṗ ẃ Ṡ Ẅ ẅ ṡ Ṫ ṫ is missing)<br>
