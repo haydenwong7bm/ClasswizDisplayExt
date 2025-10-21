@@ -56,6 +56,7 @@ OS2XHeight: 90
 OS2Vendor: 'NONE'
 OS2CodePages: 40060007.00000000
 OS2UnicodeRanges: 20000207.18070001.00000000.00000000
+Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 0" { "'dlig' Discretionary Ligatures lookup 0 subtable"  } ['dlig' ('DFLT' <'dflt' > 'arab' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
 Lookup: 1 0 0 "'zero' Slashed Zero lookup 0" { "'zero' Slashed Zero lookup 0 subtable"  } ['    ' ('DFLT' <'dflt' > 'arab' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) 'zero' ('DFLT' <'dflt' > 'arab' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
 Lookup: 1 0 0 "'subs' Subscript lookup 0" { "'subs' Subscript lookup 0 subtable" ("inferior") } ['subs' ('DFLT' <'dflt' > 'arab' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' Access All Alternates lookup 0" { "'aalt' Access All Alternates lookup 0 subtable"  } ['aalt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
@@ -195,7 +196,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 12350 25 8
+WinInfo: 8700 25 8
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1114261 2067
@@ -961,7 +962,8 @@ SplineSet
  80 20 l 1,33,-1
  80 10 l 1,26,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 1 subtable" Calth-gk
+Substitution2: "'ss01' Style Set 1 lookup 6 subtable" c.ss01
+Substitution2: "Single Substitution lookup 1 subtable" c.ss01
 EndChar
 
 StartChar: U
@@ -5978,7 +5980,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: infty.inferior
+StartChar: infinity.inferior
 Encoding: 57367 57367 128
 Width: 110
 GlyphClass: 1
@@ -26360,7 +26362,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: pm.inferior
+StartChar: plusminus.inferior
 Encoding: 57366 57366 428
 Width: 110
 GlyphClass: 1
@@ -26654,7 +26656,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Calth-gk
+StartChar: c.ss01
 Encoding: 57368 57368 437
 Width: 110
 GlyphClass: 1
@@ -66984,6 +66986,7 @@ SplineSet
  50 20 l 1,15,-1
  0 20 l 1,12,-1
 EndSplineSet
+Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" minus.inferior one.inferior
 EndChar
 
 StartChar: uni4EE5
@@ -85309,6 +85312,7 @@ SplineSet
  0 0 l 1,15,-1
  0 20 l 1,12,-1
 EndSplineSet
+Substitution2: "'subs' Subscript lookup 0 subtable" plusminus.inferior
 EndChar
 
 StartChar: grave
@@ -88482,6 +88486,7 @@ SplineSet
  10 70 l 1,47,-1
  10 60 l 1,38,-1
 EndSplineSet
+Substitution2: "'subs' Subscript lookup 0 subtable" infinity.inferior
 EndChar
 
 StartChar: uni2213
