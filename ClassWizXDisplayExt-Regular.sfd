@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1725260647
-ModificationTime: 1760926509
+ModificationTime: 1761065492
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -60,116 +60,14 @@ Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 0" { "'dlig' Discretionary 
 Lookup: 1 0 0 "'zero' Slashed Zero lookup 0" { "'zero' Slashed Zero lookup 0 subtable"  } ['    ' ('DFLT' <'dflt' > 'arab' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) 'zero' ('DFLT' <'dflt' > 'arab' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
 Lookup: 1 0 0 "'subs' Subscript lookup 0" { "'subs' Subscript lookup 0 subtable" ("inferior") } ['subs' ('DFLT' <'dflt' > 'arab' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' Access All Alternates lookup 0" { "'aalt' Access All Alternates lookup 0 subtable"  } ['aalt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 1" { "Single Substitution lookup 1 subtable"  } []
-Lookup: 4 0 0 "Ligature Substitution lookup 2" { "Ligature Substitution lookup 2 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 3" { "Single Substitution lookup 3 subtable"  } []
-Lookup: 4 0 0 "Ligature Substitution lookup 4" { "Ligature Substitution lookup 4 subtable"  } []
 Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 5" { "'ccmp' Glyph Composition/Decomposition lookup 5 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' > 'cyrl' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss01' Style Set 1 lookup 6" { "'ss01' Style Set 1 lookup 6 subtable"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' Contextual Alternates lookup 7" { "'calt' Contextual Alternates lookup 7 subtable"  } ['calt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8 subtable"  } []
 Lookup: 1 0 0 "'ss02' Style Set 2 lookup 9" { "'ss02' Style Set 2 lookup 9 subtable"  } ['ss02' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > ) ]
 Lookup: 1 9 0 "''init' Initial Forms in Arabic lookup 10" { "''init' Initial Forms in Arabic lookup 10 subtable"  } ['init' ('arab' <'dflt' > ) ]
 Lookup: 1 9 0 "'medi' Medial Forms in Arabic lookup 11" { "'medi' Medial Forms in Arabic lookup 11 subtable"  } ['medi' ('arab' <'dflt' > ) ]
 Lookup: 1 9 0 "'fina' Terminal Forms in Arabic lookup 12" { "'fina' Terminal Forms in Arabic lookup 12 subtable"  } ['fina' ('arab' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: class "'calt' Contextual Alternates lookup 7 subtable" 14 10 8 10
-  Class: 18 trianglerightblack
-  Class: 1 t
-  Class: 5 slash
-  Class: 10 parenright
-  Class: 9 parenleft
-  Class: 1 l
-  Class: 1 k
-  Class: 1 h
-  Class: 1 g
-  Class: 1 c
-  Class: 8 asterisk
-  Class: 1 a
-  Class: 1 K
-  BClass: 12 calth-gK kgK
-  BClass: 3 kgk
-  BClass: 3 kGk
-  BClass: 8 calth-gk
-  BClass: 8 calth-Gk
-  BClass: 8 caltH-gk
-  BClass: 8 caLTh-gk
-  BClass: 3 Kgk
-  BClass: 1 J
-  FClass: 5 slash
-  FClass: 10 parenright
-  FClass: 1 k
-  FClass: 1 h
-  FClass: 1 g
-  FClass: 8 asterisk
-  FClass: 1 K
- 1 1 0
-  ClsList: 1
-  BClsList: 1
-  FClsList:
- 1
-  SeqLookup: 0 "Single Substitution lookup 8"
- 2 1 4
-  ClsList: 3 5
-  BClsList: 6
-  FClsList: 5 6 7 2
- 1
-  SeqLookup: 0 "Ligature Substitution lookup 2"
- 2 1 5
-  ClsList: 3 5
-  BClsList: 9
-  FClsList: 3 5 6 7 2
- 1
-  SeqLookup: 0 "Ligature Substitution lookup 4"
- 1 1 4
-  ClsList: 7
-  BClsList: 2
-  FClsList: 5 6 7 2
- 1
-  SeqLookup: 0 "Single Substitution lookup 3"
- 1 1 1
-  ClsList: 8
-  BClsList: 7
-  FClsList: 1
- 1
-  SeqLookup: 0 "Single Substitution lookup 1"
- 2 1 2
-  ClsList: 9 11
-  BClsList: 4
-  FClsList: 7 2
- 1
-  SeqLookup: 0 "Ligature Substitution lookup 2"
- 2 1 2
-  ClsList: 9 11
-  BClsList: 8
-  FClsList: 7 2
- 1
-  SeqLookup: 0 "Ligature Substitution lookup 4"
- 4 0 2
-  ClsList: 10 12 6 2
-  BClsList:
-  FClsList: 4 1
- 3
-  SeqLookup: 0 "Single Substitution lookup 1"
-  SeqLookup: 1 "Single Substitution lookup 1"
-  SeqLookup: 2 "Ligature Substitution lookup 2"
- 2 1 0
-  ClsList: 13 4
-  BClsList: 5
-  FClsList:
- 1
-  SeqLookup: 0 "Ligature Substitution lookup 2"
- 2 1 0
-  ClsList: 13 4
-  BClsList: 3
-  FClsList:
- 1
-  SeqLookup: 0 "Ligature Substitution lookup 4"
-  ClassNames: "0" "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13"
-  BClassNames: "0" "1" "2" "3" "4" "5" "6" "7" "8" "9"
-  FClassNames: "0" "1" "2" "3" "4" "5" "6" "7"
-EndFPST
 ShortTable: maxp 16
   1
   0
@@ -196,10 +94,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8700 25 8
+WinInfo: 1114075 25 8
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114261 2067
+BeginChars: 1114264 2070
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -867,7 +765,6 @@ SplineSet
  30 10 l 1,28,-1
 EndSplineSet
 Substitution2: "'ss01' Style Set 1 lookup 6 subtable" uni0251
-Substitution2: "Single Substitution lookup 1 subtable" cAlth-gk
 EndChar
 
 StartChar: b
@@ -963,7 +860,6 @@ SplineSet
  80 10 l 1,26,-1
 EndSplineSet
 Substitution2: "'ss01' Style Set 1 lookup 6 subtable" c.ss01
-Substitution2: "Single Substitution lookup 1 subtable" c.ss01
 EndChar
 
 StartChar: U
@@ -2955,7 +2851,6 @@ SplineSet
  0 110 l 1,1,-1
  10 110 l 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 3 subtable" Kgk
 EndChar
 
 StartChar: numbersign
@@ -3710,7 +3605,6 @@ SplineSet
  0 0 l 1,29,-1
  0 10 l 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 1 subtable" caltH-gk
 EndChar
 
 StartChar: eight
@@ -9288,7 +9182,6 @@ SplineSet
  50 30 l 1,15,-1
  30 30 l 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 8 subtable" to
 Substitution2: "'ss01' Style Set 1 lookup 6 subtable" triangle.left-below
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" triangle.left-below
 EndChar
@@ -26748,7 +26641,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: cAlth-gk
+StartChar: uniE019
 Encoding: 57369 57369 440
 Width: 110
 GlyphClass: 1
@@ -26797,7 +26690,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: caLTh-gk
+StartChar: lt
 Encoding: 57370 57370 441
 Width: 110
 GlyphClass: 1
@@ -26839,10 +26732,9 @@ SplineSet
  100 10 l 1,29,-1
  100 0 l 1,26,-1
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 2 subtable" l t
 EndChar
 
-StartChar: caltH-gk
+StartChar: uniE01B
 Encoding: 57371 57371 442
 Width: 110
 GlyphClass: 1
@@ -26872,7 +26764,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: calth-gk
+StartChar: slashparenleft
 Encoding: 57372 57372 443
 Width: 110
 GlyphClass: 1
@@ -26915,10 +26807,9 @@ SplineSet
  80 10 l 1,31,-1
  80 30 l 1,16,-1
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 2 subtable" slash parenleft
 EndChar
 
-StartChar: calth-Gk
+StartChar: gdotmath
 Encoding: 57373 57373 444
 Width: 110
 GlyphClass: 1
@@ -26973,10 +26864,9 @@ SplineSet
  20 20 l 1,41,-1
  20 0 l 1,38,-1
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 2 subtable" g asterisk
 EndChar
 
-StartChar: calth-gK
+StartChar: Kparenright
 Encoding: 57374 57374 445
 Width: 110
 GlyphClass: 1
@@ -27035,7 +26925,6 @@ SplineSet
  100 30 l 1,47,-1
  90 30 l 1,32,-1
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 2 subtable" K parenright
 EndChar
 
 StartChar: to
@@ -27045,74 +26934,20 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-SplineSet
-30 30 m 1,0,-1
- 30 20 l 1,1,-1
- 10 20 l 1,2,-1
- 10 100 l 1,3,-1
- 30 100 l 1,4,-1
- 30 90 l 1,5,-1
- 50 90 l 1,6,-1
- 50 80 l 1,7,-1
- 70 80 l 1,8,-1
- 70 70 l 1,9,-1
- 90 70 l 1,10,-1
- 90 50 l 1,11,-1
- 70 50 l 1,12,-1
- 70 40 l 1,13,-1
- 50 40 l 1,14,-1
- 50 30 l 1,15,-1
- 30 30 l 1,0,-1
-EndSplineSet
+Refer: 197 9654 S 1 0 0 1 0 0 2
 EndChar
 
-StartChar: kgk
+StartChar: uniE020
 Encoding: 57376 57376 447
 Width: 110
 GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-SplineSet
-0 0 m 1,0,-1
- 0 30 l 1,1,-1
- 10 30 l 1,2,-1
- 10 60 l 1,3,-1
- 20 60 l 1,4,-1
- 20 90 l 1,5,-1
- 30 90 l 1,6,-1
- 30 120 l 1,7,-1
- 50 120 l 1,8,-1
- 50 90 l 1,9,-1
- 40 90 l 1,10,-1
- 40 60 l 1,11,-1
- 30 60 l 1,12,-1
- 30 30 l 1,13,-1
- 20 30 l 1,14,-1
- 20 0 l 1,15,-1
- 0 0 l 1,0,-1
-80 30 m 1,16,-1
- 70 30 l 1,17,-1
- 70 90 l 1,18,-1
- 80 90 l 1,19,-1
- 80 110 l 1,20,-1
- 90 110 l 1,21,-1
- 90 120 l 1,22,-1
- 100 120 l 1,23,-1
- 100 100 l 1,24,-1
- 90 100 l 1,25,-1
- 90 20 l 1,26,-1
- 100 20 l 1,27,-1
- 100 0 l 1,28,-1
- 90 0 l 1,29,-1
- 90 10 l 1,30,-1
- 80 10 l 1,31,-1
- 80 30 l 1,16,-1
-EndSplineSet
-Ligature2: "Ligature Substitution lookup 4 subtable" slash parenleft
+Refer: 443 57372 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: Kgk
+StartChar: k.ss01
 Encoding: 57377 57377 448
 Width: 110
 GlyphClass: 1
@@ -27163,124 +26998,24 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: kGk
+StartChar: uniE022
 Encoding: 57378 57378 449
 Width: 110
 GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-SplineSet
-10 0 m 1,0,-1
- 0 0 l 1,1,-1
- 0 20 l 1,2,-1
- 10 20 l 1,3,-1
- 10 40 l 1,4,-1
- 20 40 l 1,5,-1
- 20 50 l 1,6,-1
- 10 50 l 1,7,-1
- 10 80 l 1,8,-1
- 20 80 l 1,9,-1
- 20 90 l 1,10,-1
- 50 90 l 1,11,-1
- 50 80 l 1,12,-1
- 60 80 l 1,13,-1
- 60 90 l 1,14,-1
- 80 90 l 1,15,-1
- 80 70 l 1,16,-1
- 60 70 l 1,17,-1
- 60 50 l 1,18,-1
- 50 50 l 1,19,-1
- 50 40 l 1,20,-1
- 30 40 l 1,21,-1
- 30 30 l 1,22,-1
- 60 30 l 1,23,-1
- 60 20 l 1,24,-1
- 70 20 l 1,25,-1
- 70 0 l 1,26,-1
- 60 0 l 1,27,-1
- 60 -10 l 1,28,-1
- 10 -10 l 1,29,-1
- 10 0 l 1,0,-1
-30 80 m 1,30,-1
- 30 50 l 1,31,-1
- 40 50 l 1,32,-1
- 40 80 l 1,33,-1
- 30 80 l 1,30,-1
-80 60 m 1,34,-1
- 100 60 l 1,35,-1
- 100 40 l 1,36,-1
- 80 40 l 1,37,-1
- 80 60 l 1,34,-1
-20 0 m 1,38,-1
- 50 0 l 1,39,-1
- 50 20 l 1,40,-1
- 20 20 l 1,41,-1
- 20 0 l 1,38,-1
-EndSplineSet
-Ligature2: "Ligature Substitution lookup 4 subtable" g asterisk
+Refer: 444 57373 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: kgK
+StartChar: uniE023
 Encoding: 57379 57379 450
 Width: 110
 GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-SplineSet
-20 70 m 1,0,-1
- 30 70 l 1,1,-1
- 30 80 l 1,2,-1
- 40 80 l 1,3,-1
- 40 100 l 1,4,-1
- 50 100 l 1,5,-1
- 50 110 l 1,6,-1
- 40 110 l 1,7,-1
- 40 120 l 1,8,-1
- 60 120 l 1,9,-1
- 60 100 l 1,10,-1
- 50 100 l 1,11,-1
- 50 80 l 1,12,-1
- 40 80 l 1,13,-1
- 40 50 l 1,14,-1
- 50 50 l 1,15,-1
- 50 20 l 1,16,-1
- 60 20 l 1,17,-1
- 60 0 l 1,18,-1
- 40 0 l 1,19,-1
- 40 20 l 1,20,-1
- 30 20 l 1,21,-1
- 30 50 l 1,22,-1
- 20 50 l 1,23,-1
- 20 10 l 1,24,-1
- 30 10 l 1,25,-1
- 30 0 l 1,26,-1
- 0 0 l 1,27,-1
- 0 120 l 1,28,-1
- 30 120 l 1,29,-1
- 30 110 l 1,30,-1
- 20 110 l 1,31,-1
- 20 70 l 1,0,-1
-90 30 m 1,32,-1
- 90 10 l 1,33,-1
- 80 10 l 1,34,-1
- 80 0 l 1,35,-1
- 70 0 l 1,36,-1
- 70 20 l 1,37,-1
- 80 20 l 1,38,-1
- 80 100 l 1,39,-1
- 70 100 l 1,40,-1
- 70 120 l 1,41,-1
- 80 120 l 1,42,-1
- 80 110 l 1,43,-1
- 90 110 l 1,44,-1
- 90 90 l 1,45,-1
- 100 90 l 1,46,-1
- 100 30 l 1,47,-1
- 90 30 l 1,32,-1
-EndSplineSet
-Ligature2: "Ligature Substitution lookup 4 subtable" K parenright
+Refer: 445 57374 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: iacute
@@ -86993,7 +86728,7 @@ SplineSet
  30 20 l 1,23,-1
  10 20 l 1,12,-1
 EndSplineSet
-Ligature2: "'calt' Contextual Alternates lookup 7 subtable" trianglerightblack triangleleftblack
+Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" trianglerightblack triangleleftblack
 EndChar
 
 StartChar: triangle.up.down
@@ -87046,7 +86781,7 @@ SplineSet
  20 10 l 1,39,-1
  20 20 l 1,20,-1
 EndSplineSet
-Ligature2: "'calt' Contextual Alternates lookup 7 subtable" triagup triagdn
+Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" triagup triagdn
 EndChar
 
 StartChar: uniE032
@@ -117056,6 +116791,49 @@ SplineSet
  0 50 l 1,3,-1
  0 70 l 1,0,-1
 EndSplineSet
+EndChar
+
+StartChar: calth
+Encoding: 1114261 -1 2067
+Width: 330
+Flags: W
+LayerCount: 2
+Fore
+Refer: 433 8341 S 1 0 0 1 320 0 2
+Refer: 441 57370 N 1 0 0 1 220 0 2
+Refer: 16 97 N 1 0 0 1 100 0 2
+Refer: 437 57368 N 1 0 0 1 0 0 2
+Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" c a l tinferior hinferior
+Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" c a l t h
+EndChar
+
+StartChar: gK
+Encoding: 1114262 -1 2068
+Width: 330
+Flags: W
+LayerCount: 2
+Fore
+Refer: 445 57374 S 1 0 0 1 220 0 2
+Refer: 444 57373 N 1 0 0 1 110 0 2
+Refer: 443 57372 N 1 0 0 1 0 0 2
+Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" slashparenleft gdotmath Kparenright
+Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" slash parenleft g dotmath K parenright
+Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" slash parenleft g asterisk K parenright
+EndChar
+
+StartChar: kgK
+Encoding: 1114263 -1 2069
+Width: 440
+Flags: W
+LayerCount: 2
+Fore
+Refer: 448 57377 N 1 0 0 1 110 0 2
+Refer: 445 57374 N 1 0 0 1 330 0 2
+Refer: 444 57373 N 1 0 0 1 220 0 2
+Refer: 443 57372 N 1 0 0 1 0 0 2
+Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" slashparenleft k.ss01 gdotmath Kparenright
+Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" slash parenleft k g dotmath K parenright
+Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" slash parenleft k g asterisk K parenright
 EndChar
 EndChars
 EndSplineFont
