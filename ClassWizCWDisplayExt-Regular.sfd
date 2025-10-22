@@ -95,7 +95,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 57300 25 8
+WinInfo: 57325 25 8
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1114264 2070
@@ -8294,6 +8294,7 @@ SplineSet
  30 -10 l 1,27,-1
  10 -10 l 1,0,-1
 EndSplineSet
+Substitution2: "'subs' Subscript lookup 0 subtable" mu.itc.inferior
 EndChar
 
 StartChar: piitalic
