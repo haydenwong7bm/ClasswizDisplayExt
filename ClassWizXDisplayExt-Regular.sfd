@@ -9154,6 +9154,7 @@ SplineSet
  50 80 l 1,15,-1
  0 80 l 1,12,-1
 EndSplineSet
+Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" uni207B onesuperior
 EndChar
 
 StartChar: trianglerightblack
