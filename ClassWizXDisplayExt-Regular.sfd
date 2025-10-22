@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1725260647
-ModificationTime: 1761066442
+ModificationTime: 1761123557
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -94,7 +94,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 57300 25 8
+WinInfo: 1114075 25 8
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1114264 2070
@@ -116757,14 +116757,15 @@ EndChar
 
 StartChar: calth
 Encoding: 1114261 -1 2067
-Width: 330
+Width: 440
 Flags: W
 LayerCount: 2
 Fore
-Refer: 433 8341 S 1 0 0 1 320 0 2
+Refer: 433 8341 N 1 0 0 1 330 0 2
 Refer: 441 57370 N 1 0 0 1 220 0 2
 Refer: 16 97 N 1 0 0 1 100 0 2
 Refer: 437 57368 N 1 0 0 1 0 0 2
+LCarets2: 4 0 0 0 0
 Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" c a l tinferior hinferior
 Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" c a l t h
 EndChar
@@ -116778,6 +116779,7 @@ Fore
 Refer: 445 57374 S 1 0 0 1 220 0 2
 Refer: 444 57373 N 1 0 0 1 110 0 2
 Refer: 443 57372 N 1 0 0 1 0 0 2
+LCarets2: 5 0 0 0 0 0
 Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" slashparenleft gdotmath Kparenright
 Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" slash parenleft g dotmath K parenright
 Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" slash parenleft g asterisk K parenright
@@ -116793,6 +116795,7 @@ Refer: 448 57377 N 1 0 0 1 110 0 2
 Refer: 445 57374 N 1 0 0 1 330 0 2
 Refer: 444 57373 N 1 0 0 1 220 0 2
 Refer: 443 57372 N 1 0 0 1 0 0 2
+LCarets2: 6 0 0 0 0 0 0
 Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" slashparenleft k.ss01 gdotmath Kparenright
 Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" slash parenleft k g dotmath K parenright
 Ligature2: "'dlig' Discretionary Ligatures lookup 0 subtable" slash parenleft k g asterisk K parenright
