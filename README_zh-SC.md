@@ -19,7 +19,7 @@
 ✅ ISO/IEC 8859-2<br>
 ✅ ISO/IEC 8859-3<br>
 ✅ ISO/IEC 8859-4<br>
-🟨 ISO/IEC 8859-5（缺失 Ќ Ў № ќ ў）<br>
+✅ ISO/IEC 8859-5<br>
 ✅ ISO/IEC 8859-6<br>
 🟨 ISO/IEC 8859-7（缺失 ₯）<br>
 ❌ ISO/IEC 8859-8（没计画支持）<br>
@@ -50,3 +50,7 @@
 ## 贡献与反馈
 
 「ClassWiz Display Ext」系列均以SIL开源字体许可1.1版（SIL Open Font License 1.1）协议授权，详情请查看`OFL.txt`文件，若想编辑、再发布字体，请务必遵守许可协议。如有任何问题或建议，请开启一个议题（issue）。
+
+## 鸣谢
+
+- [Wenti-D/ClasswizDisplayFont](https://github.com/Wenti-D/ClasswizDisplayFont)

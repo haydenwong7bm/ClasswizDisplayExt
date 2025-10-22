@@ -19,7 +19,7 @@
 ✅ ISO/IEC 8859-2<br>
 ✅ ISO/IEC 8859-3<br>
 ✅ ISO/IEC 8859-4<br>
-🟨 ISO/IEC 8859-5 (Ќ Ў № ќ ў is missing)<br>
+✅ ISO/IEC 8859-5<br>
 ✅ ISO/IEC 8859-6<br>
 🟨 ISO/IEC 8859-7 (₯ is missing)<br>
 ❌ ISO/IEC 8859-8 (No plans to support)<br>
@@ -50,3 +50,7 @@ Font source file is provided with the [FontForge](https://fontforge.org/) font f
 ## Contribution and Feedback
 
 "ClassWiz Display Ext" font is all licensed under the SIL Open Font License Version 1.1 agreement authorization, For details, please see the `OFL.txt` file. If you want to edit and redistribute the font, please be sure to comply with the license agreement. If you have any problems or suggestions, please open an issue.
+
+## Credits
+
+- [Wenti-D/ClasswizDisplayFont](https://github.com/Wenti-D/ClasswizDisplayFont)
