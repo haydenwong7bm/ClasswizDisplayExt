@@ -133,7 +133,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1000 25 8
+WinInfo: 0 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -144,7 +144,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 1 0 0 823881 411940 274627 674085 1048576 274627 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114936 1943
+BeginChars: 1114873 1943
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -774,8 +774,9 @@ SplineSet
  100 50 l 1
  0 50 l 1
 EndSplineSet
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" hyphen.ssty hyphen.ssty2
 AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" hyphen.ssty hyphen.ssty2
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" hyphen.ssty hyphen.ssty2
+Substitution2: "'ss02' Style Set 2 lookup 4 subtable" uni2010
 EndChar
 
 StartChar: period
@@ -31554,7 +31555,7 @@ Validated: 1
 EndChar
 
 StartChar: Fsmall.ssty
-Encoding: 1114515 -1 835
+Encoding: 1114452 -1 835
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -31579,7 +31580,7 @@ Validated: 1
 EndChar
 
 StartChar: Fsmall.ssty2
-Encoding: 1114516 -1 836
+Encoding: 1114453 -1 836
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -31604,7 +31605,7 @@ Validated: 1
 EndChar
 
 StartChar: Abold.ssty
-Encoding: 1114517 -1 837
+Encoding: 1114454 -1 837
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31615,7 +31616,7 @@ Validated: 1
 EndChar
 
 StartChar: Abold.ssty2
-Encoding: 1114518 -1 838
+Encoding: 1114455 -1 838
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31626,7 +31627,7 @@ Validated: 1
 EndChar
 
 StartChar: Bbold.ssty
-Encoding: 1114519 -1 839
+Encoding: 1114456 -1 839
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31637,7 +31638,7 @@ Validated: 1
 EndChar
 
 StartChar: Bbold.ssty2
-Encoding: 1114520 -1 840
+Encoding: 1114457 -1 840
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31648,7 +31649,7 @@ Validated: 1
 EndChar
 
 StartChar: Cbold.ssty
-Encoding: 1114521 -1 841
+Encoding: 1114458 -1 841
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31659,7 +31660,7 @@ Validated: 1
 EndChar
 
 StartChar: Cbold.ssty2
-Encoding: 1114522 -1 842
+Encoding: 1114459 -1 842
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31670,7 +31671,7 @@ Validated: 1
 EndChar
 
 StartChar: Dbold.ssty
-Encoding: 1114523 -1 843
+Encoding: 1114460 -1 843
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31681,7 +31682,7 @@ Validated: 1
 EndChar
 
 StartChar: Dbold.ssty2
-Encoding: 1114524 -1 844
+Encoding: 1114461 -1 844
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31692,7 +31693,7 @@ Validated: 1
 EndChar
 
 StartChar: Ebold.ssty
-Encoding: 1114525 -1 845
+Encoding: 1114462 -1 845
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -31727,7 +31728,7 @@ Validated: 1
 EndChar
 
 StartChar: Ebold.ssty2
-Encoding: 1114526 -1 846
+Encoding: 1114463 -1 846
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -31762,7 +31763,7 @@ Validated: 1
 EndChar
 
 StartChar: Fbold.ssty
-Encoding: 1114527 -1 847
+Encoding: 1114464 -1 847
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31773,7 +31774,7 @@ Validated: 1
 EndChar
 
 StartChar: Fbold.ssty2
-Encoding: 1114528 -1 848
+Encoding: 1114465 -1 848
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31784,7 +31785,7 @@ Validated: 1
 EndChar
 
 StartChar: Gbold.ssty
-Encoding: 1114529 -1 849
+Encoding: 1114466 -1 849
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -31821,7 +31822,7 @@ Validated: 5
 EndChar
 
 StartChar: Gbold.ssty2
-Encoding: 1114530 -1 850
+Encoding: 1114467 -1 850
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -31858,7 +31859,7 @@ Validated: 5
 EndChar
 
 StartChar: Hbold.ssty
-Encoding: 1114531 -1 851
+Encoding: 1114468 -1 851
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31869,7 +31870,7 @@ Validated: 1
 EndChar
 
 StartChar: Hbold.ssty2
-Encoding: 1114532 -1 852
+Encoding: 1114469 -1 852
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31880,7 +31881,7 @@ Validated: 1
 EndChar
 
 StartChar: Ibold.ssty
-Encoding: 1114533 -1 853
+Encoding: 1114470 -1 853
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31891,7 +31892,7 @@ Validated: 1
 EndChar
 
 StartChar: Ibold.ssty2
-Encoding: 1114534 -1 854
+Encoding: 1114471 -1 854
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31902,7 +31903,7 @@ Validated: 1
 EndChar
 
 StartChar: Jbold.ssty
-Encoding: 1114535 -1 855
+Encoding: 1114472 -1 855
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31913,7 +31914,7 @@ Validated: 1
 EndChar
 
 StartChar: Jbold.ssty2
-Encoding: 1114536 -1 856
+Encoding: 1114473 -1 856
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31924,7 +31925,7 @@ Validated: 1
 EndChar
 
 StartChar: Kbold.ssty
-Encoding: 1114537 -1 857
+Encoding: 1114474 -1 857
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31935,7 +31936,7 @@ Validated: 1
 EndChar
 
 StartChar: Kbold.ssty2
-Encoding: 1114538 -1 858
+Encoding: 1114475 -1 858
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31946,7 +31947,7 @@ Validated: 1
 EndChar
 
 StartChar: Lbold.ssty
-Encoding: 1114539 -1 859
+Encoding: 1114476 -1 859
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31957,7 +31958,7 @@ Validated: 1
 EndChar
 
 StartChar: Lbold.ssty2
-Encoding: 1114540 -1 860
+Encoding: 1114477 -1 860
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -31968,7 +31969,7 @@ Validated: 1
 EndChar
 
 StartChar: Mbold.ssty
-Encoding: 1114541 -1 861
+Encoding: 1114478 -1 861
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -32009,7 +32010,7 @@ Validated: 5
 EndChar
 
 StartChar: Mbold.ssty2
-Encoding: 1114542 -1 862
+Encoding: 1114479 -1 862
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -32050,7 +32051,7 @@ Validated: 5
 EndChar
 
 StartChar: Nbold.ssty
-Encoding: 1114543 -1 863
+Encoding: 1114480 -1 863
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32061,7 +32062,7 @@ Validated: 1
 EndChar
 
 StartChar: Nbold.ssty2
-Encoding: 1114544 -1 864
+Encoding: 1114481 -1 864
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32072,7 +32073,7 @@ Validated: 1
 EndChar
 
 StartChar: Obold.ssty
-Encoding: 1114545 -1 865
+Encoding: 1114482 -1 865
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32083,7 +32084,7 @@ Validated: 1
 EndChar
 
 StartChar: Obold.ssty2
-Encoding: 1114546 -1 866
+Encoding: 1114483 -1 866
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32094,7 +32095,7 @@ Validated: 1
 EndChar
 
 StartChar: Pbold.ssty
-Encoding: 1114547 -1 867
+Encoding: 1114484 -1 867
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -32131,7 +32132,7 @@ Validated: 5
 EndChar
 
 StartChar: Pbold.ssty2
-Encoding: 1114548 -1 868
+Encoding: 1114485 -1 868
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -32168,7 +32169,7 @@ Validated: 5
 EndChar
 
 StartChar: Qbold.ssty
-Encoding: 1114549 -1 869
+Encoding: 1114486 -1 869
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32179,7 +32180,7 @@ Validated: 1
 EndChar
 
 StartChar: Qbold.ssty2
-Encoding: 1114550 -1 870
+Encoding: 1114487 -1 870
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32190,7 +32191,7 @@ Validated: 1
 EndChar
 
 StartChar: Rbold.ssty
-Encoding: 1114551 -1 871
+Encoding: 1114488 -1 871
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32201,7 +32202,7 @@ Validated: 1
 EndChar
 
 StartChar: Rbold.ssty2
-Encoding: 1114552 -1 872
+Encoding: 1114489 -1 872
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32212,7 +32213,7 @@ Validated: 1
 EndChar
 
 StartChar: Sbold.ssty
-Encoding: 1114553 -1 873
+Encoding: 1114490 -1 873
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32223,7 +32224,7 @@ Validated: 1
 EndChar
 
 StartChar: Sbold.ssty2
-Encoding: 1114554 -1 874
+Encoding: 1114491 -1 874
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32234,7 +32235,7 @@ Validated: 1
 EndChar
 
 StartChar: Tbold.ssty
-Encoding: 1114555 -1 875
+Encoding: 1114492 -1 875
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -32266,7 +32267,7 @@ Validated: 1
 EndChar
 
 StartChar: Tbold.ssty2
-Encoding: 1114556 -1 876
+Encoding: 1114493 -1 876
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -32298,7 +32299,7 @@ Validated: 1
 EndChar
 
 StartChar: Ubold.ssty
-Encoding: 1114557 -1 877
+Encoding: 1114494 -1 877
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32309,7 +32310,7 @@ Validated: 1
 EndChar
 
 StartChar: Ubold.ssty2
-Encoding: 1114558 -1 878
+Encoding: 1114495 -1 878
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32320,7 +32321,7 @@ Validated: 1
 EndChar
 
 StartChar: Vbold.ssty
-Encoding: 1114559 -1 879
+Encoding: 1114496 -1 879
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32331,7 +32332,7 @@ Validated: 1
 EndChar
 
 StartChar: Vbold.ssty2
-Encoding: 1114560 -1 880
+Encoding: 1114497 -1 880
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32342,7 +32343,7 @@ Validated: 1
 EndChar
 
 StartChar: Wbold.ssty
-Encoding: 1114561 -1 881
+Encoding: 1114498 -1 881
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32353,7 +32354,7 @@ Validated: 1
 EndChar
 
 StartChar: Wbold.ssty2
-Encoding: 1114562 -1 882
+Encoding: 1114499 -1 882
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32364,7 +32365,7 @@ Validated: 1
 EndChar
 
 StartChar: Xbold.ssty
-Encoding: 1114563 -1 883
+Encoding: 1114500 -1 883
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32375,7 +32376,7 @@ Validated: 1
 EndChar
 
 StartChar: Xbold.ssty2
-Encoding: 1114564 -1 884
+Encoding: 1114501 -1 884
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32386,7 +32387,7 @@ Validated: 1
 EndChar
 
 StartChar: Ybold.ssty
-Encoding: 1114565 -1 885
+Encoding: 1114502 -1 885
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32397,7 +32398,7 @@ Validated: 1
 EndChar
 
 StartChar: Ybold.ssty2
-Encoding: 1114566 -1 886
+Encoding: 1114503 -1 886
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32408,7 +32409,7 @@ Validated: 1
 EndChar
 
 StartChar: Zbold.ssty
-Encoding: 1114567 -1 887
+Encoding: 1114504 -1 887
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32419,7 +32420,7 @@ Validated: 1
 EndChar
 
 StartChar: Zbold.ssty2
-Encoding: 1114568 -1 888
+Encoding: 1114505 -1 888
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32430,7 +32431,7 @@ Validated: 1
 EndChar
 
 StartChar: abold.ssty
-Encoding: 1114569 -1 889
+Encoding: 1114506 -1 889
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32441,7 +32442,7 @@ Validated: 1
 EndChar
 
 StartChar: abold.ssty2
-Encoding: 1114570 -1 890
+Encoding: 1114507 -1 890
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32452,7 +32453,7 @@ Validated: 1
 EndChar
 
 StartChar: bbold.ssty
-Encoding: 1114571 -1 891
+Encoding: 1114508 -1 891
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32463,7 +32464,7 @@ Validated: 1
 EndChar
 
 StartChar: bbold.ssty2
-Encoding: 1114572 -1 892
+Encoding: 1114509 -1 892
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32474,7 +32475,7 @@ Validated: 1
 EndChar
 
 StartChar: cbold.ssty
-Encoding: 1114573 -1 893
+Encoding: 1114510 -1 893
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32485,7 +32486,7 @@ Validated: 1
 EndChar
 
 StartChar: cbold.ssty2
-Encoding: 1114574 -1 894
+Encoding: 1114511 -1 894
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32496,7 +32497,7 @@ Validated: 1
 EndChar
 
 StartChar: dbold.ssty
-Encoding: 1114575 -1 895
+Encoding: 1114512 -1 895
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32507,7 +32508,7 @@ Validated: 1
 EndChar
 
 StartChar: dbold.ssty2
-Encoding: 1114576 -1 896
+Encoding: 1114513 -1 896
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32518,7 +32519,7 @@ Validated: 1
 EndChar
 
 StartChar: ebold.ssty
-Encoding: 1114577 -1 897
+Encoding: 1114514 -1 897
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32529,7 +32530,7 @@ Validated: 1
 EndChar
 
 StartChar: ebold.ssty2
-Encoding: 1114578 -1 898
+Encoding: 1114515 -1 898
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32540,7 +32541,7 @@ Validated: 1
 EndChar
 
 StartChar: fbold.ssty
-Encoding: 1114579 -1 899
+Encoding: 1114516 -1 899
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -32575,7 +32576,7 @@ Validated: 5
 EndChar
 
 StartChar: fbold.ssty2
-Encoding: 1114580 -1 900
+Encoding: 1114517 -1 900
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -32610,7 +32611,7 @@ Validated: 5
 EndChar
 
 StartChar: gbold.ssty
-Encoding: 1114581 -1 901
+Encoding: 1114518 -1 901
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32621,7 +32622,7 @@ Validated: 1
 EndChar
 
 StartChar: gbold.ssty2
-Encoding: 1114582 -1 902
+Encoding: 1114519 -1 902
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32632,7 +32633,7 @@ Validated: 1
 EndChar
 
 StartChar: hbold.ssty
-Encoding: 1114583 -1 903
+Encoding: 1114520 -1 903
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32643,7 +32644,7 @@ Validated: 1
 EndChar
 
 StartChar: hbold.ssty2
-Encoding: 1114584 -1 904
+Encoding: 1114521 -1 904
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32654,7 +32655,7 @@ Validated: 1
 EndChar
 
 StartChar: ibold.ssty
-Encoding: 1114585 -1 905
+Encoding: 1114522 -1 905
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32665,7 +32666,7 @@ Validated: 1
 EndChar
 
 StartChar: ibold.ssty2
-Encoding: 1114586 -1 906
+Encoding: 1114523 -1 906
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32676,7 +32677,7 @@ Validated: 1
 EndChar
 
 StartChar: jbold.ssty
-Encoding: 1114587 -1 907
+Encoding: 1114524 -1 907
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32687,7 +32688,7 @@ Validated: 1
 EndChar
 
 StartChar: jbold.ssty2
-Encoding: 1114588 -1 908
+Encoding: 1114525 -1 908
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32698,7 +32699,7 @@ Validated: 1
 EndChar
 
 StartChar: kbold.ssty
-Encoding: 1114589 -1 909
+Encoding: 1114526 -1 909
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -32745,7 +32746,7 @@ Validated: 5
 EndChar
 
 StartChar: kbold.ssty2
-Encoding: 1114590 -1 910
+Encoding: 1114527 -1 910
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -32792,7 +32793,7 @@ Validated: 5
 EndChar
 
 StartChar: lbold.ssty
-Encoding: 1114591 -1 911
+Encoding: 1114528 -1 911
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32803,7 +32804,7 @@ Validated: 1
 EndChar
 
 StartChar: lbold.ssty2
-Encoding: 1114592 -1 912
+Encoding: 1114529 -1 912
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32814,7 +32815,7 @@ Validated: 1
 EndChar
 
 StartChar: mbold.ssty
-Encoding: 1114593 -1 913
+Encoding: 1114530 -1 913
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -32846,7 +32847,7 @@ Validated: 5
 EndChar
 
 StartChar: mbold.ssty2
-Encoding: 1114594 -1 914
+Encoding: 1114531 -1 914
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -32878,7 +32879,7 @@ Validated: 5
 EndChar
 
 StartChar: nbold.ssty
-Encoding: 1114595 -1 915
+Encoding: 1114532 -1 915
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -32916,7 +32917,7 @@ Validated: 5
 EndChar
 
 StartChar: nbold.ssty2
-Encoding: 1114596 -1 916
+Encoding: 1114533 -1 916
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -32954,7 +32955,7 @@ Validated: 5
 EndChar
 
 StartChar: obold.ssty
-Encoding: 1114597 -1 917
+Encoding: 1114534 -1 917
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32965,7 +32966,7 @@ Validated: 1
 EndChar
 
 StartChar: obold.ssty2
-Encoding: 1114598 -1 918
+Encoding: 1114535 -1 918
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -32976,7 +32977,7 @@ Validated: 1
 EndChar
 
 StartChar: pbold.ssty
-Encoding: 1114599 -1 919
+Encoding: 1114536 -1 919
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33012,7 +33013,7 @@ Validated: 5
 EndChar
 
 StartChar: pbold.ssty2
-Encoding: 1114600 -1 920
+Encoding: 1114537 -1 920
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33048,7 +33049,7 @@ Validated: 5
 EndChar
 
 StartChar: qbold.ssty
-Encoding: 1114601 -1 921
+Encoding: 1114538 -1 921
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33059,7 +33060,7 @@ Validated: 1
 EndChar
 
 StartChar: qbold.ssty2
-Encoding: 1114602 -1 922
+Encoding: 1114539 -1 922
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33070,7 +33071,7 @@ Validated: 1
 EndChar
 
 StartChar: rbold.ssty
-Encoding: 1114603 -1 923
+Encoding: 1114540 -1 923
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33081,7 +33082,7 @@ Validated: 1
 EndChar
 
 StartChar: rbold.ssty2
-Encoding: 1114604 -1 924
+Encoding: 1114541 -1 924
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33092,7 +33093,7 @@ Validated: 1
 EndChar
 
 StartChar: sbold.ssty
-Encoding: 1114605 -1 925
+Encoding: 1114542 -1 925
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33103,7 +33104,7 @@ Validated: 1
 EndChar
 
 StartChar: sbold.ssty2
-Encoding: 1114606 -1 926
+Encoding: 1114543 -1 926
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33114,7 +33115,7 @@ Validated: 1
 EndChar
 
 StartChar: tbold.ssty
-Encoding: 1114607 -1 927
+Encoding: 1114544 -1 927
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33125,7 +33126,7 @@ Validated: 1
 EndChar
 
 StartChar: tbold.ssty2
-Encoding: 1114608 -1 928
+Encoding: 1114545 -1 928
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33136,7 +33137,7 @@ Validated: 1
 EndChar
 
 StartChar: ubold.ssty
-Encoding: 1114609 -1 929
+Encoding: 1114546 -1 929
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33147,7 +33148,7 @@ Validated: 1
 EndChar
 
 StartChar: ubold.ssty2
-Encoding: 1114610 -1 930
+Encoding: 1114547 -1 930
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33158,7 +33159,7 @@ Validated: 1
 EndChar
 
 StartChar: vbold.ssty
-Encoding: 1114611 -1 931
+Encoding: 1114548 -1 931
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33169,7 +33170,7 @@ Validated: 1
 EndChar
 
 StartChar: vbold.ssty2
-Encoding: 1114612 -1 932
+Encoding: 1114549 -1 932
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33180,7 +33181,7 @@ Validated: 1
 EndChar
 
 StartChar: wbold.ssty
-Encoding: 1114613 -1 933
+Encoding: 1114550 -1 933
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33191,7 +33192,7 @@ Validated: 1
 EndChar
 
 StartChar: wbold.ssty2
-Encoding: 1114614 -1 934
+Encoding: 1114551 -1 934
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33202,7 +33203,7 @@ Validated: 1
 EndChar
 
 StartChar: xbold.ssty
-Encoding: 1114615 -1 935
+Encoding: 1114552 -1 935
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33213,7 +33214,7 @@ Validated: 1
 EndChar
 
 StartChar: xbold.ssty2
-Encoding: 1114616 -1 936
+Encoding: 1114553 -1 936
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33224,7 +33225,7 @@ Validated: 1
 EndChar
 
 StartChar: ybold.ssty
-Encoding: 1114617 -1 937
+Encoding: 1114554 -1 937
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33235,7 +33236,7 @@ Validated: 1
 EndChar
 
 StartChar: ybold.ssty2
-Encoding: 1114618 -1 938
+Encoding: 1114555 -1 938
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33246,7 +33247,7 @@ Validated: 1
 EndChar
 
 StartChar: zbold.ssty
-Encoding: 1114619 -1 939
+Encoding: 1114556 -1 939
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33257,7 +33258,7 @@ Validated: 1
 EndChar
 
 StartChar: zbold.ssty2
-Encoding: 1114620 -1 940
+Encoding: 1114557 -1 940
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -33268,7 +33269,7 @@ Validated: 1
 EndChar
 
 StartChar: Aitalic.ssty
-Encoding: 1114621 -1 941
+Encoding: 1114558 -1 941
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33308,7 +33309,7 @@ Validated: 5
 EndChar
 
 StartChar: Aitalic.ssty2
-Encoding: 1114622 -1 942
+Encoding: 1114559 -1 942
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33348,7 +33349,7 @@ Validated: 5
 EndChar
 
 StartChar: Bitalic.ssty
-Encoding: 1114623 -1 943
+Encoding: 1114560 -1 943
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33384,7 +33385,7 @@ Validated: 5
 EndChar
 
 StartChar: Bitalic.ssty2
-Encoding: 1114624 -1 944
+Encoding: 1114561 -1 944
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33420,7 +33421,7 @@ Validated: 5
 EndChar
 
 StartChar: Citalic.ssty
-Encoding: 1114625 -1 945
+Encoding: 1114562 -1 945
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33459,7 +33460,7 @@ Validated: 5
 EndChar
 
 StartChar: Citalic.ssty2
-Encoding: 1114626 -1 946
+Encoding: 1114563 -1 946
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33498,7 +33499,7 @@ Validated: 5
 EndChar
 
 StartChar: Ditalic.ssty
-Encoding: 1114627 -1 947
+Encoding: 1114564 -1 947
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33536,7 +33537,7 @@ Validated: 5
 EndChar
 
 StartChar: Ditalic.ssty2
-Encoding: 1114628 -1 948
+Encoding: 1114565 -1 948
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33574,7 +33575,7 @@ Validated: 5
 EndChar
 
 StartChar: Eitalic.ssty
-Encoding: 1114629 -1 949
+Encoding: 1114566 -1 949
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33602,7 +33603,7 @@ Validated: 1
 EndChar
 
 StartChar: Eitalic.ssty2
-Encoding: 1114630 -1 950
+Encoding: 1114567 -1 950
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33630,7 +33631,7 @@ Validated: 1
 EndChar
 
 StartChar: Fitalic.ssty
-Encoding: 1114631 -1 951
+Encoding: 1114568 -1 951
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33655,7 +33656,7 @@ Validated: 1
 EndChar
 
 StartChar: Fitalic.ssty2
-Encoding: 1114632 -1 952
+Encoding: 1114569 -1 952
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33680,7 +33681,7 @@ Validated: 1
 EndChar
 
 StartChar: Gitalic.ssty
-Encoding: 1114633 -1 953
+Encoding: 1114570 -1 953
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33725,7 +33726,7 @@ Validated: 5
 EndChar
 
 StartChar: Gitalic.ssty2
-Encoding: 1114634 -1 954
+Encoding: 1114571 -1 954
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33770,7 +33771,7 @@ Validated: 5
 EndChar
 
 StartChar: Hitalic.ssty
-Encoding: 1114635 -1 955
+Encoding: 1114572 -1 955
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33797,7 +33798,7 @@ Validated: 1
 EndChar
 
 StartChar: Hitalic.ssty2
-Encoding: 1114636 -1 956
+Encoding: 1114573 -1 956
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33824,7 +33825,7 @@ Validated: 1
 EndChar
 
 StartChar: Iitalic.ssty
-Encoding: 1114637 -1 957
+Encoding: 1114574 -1 957
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33851,7 +33852,7 @@ Validated: 1
 EndChar
 
 StartChar: Iitalic.ssty2
-Encoding: 1114638 -1 958
+Encoding: 1114575 -1 958
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33878,7 +33879,7 @@ Validated: 1
 EndChar
 
 StartChar: Jitalic.ssty
-Encoding: 1114639 -1 959
+Encoding: 1114576 -1 959
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33911,7 +33912,7 @@ Validated: 5
 EndChar
 
 StartChar: Jitalic.ssty2
-Encoding: 1114640 -1 960
+Encoding: 1114577 -1 960
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33944,7 +33945,7 @@ Validated: 5
 EndChar
 
 StartChar: Kitalic.ssty
-Encoding: 1114641 -1 961
+Encoding: 1114578 -1 961
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -33997,7 +33998,7 @@ Validated: 5
 EndChar
 
 StartChar: Kitalic.ssty2
-Encoding: 1114642 -1 962
+Encoding: 1114579 -1 962
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34050,7 +34051,7 @@ Validated: 5
 EndChar
 
 StartChar: Litalic.ssty
-Encoding: 1114643 -1 963
+Encoding: 1114580 -1 963
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34071,7 +34072,7 @@ Validated: 1
 EndChar
 
 StartChar: Litalic.ssty2
-Encoding: 1114644 -1 964
+Encoding: 1114581 -1 964
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34092,7 +34093,7 @@ Validated: 1
 EndChar
 
 StartChar: Mitalic.ssty
-Encoding: 1114645 -1 965
+Encoding: 1114582 -1 965
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34129,7 +34130,7 @@ Validated: 5
 EndChar
 
 StartChar: Mitalic.ssty2
-Encoding: 1114646 -1 966
+Encoding: 1114583 -1 966
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34166,7 +34167,7 @@ Validated: 5
 EndChar
 
 StartChar: Nitalic.ssty
-Encoding: 1114647 -1 967
+Encoding: 1114584 -1 967
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34202,7 +34203,7 @@ Validated: 5
 EndChar
 
 StartChar: Nitalic.ssty2
-Encoding: 1114648 -1 968
+Encoding: 1114585 -1 968
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34238,7 +34239,7 @@ Validated: 5
 EndChar
 
 StartChar: Oitalic.ssty
-Encoding: 1114649 -1 969
+Encoding: 1114586 -1 969
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34272,7 +34273,7 @@ Validated: 5
 EndChar
 
 StartChar: Oitalic.ssty2
-Encoding: 1114650 -1 970
+Encoding: 1114587 -1 970
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34306,7 +34307,7 @@ Validated: 5
 EndChar
 
 StartChar: Pitalic.ssty
-Encoding: 1114651 -1 971
+Encoding: 1114588 -1 971
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34336,7 +34337,7 @@ Validated: 5
 EndChar
 
 StartChar: Pitalic.ssty2
-Encoding: 1114652 -1 972
+Encoding: 1114589 -1 972
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34366,7 +34367,7 @@ Validated: 5
 EndChar
 
 StartChar: Qitalic.ssty
-Encoding: 1114653 -1 973
+Encoding: 1114590 -1 973
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34415,7 +34416,7 @@ Validated: 5
 EndChar
 
 StartChar: Qitalic.ssty2
-Encoding: 1114654 -1 974
+Encoding: 1114591 -1 974
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34464,7 +34465,7 @@ Validated: 5
 EndChar
 
 StartChar: Ritalic.ssty
-Encoding: 1114655 -1 975
+Encoding: 1114592 -1 975
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34508,7 +34509,7 @@ Validated: 5
 EndChar
 
 StartChar: Ritalic.ssty2
-Encoding: 1114656 -1 976
+Encoding: 1114593 -1 976
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34552,7 +34553,7 @@ Validated: 5
 EndChar
 
 StartChar: Sitalic.ssty
-Encoding: 1114657 -1 977
+Encoding: 1114594 -1 977
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34601,7 +34602,7 @@ Validated: 5
 EndChar
 
 StartChar: Sitalic.ssty2
-Encoding: 1114658 -1 978
+Encoding: 1114595 -1 978
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34650,7 +34651,7 @@ Validated: 5
 EndChar
 
 StartChar: Titalic.ssty
-Encoding: 1114659 -1 979
+Encoding: 1114596 -1 979
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34673,7 +34674,7 @@ Validated: 1
 EndChar
 
 StartChar: Titalic.ssty2
-Encoding: 1114660 -1 980
+Encoding: 1114597 -1 980
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34696,7 +34697,7 @@ Validated: 1
 EndChar
 
 StartChar: Uitalic.ssty
-Encoding: 1114661 -1 981
+Encoding: 1114598 -1 981
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34724,7 +34725,7 @@ Validated: 5
 EndChar
 
 StartChar: Uitalic.ssty2
-Encoding: 1114662 -1 982
+Encoding: 1114599 -1 982
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34752,7 +34753,7 @@ Validated: 5
 EndChar
 
 StartChar: Vitalic.ssty
-Encoding: 1114663 -1 983
+Encoding: 1114600 -1 983
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34788,7 +34789,7 @@ Validated: 5
 EndChar
 
 StartChar: Vitalic.ssty2
-Encoding: 1114664 -1 984
+Encoding: 1114601 -1 984
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34824,7 +34825,7 @@ Validated: 5
 EndChar
 
 StartChar: Witalic.ssty
-Encoding: 1114665 -1 985
+Encoding: 1114602 -1 985
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34863,7 +34864,7 @@ Validated: 5
 EndChar
 
 StartChar: Witalic.ssty2
-Encoding: 1114666 -1 986
+Encoding: 1114603 -1 986
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34902,7 +34903,7 @@ Validated: 5
 EndChar
 
 StartChar: Xitalic.ssty
-Encoding: 1114667 -1 987
+Encoding: 1114604 -1 987
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -34961,7 +34962,7 @@ Validated: 5
 EndChar
 
 StartChar: Xitalic.ssty2
-Encoding: 1114668 -1 988
+Encoding: 1114605 -1 988
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35020,7 +35021,7 @@ Validated: 5
 EndChar
 
 StartChar: Yitalic.ssty
-Encoding: 1114669 -1 989
+Encoding: 1114606 -1 989
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35059,7 +35060,7 @@ Validated: 5
 EndChar
 
 StartChar: Yitalic.ssty2
-Encoding: 1114670 -1 990
+Encoding: 1114607 -1 990
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35098,7 +35099,7 @@ Validated: 5
 EndChar
 
 StartChar: Zitalic.ssty
-Encoding: 1114671 -1 991
+Encoding: 1114608 -1 991
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35141,7 +35142,7 @@ Validated: 5
 EndChar
 
 StartChar: Zitalic.ssty2
-Encoding: 1114672 -1 992
+Encoding: 1114609 -1 992
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35184,7 +35185,7 @@ Validated: 5
 EndChar
 
 StartChar: aitalic.ssty
-Encoding: 1114673 -1 993
+Encoding: 1114610 -1 993
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35236,7 +35237,7 @@ Validated: 5
 EndChar
 
 StartChar: aitalic.ssty2
-Encoding: 1114674 -1 994
+Encoding: 1114611 -1 994
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35288,7 +35289,7 @@ Validated: 5
 EndChar
 
 StartChar: bitalic.ssty
-Encoding: 1114675 -1 995
+Encoding: 1114612 -1 995
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35330,7 +35331,7 @@ Validated: 5
 EndChar
 
 StartChar: bitalic.ssty2
-Encoding: 1114676 -1 996
+Encoding: 1114613 -1 996
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35372,7 +35373,7 @@ Validated: 5
 EndChar
 
 StartChar: citalic.ssty
-Encoding: 1114677 -1 997
+Encoding: 1114614 -1 997
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35411,7 +35412,7 @@ Validated: 5
 EndChar
 
 StartChar: citalic.ssty2
-Encoding: 1114678 -1 998
+Encoding: 1114615 -1 998
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35450,7 +35451,7 @@ Validated: 5
 EndChar
 
 StartChar: ditalic.ssty
-Encoding: 1114679 -1 999
+Encoding: 1114616 -1 999
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35492,7 +35493,7 @@ Validated: 5
 EndChar
 
 StartChar: ditalic.ssty2
-Encoding: 1114680 -1 1000
+Encoding: 1114617 -1 1000
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35534,7 +35535,7 @@ Validated: 5
 EndChar
 
 StartChar: eitalic.ssty
-Encoding: 1114681 -1 1001
+Encoding: 1114618 -1 1001
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35582,7 +35583,7 @@ Validated: 5
 EndChar
 
 StartChar: eitalic.ssty2
-Encoding: 1114682 -1 1002
+Encoding: 1114619 -1 1002
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35630,7 +35631,7 @@ Validated: 5
 EndChar
 
 StartChar: fitalic.ssty
-Encoding: 1114683 -1 1003
+Encoding: 1114620 -1 1003
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35661,7 +35662,7 @@ Validated: 5
 EndChar
 
 StartChar: fitalic.ssty2
-Encoding: 1114684 -1 1004
+Encoding: 1114621 -1 1004
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35692,7 +35693,7 @@ Validated: 5
 EndChar
 
 StartChar: gitalic.ssty
-Encoding: 1114685 -1 1005
+Encoding: 1114622 -1 1005
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35727,7 +35728,7 @@ Validated: 5
 EndChar
 
 StartChar: gitalic.ssty2
-Encoding: 1114686 -1 1006
+Encoding: 1114623 -1 1006
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35762,7 +35763,7 @@ Validated: 5
 EndChar
 
 StartChar: iitalic.ssty
-Encoding: 1114687 -1 1007
+Encoding: 1114624 -1 1007
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35792,7 +35793,7 @@ Validated: 1
 EndChar
 
 StartChar: iitalic.ssty2
-Encoding: 1114688 -1 1008
+Encoding: 1114625 -1 1008
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35822,7 +35823,7 @@ Validated: 1
 EndChar
 
 StartChar: jitalic.ssty
-Encoding: 1114689 -1 1009
+Encoding: 1114626 -1 1009
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35856,7 +35857,7 @@ Validated: 5
 EndChar
 
 StartChar: jitalic.ssty2
-Encoding: 1114690 -1 1010
+Encoding: 1114627 -1 1010
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35890,7 +35891,7 @@ Validated: 5
 EndChar
 
 StartChar: kitalic.ssty
-Encoding: 1114691 -1 1011
+Encoding: 1114628 -1 1011
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35943,7 +35944,7 @@ Validated: 5
 EndChar
 
 StartChar: kitalic.ssty2
-Encoding: 1114692 -1 1012
+Encoding: 1114629 -1 1012
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -35996,7 +35997,7 @@ Validated: 5
 EndChar
 
 StartChar: litalic.ssty
-Encoding: 1114693 -1 1013
+Encoding: 1114630 -1 1013
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36021,7 +36022,7 @@ Validated: 1
 EndChar
 
 StartChar: litalic.ssty2
-Encoding: 1114694 -1 1014
+Encoding: 1114631 -1 1014
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36046,7 +36047,7 @@ Validated: 1
 EndChar
 
 StartChar: mitalic.ssty
-Encoding: 1114695 -1 1015
+Encoding: 1114632 -1 1015
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36079,7 +36080,7 @@ Validated: 5
 EndChar
 
 StartChar: mitalic.ssty2
-Encoding: 1114696 -1 1016
+Encoding: 1114633 -1 1016
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36112,7 +36113,7 @@ Validated: 5
 EndChar
 
 StartChar: nitalic.ssty
-Encoding: 1114697 -1 1017
+Encoding: 1114634 -1 1017
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36144,7 +36145,7 @@ Validated: 5
 EndChar
 
 StartChar: nitalic.ssty2
-Encoding: 1114698 -1 1018
+Encoding: 1114635 -1 1018
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36176,7 +36177,7 @@ Validated: 5
 EndChar
 
 StartChar: oitalic.ssty
-Encoding: 1114699 -1 1019
+Encoding: 1114636 -1 1019
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36210,7 +36211,7 @@ Validated: 5
 EndChar
 
 StartChar: oitalic.ssty2
-Encoding: 1114700 -1 1020
+Encoding: 1114637 -1 1020
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36244,7 +36245,7 @@ Validated: 5
 EndChar
 
 StartChar: pitalic.ssty
-Encoding: 1114701 -1 1021
+Encoding: 1114638 -1 1021
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36279,7 +36280,7 @@ Validated: 5
 EndChar
 
 StartChar: pitalic.ssty2
-Encoding: 1114702 -1 1022
+Encoding: 1114639 -1 1022
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36314,7 +36315,7 @@ Validated: 5
 EndChar
 
 StartChar: qitalic.ssty
-Encoding: 1114703 -1 1023
+Encoding: 1114640 -1 1023
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36349,7 +36350,7 @@ Validated: 5
 EndChar
 
 StartChar: qitalic.ssty2
-Encoding: 1114704 -1 1024
+Encoding: 1114641 -1 1024
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36384,7 +36385,7 @@ Validated: 5
 EndChar
 
 StartChar: ritalic.ssty
-Encoding: 1114705 -1 1025
+Encoding: 1114642 -1 1025
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36417,7 +36418,7 @@ Validated: 5
 EndChar
 
 StartChar: ritalic.ssty2
-Encoding: 1114706 -1 1026
+Encoding: 1114643 -1 1026
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36450,7 +36451,7 @@ Validated: 5
 EndChar
 
 StartChar: sitalic.ssty
-Encoding: 1114707 -1 1027
+Encoding: 1114644 -1 1027
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36499,7 +36500,7 @@ Validated: 5
 EndChar
 
 StartChar: sitalic.ssty2
-Encoding: 1114708 -1 1028
+Encoding: 1114645 -1 1028
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36548,7 +36549,7 @@ Validated: 5
 EndChar
 
 StartChar: titalic.ssty
-Encoding: 1114709 -1 1029
+Encoding: 1114646 -1 1029
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36592,7 +36593,7 @@ Validated: 5
 EndChar
 
 StartChar: titalic.ssty2
-Encoding: 1114710 -1 1030
+Encoding: 1114647 -1 1030
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36636,7 +36637,7 @@ Validated: 5
 EndChar
 
 StartChar: uitalic.ssty
-Encoding: 1114711 -1 1031
+Encoding: 1114648 -1 1031
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36668,7 +36669,7 @@ Validated: 5
 EndChar
 
 StartChar: uitalic.ssty2
-Encoding: 1114712 -1 1032
+Encoding: 1114649 -1 1032
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36700,7 +36701,7 @@ Validated: 5
 EndChar
 
 StartChar: vitalic.ssty
-Encoding: 1114713 -1 1033
+Encoding: 1114650 -1 1033
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36739,7 +36740,7 @@ Validated: 5
 EndChar
 
 StartChar: vitalic.ssty2
-Encoding: 1114714 -1 1034
+Encoding: 1114651 -1 1034
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36778,7 +36779,7 @@ Validated: 5
 EndChar
 
 StartChar: witalic.ssty
-Encoding: 1114715 -1 1035
+Encoding: 1114652 -1 1035
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36817,7 +36818,7 @@ Validated: 5
 EndChar
 
 StartChar: witalic.ssty2
-Encoding: 1114716 -1 1036
+Encoding: 1114653 -1 1036
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36856,7 +36857,7 @@ Validated: 5
 EndChar
 
 StartChar: xitalic.ssty
-Encoding: 1114717 -1 1037
+Encoding: 1114654 -1 1037
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36913,7 +36914,7 @@ Validated: 5
 EndChar
 
 StartChar: xitalic.ssty2
-Encoding: 1114718 -1 1038
+Encoding: 1114655 -1 1038
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -36970,7 +36971,7 @@ Validated: 5
 EndChar
 
 StartChar: yitalic.ssty
-Encoding: 1114719 -1 1039
+Encoding: 1114656 -1 1039
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -37021,7 +37022,7 @@ Validated: 5
 EndChar
 
 StartChar: yitalic.ssty2
-Encoding: 1114720 -1 1040
+Encoding: 1114657 -1 1040
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -37072,7 +37073,7 @@ Validated: 5
 EndChar
 
 StartChar: zitalic.ssty
-Encoding: 1114721 -1 1041
+Encoding: 1114658 -1 1041
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -37115,7 +37116,7 @@ Validated: 5
 EndChar
 
 StartChar: zitalic.ssty2
-Encoding: 1114722 -1 1042
+Encoding: 1114659 -1 1042
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -37158,7 +37159,7 @@ Validated: 5
 EndChar
 
 StartChar: Abolditalic.ssty
-Encoding: 1114723 -1 1043
+Encoding: 1114660 -1 1043
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37169,7 +37170,7 @@ Validated: 1
 EndChar
 
 StartChar: Abolditalic.ssty2
-Encoding: 1114724 -1 1044
+Encoding: 1114661 -1 1044
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37180,7 +37181,7 @@ Validated: 1
 EndChar
 
 StartChar: Bbolditalic.ssty
-Encoding: 1114725 -1 1045
+Encoding: 1114662 -1 1045
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37191,7 +37192,7 @@ Validated: 1
 EndChar
 
 StartChar: Bbolditalic.ssty2
-Encoding: 1114726 -1 1046
+Encoding: 1114663 -1 1046
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37202,7 +37203,7 @@ Validated: 1
 EndChar
 
 StartChar: Cbolditalic.ssty
-Encoding: 1114727 -1 1047
+Encoding: 1114664 -1 1047
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37213,7 +37214,7 @@ Validated: 1
 EndChar
 
 StartChar: Cbolditalic.ssty2
-Encoding: 1114728 -1 1048
+Encoding: 1114665 -1 1048
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37224,7 +37225,7 @@ Validated: 1
 EndChar
 
 StartChar: Dbolditalic.ssty
-Encoding: 1114729 -1 1049
+Encoding: 1114666 -1 1049
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37235,7 +37236,7 @@ Validated: 1
 EndChar
 
 StartChar: Dbolditalic.ssty2
-Encoding: 1114730 -1 1050
+Encoding: 1114667 -1 1050
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37246,7 +37247,7 @@ Validated: 1
 EndChar
 
 StartChar: Ebolditalic.ssty
-Encoding: 1114731 -1 1051
+Encoding: 1114668 -1 1051
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37257,7 +37258,7 @@ Validated: 1
 EndChar
 
 StartChar: Ebolditalic.ssty2
-Encoding: 1114732 -1 1052
+Encoding: 1114669 -1 1052
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37268,7 +37269,7 @@ Validated: 1
 EndChar
 
 StartChar: Fbolditalic.ssty
-Encoding: 1114733 -1 1053
+Encoding: 1114670 -1 1053
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -37303,7 +37304,7 @@ Validated: 5
 EndChar
 
 StartChar: Fbolditalic.ssty2
-Encoding: 1114734 -1 1054
+Encoding: 1114671 -1 1054
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -37338,7 +37339,7 @@ Validated: 5
 EndChar
 
 StartChar: Gbolditalic.ssty
-Encoding: 1114735 -1 1055
+Encoding: 1114672 -1 1055
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37349,7 +37350,7 @@ Validated: 1
 EndChar
 
 StartChar: Gbolditalic.ssty2
-Encoding: 1114736 -1 1056
+Encoding: 1114673 -1 1056
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37360,7 +37361,7 @@ Validated: 1
 EndChar
 
 StartChar: Hbolditalic.ssty
-Encoding: 1114737 -1 1057
+Encoding: 1114674 -1 1057
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37371,7 +37372,7 @@ Validated: 1
 EndChar
 
 StartChar: Hbolditalic.ssty2
-Encoding: 1114738 -1 1058
+Encoding: 1114675 -1 1058
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37382,7 +37383,7 @@ Validated: 1
 EndChar
 
 StartChar: Ibolditalic.ssty
-Encoding: 1114739 -1 1059
+Encoding: 1114676 -1 1059
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37393,7 +37394,7 @@ Validated: 1
 EndChar
 
 StartChar: Ibolditalic.ssty2
-Encoding: 1114740 -1 1060
+Encoding: 1114677 -1 1060
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37404,7 +37405,7 @@ Validated: 1
 EndChar
 
 StartChar: Jbolditalic.ssty
-Encoding: 1114741 -1 1061
+Encoding: 1114678 -1 1061
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37415,7 +37416,7 @@ Validated: 1
 EndChar
 
 StartChar: Jbolditalic.ssty2
-Encoding: 1114742 -1 1062
+Encoding: 1114679 -1 1062
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37426,7 +37427,7 @@ Validated: 1
 EndChar
 
 StartChar: Kbolditalic.ssty
-Encoding: 1114743 -1 1063
+Encoding: 1114680 -1 1063
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37437,7 +37438,7 @@ Validated: 1
 EndChar
 
 StartChar: Kbolditalic.ssty2
-Encoding: 1114744 -1 1064
+Encoding: 1114681 -1 1064
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37448,7 +37449,7 @@ Validated: 1
 EndChar
 
 StartChar: Lbolditalic.ssty
-Encoding: 1114745 -1 1065
+Encoding: 1114682 -1 1065
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37459,7 +37460,7 @@ Validated: 1
 EndChar
 
 StartChar: Lbolditalic.ssty2
-Encoding: 1114746 -1 1066
+Encoding: 1114683 -1 1066
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37470,7 +37471,7 @@ Validated: 1
 EndChar
 
 StartChar: Mbolditalic.ssty
-Encoding: 1114747 -1 1067
+Encoding: 1114684 -1 1067
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37481,7 +37482,7 @@ Validated: 1
 EndChar
 
 StartChar: Mbolditalic.ssty2
-Encoding: 1114748 -1 1068
+Encoding: 1114685 -1 1068
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37492,7 +37493,7 @@ Validated: 1
 EndChar
 
 StartChar: Nbolditalic.ssty
-Encoding: 1114749 -1 1069
+Encoding: 1114686 -1 1069
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37503,7 +37504,7 @@ Validated: 1
 EndChar
 
 StartChar: Nbolditalic.ssty2
-Encoding: 1114750 -1 1070
+Encoding: 1114687 -1 1070
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37514,7 +37515,7 @@ Validated: 1
 EndChar
 
 StartChar: Obolditalic.ssty
-Encoding: 1114751 -1 1071
+Encoding: 1114688 -1 1071
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37525,7 +37526,7 @@ Validated: 1
 EndChar
 
 StartChar: Obolditalic.ssty2
-Encoding: 1114752 -1 1072
+Encoding: 1114689 -1 1072
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37536,7 +37537,7 @@ Validated: 1
 EndChar
 
 StartChar: Pbolditalic.ssty
-Encoding: 1114753 -1 1073
+Encoding: 1114690 -1 1073
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37547,7 +37548,7 @@ Validated: 1
 EndChar
 
 StartChar: Pbolditalic.ssty2
-Encoding: 1114754 -1 1074
+Encoding: 1114691 -1 1074
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37558,7 +37559,7 @@ Validated: 1
 EndChar
 
 StartChar: Qbolditalic.ssty
-Encoding: 1114755 -1 1075
+Encoding: 1114692 -1 1075
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37569,7 +37570,7 @@ Validated: 1
 EndChar
 
 StartChar: Qbolditalic.ssty2
-Encoding: 1114756 -1 1076
+Encoding: 1114693 -1 1076
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37580,7 +37581,7 @@ Validated: 1
 EndChar
 
 StartChar: Rbolditalic.ssty
-Encoding: 1114757 -1 1077
+Encoding: 1114694 -1 1077
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37591,7 +37592,7 @@ Validated: 1
 EndChar
 
 StartChar: Rbolditalic.ssty2
-Encoding: 1114758 -1 1078
+Encoding: 1114695 -1 1078
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37602,7 +37603,7 @@ Validated: 1
 EndChar
 
 StartChar: Sbolditalic.ssty
-Encoding: 1114759 -1 1079
+Encoding: 1114696 -1 1079
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37613,7 +37614,7 @@ Validated: 1
 EndChar
 
 StartChar: Sbolditalic.ssty2
-Encoding: 1114760 -1 1080
+Encoding: 1114697 -1 1080
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37624,7 +37625,7 @@ Validated: 1
 EndChar
 
 StartChar: Tbolditalic.ssty
-Encoding: 1114761 -1 1081
+Encoding: 1114698 -1 1081
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37635,7 +37636,7 @@ Validated: 1
 EndChar
 
 StartChar: Tbolditalic.ssty2
-Encoding: 1114762 -1 1082
+Encoding: 1114699 -1 1082
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37646,7 +37647,7 @@ Validated: 1
 EndChar
 
 StartChar: Ubolditalic.ssty
-Encoding: 1114763 -1 1083
+Encoding: 1114700 -1 1083
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37657,7 +37658,7 @@ Validated: 1
 EndChar
 
 StartChar: Ubolditalic.ssty2
-Encoding: 1114764 -1 1084
+Encoding: 1114701 -1 1084
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37668,7 +37669,7 @@ Validated: 1
 EndChar
 
 StartChar: Vbolditalic.ssty
-Encoding: 1114765 -1 1085
+Encoding: 1114702 -1 1085
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37679,7 +37680,7 @@ Validated: 1
 EndChar
 
 StartChar: Vbolditalic.ssty2
-Encoding: 1114766 -1 1086
+Encoding: 1114703 -1 1086
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37690,7 +37691,7 @@ Validated: 1
 EndChar
 
 StartChar: Wbolditalic.ssty
-Encoding: 1114767 -1 1087
+Encoding: 1114704 -1 1087
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37701,7 +37702,7 @@ Validated: 1
 EndChar
 
 StartChar: Wbolditalic.ssty2
-Encoding: 1114768 -1 1088
+Encoding: 1114705 -1 1088
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37712,7 +37713,7 @@ Validated: 1
 EndChar
 
 StartChar: Xbolditalic.ssty
-Encoding: 1114769 -1 1089
+Encoding: 1114706 -1 1089
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37723,7 +37724,7 @@ Validated: 1
 EndChar
 
 StartChar: Xbolditalic.ssty2
-Encoding: 1114770 -1 1090
+Encoding: 1114707 -1 1090
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37734,7 +37735,7 @@ Validated: 1
 EndChar
 
 StartChar: Ybolditalic.ssty
-Encoding: 1114771 -1 1091
+Encoding: 1114708 -1 1091
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37745,7 +37746,7 @@ Validated: 1
 EndChar
 
 StartChar: Ybolditalic.ssty2
-Encoding: 1114772 -1 1092
+Encoding: 1114709 -1 1092
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37756,7 +37757,7 @@ Validated: 1
 EndChar
 
 StartChar: Zbolditalic.ssty
-Encoding: 1114773 -1 1093
+Encoding: 1114710 -1 1093
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37767,7 +37768,7 @@ Validated: 1
 EndChar
 
 StartChar: Zbolditalic.ssty2
-Encoding: 1114774 -1 1094
+Encoding: 1114711 -1 1094
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37778,7 +37779,7 @@ Validated: 1
 EndChar
 
 StartChar: abolditalic.ssty
-Encoding: 1114775 -1 1095
+Encoding: 1114712 -1 1095
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37789,7 +37790,7 @@ Validated: 1
 EndChar
 
 StartChar: abolditalic.ssty2
-Encoding: 1114776 -1 1096
+Encoding: 1114713 -1 1096
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37800,7 +37801,7 @@ Validated: 1
 EndChar
 
 StartChar: bbolditalic.ssty
-Encoding: 1114777 -1 1097
+Encoding: 1114714 -1 1097
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37811,7 +37812,7 @@ Validated: 1
 EndChar
 
 StartChar: bbolditalic.ssty2
-Encoding: 1114778 -1 1098
+Encoding: 1114715 -1 1098
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37822,7 +37823,7 @@ Validated: 1
 EndChar
 
 StartChar: cbolditalic.ssty
-Encoding: 1114779 -1 1099
+Encoding: 1114716 -1 1099
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37833,7 +37834,7 @@ Validated: 1
 EndChar
 
 StartChar: cbolditalic.ssty2
-Encoding: 1114780 -1 1100
+Encoding: 1114717 -1 1100
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37844,7 +37845,7 @@ Validated: 1
 EndChar
 
 StartChar: dbolditalic.ssty
-Encoding: 1114781 -1 1101
+Encoding: 1114718 -1 1101
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37855,7 +37856,7 @@ Validated: 1
 EndChar
 
 StartChar: dbolditalic.ssty2
-Encoding: 1114782 -1 1102
+Encoding: 1114719 -1 1102
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37866,7 +37867,7 @@ Validated: 1
 EndChar
 
 StartChar: ebolditalic.ssty
-Encoding: 1114783 -1 1103
+Encoding: 1114720 -1 1103
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -37914,7 +37915,7 @@ Validated: 5
 EndChar
 
 StartChar: ebolditalic.ssty2
-Encoding: 1114784 -1 1104
+Encoding: 1114721 -1 1104
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -37962,7 +37963,7 @@ Validated: 5
 EndChar
 
 StartChar: fbolditalic.ssty
-Encoding: 1114785 -1 1105
+Encoding: 1114722 -1 1105
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37973,7 +37974,7 @@ Validated: 1
 EndChar
 
 StartChar: fbolditalic.ssty2
-Encoding: 1114786 -1 1106
+Encoding: 1114723 -1 1106
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37984,7 +37985,7 @@ Validated: 1
 EndChar
 
 StartChar: gbolditalic.ssty
-Encoding: 1114787 -1 1107
+Encoding: 1114724 -1 1107
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -37995,7 +37996,7 @@ Validated: 1
 EndChar
 
 StartChar: gbolditalic.ssty2
-Encoding: 1114788 -1 1108
+Encoding: 1114725 -1 1108
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38006,7 +38007,7 @@ Validated: 1
 EndChar
 
 StartChar: hbolditalic.ssty
-Encoding: 1114789 -1 1109
+Encoding: 1114726 -1 1109
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38017,7 +38018,7 @@ Validated: 1
 EndChar
 
 StartChar: hbolditalic.ssty2
-Encoding: 1114790 -1 1110
+Encoding: 1114727 -1 1110
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38028,7 +38029,7 @@ Validated: 1
 EndChar
 
 StartChar: ibolditalic.ssty
-Encoding: 1114791 -1 1111
+Encoding: 1114728 -1 1111
 Width: 70
 GlyphClass: 2
 Flags: W
@@ -38071,7 +38072,7 @@ Validated: 5
 EndChar
 
 StartChar: ibolditalic.ssty2
-Encoding: 1114792 -1 1112
+Encoding: 1114729 -1 1112
 Width: 70
 GlyphClass: 2
 Flags: W
@@ -38114,7 +38115,7 @@ Validated: 5
 EndChar
 
 StartChar: jbolditalic.ssty
-Encoding: 1114793 -1 1113
+Encoding: 1114730 -1 1113
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38125,7 +38126,7 @@ Validated: 1
 EndChar
 
 StartChar: jbolditalic.ssty2
-Encoding: 1114794 -1 1114
+Encoding: 1114731 -1 1114
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38136,7 +38137,7 @@ Validated: 1
 EndChar
 
 StartChar: kbolditalic.ssty
-Encoding: 1114795 -1 1115
+Encoding: 1114732 -1 1115
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38147,7 +38148,7 @@ Validated: 1
 EndChar
 
 StartChar: kbolditalic.ssty2
-Encoding: 1114796 -1 1116
+Encoding: 1114733 -1 1116
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38158,7 +38159,7 @@ Validated: 1
 EndChar
 
 StartChar: lbolditalic.ssty
-Encoding: 1114797 -1 1117
+Encoding: 1114734 -1 1117
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38169,7 +38170,7 @@ Validated: 1
 EndChar
 
 StartChar: lbolditalic.ssty2
-Encoding: 1114798 -1 1118
+Encoding: 1114735 -1 1118
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38180,7 +38181,7 @@ Validated: 1
 EndChar
 
 StartChar: mbolditalic.ssty
-Encoding: 1114799 -1 1119
+Encoding: 1114736 -1 1119
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38191,7 +38192,7 @@ Validated: 1
 EndChar
 
 StartChar: mbolditalic.ssty2
-Encoding: 1114800 -1 1120
+Encoding: 1114737 -1 1120
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38202,7 +38203,7 @@ Validated: 1
 EndChar
 
 StartChar: nbolditalic.ssty
-Encoding: 1114801 -1 1121
+Encoding: 1114738 -1 1121
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38213,7 +38214,7 @@ Validated: 1
 EndChar
 
 StartChar: nbolditalic.ssty2
-Encoding: 1114802 -1 1122
+Encoding: 1114739 -1 1122
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38224,7 +38225,7 @@ Validated: 1
 EndChar
 
 StartChar: obolditalic.ssty
-Encoding: 1114803 -1 1123
+Encoding: 1114740 -1 1123
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38235,7 +38236,7 @@ Validated: 1
 EndChar
 
 StartChar: obolditalic.ssty2
-Encoding: 1114804 -1 1124
+Encoding: 1114741 -1 1124
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38246,7 +38247,7 @@ Validated: 1
 EndChar
 
 StartChar: pbolditalic.ssty
-Encoding: 1114805 -1 1125
+Encoding: 1114742 -1 1125
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38257,7 +38258,7 @@ Validated: 1
 EndChar
 
 StartChar: pbolditalic.ssty2
-Encoding: 1114806 -1 1126
+Encoding: 1114743 -1 1126
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38268,7 +38269,7 @@ Validated: 1
 EndChar
 
 StartChar: qbolditalic.ssty
-Encoding: 1114807 -1 1127
+Encoding: 1114744 -1 1127
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38279,7 +38280,7 @@ Validated: 1
 EndChar
 
 StartChar: qbolditalic.ssty2
-Encoding: 1114808 -1 1128
+Encoding: 1114745 -1 1128
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38290,7 +38291,7 @@ Validated: 1
 EndChar
 
 StartChar: rbolditalic.ssty
-Encoding: 1114809 -1 1129
+Encoding: 1114746 -1 1129
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38301,7 +38302,7 @@ Validated: 1
 EndChar
 
 StartChar: rbolditalic.ssty2
-Encoding: 1114810 -1 1130
+Encoding: 1114747 -1 1130
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38312,7 +38313,7 @@ Validated: 1
 EndChar
 
 StartChar: sbolditalic.ssty
-Encoding: 1114811 -1 1131
+Encoding: 1114748 -1 1131
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38323,7 +38324,7 @@ Validated: 1
 EndChar
 
 StartChar: sbolditalic.ssty2
-Encoding: 1114812 -1 1132
+Encoding: 1114749 -1 1132
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38334,7 +38335,7 @@ Validated: 1
 EndChar
 
 StartChar: tbolditalic.ssty
-Encoding: 1114813 -1 1133
+Encoding: 1114750 -1 1133
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -38378,7 +38379,7 @@ Validated: 5
 EndChar
 
 StartChar: tbolditalic.ssty2
-Encoding: 1114814 -1 1134
+Encoding: 1114751 -1 1134
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -38422,7 +38423,7 @@ Validated: 5
 EndChar
 
 StartChar: ubolditalic.ssty
-Encoding: 1114815 -1 1135
+Encoding: 1114752 -1 1135
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38433,7 +38434,7 @@ Validated: 1
 EndChar
 
 StartChar: ubolditalic.ssty2
-Encoding: 1114816 -1 1136
+Encoding: 1114753 -1 1136
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38444,7 +38445,7 @@ Validated: 1
 EndChar
 
 StartChar: vbolditalic.ssty
-Encoding: 1114817 -1 1137
+Encoding: 1114754 -1 1137
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38455,7 +38456,7 @@ Validated: 1
 EndChar
 
 StartChar: vbolditalic.ssty2
-Encoding: 1114818 -1 1138
+Encoding: 1114755 -1 1138
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38466,7 +38467,7 @@ Validated: 1
 EndChar
 
 StartChar: wbolditalic.ssty
-Encoding: 1114819 -1 1139
+Encoding: 1114756 -1 1139
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38477,7 +38478,7 @@ Validated: 1
 EndChar
 
 StartChar: wbolditalic.ssty2
-Encoding: 1114820 -1 1140
+Encoding: 1114757 -1 1140
 Width: 110
 VWidth: 219
 GlyphClass: 2
@@ -38488,7 +38489,7 @@ Validated: 1
 EndChar
 
 StartChar: xbolditalic.ssty
-Encoding: 1114821 -1 1141
+Encoding: 1114758 -1 1141
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -38545,7 +38546,7 @@ Validated: 5
 EndChar
 
 StartChar: xbolditalic.ssty2
-Encoding: 1114822 -1 1142
+Encoding: 1114759 -1 1142
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -38602,7 +38603,7 @@ Validated: 5
 EndChar
 
 StartChar: ybolditalic.ssty
-Encoding: 1114823 -1 1143
+Encoding: 1114760 -1 1143
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -38653,7 +38654,7 @@ Validated: 5
 EndChar
 
 StartChar: ybolditalic.ssty2
-Encoding: 1114824 -1 1144
+Encoding: 1114761 -1 1144
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -38704,7 +38705,7 @@ Validated: 5
 EndChar
 
 StartChar: zbolditalic.ssty
-Encoding: 1114825 -1 1145
+Encoding: 1114762 -1 1145
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -38751,7 +38752,7 @@ Validated: 5
 EndChar
 
 StartChar: zbolditalic.ssty2
-Encoding: 1114826 -1 1146
+Encoding: 1114763 -1 1146
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -38798,7 +38799,7 @@ Validated: 5
 EndChar
 
 StartChar: alphaitalic.ssty
-Encoding: 1114827 -1 1147
+Encoding: 1114764 -1 1147
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -38849,7 +38850,7 @@ Validated: 5
 EndChar
 
 StartChar: alphaitalic.ssty2
-Encoding: 1114828 -1 1148
+Encoding: 1114765 -1 1148
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -38900,7 +38901,7 @@ Validated: 5
 EndChar
 
 StartChar: gammaitalic.ssty
-Encoding: 1114829 -1 1149
+Encoding: 1114766 -1 1149
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -38936,7 +38937,7 @@ Validated: 5
 EndChar
 
 StartChar: gammaitalic.ssty2
-Encoding: 1114830 -1 1150
+Encoding: 1114767 -1 1150
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -38972,7 +38973,7 @@ Validated: 5
 EndChar
 
 StartChar: epsilonitalic.ssty
-Encoding: 1114831 -1 1151
+Encoding: 1114768 -1 1151
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39018,7 +39019,7 @@ Validated: 5
 EndChar
 
 StartChar: epsilonitalic.ssty2
-Encoding: 1114832 -1 1152
+Encoding: 1114769 -1 1152
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39064,7 +39065,7 @@ Validated: 5
 EndChar
 
 StartChar: thetaitalic.ssty
-Encoding: 1114833 -1 1153
+Encoding: 1114770 -1 1153
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39111,7 +39112,7 @@ Validated: 5
 EndChar
 
 StartChar: thetaitalic.ssty2
-Encoding: 1114834 -1 1154
+Encoding: 1114771 -1 1154
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39158,7 +39159,7 @@ Validated: 5
 EndChar
 
 StartChar: lamdaitalic.ssty
-Encoding: 1114835 -1 1155
+Encoding: 1114772 -1 1155
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39202,7 +39203,7 @@ Validated: 5
 EndChar
 
 StartChar: lamdaitalic.ssty2
-Encoding: 1114836 -1 1156
+Encoding: 1114773 -1 1156
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39246,7 +39247,7 @@ Validated: 5
 EndChar
 
 StartChar: muitalic.ssty
-Encoding: 1114837 -1 1157
+Encoding: 1114774 -1 1157
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39285,7 +39286,7 @@ Validated: 5
 EndChar
 
 StartChar: muitalic.ssty2
-Encoding: 1114838 -1 1158
+Encoding: 1114775 -1 1158
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39324,7 +39325,7 @@ Validated: 5
 EndChar
 
 StartChar: piitalic.ssty
-Encoding: 1114839 -1 1159
+Encoding: 1114776 -1 1159
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39360,7 +39361,7 @@ Validated: 5
 EndChar
 
 StartChar: piitalic.ssty2
-Encoding: 1114840 -1 1160
+Encoding: 1114777 -1 1160
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39396,7 +39397,7 @@ Validated: 5
 EndChar
 
 StartChar: sigmaitalic.ssty
-Encoding: 1114841 -1 1161
+Encoding: 1114778 -1 1161
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39435,7 +39436,7 @@ Validated: 5
 EndChar
 
 StartChar: sigmaitalic.ssty2
-Encoding: 1114842 -1 1162
+Encoding: 1114779 -1 1162
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39474,7 +39475,7 @@ Validated: 5
 EndChar
 
 StartChar: phisymbolitalic.ssty
-Encoding: 1114843 -1 1163
+Encoding: 1114780 -1 1163
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39515,7 +39516,7 @@ Validated: 5
 EndChar
 
 StartChar: phisymbolitalic.ssty2
-Encoding: 1114844 -1 1164
+Encoding: 1114781 -1 1164
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39556,7 +39557,7 @@ Validated: 5
 EndChar
 
 StartChar: mubolditalic.ssty
-Encoding: 1114845 -1 1165
+Encoding: 1114782 -1 1165
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39592,7 +39593,7 @@ Validated: 5
 EndChar
 
 StartChar: mubolditalic.ssty2
-Encoding: 1114846 -1 1166
+Encoding: 1114783 -1 1166
 Width: 60
 GlyphClass: 2
 Flags: W
@@ -39628,7 +39629,7 @@ Validated: 5
 EndChar
 
 StartChar: cursor.full.ssty
-Encoding: 1114847 -1 1167
+Encoding: 1114784 -1 1167
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -39647,7 +39648,7 @@ Validated: 1
 EndChar
 
 StartChar: cursor.full.ssty2
-Encoding: 1114848 -1 1168
+Encoding: 1114785 -1 1168
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -39666,7 +39667,7 @@ Validated: 1
 EndChar
 
 StartChar: pm.inferior.ssty
-Encoding: 1114849 -1 1169
+Encoding: 1114786 -1 1169
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -39698,7 +39699,7 @@ Validated: 1
 EndChar
 
 StartChar: infty.inferior.ssty
-Encoding: 1114850 -1 1170
+Encoding: 1114787 -1 1170
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -39747,7 +39748,7 @@ Validated: 5
 EndChar
 
 StartChar: pm.inferior.ssty2
-Encoding: 1114851 -1 1171
+Encoding: 1114788 -1 1171
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -39779,7 +39780,7 @@ Validated: 1
 EndChar
 
 StartChar: infty.inferior.ssty2
-Encoding: 1114852 -1 1172
+Encoding: 1114789 -1 1172
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -39828,7 +39829,7 @@ Validated: 5
 EndChar
 
 StartChar: cursor.replace.ssty
-Encoding: 1114853 -1 1173
+Encoding: 1114790 -1 1173
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -39846,7 +39847,7 @@ Validated: 1
 EndChar
 
 StartChar: cursor.replace.ssty2
-Encoding: 1114854 -1 1174
+Encoding: 1114791 -1 1174
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -39864,7 +39865,7 @@ Validated: 1
 EndChar
 
 StartChar: times.small.2.ssty
-Encoding: 1114855 -1 1175
+Encoding: 1114792 -1 1175
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -39923,7 +39924,7 @@ Validated: 5
 EndChar
 
 StartChar: times.small.2.ssty2
-Encoding: 1114856 -1 1176
+Encoding: 1114793 -1 1176
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -39982,7 +39983,7 @@ Validated: 5
 EndChar
 
 StartChar: times.small.ssty
-Encoding: 1114857 -1 1177
+Encoding: 1114794 -1 1177
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40041,7 +40042,7 @@ Validated: 5
 EndChar
 
 StartChar: ten.small.ssty
-Encoding: 1114858 -1 1178
+Encoding: 1114795 -1 1178
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40071,7 +40072,7 @@ Validated: 1
 EndChar
 
 StartChar: times.small.ssty2
-Encoding: 1114859 -1 1179
+Encoding: 1114796 -1 1179
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40130,7 +40131,7 @@ Validated: 5
 EndChar
 
 StartChar: ten.small.ssty2
-Encoding: 1114860 -1 1180
+Encoding: 1114797 -1 1180
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40160,7 +40161,7 @@ Validated: 1
 EndChar
 
 StartChar: HexA.ssty
-Encoding: 1114861 -1 1181
+Encoding: 1114798 -1 1181
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40196,7 +40197,7 @@ Validated: 5
 EndChar
 
 StartChar: HexB.ssty
-Encoding: 1114862 -1 1182
+Encoding: 1114799 -1 1182
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40232,7 +40233,7 @@ Validated: 5
 EndChar
 
 StartChar: HexCNCr.ssty
-Encoding: 1114863 -1 1183
+Encoding: 1114800 -1 1183
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40269,7 +40270,7 @@ Validated: 5
 EndChar
 
 StartChar: HexD.ssty
-Encoding: 1114864 -1 1184
+Encoding: 1114801 -1 1184
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40307,7 +40308,7 @@ Validated: 5
 EndChar
 
 StartChar: HexE.ssty
-Encoding: 1114865 -1 1185
+Encoding: 1114802 -1 1185
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40335,7 +40336,7 @@ Validated: 1
 EndChar
 
 StartChar: HexF.ssty
-Encoding: 1114866 -1 1186
+Encoding: 1114803 -1 1186
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40360,7 +40361,7 @@ Validated: 1
 EndChar
 
 StartChar: nPr.ssty
-Encoding: 1114867 -1 1187
+Encoding: 1114804 -1 1187
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40390,7 +40391,7 @@ Validated: 5
 EndChar
 
 StartChar: EE.ssty
-Encoding: 1114868 -1 1188
+Encoding: 1114805 -1 1188
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40420,7 +40421,7 @@ Validated: 1
 EndChar
 
 StartChar: EE.ssty.1
-Encoding: 1114869 -1 1189
+Encoding: 1114806 -1 1189
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40455,7 +40456,7 @@ Validated: 1
 EndChar
 
 StartChar: CalthGk.ssty
-Encoding: 1114870 -1 1190
+Encoding: 1114807 -1 1190
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40494,7 +40495,7 @@ Validated: 5
 EndChar
 
 StartChar: cAlthGk.ssty
-Encoding: 1114871 -1 1191
+Encoding: 1114808 -1 1191
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40546,7 +40547,7 @@ Validated: 5
 EndChar
 
 StartChar: caLThGk.ssty
-Encoding: 1114872 -1 1192
+Encoding: 1114809 -1 1192
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40582,7 +40583,7 @@ Validated: 5
 EndChar
 
 StartChar: caltHGk.ssty
-Encoding: 1114873 -1 1193
+Encoding: 1114810 -1 1193
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40613,7 +40614,7 @@ Validated: 5
 EndChar
 
 StartChar: calthGk.ssty
-Encoding: 1114874 -1 1194
+Encoding: 1114811 -1 1194
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40660,7 +40661,7 @@ Validated: 5
 EndChar
 
 StartChar: calthGk.ssty.1
-Encoding: 1114875 -1 1195
+Encoding: 1114812 -1 1195
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40698,7 +40699,7 @@ Validated: 5
 EndChar
 
 StartChar: calthGK.ssty
-Encoding: 1114876 -1 1196
+Encoding: 1114813 -1 1196
 Width: 70
 GlyphClass: 1
 Flags: W
@@ -40725,7 +40726,7 @@ Validated: 5
 EndChar
 
 StartChar: to.ssty
-Encoding: 1114877 -1 1197
+Encoding: 1114814 -1 1197
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40756,7 +40757,7 @@ Validated: 1
 EndChar
 
 StartChar: kgk.ssty
-Encoding: 1114878 -1 1198
+Encoding: 1114815 -1 1198
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40793,7 +40794,7 @@ Validated: 5
 EndChar
 
 StartChar: Kgk.ssty
-Encoding: 1114879 -1 1199
+Encoding: 1114816 -1 1199
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40836,7 +40837,7 @@ Validated: 5
 EndChar
 
 StartChar: kGk.ssty
-Encoding: 1114880 -1 1200
+Encoding: 1114817 -1 1200
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40875,7 +40876,7 @@ Validated: 5
 EndChar
 
 StartChar: kgK.ssty
-Encoding: 1114881 -1 1201
+Encoding: 1114818 -1 1201
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40915,7 +40916,7 @@ Validated: 5
 EndChar
 
 StartChar: div.ssty
-Encoding: 1114882 -1 1202
+Encoding: 1114819 -1 1202
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40936,7 +40937,7 @@ Validated: 1
 EndChar
 
 StartChar: dms.ssty
-Encoding: 1114883 -1 1203
+Encoding: 1114820 -1 1203
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40960,7 +40961,7 @@ Validated: 1
 EndChar
 
 StartChar: BOX.ssty
-Encoding: 1114884 -1 1204
+Encoding: 1114821 -1 1204
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -40984,7 +40985,7 @@ Validated: 1
 EndChar
 
 StartChar: divRFr.ssty
-Encoding: 1114885 -1 1205
+Encoding: 1114822 -1 1205
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41007,7 +41008,7 @@ Validated: 1
 EndChar
 
 StartChar: divRSp.ssty
-Encoding: 1114886 -1 1206
+Encoding: 1114823 -1 1206
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41028,7 +41029,7 @@ Validated: 1
 EndChar
 
 StartChar: HexA.ssty2
-Encoding: 1114887 -1 1207
+Encoding: 1114824 -1 1207
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41064,7 +41065,7 @@ Validated: 5
 EndChar
 
 StartChar: HexB.ssty2
-Encoding: 1114888 -1 1208
+Encoding: 1114825 -1 1208
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41100,7 +41101,7 @@ Validated: 5
 EndChar
 
 StartChar: HexCNCr.ssty2
-Encoding: 1114889 -1 1209
+Encoding: 1114826 -1 1209
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41137,7 +41138,7 @@ Validated: 5
 EndChar
 
 StartChar: HexD.ssty2
-Encoding: 1114890 -1 1210
+Encoding: 1114827 -1 1210
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41175,7 +41176,7 @@ Validated: 5
 EndChar
 
 StartChar: HexE.ssty2
-Encoding: 1114891 -1 1211
+Encoding: 1114828 -1 1211
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41203,7 +41204,7 @@ Validated: 1
 EndChar
 
 StartChar: HexF.ssty2
-Encoding: 1114892 -1 1212
+Encoding: 1114829 -1 1212
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41228,7 +41229,7 @@ Validated: 1
 EndChar
 
 StartChar: nPr.ssty2
-Encoding: 1114893 -1 1213
+Encoding: 1114830 -1 1213
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41258,7 +41259,7 @@ Validated: 5
 EndChar
 
 StartChar: EE.ssty2
-Encoding: 1114894 -1 1214
+Encoding: 1114831 -1 1214
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41288,7 +41289,7 @@ Validated: 1
 EndChar
 
 StartChar: EE.ssty2.1
-Encoding: 1114895 -1 1215
+Encoding: 1114832 -1 1215
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41323,7 +41324,7 @@ Validated: 1
 EndChar
 
 StartChar: CalthGk.ssty2
-Encoding: 1114896 -1 1216
+Encoding: 1114833 -1 1216
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41362,7 +41363,7 @@ Validated: 5
 EndChar
 
 StartChar: cAlthGk.ssty2
-Encoding: 1114897 -1 1217
+Encoding: 1114834 -1 1217
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41414,7 +41415,7 @@ Validated: 5
 EndChar
 
 StartChar: caLThGk.ssty2
-Encoding: 1114898 -1 1218
+Encoding: 1114835 -1 1218
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41450,7 +41451,7 @@ Validated: 5
 EndChar
 
 StartChar: caltHGk.ssty2
-Encoding: 1114899 -1 1219
+Encoding: 1114836 -1 1219
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41481,7 +41482,7 @@ Validated: 5
 EndChar
 
 StartChar: calthGk.ssty2
-Encoding: 1114900 -1 1220
+Encoding: 1114837 -1 1220
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41528,7 +41529,7 @@ Validated: 5
 EndChar
 
 StartChar: calthGk.ssty2.1
-Encoding: 1114901 -1 1221
+Encoding: 1114838 -1 1221
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41566,7 +41567,7 @@ Validated: 5
 EndChar
 
 StartChar: calthGK.ssty2
-Encoding: 1114902 -1 1222
+Encoding: 1114839 -1 1222
 Width: 70
 GlyphClass: 1
 Flags: W
@@ -41593,7 +41594,7 @@ Validated: 5
 EndChar
 
 StartChar: to.ssty2
-Encoding: 1114903 -1 1223
+Encoding: 1114840 -1 1223
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41624,7 +41625,7 @@ Validated: 1
 EndChar
 
 StartChar: kgk.ssty2
-Encoding: 1114904 -1 1224
+Encoding: 1114841 -1 1224
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41661,7 +41662,7 @@ Validated: 5
 EndChar
 
 StartChar: Kgk.ssty2
-Encoding: 1114905 -1 1225
+Encoding: 1114842 -1 1225
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41704,7 +41705,7 @@ Validated: 5
 EndChar
 
 StartChar: kGk.ssty2
-Encoding: 1114906 -1 1226
+Encoding: 1114843 -1 1226
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41743,7 +41744,7 @@ Validated: 5
 EndChar
 
 StartChar: kgK.ssty2
-Encoding: 1114907 -1 1227
+Encoding: 1114844 -1 1227
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41783,7 +41784,7 @@ Validated: 5
 EndChar
 
 StartChar: div.ssty2
-Encoding: 1114908 -1 1228
+Encoding: 1114845 -1 1228
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41804,7 +41805,7 @@ Validated: 1
 EndChar
 
 StartChar: dms.ssty2
-Encoding: 1114909 -1 1229
+Encoding: 1114846 -1 1229
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41828,7 +41829,7 @@ Validated: 1
 EndChar
 
 StartChar: BOX.ssty2
-Encoding: 1114910 -1 1230
+Encoding: 1114847 -1 1230
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41852,7 +41853,7 @@ Validated: 1
 EndChar
 
 StartChar: divRFr.ssty2
-Encoding: 1114911 -1 1231
+Encoding: 1114848 -1 1231
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41875,7 +41876,7 @@ Validated: 1
 EndChar
 
 StartChar: divRSp.ssty2
-Encoding: 1114912 -1 1232
+Encoding: 1114849 -1 1232
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41896,7 +41897,7 @@ Validated: 1
 EndChar
 
 StartChar: ten.superior.ssty
-Encoding: 1114913 -1 1233
+Encoding: 1114850 -1 1233
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41926,7 +41927,7 @@ Validated: 1
 EndChar
 
 StartChar: ten.superior.ssty2
-Encoding: 1114914 -1 1234
+Encoding: 1114851 -1 1234
 Width: 60
 GlyphClass: 1
 Flags: W
@@ -41956,7 +41957,7 @@ Validated: 1
 EndChar
 
 StartChar: parenleft.v1.ssty
-Encoding: 1114915 -1 1235
+Encoding: 1114852 -1 1235
 Width: 60
 Flags: W
 HStem: 0 10<30 40> 10 10<20 30> 70 10<20 30> 80 10<30 40>
@@ -41990,7 +41991,7 @@ Validated: 5
 EndChar
 
 StartChar: parenleft.v1.ssty2
-Encoding: 1114916 -1 1236
+Encoding: 1114853 -1 1236
 Width: 60
 Flags: W
 HStem: 0 10<30 40> 10 10<20 30> 70 10<20 30> 80 10<30 40>
@@ -42024,7 +42025,7 @@ Validated: 5
 EndChar
 
 StartChar: parenright.v1.ssty
-Encoding: 1114917 -1 1237
+Encoding: 1114854 -1 1237
 Width: 60
 Flags: W
 HStem: 0 10<10 20> 10 10<20 30> 70 10<20 30> 80 10<10 20>
@@ -42058,7 +42059,7 @@ Validated: 5
 EndChar
 
 StartChar: parenright.v1.ssty2
-Encoding: 1114918 -1 1238
+Encoding: 1114855 -1 1238
 Width: 60
 Flags: W
 HStem: 0 10<10 20> 10 10<20 30> 70 10<20 30> 80 10<10 20>
@@ -42092,7 +42093,7 @@ Validated: 5
 EndChar
 
 StartChar: integral.v2
-Encoding: 1114919 -1 1239
+Encoding: 1114856 -1 1239
 Width: 120
 Flags: W
 IsExtendedShape: 1
@@ -42131,7 +42132,7 @@ Validated: 1
 EndChar
 
 StartChar: integral.v3
-Encoding: 1114920 -1 1240
+Encoding: 1114857 -1 1240
 Width: 120
 Flags: W
 IsExtendedShape: 1
@@ -42170,7 +42171,7 @@ Validated: 1
 EndChar
 
 StartChar: integral.v4
-Encoding: 1114921 -1 1241
+Encoding: 1114858 -1 1241
 Width: 120
 Flags: W
 IsExtendedShape: 1
@@ -42209,7 +42210,7 @@ Validated: 1
 EndChar
 
 StartChar: backslash.ssty
-Encoding: 1114922 -1 1242
+Encoding: 1114859 -1 1242
 Width: 60
 Flags: W
 LayerCount: 2
@@ -42240,7 +42241,7 @@ Validated: 5
 EndChar
 
 StartChar: backslash.ssty2
-Encoding: 1114923 -1 1243
+Encoding: 1114860 -1 1243
 Width: 60
 Flags: W
 LayerCount: 2
@@ -42271,7 +42272,7 @@ Validated: 5
 EndChar
 
 StartChar: radical.v6
-Encoding: 1114924 -1 1244
+Encoding: 1114861 -1 1244
 Width: 90
 Flags: W
 HStem: -50 20<20 30> -40 20<30 40> 200 10<80 90>
@@ -42311,7 +42312,7 @@ EndSplineSet
 EndChar
 
 StartChar: radical.v7
-Encoding: 1114925 -1 1245
+Encoding: 1114862 -1 1245
 Width: 90
 Flags: W
 HStem: -60 20<20 30> -50 20<30 40> 230 10<80 90>
@@ -42351,7 +42352,7 @@ EndSplineSet
 EndChar
 
 StartChar: radical.v8
-Encoding: 1114926 -1 1246
+Encoding: 1114863 -1 1246
 Width: 90
 Flags: W
 HStem: -100 20<20 30> -90 20<30 40> 230 10<80 90>
@@ -42391,7 +42392,7 @@ EndSplineSet
 EndChar
 
 StartChar: radical.v1
-Encoding: 1114927 -1 1247
+Encoding: 1114864 -1 1247
 Width: 80
 Flags: W
 HStem: -10 21G<40 50> 50 20<10 20> 60 20<20 30>
@@ -51522,7 +51523,7 @@ Validated: 1
 EndChar
 
 StartChar: minus.ssty
-Encoding: 1114928 -1 1453
+Encoding: 1114865 -1 1453
 Width: 60
 Flags: W
 HStem: 40 10<0 50>
@@ -51538,7 +51539,7 @@ EndSplineSet
 EndChar
 
 StartChar: minus.ssty2
-Encoding: 1114929 -1 1454
+Encoding: 1114866 -1 1454
 Width: 60
 Flags: W
 HStem: 40 10<0 50>
@@ -58219,7 +58220,7 @@ EndSplineSet
 EndChar
 
 StartChar: Lcaron.ss01
-Encoding: 1114930 -1 1632
+Encoding: 1114867 -1 1632
 Width: 110
 Flags: W
 HStem: 0 20<30 90> 70 20G<10 30> 100 10<40 60> 110 10<20 30 70 80>
@@ -58251,7 +58252,7 @@ EndSplineSet
 EndChar
 
 StartChar: lcaron.ss01
-Encoding: 1114931 -1 1633
+Encoding: 1114868 -1 1633
 Width: 110
 Flags: W
 HStem: 0 20<20 40 60 80> 80 10<20 40> 100 10<40 60> 110 10<20 30 70 80>
@@ -61435,7 +61436,7 @@ EndSplineSet
 EndChar
 
 StartChar: dcaron.ss01
-Encoding: 1114932 -1 1716
+Encoding: 1114869 -1 1716
 Width: 110
 Flags: W
 HStem: 0 20<30 70> 50 20<30 70> 100 10<40 60> 110 10<20 30 70 80>
@@ -63404,7 +63405,7 @@ EndSplineSet
 EndChar
 
 StartChar: tcaron.ss01
-Encoding: 1114933 -1 1771
+Encoding: 1114870 -1 1771
 Width: 110
 Flags: W
 HStem: 0 20<50 80> 50 20<10 30 50 80> 70 20G<30 50> 100 10<40 60> 110 10<20 30 70 80>
@@ -67693,7 +67694,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero.zero
-Encoding: 1114934 -1 1888
+Encoding: 1114871 -1 1888
 Width: 110
 Flags: W
 HStem: 0 20<30 70> 100 20<30 70>
@@ -67740,7 +67741,7 @@ EndSplineSet
 EndChar
 
 StartChar: one.ss02
-Encoding: 1114935 -1 1889
+Encoding: 1114872 -1 1889
 Width: 110
 Flags: W
 HStem: 0 20<30 50 70 90> 80 20<20 30> 100 20G<40 70>

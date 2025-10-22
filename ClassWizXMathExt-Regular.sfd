@@ -133,7 +133,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 975 25 8
+WinInfo: 0 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -816,8 +816,9 @@ SplineSet
  100 50 l 1
  0 50 l 1
 EndSplineSet
-AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" hyphen.ssty hyphen.ssty2
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" hyphen.ssty hyphen.ssty2
+AlternateSubs2: "'ssty' Math Script Style lookup 4 subtable" hyphen.ssty hyphen.ssty2
+Substitution2: "'ss02' Style Set 2 lookup 4 subtable" uni2010
 EndChar
 
 StartChar: period
