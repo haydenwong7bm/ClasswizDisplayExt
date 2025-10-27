@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1725260647
-ModificationTime: 1761484681
+ModificationTime: 1761571196
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -94,7 +94,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 12350 25 8
+WinInfo: 65250 25 8
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1114264 2173
@@ -39190,33 +39190,33 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 90 m 1
- 0 100 l 1
- 80 100 l 1
- 80 60 l 1
- 70 60 l 1
- 70 90 l 1
- 0 90 l 1
-70 60 m 1
- 70 40 l 1
- 60 40 l 1
- 60 60 l 1
- 70 60 l 1
-60 40 m 1
- 60 30 l 1
- 50 30 l 1
- 50 40 l 1
- 60 40 l 1
-50 30 m 1
- 50 20 l 1
- 40 20 l 1
- 40 30 l 1
- 50 30 l 1
-40 20 m 1
- 40 10 l 1
- 20 10 l 1
- 20 20 l 1
- 40 20 l 1
+0 90 m 1,0,-1
+ 0 100 l 1,1,-1
+ 80 100 l 1,2,-1
+ 80 60 l 1,3,-1
+ 70 60 l 1,4,-1
+ 70 90 l 1,5,-1
+ 0 90 l 1,0,-1
+70 60 m 1,6,-1
+ 70 40 l 1,7,-1
+ 60 40 l 1,8,-1
+ 60 60 l 1,9,-1
+ 70 60 l 1,6,-1
+60 40 m 1,10,-1
+ 60 30 l 1,11,-1
+ 50 30 l 1,12,-1
+ 50 40 l 1,13,-1
+ 60 40 l 1,10,-1
+50 30 m 1,14,-1
+ 50 20 l 1,15,-1
+ 40 20 l 1,16,-1
+ 40 30 l 1,17,-1
+ 50 30 l 1,14,-1
+40 20 m 1,18,-1
+ 40 10 l 1,19,-1
+ 20 10 l 1,20,-1
+ 20 20 l 1,21,-1
+ 40 20 l 1,18,-1
 EndSplineSet
 Refer: 2044 12444 N 1 0 0 1 0 0 2
 EndChar
@@ -84278,7 +84278,7 @@ EndChar
 
 StartChar: uni2010
 Encoding: 8208 8208 1352
-AltUni2: 002011.ffffffff.0 0000ad.ffffffff.0
+AltUni2: 0000ad.ffffffff.0 002011.ffffffff.0
 Width: 110
 Flags: W
 LayerCount: 2
@@ -100746,33 +100746,33 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 90 m 1
- 0 100 l 1
- 80 100 l 1
- 80 60 l 1
- 70 60 l 1
- 70 90 l 1
- 0 90 l 1
-70 60 m 1
- 70 40 l 1
- 60 40 l 1
- 60 60 l 1
- 70 60 l 1
-60 40 m 1
- 60 30 l 1
- 50 30 l 1
- 50 40 l 1
- 60 40 l 1
-50 30 m 1
- 50 20 l 1
- 40 20 l 1
- 40 30 l 1
- 50 30 l 1
-40 20 m 1
- 40 10 l 1
- 20 10 l 1
- 20 20 l 1
- 40 20 l 1
+0 90 m 1,0,-1
+ 0 100 l 1,1,-1
+ 80 100 l 1,2,-1
+ 80 60 l 1,3,-1
+ 70 60 l 1,4,-1
+ 70 90 l 1,5,-1
+ 0 90 l 1,0,-1
+70 60 m 1,6,-1
+ 70 40 l 1,7,-1
+ 60 40 l 1,8,-1
+ 60 60 l 1,9,-1
+ 70 60 l 1,6,-1
+60 40 m 1,10,-1
+ 60 30 l 1,11,-1
+ 50 30 l 1,12,-1
+ 50 40 l 1,13,-1
+ 60 40 l 1,10,-1
+50 30 m 1,14,-1
+ 50 20 l 1,15,-1
+ 40 20 l 1,16,-1
+ 40 30 l 1,17,-1
+ 50 30 l 1,14,-1
+40 20 m 1,18,-1
+ 40 10 l 1,19,-1
+ 20 10 l 1,20,-1
+ 20 20 l 1,21,-1
+ 40 20 l 1,18,-1
 EndSplineSet
 Refer: 2043 12443 N 1 0 0 1 0 0 2
 EndChar
@@ -114612,7 +114612,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 81 33 N 1 0 0 1 0 0 2
+Refer: 81 33 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF02
@@ -114621,7 +114621,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 139 34 N 1 0 0 1 0 0 2
+Refer: 139 34 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF03
@@ -114630,7 +114630,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 62 35 N 1 0 0 1 0 0 2
+Refer: 62 35 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF04
@@ -114639,7 +114639,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 105 36 N 1 0 0 1 0 0 2
+Refer: 105 36 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF05
@@ -114648,7 +114648,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 50 37 N 1 0 0 1 0 0 2
+Refer: 50 37 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF06
@@ -114657,7 +114657,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 108 38 N 1 0 0 1 0 0 2
+Refer: 108 38 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF07
@@ -114666,7 +114666,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 199 39 N 1 0 0 1 0 0 2
+Refer: 199 39 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF08
@@ -114675,7 +114675,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 54 40 N 1 0 0 1 0 0 2
+Refer: 54 40 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF09
@@ -114684,7 +114684,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 55 41 N 1 0 0 1 0 0 2
+Refer: 55 41 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF0A
@@ -114693,7 +114693,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 140 42 N 1 0 0 1 0 0 2
+Refer: 140 42 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF0B
@@ -114702,7 +114702,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 59 43 N 1 0 0 1 0 0 2
+Refer: 59 43 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF0C
@@ -114711,7 +114711,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 134 44 N 1 0 0 1 0 0 2
+Refer: 134 44 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF0D
@@ -114720,7 +114720,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 66 45 N 1 0 0 1 0 0 2
+Refer: 66 45 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF0E
@@ -114729,7 +114729,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 133 46 N 1 0 0 1 0 0 2
+Refer: 133 46 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF0F
@@ -114738,7 +114738,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 11 47 N 1 0 0 1 0 0 2
+Refer: 11 47 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF10
@@ -114747,7 +114747,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 132 48 N 1 0 0 1 0 0 2
+Refer: 132 48 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF11
@@ -114756,7 +114756,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 4 49 N 1 0 0 1 0 0 2
+Refer: 4 49 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF12
@@ -114765,7 +114765,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 5 50 N 1 0 0 1 0 0 2
+Refer: 5 50 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF13
@@ -114774,7 +114774,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 6 51 N 1 0 0 1 0 0 2
+Refer: 6 51 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF14
@@ -114783,7 +114783,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 7 52 N 1 0 0 1 0 0 2
+Refer: 7 52 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF15
@@ -114792,7 +114792,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 68 53 N 1 0 0 1 0 0 2
+Refer: 68 53 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF16
@@ -114801,7 +114801,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 71 54 N 1 0 0 1 0 0 2
+Refer: 71 54 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF17
@@ -114810,7 +114810,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 72 55 N 1 0 0 1 0 0 2
+Refer: 72 55 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF18
@@ -114819,7 +114819,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 77 56 N 1 0 0 1 0 0 2
+Refer: 77 56 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF19
@@ -114828,7 +114828,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 70 57 N 1 0 0 1 0 0 2
+Refer: 70 57 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF1A
@@ -114837,7 +114837,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8 58 N 1 0 0 1 0 0 2
+Refer: 8 58 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF1B
@@ -114846,7 +114846,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 138 59 N 1 0 0 1 0 0 2
+Refer: 138 59 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF1C
@@ -114855,7 +114855,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 126 60 N 1 0 0 1 0 0 2
+Refer: 126 60 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF1D
@@ -114864,7 +114864,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 127 61 N 1 0 0 1 0 0 2
+Refer: 127 61 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF1E
@@ -114873,7 +114873,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 125 62 N 1 0 0 1 0 0 2
+Refer: 125 62 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF1F
@@ -114882,7 +114882,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 135 63 N 1 0 0 1 0 0 2
+Refer: 135 63 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF20
@@ -114891,7 +114891,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 82 64 N 1 0 0 1 0 0 2
+Refer: 82 64 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF21
@@ -114900,7 +114900,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 14 65 N 1 0 0 1 0 0 2
+Refer: 14 65 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF22
@@ -114909,7 +114909,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 73 66 N 1 0 0 1 0 0 2
+Refer: 73 66 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF23
@@ -114918,7 +114918,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 63 67 N 1 0 0 1 0 0 2
+Refer: 63 67 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF24
@@ -114927,7 +114927,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 13 68 N 1 0 0 1 0 0 2
+Refer: 13 68 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF25
@@ -114936,7 +114936,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 9 69 N 1 0 0 1 0 0 2
+Refer: 9 69 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF26
@@ -114945,7 +114945,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 10 70 N 1 0 0 1 0 0 2
+Refer: 10 70 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF27
@@ -114954,7 +114954,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 112 71 N 1 0 0 1 0 0 2
+Refer: 112 71 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF28
@@ -114963,7 +114963,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 109 72 N 1 0 0 1 0 0 2
+Refer: 109 72 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF29
@@ -114972,7 +114972,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 45 73 N 1 0 0 1 0 0 2
+Refer: 45 73 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF2A
@@ -114981,7 +114981,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 136 74 N 1 0 0 1 0 0 2
+Refer: 136 74 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF2B
@@ -114990,7 +114990,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 113 75 N 1 0 0 1 0 0 2
+Refer: 113 75 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF2C
@@ -114999,7 +114999,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 110 76 N 1 0 0 1 0 0 2
+Refer: 110 76 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF2D
@@ -115008,7 +115008,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 12 77 N 1 0 0 1 0 0 2
+Refer: 12 77 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF2E
@@ -115017,7 +115017,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 65 78 N 1 0 0 1 0 0 2
+Refer: 65 78 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF2F
@@ -115026,7 +115026,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 79 79 N 1 0 0 1 0 0 2
+Refer: 79 79 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF30
@@ -115035,7 +115035,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 78 80 N 1 0 0 1 0 0 2
+Refer: 78 80 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF31
@@ -115044,7 +115044,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 83 81 N 1 0 0 1 0 0 2
+Refer: 83 81 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF32
@@ -115053,7 +115053,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 43 82 N 1 0 0 1 0 0 2
+Refer: 43 82 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF33
@@ -115062,7 +115062,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 15 83 N 1 0 0 1 0 0 2
+Refer: 15 83 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF34
@@ -115071,7 +115071,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 44 84 N 1 0 0 1 0 0 2
+Refer: 44 84 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF35
@@ -115080,7 +115080,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 19 85 N 1 0 0 1 0 0 2
+Refer: 19 85 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF36
@@ -115089,7 +115089,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 69 86 N 1 0 0 1 0 0 2
+Refer: 69 86 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF37
@@ -115098,7 +115098,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 91 87 N 1 0 0 1 0 0 2
+Refer: 91 87 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF38
@@ -115107,7 +115107,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 97 88 N 1 0 0 1 0 0 2
+Refer: 97 88 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF39
@@ -115116,7 +115116,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 137 89 N 1 0 0 1 0 0 2
+Refer: 137 89 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF3A
@@ -115125,7 +115125,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 114 90 N 1 0 0 1 0 0 2
+Refer: 114 90 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF3B
@@ -115134,7 +115134,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 130 91 N 1 0 0 1 0 0 2
+Refer: 130 91 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF3C
@@ -115144,7 +115144,7 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1343 92 N 1 0 0 1 0 0 2
+Refer: 1343 92 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF3D
@@ -115153,7 +115153,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 131 93 N 1 0 0 1 0 0 2
+Refer: 131 93 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF3E
@@ -115162,7 +115162,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 21 94 N 1 0 0 1 0 0 2
+Refer: 21 94 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF3F
@@ -115171,7 +115171,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 141 95 N 1 0 0 1 0 0 2
+Refer: 141 95 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF40
@@ -115181,7 +115181,7 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1342 96 N 1 0 0 1 0 0 2
+Refer: 1342 96 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF41
@@ -115190,7 +115190,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 16 97 N 1 0 0 1 0 0 2
+Refer: 16 97 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF42
@@ -115199,7 +115199,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 17 98 N 1 0 0 1 0 0 2
+Refer: 17 98 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF43
@@ -115208,7 +115208,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 18 99 N 1 0 0 1 0 0 2
+Refer: 18 99 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF44
@@ -115217,7 +115217,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 75 100 N 1 0 0 1 0 0 2
+Refer: 75 100 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF45
@@ -115226,7 +115226,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 57 101 N 1 0 0 1 0 0 2
+Refer: 57 101 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF46
@@ -115235,7 +115235,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 96 102 N 1 0 0 1 0 0 2
+Refer: 96 102 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF47
@@ -115244,7 +115244,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 58 103 N 1 0 0 1 0 0 2
+Refer: 58 103 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF48
@@ -115253,7 +115253,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 76 104 N 1 0 0 1 0 0 2
+Refer: 76 104 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF49
@@ -115262,7 +115262,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 47 105 N 1 0 0 1 0 0 2
+Refer: 47 105 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF4A
@@ -115271,7 +115271,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 92 106 N 1 0 0 1 0 0 2
+Refer: 92 106 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF4B
@@ -115280,7 +115280,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 61 107 N 1 0 0 1 0 0 2
+Refer: 61 107 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF4C
@@ -115289,7 +115289,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 46 108 N 1 0 0 1 0 0 2
+Refer: 46 108 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF4D
@@ -115298,7 +115298,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 48 109 N 1 0 0 1 0 0 2
+Refer: 48 109 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF4E
@@ -115307,7 +115307,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 49 110 N 1 0 0 1 0 0 2
+Refer: 49 110 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF4F
@@ -115316,7 +115316,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 41 111 N 1 0 0 1 0 0 2
+Refer: 41 111 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF50
@@ -115325,7 +115325,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 56 112 N 1 0 0 1 0 0 2
+Refer: 56 112 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF51
@@ -115334,7 +115334,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 51 113 N 1 0 0 1 0 0 2
+Refer: 51 113 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF52
@@ -115343,7 +115343,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 60 114 N 1 0 0 1 0 0 2
+Refer: 60 114 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF53
@@ -115352,7 +115352,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 67 115 N 1 0 0 1 0 0 2
+Refer: 67 115 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF54
@@ -115361,7 +115361,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 53 116 N 1 0 0 1 0 0 2
+Refer: 53 116 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF55
@@ -115370,7 +115370,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 52 117 N 1 0 0 1 0 0 2
+Refer: 52 117 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF56
@@ -115379,7 +115379,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 107 118 N 1 0 0 1 0 0 2
+Refer: 107 118 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF57
@@ -115388,7 +115388,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 111 119 N 1 0 0 1 0 0 2
+Refer: 111 119 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF58
@@ -115397,7 +115397,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 64 120 N 1 0 0 1 0 0 2
+Refer: 64 120 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF59
@@ -115406,7 +115406,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 74 121 N 1 0 0 1 0 0 2
+Refer: 74 121 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF5A
@@ -115415,7 +115415,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 42 122 N 1 0 0 1 0 0 2
+Refer: 42 122 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF5B
@@ -115424,7 +115424,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 142 123 N 1 0 0 1 0 0 2
+Refer: 142 123 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF5C
@@ -115434,7 +115434,7 @@ VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 143 124 N 1 0 0 1 0 0 2
+Refer: 143 124 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF5D
@@ -115443,7 +115443,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 144 125 N 1 0 0 1 0 0 2
+Refer: 144 125 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uniFF5E
@@ -115452,7 +115452,7 @@ Width: 120
 Flags: W
 LayerCount: 2
 Fore
-Refer: 20 126 N 1 0 0 1 0 0 2
+Refer: 20 126 N 1 0 0 1 10 0 2
 EndChar
 
 StartChar: uni01C0
@@ -116531,11 +116531,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-40 70 m 1,0,-1
- 60 70 l 1,1,-1
- 60 50 l 1,2,-1
- 40 50 l 1,3,-1
- 40 70 l 1,0,-1
+50 70 m 1,0,-1
+ 70 70 l 1,1,-1
+ 70 50 l 1,2,-1
+ 50 50 l 1,3,-1
+ 50 70 l 1,0,-1
 EndSplineSet
 EndChar
 
