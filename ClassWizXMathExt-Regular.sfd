@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1761658094
+ModificationTime: 1763044020
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -133,7 +133,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 375 25 8
+WinInfo: 75 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -144,7 +144,7 @@ StemSnapH 7 [30 40]
 StemSnapV 4 [40]
 EndPrivate
 TeXData: 2 0 0 823881 411940 274627 674085 1048576 274627 599186 449390 449390 599186 449390 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114873 1947
+BeginChars: 1114873 1949
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -4769,23 +4769,11 @@ Encoding: 161 161 98
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<40 60>
+HStem: 0 20G<40 60>
 VStem: 40 20<0 80>
 LayerCount: 2
 Fore
-SplineSet
-40 0 m 1
- 40 80 l 1
- 60 80 l 1
- 60 0 l 1
- 40 0 l 1
-40 100 m 1
- 60 100 l 1
- 60 120 l 1
- 40 120 l 1
- 40 100 l 1
-EndSplineSet
-Validated: 9
+Refer: 4 33 S -1 0 0 -1 100 120 2
 EndChar
 
 StartChar: brokenbar
@@ -4974,51 +4962,11 @@ Encoding: 191 191 104
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: 0 20<30 40 60 70> 0 10<40 60> 20 20<10 20 80 90> 40 20<30 40> 60 20<50 60> 100 20<40 60>
+HStem: 0 10<40 60> 0 20<30 40 60 70> 20 20<10 20 80 90> 40 20<30 40> 60 20<50 60> 100 20<40 60>
 VStem: 10 20<20 40> 20 20<10 20 40 50> 30 20<50 60> 40 20<60 80 100 120> 60 20<10 20> 70 20<20 40>
 LayerCount: 2
 Fore
-SplineSet
-90 40 m 1x2410
- 90 20 l 1x2410
- 80 20 l 1
- 80 10 l 1x6420
- 70 10 l 1x6410
- 70 0 l 1
- 30 0 l 1x8490
- 30 10 l 1x4490
- 20 10 l 1
- 20 20 l 1x65
- 10 20 l 1
- 10 40 l 1x66
- 20 40 l 1
- 20 50 l 1x65
- 30 50 l 1
- 30 60 l 1x1480
- 40 60 l 1x1440
- 40 80 l 1
- 60 80 l 1
- 60 60 l 1x0c40
- 50 60 l 1
- 50 50 l 1x0c80
- 40 50 l 1
- 40 40 l 1x15
- 30 40 l 1
- 30 20 l 1x96
- 40 20 l 1x95
- 40 10 l 1
- 60 10 l 1x4520
- 60 20 l 1x8520
- 70 20 l 1
- 70 40 l 1x9410
- 90 40 l 1x2410
-60 120 m 1x0440
- 60 100 l 1
- 40 100 l 1
- 40 120 l 1
- 60 120 l 1x0440
-EndSplineSet
-Validated: 1
+Refer: 34 63 S -1 0 0 -1 100 120 2
 EndChar
 
 StartChar: Aacute
@@ -58401,7 +58349,7 @@ EndChar
 
 StartChar: uni2010
 Encoding: 8208 8208 1478
-AltUni2: 0000ad.ffffffff.0 002011.ffffffff.0
+AltUni2: 002011.ffffffff.0 0000ad.ffffffff.0
 Width: 110
 Flags: W
 HStem: 50 20<20 80>
@@ -69759,65 +69707,9 @@ StartChar: uni018D
 Encoding: 397 397 1723
 Width: 110
 Flags: W
-HStem: 0 21G<40 60>
 LayerCount: 2
 Fore
-SplineSet
-70 60 m 1
- 60 60 l 1
- 60 50 l 1
- 40 50 l 1
- 40 60 l 1
- 30 60 l 1
- 30 90 l 1
- 40 90 l 1
- 40 100 l 1
- 60 100 l 1
- 60 90 l 1
- 70 90 l 1
- 70 60 l 1
-90 60 m 1
- 90 90 l 1
- 80 90 l 1
- 80 100 l 1
- 70 100 l 1
- 70 110 l 1
- 30 110 l 1
- 30 100 l 1
- 20 100 l 1
- 20 90 l 1
- 10 90 l 1
- 10 60 l 1
- 20 60 l 1
- 20 50 l 1
- 30 50 l 1
- 30 40 l 1
- 40 40 l 1
- 40 30 l 1
- 50 30 l 1
- 50 20 l 1
- 60 20 l 1
- 60 0 l 1
- 40 0 l 1
- 40 10 l 1
- 20 10 l 1
- 20 0 l 1
- 30 0 l 1
- 30 -10 l 1
- 70 -10 l 1
- 70 0 l 1
- 80 0 l 1
- 80 20 l 1
- 70 20 l 1
- 70 30 l 1
- 60 30 l 1
- 60 40 l 1
- 70 40 l 1
- 70 50 l 1
- 80 50 l 1
- 80 60 l 1
- 90 60 l 1
-EndSplineSet
+Refer: 1706 948 S -1 0 0 -1 100 110 2
 EndChar
 
 StartChar: uni019F
@@ -80869,6 +80761,78 @@ SplineSet
  20 20 l 1
  20 0 l 1xa042
 EndSplineSet
+EndChar
+
+StartChar: uni1E9E
+Encoding: 7838 7838 1947
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+80 80 m 1
+ 90 80 l 1
+ 90 90 l 1
+ 100 90 l 1
+ 100 100 l 1
+ 90 100 l 1
+ 90 110 l 1
+ 80 110 l 1
+ 80 120 l 1
+ 30 120 l 1
+ 30 110 l 1
+ 20 110 l 1
+ 20 90 l 1
+ 10 90 l 1
+ 10 10 l 1
+ 0 10 l 1
+ 0 0 l 1
+ 40 0 l 1
+ 40 10 l 1
+ 30 10 l 1
+ 30 90 l 1
+ 40 90 l 1
+ 40 110 l 1
+ 70 110 l 1
+ 70 100 l 1
+ 80 100 l 1
+ 80 90 l 1
+ 70 90 l 1
+ 70 80 l 1
+ 60 80 l 1
+ 60 70 l 1
+ 50 70 l 1
+ 50 60 l 1
+ 80 60 l 1
+ 80 20 l 1
+ 70 20 l 1
+ 70 10 l 1
+ 60 10 l 1
+ 60 20 l 1
+ 40 20 l 1
+ 40 10 l 1
+ 50 10 l 1
+ 50 0 l 1
+ 80 0 l 1
+ 80 10 l 1
+ 90 10 l 1
+ 90 20 l 1
+ 100 20 l 1
+ 100 60 l 1
+ 90 60 l 1
+ 90 70 l 1
+ 80 70 l 1
+ 80 80 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni1E9F
+Encoding: 7839 7839 1948
+Width: 110
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1706 948 S 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont

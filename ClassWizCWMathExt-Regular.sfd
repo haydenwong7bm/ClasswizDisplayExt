@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1688717740
-ModificationTime: 1762953694
+ModificationTime: 1763044334
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -133,7 +133,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 7775 25 8
+WinInfo: 275 25 8
 BeginPrivate: 7
 BlueValues 19 [0 0 90 90 120 120]
 OtherBlues 9 [-10 -10]
@@ -3895,23 +3895,11 @@ Encoding: 161 161 98
 Width: 110
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<40 60>
+HStem: 0 20G<40 60>
 VStem: 40 20<0 80>
 LayerCount: 2
 Fore
-SplineSet
-60 0 m 1
- 40 0 l 1
- 40 80 l 1
- 60 80 l 1
- 60 0 l 1
-40 120 m 1
- 40 100 l 1
- 60 100 l 1
- 60 120 l 1
- 40 120 l 1
-EndSplineSet
-Validated: 9
+Refer: 4 33 N -1 0 0 -1 100 120 2
 EndChar
 
 StartChar: brokenbar
@@ -4079,35 +4067,7 @@ HStem: 0 20<40 60> 10 20<70 80> 60 20<50 60> 100 20<40 60>
 VStem: 20 20<20 40> 30 20<40 60> 40 20<60 80 100 120> 60 20<20 30>
 LayerCount: 2
 Fore
-SplineSet
-80 30 m 1x79
- 80 10 l 1
- 70 10 l 1x79
- 70 0 l 1
- 30 0 l 1xb5
- 30 10 l 1x75
- 20 10 l 1
- 20 40 l 1x78
- 30 40 l 1
- 30 60 l 1x74
- 40 60 l 1
- 40 80 l 1
- 60 80 l 1
- 60 60 l 1x72
- 50 60 l 1
- 50 40 l 1x74
- 40 40 l 1
- 40 20 l 1
- 60 20 l 1xb9
- 60 30 l 1
- 80 30 l 1x79
-60 120 m 1x32
- 60 100 l 1
- 40 100 l 1
- 40 120 l 1
- 60 120 l 1x32
-EndSplineSet
-Validated: 1
+Refer: 34 63 S -1 0 0 -1 100 120 2
 EndChar
 
 StartChar: Aacute
@@ -52446,7 +52406,7 @@ EndChar
 
 StartChar: uni2010
 Encoding: 8208 8208 1478
-AltUni2: 002011.ffffffff.0 0000ad.ffffffff.0
+AltUni2: 0000ad.ffffffff.0 002011.ffffffff.0
 Width: 110
 Flags: W
 HStem: 50 20<20 80>
@@ -62564,59 +62524,9 @@ StartChar: uni018D
 Encoding: 397 397 1746
 Width: 110
 Flags: W
-HStem: 70 20G<40 60>
 LayerCount: 2
 Fore
-SplineSet
-70 60 m 1
- 60 60 l 1
- 60 50 l 1
- 40 50 l 1
- 40 60 l 1
- 30 60 l 1
- 30 80 l 1
- 40 80 l 1
- 40 90 l 1
- 60 90 l 1
- 60 80 l 1
- 70 80 l 1
- 70 60 l 1
-30 40 m 1
- 30 30 l 1
- 50 30 l 1
- 50 20 l 1
- 60 20 l 1
- 60 10 l 1
- 40 10 l 1
- 40 20 l 1
- 20 20 l 1
- 20 0 l 1
- 30 0 l 1
- 30 -10 l 1
- 70 -10 l 1
- 70 0 l 1
- 80 0 l 1
- 80 30 l 1
- 70 30 l 1
- 70 40 l 1
- 80 40 l 1
- 80 50 l 1
- 90 50 l 1
- 90 90 l 1
- 80 90 l 1
- 80 100 l 1
- 70 100 l 1
- 70 110 l 1
- 30 110 l 1
- 30 100 l 1
- 20 100 l 1
- 20 90 l 1
- 10 90 l 1
- 10 50 l 1
- 20 50 l 1
- 20 40 l 1
- 30 40 l 1
-EndSplineSet
+Refer: 1675 948 S -1 0 0 -1 100 110 2
 EndChar
 
 StartChar: uni0196
