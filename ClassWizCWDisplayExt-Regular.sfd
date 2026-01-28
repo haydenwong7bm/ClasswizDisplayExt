@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1731231796
-ModificationTime: 1769528460
+ModificationTime: 1769570172
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -107710,15 +107710,15 @@ SplineSet
  50 20 l 1,4,-1
  50 10 l 1,5,-1
  20 10 l 1,0,-1
-80 40 m 1,6,-1
- 80 50 l 1,7,-1
- 90 50 l 1,8,-1
- 90 40 l 1,9,-1
- 80 40 l 1,6,-1
+90 40 m 1,6,-1
+ 90 50 l 1,7,-1
+ 100 50 l 1,8,-1
+ 100 40 l 1,9,-1
+ 90 40 l 1,6,-1
 70 30 m 1,10,-1
  70 40 l 1,11,-1
- 80 40 l 1,12,-1
- 80 30 l 1,13,-1
+ 90 40 l 1,12,-1
+ 90 30 l 1,13,-1
  70 30 l 1,10,-1
 50 20 m 1,14,-1
  50 30 l 1,15,-1
