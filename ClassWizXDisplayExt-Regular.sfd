@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1725260647
-ModificationTime: 1769594154
+ModificationTime: 1769682938
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -97,7 +97,7 @@ FitToEm: 0
 WinInfo: 12325 25 8
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114264 2215
+BeginChars: 1114264 2216
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -44914,7 +44914,7 @@ GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
-Refer: 2043 12443 S 1 0 0 1 0 0 2
+Refer: 2043 12443 S 1 0 0 1 0 -40 2
 Refer: 725 12390 N 1 0 0 1 0 0 2
 EndChar
 
@@ -117369,6 +117369,58 @@ SplineSet
  20 60 l 1,38,-1
  20 50 l 1,39,-1
  10 50 l 1,36,-1
+EndSplineSet
+EndChar
+
+StartChar: uni3089
+Encoding: 12425 12425 2215
+Width: 120
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+30 10 m 1,0,-1
+ 30 20 l 1,1,-1
+ 70 20 l 1,2,-1
+ 70 30 l 1,3,-1
+ 80 30 l 1,4,-1
+ 80 50 l 1,5,-1
+ 70 50 l 1,6,-1
+ 70 60 l 1,7,-1
+ 80 60 l 1,8,-1
+ 80 50 l 1,9,-1
+ 90 50 l 1,10,-1
+ 90 30 l 1,11,-1
+ 80 30 l 1,12,-1
+ 80 20 l 1,13,-1
+ 70 20 l 1,14,-1
+ 70 10 l 1,15,-1
+ 30 10 l 1,0,-1
+50 100 m 1,16,-1
+ 50 110 l 1,17,-1
+ 80 110 l 1,18,-1
+ 80 100 l 1,19,-1
+ 50 100 l 1,16,-1
+80 110 m 1025,20,-1
+20 110 m 1,21,-1
+ 20 120 l 1,22,-1
+ 50 120 l 1,23,-1
+ 50 110 l 1,24,-1
+ 20 110 l 1,21,-1
+70 60 m 1,25,-1
+ 70 70 l 1,26,-1
+ 30 70 l 1,27,-1
+ 30 90 l 1,28,-1
+ 20 90 l 1,29,-1
+ 20 50 l 1,30,-1
+ 30 50 l 1,31,-1
+ 30 60 l 1,32,-1
+ 70 60 l 1,25,-1
+10 40 m 1,33,-1
+ 10 50 l 1,34,-1
+ 20 50 l 1,35,-1
+ 20 40 l 1,36,-1
+ 10 40 l 1,33,-1
 EndSplineSet
 EndChar
 EndChars
