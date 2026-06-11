@@ -29,7 +29,7 @@
 ✅ ISO/IEC 8859-13<br>
 🟨 ISO/IEC 8859-14 (Ḃ ḃ Ḋ Ẁ Ẃ ḋ Ḟ ḟ Ṁ ṁ Ṗ ẁ ṗ ẃ Ṡ Ẅ ẅ ṡ Ṫ ṫ is missing)<br>
 ✅ ISO/IEC 8859-15<br>
-🟨 ISO/IEC 8859-16 (Ș ș Ț ț is missing)
+✅ ISO/IEC 8859-16
 
 ## How to Use
 
