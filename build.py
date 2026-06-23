@@ -1,9 +1,13 @@
 from sys import argv
 from os import makedirs
-import fontforge
+import itertools, fontforge
 
-font_list_display = ['ClassWizCWDisplayExt-Regular.sfd', 'ClassWizXDisplayExt-Regular.sfd']
-font_list_math = ['ClassWizCWMathExt-Regular.sfd', 'ClassWizXMathExt-Regular.sfd']
+font_types = ['Display', 'Math']
+font_styles = ['X', 'CW']
+font_sizes = [''] # ['', 'Small', 'Tiny']
+
+font_list_display = [f'ClassWiz{font_style}DisplayExt{font_size}.sfd' for font_style, font_size in itertools.product(font_styles, font_sizes)]
+font_list_math = [f'ClassWiz{font_style}DisplayExt.sfd' for font_style in font_styles]
 
 makedirs('output', exist_ok=True)
 
